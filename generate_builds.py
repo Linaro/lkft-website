@@ -74,7 +74,7 @@ class Board(object):
         return "https://ci.linaro.org/buildStatus/icon?job={}/DISTRO=rpb,MACHINE={},label={}".format(branch.get_jenkins_name(), self.get_jenkins_name(), branch.get_label())
 
     def jenkins_build_url(self, branch):
-        return "https://ci.linaro.org/view/lkft/job/{}/DISTRO=rpb,MACHINE={},label=docker-lkft/".format(branch.get_jenkins_name(), self.get_jenkins_name())
+        return "https://ci.linaro.org/view/lkft/job/{}/DISTRO=rpb,MACHINE={},label={}/".format(branch.get_jenkins_name(), self.get_jenkins_name(), branch.get_label())
 
     def squad_badge_url(self):
         return "squad_favicon.png"

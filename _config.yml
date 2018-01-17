@@ -8,15 +8,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   stable kernels on arm, arm64, and x86_64 consumer hardware.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lkft.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com
-header_pages:
-  - about/index.md
-  - faq/index.md
-  - boards/index.md
-  - branches/index.md
-  - tests/index.md
-  - changelog/index.md
-  
+url: "https://lkft.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com  
 # Using the Jumbo Jekyll Theme https://github.com/Linaro/jumbo-jekyll-theme
 theme: jumbo-jekyll-theme
 

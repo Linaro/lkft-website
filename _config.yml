@@ -1,1 +1,14 @@
-_config-production.yml
+title: Linaro LKFT
+#email: lkft-triage@lists.linaro.org # have to figure out what lists to publish
+irc_channel: linaro-lkft
+github_username: danrue
+github_repository: danrue/lkft-site
+github_repository_url: https://github.com/danrue/lkft-site
+description: >- # this means to ignore newlines until "baseurl:"
+  Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
+  stable kernels on arm, arm64, and x86_64 consumer hardware.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lkft.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com  
+# Using the Jumbo Jekyll Theme https://github.com/Linaro/jumbo-jekyll-theme
+theme: jumbo-jekyll-theme
+

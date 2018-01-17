@@ -1,0 +1,114 @@
+# Mailchimp settings
+mailchimp:
+    enabled: false
+    id: af6cf590b0
+    
+# Footer Newsletter toggle.
+newsletter:
+    enabled: false
+
+# Blog tags
+tags_enabled: true
+    
+# Footer Image default is linaro sprinkle
+linaro-footer-image: Linaro-Sprinkle.png
+    
+# Settings for the home page
+home:
+    # If this is set then the navigation will be transparent.
+    transparent_nav: true
+    # If this is set to true then the shape divider will be displayed
+    shaped-divider: true
+    # Jumbotron settings for the home page
+    jumbotron:
+        enabled: false
+        # Title for the home page jumbotron
+        title:
+            first-line: Linaro LKFT
+            second-line: 
+        # Text to be displayed in the home page jumbotron
+        text:
+            first-line: A theme for Linaro Static Jekyll sites.
+            second-line: Customize this content in the _data/settings.yml
+        # Buttons to be displayed in the Jumbotron
+        buttons:
+            - text: Learn More
+              class: btn btn-primary btn-lg fade-in-three bottom-border-five
+              url: /about/
+            - text: Get Started
+              url: 
+              class: btn btn-primary btn-lg fade-in-three bottom-border-five
+        # Background image for the home page located in assets/images
+        background-image: background-image.jpg
+        #image: Linaro-Logo.svg
+        
+
+# Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
+github_username: Linaro
+linkedin_username: 1026961
+google_plus_username: +LinaroOnAir
+facebook_username: LinaroOrg
+youtube_username: linaroorg
+twitter_username: linaroorg
+slideshare_username: linaroorg
+
+# Blog setup
+blog:
+    # Toggle site wide comments display.
+    comments: true
+    # Post Side Bar Settings
+    sidebar:
+        # Toggle whether or not thumbnails in the sidebar are displayed.
+        thumbnails:
+            display: true
+        # Display other posts contained in _posts
+        other-posts:
+            display: true
+            count: 4
+        # Display Related posts based on tags / categories
+        related-posts:
+            display: true
+            count: 5
+        # Display the most recent posts
+        most-recent-posts:
+            display: true
+            count: 5
+        # Display custom collection e.g projects on 96boards
+        collection:
+            - name: projects
+              count: 5
+              # Fields to use for title and url.
+              display_fields:
+                  title: title
+                  url: url
+                  
+# Google Anayltics Setup
+google:
+    tag_manager: GTM-5DLPJQ
+
+# Shema.org settings used in the schema.html include.
+schema:
+    organisation:
+        name: Linaro
+        url: https://www.linaro.org
+        sameAs:
+            - https://twitter.com/linaroorg
+            - https://www.facebook.com/LinaroOrg
+            - https://www.linkedin.com/company/1026961/
+            - https://plus.google.com/+LinaroOnAir
+            - https://github.com/Linaro
+            - https://www.slideshare.net/linaroorg
+        address:
+            street: Harston Mill, Royston Rd 
+            town: Harston 
+            county: Cambridge 
+            post_code: CB22 7GG
+            country_code: UK
+
+# Disqus Comments
+disqus:
+    enabled: false
+    shortname: Linaro
+
+# Placeholder for Missing Images
+placeholder: placeholder.jpg

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: container-breadcrumb
 title: About
 permalink: /about/
 ---

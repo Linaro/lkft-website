@@ -1,0 +1,32 @@
+# Navigation Configuration
+# - Add your navigation structure to this File
+# - Toggle brand image output
+# - Toggle Search Bar.
+
+# Search Config
+search:
+    enabled: false
+    label: Linaro
+    
+# Nav Brand Config
+brand:
+    text: Linaro LKFT
+    image: 
+        enabled: false
+        name: Linaro-Logo.svg
+    url: /
+    
+# Navigation pages 
+pages:
+    - title: About
+      url: /about/
+    - title: FAQ
+      url: /faq/
+    - title: Boards
+      url: /boards/
+    - title: Branches
+      url: /branches/
+    - title: Tests
+      url: /tests/
+    - title: Changelog
+      url: /changelog/

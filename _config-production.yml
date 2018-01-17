@@ -16,7 +16,7 @@
 title: Linaro LKFT
 #email: lkft-triage@lists.linaro.org # have to figure out what lists to publish
 irc_channel: linaro-lkft
-github_username: danrue
+github_username: linaro
 github_repository: linaro/lkft-website
 github_repository_url: https://github.com/linaro/lkft-website
 destination: production.lkft.linaro.org

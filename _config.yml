@@ -23,7 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   stable kernels on arm, arm64, and x86_64 consumer hardware.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lkft.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com
 header_pages:
   - about/index.md
   - faq/index.md
@@ -32,21 +32,47 @@ header_pages:
   - tests/index.md
   - changelog/index.md
 
-
+# Jekyll Assets setup
+assets:
+  # Compress JS Assets - uses the uglifier plugin 
+  compress:
+        js: true
+  # Autoprefixer default settings
+  autoprefixer:
+      browsers: ["last 2 versions","> 5%","IE 9"]
+  # These are the paths to look for assets
+  sources:
+    - assets/images/
+    - assets/css/
+    - assets/js/
+    
+# Sass Configuration for the site styles
+sass:
+    style: compressed
+    load_paths:
+        - assets/css
+    
+# Compress HTML using the jekyll-tidy plugin.
+jekyll_tidy: 
+    # Toggle compression of HTML
+    compress_html: true
+    # JS Path added to exclude to stop errors.
+    exclude: ["assets/**/*.js"]   
+      
 # Build settings
 markdown: kramdown
-theme: minima
-#plugins:
-#  - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+theme: jumbo-jekyll-theme
+
+plugins:
+    - jekyll-seo-tag
+    - jekyll-sitemap
+    - bootstrap-sass
+    - uglifier
+    - jekyll-assets
+    - jekyll-theme-assets
+    - jekyll-tidy
+    - jekyll-data
+    - jekyll-redirect-from
+    - autoprefixer-rails
+    - jekyll-paginate-v2

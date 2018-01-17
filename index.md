@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: home
 ---
-
-{% include builds.html %}
-
+<div class="table-wrapper">
+    {% include builds.html %}
+</div>

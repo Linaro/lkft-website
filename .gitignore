@@ -3,3 +3,5 @@ _site
 .asset-cache
 .jekyll-metadata
 *.swp
+production.lkft.linaro.org/
+staging.lkft.linaro.org/

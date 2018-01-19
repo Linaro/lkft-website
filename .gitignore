@@ -1,5 +1,6 @@
 _site
 .sass-cache
+.asset-cache
 .jekyll-metadata
 *.swp
 production.lkft.linaro.org/

@@ -86,7 +86,7 @@ class Board(object):
         row["Architecture"] = self.get_architecture()
         for branch in self.get_branches():
             row[branch.get_name()] = \
-                '<a href="{}"><img src="{}" /></a><br /><a href="{}"><img src="{}" /></a>'.format(
+                '<a href="{}"><img src="{}" alt="Jenkins Build Badge" /></a><br /><a href="{}"><img src="{}" alt="Squad Logo" /></a>'.format(
                 self.jenkins_build_url(branch),
                 self.jenkins_badge_url(branch),
                 self.squad_project_url(branch),

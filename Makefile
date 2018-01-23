@@ -1,4 +1,4 @@
-serve: update _includes/builds.html
+serve: _includes/builds.html
 	bundler exec jekyll serve
 update: _includes/builds.html
 	bundler update

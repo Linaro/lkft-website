@@ -36,9 +36,9 @@ columns:
       items:
           - text: Stable
             url: /branches/#stable
-          - text: Mainline
+          - text: mainline
             url: /branches/#mainline
-          - text: Next
+          - text: linux-next
             url: /branches/#next
 
 # Company Related Links to be displayed in the footer.

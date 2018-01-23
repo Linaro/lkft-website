@@ -12,3 +12,4 @@ url: "https://lkft.linaro.org"
 # Build settings
 markdown: kramdown
 theme: jumbo-jekyll-theme
+pagination: false

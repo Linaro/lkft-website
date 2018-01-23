@@ -14,6 +14,6 @@ LKFT follows the stable and longterm branches listed at
 ### 4.9
 ### 4.14
 
-## Mainline
+## mainline
 
-## Next
+## linux-next

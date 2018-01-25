@@ -20,6 +20,8 @@ permalink: /boards/
   </div>
 </div>
 
+
+<!-- HiSilicon HiKey 6220  Board -->
 <div class = "container">
   <div class = "row">
     <div class = "col-md-3">
@@ -27,19 +29,84 @@ permalink: /boards/
     </div>
     <div class = "col-md-7">
       <header>
-        <h1> HiKey </h1>
-        <span class="label label-info">ARM 32bit</span>
+        <h2> HiKey </h2>
+        <span class="label label-info">ARM 64bit</span>
       </header>
       <p>The HiKey board was the first board to be certified 96Boards Consumer
         Edition compatible,  1GB and 2GB variants are available from LeMaker.
         The board is based around the HiSilicon Kirin 620 SoC and also delivers
         high performance 3D graphics support, Wi-Fi, and Bluetooth
-        connectivity, all packed into a board the size of a credit card.</p>
-      <p>
-      <p>
-        <a href="http://www.lemaker.com/page/hikey.html"> Hikey relaunched by
-          Lemaker</a>
+        connectivity, all packed into a board the size of a credit card.
+        <a href="http://www.lemaker.com/page/hikey.html"> Hikey was
+          relaunched by Lemaker</a>
       </p>
+    </div>
+    <div class = "col-md-2">
+      <strong> Images: </strong>
+      <ul>
+        <li>Link1
+        - <a href="https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64/"><img src="https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64"
+        alt="Jenkins Build Badge" /></a></li>
+        <li>Link2
+        - <a href="https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64/"><img src="https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64"
+        alt="Jenkins Build Badge" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<!-- TI Beagle Bone X15 -->
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-3">
+      <img src="/assets/bb_x15.png" alt="Beagle Bone X15 Image" class="img-responsive">
+    </div>
+    <div class = "col-md-7">
+      <header>
+        <h2> X15 </h2>
+        <span class="label label-info">ARM 32bit</span>
+      </header>
+      <p>
+	BeagleBoard-X15 is the top performing, mainline Linux enabled,
+	power-users’ dream board with a core tailored for every
+	computing task and a highspeed interface for every
+	connectivity need. Give your algorithms room to stretch!
+      </p>
+    </div>
+    <div class = "col-md-2">
+      <strong> Images: </strong>
+      <ul>
+        <li>Link1 - <a href="https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64/"><img src="https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64" alt="Jenkins Build Badge" /></a></li>
+        <li>Link2 - <a href="https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64/"><img src="https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64" alt="Jenkins Build Badge" /></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+
+## Juno
+
+<!-- Arm Juno r2 Board -->
+<div class = "container">
+  <div class = "row">
+    <div class = "col-md-3">
+      <img src="/assets/juno_r1.jpg" alt="Juno r1.jpb" class="img-responsive">
+      <p> Need image to be of r2. This image is of r1. Fixme. </p>
+    </div>
+    <div class = "col-md-7">
+      <header>
+        <h2> Juno r2  </h2>
+        <span class="label label-info">ARM 64bit</span>
+      </header>
+      <p>
+	The Juno Arm Development Platform is a software development
+	platform for Armv8-A which includes the Arm Versatile Express
+	Juno development board and an Armv8-A reference software port
+	available through Linaro.
       </p>
     </div>
     <div class = "col-md-2">
@@ -53,18 +120,5 @@ permalink: /boards/
 </div>
 
 
-<!-- Example using Markdown table. Simple but not very versatile.
-| 96Boards                                | About                                                   | Options                                 |
-|:---------------------------------------:|:-------------------------------------------------------:|:---------------------------------------:|
-| <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey960/AdditionalDocs/Images/Images_Board/Hikey960_front_SD.png?raw=true" width="200" height="130" /><br> **HiKey960** | Board based on HiSilicon Kirin 960 processor  | [View Product](hiKey960/README.md)<br> |
-| <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Front_SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/HiKey/AdditionalDocs/Images/Images_Board/HiKey-Lemaker-Front_SD.jpg?raw=true" width="200" height="130" /><br> **HiKey** | Board based on HiSilicon Kirin 6220 processor  | [View Product](hiKey/README.md)<br> |
-| <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/Images_Board/DragonBoard410c-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/DragonBoard-410c/AdditionalDocs/Images/Images_Board/DragonBoard410c-Front-SD.jpg?raw=true" width="200" height="130" /><br> **DragonBoard 410c** | Board based on Qualcomm® Snapdragon™ 410 processor  | [View Product](dragonboard410c/README.md)<br>|
-| <img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/AdditionalDocs/Images/Images_Board/Bubblegum-96-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/Bubblegum-96/AdditionalDocs/Images/Images_Board/Bubblegum-96-Front-SD.jpg?raw=true" width="200" height="130" /><br>**Bubblegum-96** | Board based on Actions Semi S900 Processor  | [View Product](bubblegum-96/README.md)<br>|
-<img src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" data-canonical-src="https://github.com/96boards/documentation/blob/master/ConsumerEdition/MediaTekX20/AdditionalDocs/Images/Images_Board/MediaTek%20X20-Front-SD.jpg?raw=true" width="200" height="130" /><br> **MediaTek X20** | Board based on MediaTek X20 Applications Processor  | [View Product](mediatek-x20/README.md)<br>|
--->
-
-## X15
-
-## Juno
 
 ## Dell

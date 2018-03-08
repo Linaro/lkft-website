@@ -3,8 +3,9 @@ GEM
   specs:
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    autoprefixer-rails (8.1.0.1)
+    autoprefixer-rails (5.2.1.3)
       execjs
+      json
     bootstrap-sass (3.3.7)
       autoprefixer-rails (>= 5.2.1)
       sass (>= 3.3.4)
@@ -51,6 +52,9 @@ GEM
       jekyll (~> 3.3)
     jekyll-feed (0.9.3)
       jekyll (~> 3.3)
+    jekyll-minimagick (0.0.4)
+      jekyll (>= 0.10.0)
+      mini_magick (>= 3.3)
     jekyll-paginate-v2 (1.9.4)
       jekyll (~> 3.0)
     jekyll-readme-index (0.2.0)
@@ -72,23 +76,25 @@ GEM
       jekyll
     jekyll-watch (2.0.0)
       listen (~> 3.0)
-    jumbo-jekyll-theme (1.4.2.17)
-      autoprefixer-rails
+    json (2.1.0)
+    jumbo-jekyll-theme (1.4.3.53)
+      autoprefixer-rails (~> 5.0, >= 5.0.0.1)
       bootstrap-sass (~> 3.3)
-      hash-joiner
-      jekyll (~> 3.7.0)
+      hash-joiner (~> 0)
+      jekyll (~> 3.7, >= 3.7.0)
       jekyll-assets (= 2.2.8)
-      jekyll-data
-      jekyll-feed
-      jekyll-paginate-v2
+      jekyll-data (> 0)
+      jekyll-feed (> 0)
+      jekyll-minimagick
+      jekyll-paginate-v2 (> 0)
       jekyll-readme-index (~> 0.1)
       jekyll-redirect-from (~> 0.12)
       jekyll-seo-tag (~> 2.2)
       jekyll-sitemap (~> 1.1)
-      jekyll-theme-assets
+      jekyll-theme-assets (> 0)
       jekyll-tidy (~> 0.2.2)
       mini_magick
-      uglifier
+      uglifier (> 0)
     kramdown (1.16.2)
     liquid (4.0.0)
     listen (3.1.5)
@@ -123,7 +129,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  jumbo-jekyll-theme (= 1.4.2.17)
+  jumbo-jekyll-theme (= 1.4.3.53)
 
 BUNDLED WITH
    1.16.1

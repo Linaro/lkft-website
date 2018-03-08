@@ -1,30 +1,49 @@
 // Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
 
-$brand-primary: #000000;
+$brand-primary: hsl(0, 0%, 13%);
 
 //Home
-$home-page-title-text: #000;
+$home-page-title-text: hsl(0, 0%, 13%);
 $home-page-main-title-color: $brand-primary;
 
 // Footer
-$footer-bg-color: #efefef;
-$footer-text-color: #000;
+$footer-bg-color: #fff;
+$footer-text-color: hsl(0, 0%, 13%);
 
 // Sub footer
 $sub-footer-bg-color: #fff;
 
 // Navbar
-$navbar-text-color: #000;
+$navbar-text-color: hsl(0, 0%, 13%);
 $navbar-height: 34px;
-$navbar-inverse-bg: #efefef;
+$navbar-inverse-bg: #fff;
 $navbar-inverse-color: #000;
 
 //Breadcrumb
-$breadcrumb-background-color: #efefef;
-$breadcrumb-title-color: #6b6b6b;
-$breadcrumb-span-color: #6b6b6b;
+$breadcrumb-background-color: #fff;
+$breadcrumb-title-color: hsl(0, 0%, 13%);
+$breadcrumb-span-color: hsl(0, 0%, 13%);
 
-// Center company footer
-.company-footer-bottom {
-    text-align: center;
+.body {
+    color: hsl(0, 0%, 13%);
 }
+.navbar-header {
+    font-weight: 700;
+    color: hsl(0, 0%, 13%);
+}
+.navbar-nav {
+    font-weight: 400;
+    color: hsl(0, 0%, 29%);
+}
+
+
+#wrapper.main {
+    width: 70%;
+    margin: 0 auto;
+    white-space: normal;
+}
+#main-navigation {
+    width: 80%;
+    margin: 0 auto;
+}
+

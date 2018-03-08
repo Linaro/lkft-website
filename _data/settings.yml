@@ -8,7 +8,7 @@ newsletter:
     enabled: false
 
 # Blog tags
-tags_enabled: true
+tags_enabled: false
 
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
@@ -31,6 +31,10 @@ facebook_username: LinaroOrg
 youtube_username: linaroorg
 twitter_username: linaroorg
 slideshare_username: linaroorg
+
+edit-on-github:
+    enabled: true
+    repo: https://github.com/Linaro/lkft-website
 
 # Blog setup
 blog:

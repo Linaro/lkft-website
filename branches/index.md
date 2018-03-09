@@ -4,16 +4,28 @@ title: Branches
 permalink: /branches/
 ---
 
+LKFT tests the following branches. The canonical source for Linux kernel branch
+information is [kernel.org](https://www.kernel.org/) and
+[kernel.org/category/releases.html](https://www.kernel.org/category/releases.html).
+
+## Longterm
+
+The following longterm supported (LTS) branches are tested:
+- 4.4
+- 4.9
+- 4.14
+
 ## Stable
 
-LKFT follows the stable and longterm branches listed at
-[kernel.org](https://www.kernel.org/).
-
-### 4.4
-#### Hikey 4.4
-### 4.9
-### 4.14
+In addition to LTS branches, the latest stable branch is also tested.
+- 4.15
 
 ## mainline
 
+Although maintaining good continuous integration on LTS branches is most
+important, mainline is important to track in order to catch issues before they
+hit a stable branch.
+
 ## linux-next
+
+Likewise, linux-next is run daily in order to catch issues as soon as possible.

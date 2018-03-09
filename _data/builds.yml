@@ -142,35 +142,3 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-stretch-amd64/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-stretch-amd64
       squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
-
-- name: QEMU x86_64
-  architecture: x86_64
-  branches:
-    "4.4 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
-    "4.9 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "mainline":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
-    "linux-next":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
-
-- name: QEMU arm64
-  architecture: arm64
-  branches:
-    "4.4 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
-    "4.9 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "mainline":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
-    "linux-next":
-      squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/

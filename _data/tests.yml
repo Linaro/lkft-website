@@ -1,0 +1,23 @@
+
+tests:
+  branches:
+    - name: "4.4"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-4.4-oe/
+    - name: "4.4 RC"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
+    - name: "4.9"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-4.9-oe/
+    - name: "4.9 RC"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
+    - name: "4.14"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-4.14-oe/
+    - name: "4.14 RC"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
+    - name: "4.15"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-4.15-oe/
+    - name: "4.15 RC"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
+    - name: "mainline"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
+    - name: "linux-next"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/

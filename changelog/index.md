@@ -12,7 +12,7 @@ infrastructure.
 ## 2018
 
 ### Week 10
-- Kselftest skipfile is now using a single YAML file
+- Kselftest skipfile is now using a [single YAML file](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/kselftest/skipfile-lkft.yaml)
 
 ### Week 9
 - [qa-reports](https://qa-reports.linaro.org/) upgraded to squad 0.39
@@ -33,7 +33,7 @@ infrastructure.
 ### Week 5
 - [qa-reports](https://qa-reports.linaro.org/) updated to include full and
   per-test logs
-- LTP skipfile now using a single YAML file
+- LTP skipfile now using a [single YAML file](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/ltp/skipfile-lkft.yaml)
 - 4.15 is now building and testing
 - Android projects moved to /lkft-android/
 

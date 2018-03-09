@@ -1,10 +1,10 @@
 // Theses are the Overrides of Bootstrap Sass Variables locatted in boostrap/_variables
 
-$brand-primary: hsl(0, 0%, 13%);
+//$brand-primary: hsl(180, 0%, 13%);
 
 //Home
 $home-page-title-text: hsl(0, 0%, 13%);
-$home-page-main-title-color: $brand-primary;
+$home-page-main-title-color: hsl(0, 0%, 13%);
 
 // Footer
 $footer-bg-color: #fff;
@@ -36,14 +36,4 @@ $breadcrumb-span-color: hsl(0, 0%, 13%);
     color: hsl(0, 0%, 29%);
 }
 
-
-#wrapper.main {
-    width: 70%;
-    margin: 0 auto;
-    white-space: normal;
-}
-#main-navigation {
-    width: 80%;
-    margin: 0 auto;
-}
 

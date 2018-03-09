@@ -1,5 +1,7 @@
 serve: _includes/builds.html
 	bundler exec jekyll serve
+install:
+	bundler install
 update: _includes/builds.html
 	bundler update
 _includes/builds.html: generate_builds.py

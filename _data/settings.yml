@@ -2,7 +2,6 @@
 mailchimp:
     enabled: false
     id: af6cf590b0
-
 # Footer Newsletter toggle.
 newsletter:
     enabled: false
@@ -12,7 +11,6 @@ tags_enabled: false
 
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
-
 # Settings for the home page
 home:
     # If this is set then the navigation will be transparent.
@@ -35,7 +33,6 @@ slideshare_username: linaroorg
 edit-on-github:
     enabled: true
     repo: https://github.com/Linaro/lkft-website
-
 # Blog setup
 blog:
     # Toggle site wide comments display.
@@ -65,7 +62,6 @@ blog:
               display_fields:
                   title: title
                   url: url
-
 # Google Anayltics Setup
 google:
     tag_manager: GTM-5DLPJQ

@@ -5,7 +5,6 @@ github_repository: linaro/lkft-website
 github_repository_url: https://github.com/linaro/lkft-website
 destination: staging.lkft.linaro.org
 description: >-
-description: >-
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   kernels on arm, arm64, and x86_64 consumer hardware.
 baseurl: ""

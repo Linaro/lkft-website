@@ -6,6 +6,14 @@ github_repository_url: https://github.com/linaro/lkft-website
 destination: production.lkft.linaro.org
 description: >-
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
+<<<<<<< HEAD
+  stable kernels on arm, arm64, and x86_64 consumer hardware.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://lkft.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com
+# Build settings
+markdown: kramdown
+theme: jumbo-jekyll-theme
+=======
   kernels on arm, arm64, and x86_64 consumer hardware.
 baseurl: ""
 url: "https://lkft.linaro.org"
@@ -13,3 +21,4 @@ url: "https://lkft.linaro.org"
 markdown: kramdown
 theme: jumbo-jekyll-theme
 pagination: false
+>>>>>>> 0b60fbdf7931f0d811bda37cf014a79c462ab751

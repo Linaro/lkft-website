@@ -1,5 +1,3 @@
-from tabulate import tabulate
-
 class Branch(object):
     def __init__(self, name, squad_name, jenkins_name, label="docker-lkft"):
         self.name = name
@@ -25,7 +23,7 @@ class Board(object):
     def _init_branches(self):
         return [
             # pretty name, squad name, jenkins name
-            Branch('next',
+            Branch('linux-next',
                    'linux-next-oe',
                    'openembedded-lkft-linux-next',
                    label="docker-stretch-amd64"
@@ -35,27 +33,27 @@ class Board(object):
                    'openembedded-lkft-linux-mainline',
                    label="docker-stretch-amd64"
                   ),
-            Branch('4.14',
-                   'linux-stable-4.14-oe',
-                   'openembedded-lkft-linux-stable-4.14'
-                  ),
-            Branch('4.14-rc',
+#            Branch('4.14',
+#                   'linux-stable-4.14-oe',
+#                   'openembedded-lkft-linux-stable-4.14'
+#                  ),
+            Branch('4.14 RC',
                    'linux-stable-rc-4.14-oe',
                    'openembedded-lkft-linux-stable-rc-4.14'
                   ),
-            Branch('4.9',
-                   'linux-stable-4.9-oe',
-                   'openembedded-lkft-linux-stable-rc-4.9'
-                  ),
-            Branch('4.9-rc',
+#            Branch('4.9',
+#                   'linux-stable-4.9-oe',
+#                   'openembedded-lkft-linux-stable-rc-4.9'
+#                  ),
+            Branch('4.9 RC',
                    'linux-stable-rc-4.9-oe',
                    'openembedded-lkft-linux-stable-rc-4.9'
                   ),
-            Branch('4.4',
-                   'linux-stable-4.4-oe',
-                   'openembedded-lkft-linux-stable-rc-4.4',
-                  ),
-            Branch('4.4-rc',
+#            Branch('4.4',
+#                   'linux-stable-4.4-oe',
+#                   'openembedded-lkft-linux-stable-rc-4.4',
+#                  ),
+            Branch('4.4 RC',
                    'linux-stable-rc-4.4-oe',
                    'openembedded-lkft-linux-stable-rc-4.4',
                   ),
@@ -86,7 +84,7 @@ class Board(object):
         row["Architecture"] = self.get_architecture()
         for branch in self.get_branches():
             row[branch.get_name()] = \
-                '<a href="{}"><img src="{}" /></a><br /><a href="{}"><img src="{}" /></a>'.format(
+                '<a href="{}"><img src="{}" alt="Jenkins Build Badge" /></a><br /><a href="{}"><img src="{}" alt="Squad Logo" /></a>'.format(
                 self.jenkins_build_url(branch),
                 self.jenkins_badge_url(branch),
                 self.squad_project_url(branch),
@@ -97,7 +95,7 @@ class Board(object):
 
 class BoardHikey(Board):
     def __init__(self):
-        super().__init__("hikey", "arm64", "hikey")
+        super().__init__("HiKey", "arm64", "hikey")
     def _init_branches(self):
         default_branches = super(BoardHikey, self)._init_branches()
         branches = []
@@ -109,8 +107,8 @@ class BoardHikey(Board):
                        'openembedded-lkft-linaro-hikey-stable-4.4',
                        label="docker-stretch-amd64"
                       ))
-            elif "4.4-rc" == branch.get_name():
-                branches.append(Branch('Hikey 4.4-rc',
+            elif "4.4 RC" == branch.get_name():
+                branches.append(Branch('Hikey 4.4 RC',
                        'linaro-hikey-stable-rc-4.4-oe',
                        'openembedded-lkft-linaro-hikey-stable-rc-4.4',
                        label="docker-stretch-amd64"
@@ -121,13 +119,13 @@ class BoardHikey(Board):
 
 class BoardX15(Board):
     def __init__(self):
-        super().__init__("x15", "arm", "am57xx-evm")
+        super().__init__("X15", "arm", "am57xx-evm")
 class BoardJuno(Board):
     def __init__(self):
-        super().__init__("juno", "arm64", "juno")
+        super().__init__("Juno", "arm64", "juno")
 class BoardDell(Board):
     def __init__(self):
-        super().__init__("dell", "x86_64", "intel-core2-32")
+        super().__init__("Intel", "x86_64", "intel-core2-32")
 
 
 boards = [
@@ -142,11 +140,29 @@ table = []
 for board in boards:
     table.append(board.generate_row())
 
-#print("""
-#---
-#layout: page
-#title: Builds
-#permalink: /builds/
-#---
-#""")
-print(tabulate(table, headers="keys", tablefmt="html"))
+#print(tabulate(table, headers="keys", tablefmt="html"))
+
+keys = []
+for row in table:
+    for key, value in row.items():
+        if key not in keys:
+            keys.append(key)
+
+print("<table class=\"ui compact celled table\">")
+print("<thead><tr>")
+for key in keys:
+    print("<th>{}</th>".format(key))
+print("</tr></thead>")
+
+print("<tbody>")
+for row in table:
+    print("<tr>")
+    for key in keys:
+        tdstyle = ""
+        if key in ["Board", "Architecture"]:
+            tdstyle = ''
+        print("<td {}>{}</td>".format(tdstyle, row.get(key, "")))
+    print("</tr>")
+print("</tbody>")
+print("</table>")
+

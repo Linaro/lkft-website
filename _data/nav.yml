@@ -7,6 +7,7 @@
 search:
     enabled: false
     label: Linaro
+<<<<<<< HEAD
     
 # Nav Brand Config
 brand:
@@ -17,6 +18,18 @@ brand:
     url: /
     
 # Navigation pages 
+=======
+
+# Nav Brand Config
+brand:
+    text: Linaro LKFT
+    image:
+        enabled: false
+        name: Linaro-Logo.svg
+    url: /
+
+# Navigation pages
+>>>>>>> 0b60fbdf7931f0d811bda37cf014a79c462ab751
 pages:
     - title: About
       url: /about/

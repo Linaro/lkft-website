@@ -6,7 +6,7 @@ permalink: /faq/
 
 ## What hardware is available in the LKFT hardware pool?
 
-https://lkft.linaro.org/boards/
+See [boards](/boards/).
 
 ## How does Linaro determine which hardware to add to the LKFT hardware pool?
 
@@ -38,7 +38,7 @@ https://lkft.linaro.org/boards/
 
 ## What kernel trees/branches is LKFT testing?
 
-LKFT supports the following Linux kernel branches: https://lkft.linaro.org/branches/
+LKFT supports the Linux kernel branches listed at [branches](/branches/).
 
 ## The following criteria are used to select Linux kernel trees/branches:
 
@@ -58,7 +58,7 @@ LKFT supports the following Linux kernel branches: https://lkft.linaro.org/branc
 
 ## What tests does Linaro execute in LKFT?
 
-https://lkft.linaro.org/tests/
+See [tests](/tests/).
 
 ## Is every test executed against every kernel or user-space?
 

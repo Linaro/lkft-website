@@ -81,7 +81,7 @@ The selection of functional tests in LKFT is mostly practical:
     configuration files, and not runtime integration.
 - The test-suite must be able to generate clean baselines through supporting
   skiplists and/or conditional exclusion (i.e., test for architecture and skip
-  tests that are only valid on another architecture)?
+  tests that are only valid on another architecture)
 - It must be easy to report on test-case issues and work with upstream
   maintainers for improvements.
 - The LKFT lab must have the hardware capacity to execute additional tests.

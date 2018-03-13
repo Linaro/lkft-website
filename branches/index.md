@@ -15,6 +15,13 @@ The following longterm supported (LTS) branches are tested:
 - 4.9
 - 4.14
 
+## Android-common
+
+The following branches from [hikey-linaro](https://android.googlesource.com/kernel/hikey-linaro/) tree are tested:
+- android-hikey-linaro-4.4
+- android-hikey-linaro-4.9
+- android-hikey-linaro-4.14
+
 ## Stable
 
 In addition to LTS branches, the latest stable branch is also tested.

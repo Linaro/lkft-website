@@ -11,6 +11,9 @@ infrastructure.
 
 ## 2018
 
+### Week 11
+- Added additional kselftest runs using vsyscall modes 'native' and 'none' (the default is mode 'emulate').
+
 ### Week 10
 - Kselftest skipfile is now using a [single YAML file](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/kselftest/skipfile-lkft.yaml)
 

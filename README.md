@@ -23,8 +23,3 @@ branch.
 The staging branch is online at
 [https://staging.lkft.linaro.org/](https://staging.lkft.linaro.org/).
 
-## TODO
-
-- Links don't have style
-- Paragraphs get cut off if site is wider than 1100px
-- Homepage.. something has to be done with the home page.

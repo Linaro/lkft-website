@@ -13,3 +13,5 @@ url: "https://lkft.linaro.org"
 markdown: kramdown
 theme: jumbo-jekyll-theme
 pagination: false
+exclude:
+  - .asset-cache

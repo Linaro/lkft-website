@@ -11,16 +11,23 @@ infrastructure.
 
 ## 2018
 
+### Week 11
+- Added additional kselftest runs using vsyscall modes 'native' and 'none' (the
+  default is mode 'emulate').
+- [qa-reports](https://qa-reports.linaro.org/) upgraded to [Squad
+  0.40](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+
 ### Week 10
-- Kselftest skipfile is now using a [single YAML file](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/kselftest/skipfile-lkft.yaml)
+- Kselftest skipfile is now using a [single YAML
+  file](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/kselftest/skipfile-lkft.yaml)
 
 ### Week 9
-- [qa-reports](https://qa-reports.linaro.org/) upgraded to squad 0.39
+- [qa-reports](https://qa-reports.linaro.org/) upgraded to Squad 0.39
 - QEMU x86_64 added to lkft
 - DragonBoard 410c added to lkft
 
 ### Week 8
-- [qa-reports](https://qa-reports.linaro.org/) upgraded to squad 0.38.
+- [qa-reports](https://qa-reports.linaro.org/) upgraded to Squad 0.38.
   - https://github.com/Linaro/squad/blob/master/CHANGELOG.md#038
 
 ### Week 7

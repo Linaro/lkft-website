@@ -64,7 +64,7 @@ blog:
                   url: url
 # Google Anayltics Setup
 google:
-    tag_manager: GTM-5DLPJQ
+    tag_manager: GTM-N3GGHS7
 
 # Shema.org settings used in the schema.html include.
 schema:

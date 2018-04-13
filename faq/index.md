@@ -185,7 +185,7 @@ objectives. If your member hardware doesn’t match the immediate LKFT
 objectives, perhaps the LKFT Remote Labs capability will work for your
 hardware.
 
-# I’m a member and I want my hardware in LKFT but my hardware isn’t easily automatable. How can I contribute?
+## I’m a member and I want my hardware in LKFT but my hardware isn’t easily automatable. How can I contribute?
 
 LKFT Remote Labs
 

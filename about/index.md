@@ -35,4 +35,10 @@ of the LKFT results are openly available at the request of Linaro members who
 would like to provide information to upstream Linux kernel engineers and
 business partners in order to better inform their software update plans.
 
+## Selected Talks
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tc92uw3m-SI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xZz50o9QaUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FAuHKTeZhDk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 [linaro-organization]: https://linaro.org

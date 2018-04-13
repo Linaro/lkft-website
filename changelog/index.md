@@ -11,7 +11,7 @@ infrastructure.
 
 ## 2018
 
-- 2018-04-06: Enabled 4.16
+- 2018-04-06: Enabled 4.16 stable branch
 - 2018-03-16: Added additional kselftest runs using vsyscall modes 'native' and
   'none' (the default is mode 'emulate').
 - 2018-03-16: [qa-reports](https://qa-reports.linaro.org/) upgraded to [Squad

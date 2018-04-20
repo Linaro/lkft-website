@@ -50,7 +50,7 @@ layout: home
                         </a>
                     {% endif %}
                 {% else %}
-                    N/A
+                    Not supported
                 {% endif %}
             </td>
         {% endfor %}

@@ -1,15 +1,15 @@
 
 tests:
   branches:
-    - name: "4.4 RC"
+    - name: "4.4"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
-    - name: "4.9 RC"
+    - name: "4.9"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    - name: "4.14 RC"
+    - name: "4.14"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    - name: "4.15 RC"
+    - name: "4.15"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    - name: "4.16 RC"
+    - name: "4.16"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/
     - name: "mainline"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/

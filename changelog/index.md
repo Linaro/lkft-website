@@ -11,6 +11,14 @@ infrastructure.
 
 ## 2018
 
+- 2018-04-20: Dropped non-RC stable trees from LKFT. The RC branches already
+  receive every release, so tracking the stable branch separately was
+  duplicative.
+- 2018-04-19: [qa-reports](https://qa-reports.linaro.org/) upgraded to [Squad
+  0.41](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2018-04-18: Enabled QEMU arm64 and QEMU arm32 environments
+- 2018-04-18: kselftest version that is run against all stable branches updated
+  from 4.15 to 4.16.
 - 2018-04-06: Enabled 4.16 stable branch
 - 2018-03-16: Added additional kselftest runs using vsyscall modes 'native' and
   'none' (the default is mode 'emulate').

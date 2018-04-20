@@ -1,9 +1,9 @@
 branches:
-  - 4.4 RC
-  - 4.9 RC
-  - 4.14 RC
-  - 4.15 RC
-  - 4.16 RC
+  - "4.4"
+  - "4.9"
+  - "4.14"
+  - "4.15"
+  - "4.16"
   - mainline
   - linux-next
 
@@ -11,23 +11,23 @@ boards:
 - name: Hikey
   architecture: arm64
   branches:
-    "4.4 RC":
+    "4.4":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64
       squad_url: https://qa-reports.linaro.org/lkft/linaro-hikey-stable-rc-4.4-oe/
-    "4.9 RC":
+    "4.9":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
+    "4.14":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=hikey,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=hikey,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
+    "4.15":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=hikey,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=hikey,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "4.16 RC":
+    "4.16":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=hikey,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=hikey,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/
@@ -43,23 +43,23 @@ boards:
 - name: X15
   architecture: arm32
   branches:
-    "4.4 RC":
+    "4.4":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
-    "4.9 RC":
+    "4.9":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
+    "4.14":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
+    "4.15":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "4.16 RC":
+    "4.16":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=am57xx-evm,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/
@@ -75,23 +75,23 @@ boards:
 - name: Juno
   architecture: arm64
   branches:
-    "4.4 RC":
+    "4.4":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=juno,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
-    "4.9 RC":
+    "4.9":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=juno,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
+    "4.14":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=juno,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
+    "4.15":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=juno,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "4.16 RC":
+    "4.16":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=juno,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/
@@ -107,19 +107,19 @@ boards:
 - name: DragonBoard 410c
   architecture: arm64
   branches:
-    "4.9 RC":
+    "4.9":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
+    "4.14":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
+    "4.15":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "4.16 RC":
+    "4.16":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=dragonboard-410c,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/
@@ -135,23 +135,23 @@ boards:
 - name: Intel Server
   architecture: x86_64
   branches:
-    "4.4 RC":
+    "4.4":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.4/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
-    "4.9 RC":
+    "4.9":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14 RC":
+    "4.14":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.15 RC":
+    "4.15":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.15/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
-    "4.16 RC":
+    "4.16":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.16/DISTRO=rpb,MACHINE=intel-core2-32,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/

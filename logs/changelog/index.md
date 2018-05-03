@@ -1,7 +1,8 @@
 ---
 layout: container-breadcrumb
 title: Changelog
-permalink: /changelog/
+permalink: /logs/changelog/
+redirect_from: /changelog
 ---
 
 # Linux Kernel Functional Testing (LKFT) Changelog

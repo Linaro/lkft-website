@@ -1,6 +1,6 @@
 #serve: _includes/builds.html
 serve:
-	bundler exec jekyll serve
+	bundler exec jekyll serve -w -l
 install:
 	bundler install
 update: _includes/builds.html

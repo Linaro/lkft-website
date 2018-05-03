@@ -2,7 +2,9 @@
 layout: container-breadcrumb
 title: Changelog
 permalink: /logs/changelog/
-redirect_from: /changelog
+redirect_from:
+  - /changelog # historical
+  - /logs # Let 'changelog' be default logs page
 ---
 
 # Linux Kernel Functional Testing (LKFT) Changelog

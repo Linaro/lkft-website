@@ -7,8 +7,6 @@ tests:
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
     - name: "4.14"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    - name: "4.15"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.15-oe/
     - name: "4.16"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.16-oe/
     - name: "mainline"

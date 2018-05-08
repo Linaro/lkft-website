@@ -2,7 +2,6 @@
 layout: container-breadcrumb
 title: Stable Release Candidate Log
 permalink: /logs/rclog/
-redirect_from: /rclog
 ---
 
 Log of status and events while doing stable tree release candidate testing in

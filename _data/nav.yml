@@ -28,5 +28,9 @@ pages:
       url: /branches/
     - title: Tests
       url: /tests/
-    - title: Changelog
-      url: /changelog/
+    - title: Logs
+      options:
+          - text: Changelog
+            url: /logs/changelog/
+          - text: RC Log
+            url: /logs/rclog/

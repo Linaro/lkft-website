@@ -1,0 +1,4 @@
+[
+  "^/changelog(/?|/index.html)$ /logs/changelog/ [R,L,NC]",
+  "^/logs(/?|/index.html)$ /logs/changelog/ [R,L,NC]"
+]

@@ -91,9 +91,9 @@ The selection of functional tests in LKFT is mostly practical:
 - The test-suite must apply to the hardware and operating system that LKFT is
   interested in testing.
 
-## Can LKFT add test-suite <foo>?
+## Can LKFT add a new test-suite to execute against LTS, mainline, and linux-next kernels?
 
-We need to assess the suitability of <foo> for inclusion into LKFT before
+We need to assess the suitability of each test-suite for inclusion into LKFT before
 adding it to the test-suites we execute. See the aforementioned selection
 criteria.
 

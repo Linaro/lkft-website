@@ -11,6 +11,8 @@ infrastructure.
 
 ## 2018
 
+- 2018-05-07: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.43](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-04-27: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.42](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-04-25: Dropped 4.15 per [upstream

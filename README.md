@@ -13,6 +13,12 @@ along with Linaro's jumbo-jekyll-theme.
 
 You may also run "make" to build and serve the site locally.
 
+## Redirects
+
+`_data/routingrules.json` contains redirect rules that are deployed to
+Lambda@Edge to deliver fast redirects. It is parsed and deployed using
+https://github.com/marksteele/edge-rewrite.
+
 ## Contributing
 
 To contribute to this site, please raise an issue in

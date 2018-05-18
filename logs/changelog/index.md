@@ -11,6 +11,8 @@ infrastructure.
 
 ## 2018
 
+- 2018-05-16: QEMU upgraded to 2.12.0, solving performance issues seen on arm64
+  and especially arm32.
 - 2018-05-14: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.44](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-05-07: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

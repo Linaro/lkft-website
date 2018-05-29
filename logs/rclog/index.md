@@ -7,6 +7,13 @@ permalink: /logs/rclog/
 Log of status and events while doing stable tree release candidate testing in
 Linaro's Linux Kernel Functional Test (LKFT) project.
 
+### 2018-05-28
+#### 4.4.134, 4.9.104, 4.14.45, 4.16.13
+- Reported no regressions in <24h
+- There was a regression noted in ltp/cve-2017-5669, which was expected. See
+  [the issue at Github](https://github.com/linux-test-project/ltp/issues/319)
+  for details.
+
 ### 2018-05-24
 #### 4.4.133, 4.9.103, 4.14.44, 4.16.12
 - Reported no regressions in <24h

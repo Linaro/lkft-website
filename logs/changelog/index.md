@@ -11,11 +11,13 @@ infrastructure.
 
 ## 2018
 
+<!--
+- 2018-05-25: LTP upgraded to [20180515
+  release](https://github.com/linux-test-project/ltp/releases).
+-->
 - 2018-05-25: [LTP CVE
   tests](https://github.com/linux-test-project/ltp/blob/master/runtest/cve)
   added to LKFT.
-- 2108-05-25: LTP upgraded to [20180515
-  release](https://github.com/linux-test-project/ltp/releases).
 - 2018-05-16: QEMU upgraded to 2.12.0, solving performance issues seen on arm64
   and especially arm32.
 - 2018-05-14: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

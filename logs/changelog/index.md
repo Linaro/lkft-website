@@ -11,10 +11,10 @@ infrastructure.
 
 ## 2018
 
-<!--
-- 2018-05-25: LTP upgraded to [20180515
+- 2018-06-01: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.45](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2018-05-30: LTP upgraded to [20180515
   release](https://github.com/linux-test-project/ltp/releases).
--->
 - 2018-05-25: [LTP CVE
   tests](https://github.com/linux-test-project/ltp/blob/master/runtest/cve)
   added to LKFT.

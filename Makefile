@@ -1,12 +1,9 @@
-#serve: _includes/builds.html
 serve:
 	bundler exec jekyll serve -w -l
 install:
 	bundler install
-update: _includes/builds.html
+update:
 	bundler update
-_includes/builds.html: generate_builds.py
-	python3 generate_builds.py > _includes/builds.html
 clean:
 	rm -rf _site builds.html
 

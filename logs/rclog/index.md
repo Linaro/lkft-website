@@ -28,6 +28,42 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-06-18
+#### 4.14.51, 4.16.17
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2018-06-14
+#### 4.4.138
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+- Noted that MAX_LFS_FILESIZE regression introduced in 4.4.137 has been fixed
+
+#### 4.9.109, 4.14.50, 4.16.16, 4.17.2
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+### 2018-06-12
+#### 4.4.137
+<!-- sla <48 1 -->
+- Reported in <48h
+- Regression in MAX_LFS_FILESIZE macro detected by ltp/cve-2011-2496
+  - Fixed with backport of 0cc3b0ec23ce ("Clarify (and fix) MAX_LFS_FILESIZE
+    macros") in 4.4.138
+
+#### 4.9.108
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2018-06-09
+#### 4.14.49, 4.16.15
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.17.1
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2018-06-05
 #### 4.4.136, 4.9.107
 <!-- sla <24 2 -->

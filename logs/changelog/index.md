@@ -11,6 +11,9 @@ infrastructure.
 
 ## 2018
 
+- 2018-06-13: Upgrade kselftest version that's run against all stable kernels
+  to 4.17
+- 2018-06-11: Add 4.17 kernel branch
 - 2018-06-01: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.45](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-05-30: LTP upgraded to [20180515

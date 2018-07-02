@@ -28,13 +28,18 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-07-01
+#### 4.4.139, 4.9.111, 4.14.53, 4.17.4
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2018-06-24
 #### 4.14.52, 4.16.18, 4.17.3
 <!-- sla <24 3 -->
 - Reported no regressions in <24h
 - Noted Kselftest test case mov_ss_trap_64 is causing kernel panic on
   qemu-system-x86_64 and PASS on real x86_64 hardware. [Bug
-  3916](https://bugs.linaro.org/show_bug.cgi?id=3916). Suspected this is due to
+  3916](https://bugs.linaro.org/show_bug.cgi?id=3916). This is due to
   the version of the host kernel on the host running QEMU jobs.
 - Last 4.16
 

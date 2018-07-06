@@ -11,7 +11,7 @@ infrastructure.
 
 ## 2018
 
-- 2018-05-25: [LTP Open
+- 2018-07-06: [LTP Open
   Posix](https://github.com/linux-test-project/ltp/tree/master/testcases/open_posix_testsuite)
   tests added to LKFT on all branches
 - 2018-07-05: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

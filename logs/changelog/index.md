@@ -11,6 +11,13 @@ infrastructure.
 
 ## 2018
 
+- 2018-05-25: [LTP Open
+  Posix](https://github.com/linux-test-project/ltp/tree/master/testcases/open_posix_testsuite)
+  tests added to LKFT on all branches
+- 2018-07-05: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.46](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2018-07-04: Dropped 4.16 per [upstream
+  announcement](https://lwn.net/Articles/758269/)
 - 2018-06-13: Upgrade kselftest version that's run against all stable kernels
   to 4.17
 - 2018-06-11: Add 4.17 kernel branch

@@ -3,25 +3,13 @@ layout: home
 ---
 
 ## Test Results
-<table class="table-responsive table-boards">
-<thead><tr>
+<div>
 {% for branch in site.data.tests.tests.branches %}
-    <th>{{branch.name}}</th>
-{% endfor %}
-</tr></thead>
-<tbody>
-<tr>
-{% for branch in site.data.tests.tests.branches %}
-    <td>
     <a href="{{branch.squad_url}}">
-        <img src="squad_favicon.png" alt="Squad Logo" />
+        <img src="{{branch.squad_url}}badge" alt="Squad Logo" />
     </a>
-    </td>
 {% endfor %}
-</tr>
-</tbody>
-</table>
-
+</div>
 
 ## Build Status
 <table class="table-responsive table-boards">

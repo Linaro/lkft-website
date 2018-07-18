@@ -28,6 +28,27 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-07-18
+### 4.4.142
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+### 2018-07-17
+#### 4.17.8
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2018-07-16
+#### 4.4.141, 4.9.113, 4.14.56, 4.17.7
+<!-- sla <24 1 -->
+<!-- sla <48 3 -->
+- Reported regression in creat and open syscalls in 4.17.7 within 24h
+  - Regression in behavior was intentional, due to backport of
+    [0fa3ecd87848](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=0fa3ecd87848)
+to fix CVE-2018-13405.  [LTP patch
+proposed](http://lists.linux.it/pipermail/ltp/2018-July/008724.html).
+- All remaining branches subsequently reported in <48h
+
 ### 2018-07-10
 #### 4.4.140, 4.9.112, 4.14.55, 4.17.6
 <!-- sla <24 4 -->

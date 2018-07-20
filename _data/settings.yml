@@ -1,3 +1,6 @@
+# Clang build table on homepage
+clang_enabled: false
+
 # Mailchimp settings
 mailchimp:
     enabled: false

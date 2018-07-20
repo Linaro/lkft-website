@@ -3,12 +3,16 @@ layout: home
 ---
 
 ## Test Results
-<div>
+<div class="container">
+<div class="row">
 {% for branch in site.data.tests.tests.branches %}
+<div class="col-6 col-md-4">
     <a href="{{branch.squad_url}}">
         <img src="{{branch.squad_url}}badge" alt="Squad Logo" />
     </a>
+</div>
 {% endfor %}
+</div>
 </div>
 
 ## Build Status

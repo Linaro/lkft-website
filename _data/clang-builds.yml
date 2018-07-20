@@ -1,0 +1,37 @@
+toolchains:
+- AOSP
+- Clang
+architectures:
+- arm64
+- x86_64
+branches:
+- name: "4.17"
+  AOSP:
+    arm64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-stable/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-stable
+    x86_64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-stable/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-stable
+  Clang:
+    arm64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-stable/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-stable
+    x86_64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-stable/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-stable
+- name: "mainline"
+  AOSP:
+    arm64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-mainline/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-mainline
+    x86_64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-mainline/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-mainline
+  Clang:
+    arm64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-mainline/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-mainline
+    x86_64:
+      jenkins_build_url: https://ci.linaro.org/job/trigger-lkft-linux-clang-mainline/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=trigger-lkft-linux-clang-mainline

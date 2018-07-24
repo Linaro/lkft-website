@@ -10,7 +10,9 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
-
+- 2018-07-19: OpenEmbedded build moved from Morty to Rocko
+- 2018-07-16: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.47](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-07-06: [LTP Open
   Posix](https://github.com/linux-test-project/ltp/tree/master/testcases/open_posix_testsuite)
   tests added to LKFT on all branches

@@ -15,7 +15,9 @@ layout: home
 </div>
 </div>
 
-## Build Status
+## LKFT Build Status
+The LKFT build uses OpenEmbedded to build a userspace image, along with the
+kernel, for each board and branch combination under test.
 <table class="table-responsive table-boards">
 <thead><tr>
 <th>Board</th>
@@ -52,10 +54,10 @@ layout: home
 </table>
 
 {% if site.data.settings.clang_enabled %}
-## Clang Build Status
+## Kernel Build Status (using Clang)
 In an effort to support building the Linux kernel using <a
-href="https://clang.llvm.org/">clang</a>, the following table provides the
-current status of a kernel build on several branches, clang distributions, and
+href="https://clang.llvm.org/">Clang</a>, the following table provides the
+current status of a kernel build on several branches, Clang distributions, and
 architectures.
 <table class="table-responsive table-boards">
 <thead>

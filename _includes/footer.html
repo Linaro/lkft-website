@@ -17,17 +17,24 @@
                 </div>
               -->
 
-                <div class="row footer-strip">
+                <div class="row footer-slim">
                     <div class="container">
                       <div class="company-footer-bottom">
-                          <a href="{{site.data.linaro.url}}"><img src="{% asset_path '{{site.data.settings.linaro-footer-image}}'  %}" class="linaro-logo" alt="Linaro Icon" /></a>
-                          Copyright &copy; {{ 'now' | date: "%Y" }} Linaro Limited <a href="{{site.data.linaro.url}}">{{site.data.linaro.name}}</a>
                           {% for link in site.data.footer.company-links %}
-                              <span class="coloured-bp">&bull;</span>
                               <a href="{{link.url}}">{{link.name}}</a> 
+			      {% if forloop.last == false %}
+                              <span class="coloured-bp">&bull;</span>
+                              {% endif %}
                           {% endfor %}
-                        <div style="clear:both;"></div>
-                    </div>
+                      </div>
+                      <div class="company-footer-bottom">
+                        <a href="mailto:lkft@linaro.org">lkft@linaro.org</a>
+                        <span class="coloured-bp">&bull;</span>
+                        freenode/#linaro-lkft
+                      </div>
+                      <div class="company-footer-bottom">
+                          Copyright &copy; {{ 'now' | date: "%Y" }} Linaro Limited <a href="{{site.data.linaro.url}}">{{site.data.linaro.name}}</a>
+                      </div>
                 </div>
                 <!--/.container-->
             </div>

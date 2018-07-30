@@ -10,6 +10,7 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-07-24: Added Linux build status using Clang to lkft.linaro.org homepage
 - 2018-07-19: OpenEmbedded build moved from Morty to Rocko
 - 2018-07-16: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.47](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)

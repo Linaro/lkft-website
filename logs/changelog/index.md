@@ -10,6 +10,13 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+
+- 2018-08-01: Added fast 'sanity' test for all trees in LKFT. These can be seen
+  at [qa-reports.l.o/lkft](https://qa-reports.linaro.org/lkft/), and provide a
+  reliable and quick check for each tree. These run in addition to the full set
+  of tests for each push to each tree.
+- 2018-08-01: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.48](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-07-24: Added Linux build status using Clang to lkft.linaro.org homepage
 - 2018-07-19: OpenEmbedded build moved from Morty to Rocko
 - 2018-07-16: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

@@ -11,6 +11,9 @@ infrastructure.
 
 ## 2018
 
+- 2018-08-14: Added 4.18, and upgraded the kselftest that is run against all
+  stable kernels to 4.18
+- 2018-08-14: Added build for 'intel-corei7-64'.
 - 2018-08-01: Added fast 'sanity' test for all trees in LKFT. These can be seen
   at [qa-reports.l.o/lkft](https://qa-reports.linaro.org/lkft/), and provide a
   reliable and quick check for each tree. These run in addition to the full set

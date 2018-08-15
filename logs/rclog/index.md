@@ -28,6 +28,16 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-08-14
+### 4.4.148, 4.9.120, 4.14.63, 4.17.15, 4.18.1
+<!-- sla <48 5 -->
+- First 4.18 stable release candidate
+- Each branch had multiple pushes, for a total of ~18. This created a high
+  queue depth in our build and test environments. After 24h, results were
+  reported based on a manual review of the aggregated (but still incomplete)
+  data that was available.
+- Reported no regressions in <48h
+
 ### 2018-08-07
 #### 4.4.147, 4.9.119, 4.14.62, 4.17.14
 <!-- sla <24 4 -->

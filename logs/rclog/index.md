@@ -28,8 +28,23 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-08-16
+#### 4.4.149, 4.9.121, 4.14.64, 4.17.16, 4.18.2, 4.4.150, 4.9.122, 4.14.65, 4.17.17, 4.18.3
+<!-- sla <48 5 -->
+<!-- sla <24 5 -->
+- The initial set of RCs were announced on Thursday. On Friday, they were
+  tagged for release and the second set of RCs, which contained 1 patch, were
+  pushed but not yet announced. On Saturday, we reported our results based on
+  both sets of RCs, and both were subsequently released and announced on
+  the same day.
+- Reported no regressions in <48h
+- See related: [Two rounds of stable kernels
+  released (LWN)](https://lwn.net/Articles/762938/)
+
+
+
 ### 2018-08-14
-### 4.4.148, 4.9.120, 4.14.63, 4.17.15, 4.18.1
+#### 4.4.148, 4.9.120, 4.14.63, 4.17.15, 4.18.1
 <!-- sla <48 5 -->
 - First 4.18 stable release candidate
 - Each branch had multiple pushes, for a total of ~18. This created a high
@@ -37,6 +52,8 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
   reported based on a manual review of the aggregated (but still incomplete)
   data that was available.
 - Reported no regressions in <48h
+- See related: [Meltdown strikes back: the L1 terminal fault
+  vulnerability (LWN)](https://lwn.net/Articles/762570/)
 
 ### 2018-08-07
 #### 4.4.147, 4.9.119, 4.14.62, 4.17.14

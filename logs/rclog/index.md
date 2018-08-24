@@ -28,6 +28,17 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-08-23
+#### 4.4.152, 4.9.124, 4.14.67, 4.17.19, 4.18.5
+<!-- sla <24 5 -->
+- Last 4.17 release
+- Reported no regressions in <24h
+
+### 2018-08-21
+#### 4.4.151, 4.9.123, 4.14.66, 4.17.18, 4.18.4
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
 ### 2018-08-16
 #### 4.4.149, 4.9.121, 4.14.64, 4.17.16, 4.18.2, 4.4.150, 4.9.122, 4.14.65, 4.17.17, 4.18.3
 <!-- sla <48 5 -->
@@ -40,8 +51,6 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 - Reported no regressions in <48h
 - See related: [Two rounds of stable kernels
   released (LWN)](https://lwn.net/Articles/762938/)
-
-
 
 ### 2018-08-14
 #### 4.4.148, 4.9.120, 4.14.63, 4.17.15, 4.18.1

@@ -28,6 +28,20 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-09-03
+#### 4.4.154, 4.9.125, 4.14.68, 4.18.6
+<!-- sla <24 4 -->
+- Reported no regressions on 4.4 and 4.9 in <24h
+- Reported [build
+  failure](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-August/057175.html)
+  on pre-rc tree
+- 4.18 and 4.14 [BUG
+  found](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/058162.html)
+  on - tlb_flush_mmu
+  - Bad patch - mm/tlb, x86/mm: Support invalidating TLB caches for
+    RCU_TABLE_FREE
+  - Missing patch - mm: move tlb_table_flush to tlb_flush_mmu_free
+
 ### 2018-08-27
 #### 4.4.153
 <!-- sla <24 1 -->

@@ -10,6 +10,8 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-09-04: Dropped 4.17 per [upstream
+  announcement](https://lwn.net/Articles/763430/)
 - 2018-08-14: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.49](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-08-14: Added 4.18, and upgraded the kselftest that is run against all

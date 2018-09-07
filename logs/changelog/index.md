@@ -10,6 +10,8 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-09-06: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.50](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-09-03: Added i386 support and [announced on
   -stable](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/058310.html)
 - 2018-09-04: Dropped 4.17 per [upstream

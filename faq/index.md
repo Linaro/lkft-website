@@ -14,9 +14,9 @@ See [boards](/boards/).
   that require a separate kernel tree. Devices that require kernel merges and
   conflict resolution whenever there’s an LTS release will not be included
   unless there’s a committed team maintaining the branch.
-- Hardware that has upstream kernel support as far back as Linux 4.4 is much
-  more likely to be supported than hardware that is only supported in later
-  versions of the Linux kernel.
+- Hardware that has upstream kernel support, especially on older LTS branches
+  are much more likely to be supported than hardware that is only supported in
+  more recent versions of the Linux kernel.
 - If LKFT has a vacancy for a certain class of hardware and the proposed board
   can fill that vacancy then it will be considered (architecture, 32-bit,
   64-bit, etc).

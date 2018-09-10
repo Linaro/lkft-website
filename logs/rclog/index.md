@@ -28,6 +28,15 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-09-07
+#### 4.4.155, 4.9.126, 4.14.69, 4.18.7
+<!-- sla <48 4 -->
+- Reported no regressions on 4.9, 4.14, and 4.18 in <48h
+- [Reported regressions related to "userns: move user access out of the
+  mutex"](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/059118.html)
+  on 4.4 in <48h
+  - Reported no regressions against 4.4.155-rc3 in <48h
+
 ### 2018-09-03
 #### 4.4.154, 4.9.125, 4.14.68, 4.18.6
 <!-- sla <24 4 -->

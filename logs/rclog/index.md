@@ -28,6 +28,11 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-09-18
+#### 4.4.157, 4.9.128, 4.14.71, 4.18.9
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2018-09-13
 #### 4.4.156, 4.9.127, 4.14.70, 4.18.8
 <!-- sla <24 4 -->

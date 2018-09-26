@@ -28,10 +28,26 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-09-24
+#### 4.4.158, 4.9.129, 4.14.72, 4.18.10
+<!-- sla <24 2 -->
+<!-- sla <48 2 -->
+- Bisected and [reported
+  regressions](https://lore.kernel.org/lkml/20180925090247.GC22609@kroah.com/)
+  related to pinctrl on 4.14 and 4.18
+- Bisected and [reported
+  regression](https://lore.kernel.org/lkml/20180926053029.GA3800@kroah.com/)
+  related to rpmsg on db410c that was introduced in 4.14.71
+- 4.4, 4.9 <24h
+- 4.14, 4.18 <48h
+
 ### 2018-09-18
 #### 4.4.157, 4.9.128, 4.14.71, 4.18.9
 <!-- sla <24 4 -->
 - Reported no regressions in <24h
+- Reported [build
+  failure](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/060654.html)
+  on pre-rc tree
 
 ### 2018-09-13
 #### 4.4.156, 4.9.127, 4.14.70, 4.18.8

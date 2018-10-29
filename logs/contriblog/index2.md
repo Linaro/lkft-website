@@ -33,8 +33,12 @@ Linux Kernel project and to the testing suites projects.
         re: Link to bug reference
 -->
 
-- 2018-10-25: Naresh Kamboju [reported kselftest test_verifier failure]() re:
-  [bug 4038](https://bugs.linaro.org/show_bug.cgi?id=4038)
+- 2018-10-29: Arnd Bergmann [reported problem in LTP
+  bind03](https://lore.kernel.org/lkml/20180831111436.GA23780@dell5510/T/#m170eaa199fc14995b2bae1aae150f5c758ebbb18)
+  re: [bug 4042](https://bugs.linaro.org/show_bug.cgi?id=4042)
+- 2018-10-25: Naresh Kamboju [reported kselftest test_verifier
+  failure](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-October/002541.html)
+  re: [bug 4038](https://bugs.linaro.org/show_bug.cgi?id=4038)
 - 2018-10-25: Naresh Kamboju [reported ltp syscall keyctl05
   failure](http://lists.linux.it/pipermail/ltp/2018-October/009571.html). As a
   result, Jan Stancek [patched
@@ -50,4 +54,8 @@ Linux Kernel project and to the testing suites projects.
   re: [bug 3783](https://bugs.linaro.org/show_bug.cgi?id=3783)
 - 2018-10-15: Anders Roxell [sent a patch to fix mm
   warning](https://lore.kernel.org/lkml/20181015111600.5479-1-anders.roxell@linaro.org/)
-
+- 2018-10-08: Naresh Kamboju [reported kselftest test_kmod.sh
+  hang](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-October/002378.html)
+  resulting in a [patch by Willem de
+  Bruijn](http://patchwork.ozlabs.org/patch/942590/) re: [bug
+  3925](https://bugs.linaro.org/show_bug.cgi?id=3925)

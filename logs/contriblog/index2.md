@@ -33,20 +33,21 @@ Linux Kernel project and to the testing suites projects.
         re: Link to bug reference
 -->
 
-- 2018-10-18: Rafael Tinoco [reported arm kvm inconsistent lock
-  state warnings](https://www.spinics.net/lists/netdev/msg529635.html) re: [bug
-  4027](https://bugs.linaro.org/show_bug.cgi?id=4027)
-- 2018-10-18: Rafael Tinoco [reported kselftest proc-self-syscall
-  failure](http://lists.infradead.org/pipermail/linux-arm-kernel/2018-October/607895.html)
-  re: [bug 3783](https://bugs.linaro.org/show_bug.cgi?id=3783)
 - 2018-10-24: Rafael Tinoco [sent a patch to fix zram on
   arm32](https://lore.kernel.org/lkml/20181025012745.20884-1-rafael.tinoco@linaro.org/)
   re: [bug 3765](https://bugs.linaro.org/show_bug.cgi?id=3765)
-- 2018-10-25: Naresh Kamboju [reported kselftest test_verifier
-  failure]() re: [bug 4038](https://bugs.linaro.org/show_bug.cgi?id=4038)
+- 2018-10-25: Naresh Kamboju [reported kselftest test_verifier failure]() re:
+  [bug 4038](https://bugs.linaro.org/show_bug.cgi?id=4038)
 - 2018-10-25: Naresh Kamboju [reported ltp syscall keyctl05
   failure](http://lists.linux.it/pipermail/ltp/2018-October/009571.html). As a
   result, Jan Stancek [patched
   ltp](http://lists.linux.it/pipermail/ltp/2018-October/009752.html)
-- 2018-10-15: Anders Roxell [sent a patch to fix mm warning](https://lore.kernel.org/lkml/20181015111600.5479-1-anders.roxell@linaro.org/)
+- 2018-10-18: Rafael Tinoco [reported arm kvm inconsistent lock state
+  warnings](https://www.spinics.net/lists/netdev/msg529635.html) re: [bug
+  4027](https://bugs.linaro.org/show_bug.cgi?id=4027)
+- 2018-10-18: Rafael Tinoco [reported kselftest proc-self-syscall
+  failure](http://lists.infradead.org/pipermail/linux-arm-kernel/2018-October/607895.html)
+  re: [bug 3783](https://bugs.linaro.org/show_bug.cgi?id=3783)
+- 2018-10-15: Anders Roxell [sent a patch to fix mm
+  warning](https://lore.kernel.org/lkml/20181015111600.5479-1-anders.roxell@linaro.org/)
 

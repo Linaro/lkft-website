@@ -14,9 +14,9 @@ The following longterm stable (LTS) branches are tested:
 - 4.4
 - 4.9
 - 4.14
+- 4.19
 
 In addition to LTS branches, the latest stable branch is also tested.
-- 4.16
 
 ## Android-common
 

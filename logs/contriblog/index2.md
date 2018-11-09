@@ -20,7 +20,7 @@ Linux Kernel project and to the testing suites projects.
         which may be excluded. Some events occur too regularly, or are too
         minor to list here.
 
-    Format:
+    General Format:
         - <date>: <person> <verb> to <destination> re: <bug>
 
     Where:
@@ -30,12 +30,43 @@ Linux Kernel project and to the testing suites projects.
               followed by a *very brief* description of the context. This
               should link to a mailing list post. If it's a mailing list
               that lore supports, please use a lore link.
-        re: Link to bug reference
+        re: Link to bug reference, if available
 -->
 
+### November
+
+- 2018-11-09: Rafael Tinoco sent patch [selftests: membarrier: re-organize
+  test](https://lore.kernel.org/lkml/20181109154911.24464-1-rafael.tinoco@linaro.org/)
+- 2018-11-09: Rafael Tinoco sent patch [proc: fix and merge proc-self-map-file
+  tests](https://lore.kernel.org/lkml/20181109113036.21512-1-rafael.tinoco@linaro.org/)
+  re: [bug 3782](https://bugs.linaro.org/show_bug.cgi?id=3782)
+- 2018-11-09: Rafael Tinoco sent LTP patch [syscalls/bind03: fix ret code
+  behavior for v4.4
+  backport](http://lists.linux.it/pipermail/ltp/2018-November/009894.html) re:
+  [bug 4042](https://bugs.linaro.org/show_bug.cgi?id=4042)
+- 2018-11-08: Rafael Tinoco [requested a backport for
+  mlock](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-November/069243.html)
+  re: [bug 4043](https://bugs.linaro.org/show_bug.cgi?id=4043)
+- 2018-11-07: Rafael Tinoco [reported a regression on next found by
+  fsync01](https://www.spinics.net/lists/linux-next/msg45114.html) re: [bug
+  4056](https://bugs.linaro.org/show_bug.cgi?id=4056)
+- 2018-11-02: Anderx Roxell sent patch [scripts/kconfig/merge_config: don't
+  redefine 'y' to
+  'm'](https://lore.kernel.org/lkml/20181102114119.23859-1-anders.roxell@linaro.org/)
+
+### October
+
+- 2018-10-30: Anders Roxell sent patch [arm64: kprobe: make page to RO mode
+  when allocate
+  it](https://lore.kernel.org/lkml/20181030113850.31150-1-anders.roxell@linaro.org/)
+- 2018-10-30: Anders Roxell [patched two problems related to
+  CONFIG_DEBUG_TEST_DRIVER_REMOVE](https://lore.kernel.org/lkml/20181030113545.30999-1-anders.roxell@linaro.org/)
 - 2018-10-29: Arnd Bergmann [reported problem in LTP
   bind03](https://lore.kernel.org/lkml/20180831111436.GA23780@dell5510/T/#m170eaa199fc14995b2bae1aae150f5c758ebbb18)
   re: [bug 4042](https://bugs.linaro.org/show_bug.cgi?id=4042)
+- 2018-10-25: John Stultz sent patch [wlcore: Fixup "Add support for optional
+  wakeirq"](https://lore.kernel.org/lkml/1540490241-32021-1-git-send-email-john.stultz@linaro.org/)
+  re: [bug 3960](https://bugs.linaro.org/show_bug.cgi?id=3960)
 - 2018-10-25: Naresh Kamboju [reported kselftest test_verifier
   failure](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-October/002541.html)
   re: [bug 4038](https://bugs.linaro.org/show_bug.cgi?id=4038)

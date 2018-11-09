@@ -10,6 +10,12 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-11-05: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.54](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2018-10-30: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.53](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2018-10-22: Added 4.19 kernel branch, and upgraded that kselftest that is run
+  against all stable kernels to 4.19.
 - 2018-10-04: "Fixes" are now listed in all email reports
 - 2018-10-02: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.51](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)

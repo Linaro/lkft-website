@@ -32,6 +32,9 @@ improving Arm device automation integration.
 
 ## Selected Talks
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VnlPmQ1I6hA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LMs7vCGv8as" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WMItXP1TzOY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tc92uw3m-SI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZz50o9QaUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FAuHKTeZhDk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

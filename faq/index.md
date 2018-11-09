@@ -40,22 +40,6 @@ See [boards](/boards/).
 
 LKFT supports the Linux kernel branches listed at [branches](/branches/).
 
-## The following criteria are used to select Linux kernel trees/branches:
-
-- Linaro is interested in all Linux Kernel LTS trees (starting at Linux 4.4).
-- Linaro is interested in SoC trees (System-on-a-chip) trees for hardware that
-  expands LKFT coverage or meets an LKFT goal. For instance, the 96board
-  HiKey6220 is the primary AArch64 test target for Linux 4.4 and 4.9 but it
-  requires a SoC tree for Linux 4.4 because the board support was not
-  upstreamed until later.
-- Linaro is interested in regression testing specific operating systems
-  branches that are derived from LTS trees and/or incorporate SoC tree content,
-  e.g., android common kernel is executed with AOSP user-space to make up the
-  Android Operating System.
-- There are some trees which are strategically important to Linaro, such as LSK
-  (Linaro Stable Kernel) and LCR (Linaro Candy Release) trees.
-- There are some trees which are important to Linaro members.
-
 ## What tests does Linaro execute in LKFT?
 
 See [tests](/tests/).
@@ -115,38 +99,17 @@ in automation. Linaro already provides OE images for other internal
 stakeholders on the same devices and reusing the OE images provides LKFT with a
 lower cost to execution.
 
-## Why not just add functional testing to KernelCI?
+## Why not just add functional testing to kernelCI?
 
-Linaro participates in the KernelCI community as well as curating LKFT. LKFT
-and KernelCI work closely together to validate Linux kernel development, but
-have different approaches and different end goals.
+We are!
 
-- KernelCI is principally concerned with boot testing the latest Linux kernel
-  tree (tip) and LKFT is primarily concerned with functional testing LTS
-  (long-term stable) trees.
-- KernelCI is a community project that moves conservatively to prevent
-  downtime. LKFT is a service for Linaro members with time-specific goals.
-- KernelCI’s hardware selection criteria are more conservative than LKFT’s
-  criteria, but LKFT can only meet its goals on a set of hardware that KernelCI
-  doesn’t support because not all SoC kernels are upstream.
-- KernelCI is wide and shallow whereas LKFT is narrow and deep
-  - KernelCI builds many kernel configs to test coverage whereas LKFT only
-    builds kernel configs it needs.
-  - KernelCI performs boot testing on as wide a variety of hardware as possible
-    while LKFT only boots on a curated set of boards.
-- KernelCI is granted permission to execute on some of the LKFT hardware pool.
-- Historically KernelCI user-interface did not provide access control and all
-  logs were public.
-- KernelCI requires community consensus on which configs to support and
-  requires lab maintainers to blacklist configs they want, rather than
-  whitelisting the ones they want. LKFT can not afford to petition the KernelCI
-  community for configs that all other KernelCI labs will blacklist.
-- Historically KernelCI was limited to boot testing whereas LKFT is concerned
-  with post-boot (functional) testing.
-- Historically KernelCI was limited to using ramdisk or network boot and did
-  not support robust user-space testing.
-- Some of LKFT will overlap (at first) and converge (eventually) with KernelCI
-  as both systems expand their purview.
+When LKFT was initially launched, kernelCI did not support functional testing,
+and LKFT had tight timelines and specific hardware requirements that made
+inclusion in kernelCI difficult and risky.
+
+Now days, kernelCI has been actively working on adding functional testing and
+LKFT is working closely with kernelCI with the goal of creating a single place
+to do upstream Linux kernel testing.
 
 ## I want my hardware in LKFT but can’t have results publicly available. Is access control of results possible?
 
@@ -175,8 +138,8 @@ device complexity concerns of Linaro engineers. Member engineering teams can
 implement private SoC tree hosting, private builds, and private
 device-automation within their own secure remote labs and then share their
 results in the LKFT dashboard, either under access control (privately) or
-publicly. For more information on LKFT Remote Labs please contact [Linaro
-Support](https://linaro.zendesk.com/).
+publicly. For more information on LKFT Remote Labs please contact
+[lkft@linaro.org](mailto:lkft@linaro.org).
 
 ## I’m a member. Will Linaro take my hardware into LKFT?
 
@@ -184,8 +147,3 @@ Linaro can only take hardware into LKFT that matches coincides with LKFT
 objectives. If your member hardware doesn’t match the immediate LKFT
 objectives, perhaps the LKFT Remote Labs capability will work for your
 hardware.
-
-## I’m a member and I want my hardware in LKFT but my hardware isn’t easily automatable. How can I contribute?
-
-LKFT Remote Labs
-

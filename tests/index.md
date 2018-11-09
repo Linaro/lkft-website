@@ -9,22 +9,17 @@ permalink: /tests/
 Due to the amount of data that LKFT produces, test results need to be clear and
 actionable. This means there is a very low tolerance for any tests which
 sometimes pass and sometimes fail. Further, any test that is expected to fail
-is skipped so that results are always in a 'all green' state. This makes
-triaging new regressions straightforward.
+is marked as a known issue in [qa-reports](https://qa-reports.linaro.org/lkft/)
+so that results are always in a 'all green' state. This makes triaging new
+regressions straightforward.
 
-This strategy has a few consequences. Skipping inconsistent tests could hide
-actual problems. For this reason, whenever a test is added to a skiplist, a bug
-is opened in
+Whenever a test becomes a known issue, a bug is opened in
 [bugzilla](https://bugs.linaro.org/buglist.cgi?bug_status=__open__&list_id=17922&order=Importance&product=Kernel%20Functional%20Testing&query_format=specific).
 All bugzilla bugs are regularly reviewed, investigated, and reported internally
 or upstream.
 
 All regressions are triaged and reported internally and/or upstream. Typically
-the test will also be added to the skiplist until it is fixed.
-
-LKFT maintains a staging environment that runs without a skiplist, so that it
-is possible to know when a regression is fixed, at which point it is then
-removed from the skiplist.
+the test will also be added as a known issue until it is fixed.
 
 # Test Suites
 
@@ -55,6 +50,27 @@ The following test sets are run in
 The version of LTP used is the most recent release, plus backports that fix
 regressions, if any.
 
+### LTP Issues
+
+LTP issues are tracked in several places.
+
+Bugs are tracked in bugzilla and can be seen at
+[bugs.linaro.org](https://bugs.linaro.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&component=Linux%20Test%20Project%20%28LTP%29&list_id=20398&product=Kernel%20Functional%20Testing&query_format=advanced&resolution=---)
+(query for product 'Kernel Functional Testing' and component 'Linux Test
+Project (LTP)').
+
+A skipfile is maintained which contains a list of tests that are not suitable
+to run for a variety of reasons. LKFT's LTP skipfile can be found in
+[test-definitions
+repository](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/ltp/skipfile-lkft.yaml).
+
+Finally, known issues are used to annotate failures in
+[qa-reports](https://qa-reports.linaro.org/lkft/), so that known failures show
+up as 'xfail' (expected fail), instead of a failure. The known issues that LKFT
+uses in LTP can be found at
+[qa-reports-known-issues](https://github.com/Linaro/qa-reports-known-issues/blob/master/ltp-production.yaml).
+
+
 ## Linux Kernel Selftests
 
 Linux Kernel Selftests, or
@@ -71,7 +87,24 @@ Running a mismatched kselftest version does create false positives from time to
 time, but it is the best balance between a supported and up to date set of
 tests and an older kernel.
 
+### Kselftest Issues
+
+Kselftest issues are tracked in several places.
+
+Bugs are tracked in bugzilla and can be seen at
+[bugs.linaro.org](https://bugs.linaro.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=IN_PROGRESS&component=kselftest&list_id=20399&product=Kernel%20Functional%20Testing&query_format=advanced&resolution=---)
+(query for product 'Kernel Functional Testing' and component 'kselftest').
+
+A skipfile is maintained which contains a list of tests that are not suitable to run for a variety of reasons. LKFT's Kselftest skipfile can be found in [test-definitions repository](https://git.linaro.org/qa/test-definitions.git/tree/automated/linux/kselftest/skipfile-lkft.yaml).
+
+Finally, known issues are used to annotate failures in
+[qa-reports](https://qa-reports.linaro.org/lkft/), so that known failures show
+up as 'xfail' (expected fail), instead of a failure. The known issues that LKFT
+uses in kselftest can be found at
+[qa-reports-known-issues](https://github.com/Linaro/qa-reports-known-issues/blob/master/kselftests-production.yaml).
+
+
 ## Libhugetlbfs
 
 [libhugetlbfs](https://github.com/libhugetlbfs/libhugetlbfs) is run using the
-latest version in its next branch (02df38e93e as of 2018.03.09).
+latest released version.

@@ -35,6 +35,9 @@ Linux Kernel project and to the testing suites projects.
 
 ### November
 
+- 2018-11-13: Thierry Escande patched [an issue in
+  test_printf](https://lore.kernel.org/lkml/20180613171840.29827-1-thierry.escande@linaro.org/)
+  re: [bug 3775](https://bugs.linaro.org/show_bug.cgi?id=3775)
 - 2018-11-09: Rafael Tinoco sent patch [selftests: membarrier: re-organize
   test](https://lore.kernel.org/lkml/20181109154911.24464-1-rafael.tinoco@linaro.org/)
 - 2018-11-09: Rafael Tinoco sent patch [proc: fix and merge proc-self-map-file

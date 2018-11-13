@@ -28,6 +28,15 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-11-11
+#### 4.9.137, 4.14.81, 4.18.19, 4.19.2
+<!-- sla <24 4 -->
+- Rafael Tinoco [reported a build problem on
+  4.9](https://lore.kernel.org/lkml/18c91c75-18c8-21a1-3051-65007bd2f30f@linaro.org/),
+  resulting in patch f69ffc5d3db8 ("cpupower: Fix coredump on VMWare") being
+  dropped.
+- Reported no regressions in <24h
+
 ### 2018-11-08
 #### 4.4.163, 4.9.136, 4.14.80, 4.18.18
 <!-- sla <24 4 -->

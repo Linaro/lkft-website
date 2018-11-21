@@ -35,6 +35,24 @@ Linux Kernel project and to the testing suites projects.
 
 ### November
 
+- 2018-11-21: Naresh Kamboju [reported kselftest get_cgroup_id_user
+  issue](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002831.html)
+  re: [bug 3920](https://bugs.linaro.org/show_bug.cgi?id=3920)
+- 2018-11-21: Naresh Kamboju [reported a libbpf
+  problem](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002832.html)
+  in kselftest bpf tests
+- 2018-11-20: Naresh Kamboju [reported a problem with kselftest
+  udpgro.sh](https://www.spinics.net/lists/netdev/msg534015.html) re: [bug
+  4078](https://bugs.linaro.org/show_bug.cgi?id=4078)
+- 2018-11-14: Mark Brown sent an [RFC PATCH to improve
+  kselftest/fsgsbase](https://lore.kernel.org/lkml/20181114195043.8021-1-broonie@kernel.org/)
+  re: [bug 3596](https://bugs.linaro.org/show_bug.cgi?id=3596)
+- 2018-11-14: Rafael Tinoco reported [NFS DEBUG_LOCKS_WARN_ON has been
+  fixed](https://lore.kernel.org/lkml/c351b04b-e83e-d090-a6b2-b8b08a688872@linaro.org/)
+  re: [bug 3731](https://bugs.linaro.org/show_bug.cgi?id=3731#c15)
+- 2018-11-13: Naresh Kamboju [reported an issue in bpf, resulting in
+  patch](https://www.spinics.net/lists/netdev/msg533569.html) re: [bug
+  4009](https://bugs.linaro.org/show_bug.cgi?id=4009)
 - 2018-11-13: Thierry Escande patched [an issue in
   test_printf](https://lore.kernel.org/lkml/20180613171840.29827-1-thierry.escande@linaro.org/)
   re: [bug 3775](https://bugs.linaro.org/show_bug.cgi?id=3775)
@@ -53,7 +71,7 @@ Linux Kernel project and to the testing suites projects.
 - 2018-11-07: Rafael Tinoco [reported a regression on next found by
   fsync01](https://www.spinics.net/lists/linux-next/msg45114.html) re: [bug
   4056](https://bugs.linaro.org/show_bug.cgi?id=4056)
-- 2018-11-02: Anderx Roxell sent patch [scripts/kconfig/merge_config: don't
+- 2018-11-02: Anders Roxell sent patch [scripts/kconfig/merge_config: don't
   redefine 'y' to
   'm'](https://lore.kernel.org/lkml/20181102114119.23859-1-anders.roxell@linaro.org/)
 

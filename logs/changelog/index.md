@@ -10,6 +10,8 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-11-19: LTP upgraded to [20180926
+  release](https://github.com/linux-test-project/ltp/releases).
 - 2018-11-05: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.54](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-10-30: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

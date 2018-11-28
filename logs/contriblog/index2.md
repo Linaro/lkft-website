@@ -35,6 +35,17 @@ Linux Kernel project and to the testing suites projects.
 
 ### November
 
+- 2018-11-27: Naresh Kamboju [sent a kselftest
+  patch](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002853.html)
+  to add a config frag for FTRACE re: [bug
+  3920](https://bugs.linaro.org/show_bug.cgi?id=3920)
+- 2018-11-26: Rafael Tinoco [sent a patch to fix thread_info->syscall on
+  arm](https://lore.kernel.org/lkml/20181126225335.10477-1-rafael.tinoco@linaro.org/)
+  re: [bug 3783](https://bugs.linaro.org/show_bug.cgi?id=3783)
+- 2018-11-26: Dan Rue [sent a kselftest patch
+  set](https://lore.kernel.org/lkml/20181127031218.24419-1-dan.rue@linaro.org/)
+  to fix fw_Firmware.sh re: [bug
+  3503](https://bugs.linaro.org/show_bug.cgi?id=3503)
 - 2018-11-21: Naresh Kamboju [reported kselftest get_cgroup_id_user
   issue](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002831.html)
   re: [bug 3920](https://bugs.linaro.org/show_bug.cgi?id=3920)

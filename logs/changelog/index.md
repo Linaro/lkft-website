@@ -10,6 +10,12 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-12-04: Dropped 4.18 per [upstream
+  announcement](https://lore.kernel.org/lkml/20181121103111.GA9112@kroah.com/)
+- 2018-12-03: Upgrade gcc from Linaro's gcc version 7.1.1 20170707 (Linaro GCC
+  7.1-2017.08) to upstream's gcc version 7.3.0, for retpoline support.
+- 2018-11-26: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.55](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-11-19: LTP upgraded to [20180926
   release](https://github.com/linux-test-project/ltp/releases).
 - 2018-11-05: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

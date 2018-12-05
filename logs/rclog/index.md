@@ -28,6 +28,19 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-11-04
+#### 4.9.143, 4.14.86, 4.19.7
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- [Reported a
+  panic](https://lore.kernel.org/lkml/716b46ef-03da-9656-92fd-3823f31f5ce6@linaro.org)
+  discovered on 4.19.7 (not a regression) related to TCP tail loss
+
+### 2018-11-29
+#### 4.4.166, 4.9.142, 4.14.85, 4.19.6
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2018-11-26
 #### 4.4.165, 4.9.141, 4.14.84, 4.19.5
 <!-- sla <48 4 -->

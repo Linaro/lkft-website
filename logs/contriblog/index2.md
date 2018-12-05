@@ -33,8 +33,38 @@ Linux Kernel project and to the testing suites projects.
         re: Link to bug reference, if available
 -->
 
+### December
+
+- 2018-12-05: Anders Roxell sent patches
+  [1](https://lore.kernel.org/lkml/20181204194044.9506-1-anders.roxell@linaro.org)
+  to fix allmodconfig
+- 2018-12-04: Naresh Kamboju [reported a build failure on
+  -next](https://lore.kernel.org/lkml/CA+G9fYsvJkW5_hruVYzLX3g9_5scj9nnL240rOMQ+DSz70dqqQ@mail.gmail.com),
+  and Anders Roxell [sent a patch to fix
+  it](https://github.com/linaro/lkft-website)
+- 2018-12-04: Rafael Tinoco [reported a
+  panic](https://lore.kernel.org/lkml/716b46ef-03da-9656-92fd-3823f31f5ce6@linaro.org)
+  on 4.19 related to TCP tail loss probe re: [bug
+  4127](https://bugs.linaro.org/show_bug.cgi?id=4127)
+- 2018-12-03: Rafael Tinoco [sent a backport
+  request](https://lore.kernel.org/lkml/20181203133107.4002-1-rafael.tinoco@linaro.org)
+  for a hikey unbalanced IRQ problem re: [bug
+  4053](https://bugs.linaro.org/show_bug.cgi?id=4053)
+
 ### November
 
+- 2018-11-30: Anders Roxell sent patches
+  [1](https://lore.kernel.org/lkml/20181128081239.18317-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20181128081334.18408-1-anders.roxell@linaro.org)
+  [3](https://lore.kernel.org/lkml/20181130145622.26334-1-anders.roxell@linaro.org)
+  [4](https://lore.kernel.org/lkml/20181130150859.27366-1-anders.roxell@linaro.org)
+  [5](https://lore.kernel.org/lkml/20181130150935.27493-1-anders.roxell@linaro.org)
+  [6](https://lore.kernel.org/lkml/20181130160508.28230-1-anders.roxell@linaro.org)
+  to fix allmodconfig
+- 2018-11-29: Rafel Tinoco [reported a
+  problem](https://lore.kernel.org/lkml/a304b6f1-11db-543b-2cb3-372f34dc7697@linaro.org)
+  with kselftest timers rtctest re: [bug
+  3402](https://bugs.linaro.org/show_bug.cgi?id=3402)
 - 2018-11-27: Naresh Kamboju [sent a kselftest
   patch](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002853.html)
   to add a config frag for FTRACE re: [bug

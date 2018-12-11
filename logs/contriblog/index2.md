@@ -35,8 +35,18 @@ Linux Kernel project and to the testing suites projects.
 
 ### December
 
+- 2018-12-11: Anders Roxell and Arnd Bergmann sent patches
+  [1](https://lore.kernel.org/lkml/20181211103733.22284-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20181211103616.22137-1-anders.roxell@linaro.org)
+  [3](https://lore.kernel.org/lkml/20181211133453.2835077-1-arnd@arndb.de) to
+  fix allmodconfig
+- 2018-12-10: Rafael Tinoco [sent a
+  patch](https://lore.kernel.org/lkml/20181210142105.6750-1-rafael.tinoco@linaro.org)
+  to fix mm/zmalloc for 32-bit PAE re: [bug
+  3765](https://bugs.linaro.org/show_bug.cgi?id=3765)
 - 2018-12-05: Anders Roxell sent patches
   [1](https://lore.kernel.org/lkml/20181204194044.9506-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20181206143011.23719-1-anders.roxell@linaro.org)
   to fix allmodconfig
 - 2018-12-04: Naresh Kamboju [reported a build failure on
   -next](https://lore.kernel.org/lkml/CA+G9fYsvJkW5_hruVYzLX3g9_5scj9nnL240rOMQ+DSz70dqqQ@mail.gmail.com),
@@ -45,7 +55,8 @@ Linux Kernel project and to the testing suites projects.
 - 2018-12-04: Rafael Tinoco [reported a
   panic](https://lore.kernel.org/lkml/716b46ef-03da-9656-92fd-3823f31f5ce6@linaro.org)
   on 4.19 related to TCP tail loss probe re: [bug
-  4127](https://bugs.linaro.org/show_bug.cgi?id=4127)
+  4127](https://bugs.linaro.org/show_bug.cgi?id=4127), resulting in a [patch to
+  tcp](https://www.spinics.net/lists/netdev/msg538027.html)
 - 2018-12-03: Rafael Tinoco [sent a backport
   request](https://lore.kernel.org/lkml/20181203133107.4002-1-rafael.tinoco@linaro.org)
   for a hikey unbalanced IRQ problem re: [bug

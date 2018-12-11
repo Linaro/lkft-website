@@ -29,12 +29,13 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 -->
 
 ### 2018-12-07
-### 4.9.144
+#### 4.9.144
 <!-- sla <24 1 -->
 - [Reported a hugetlbfs regression in
   -rc1](https://lore.kernel.org/lkml/CA+G9fYtzxd9a=OVr=Uwcouqikpe2EB_WJyuBhO7BX96mYWJ1NQ@mail.gmail.com)
   Verified fixed in -rc2.
-### 4.14.87, 4.19.8
+
+#### 4.14.87, 4.19.8
 <!-- sla <24 2 -->
 - Reported no regressions in <24h
 
@@ -468,6 +469,7 @@ proposed](http://lists.linux.it/pipermail/ltp/2018-July/008724.html).
 #### 4.4.126, 4.14.32
 <!-- sla <24 2 -->
 - Report no regressions in <24h
+
 #### 4.9.92, 4.15.15
 <!-- sla <48 2 -->
 - Report no regressions in <48h

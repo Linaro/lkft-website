@@ -40,10 +40,21 @@ Linux Kernel project and to the testing suites projects.
   [2](https://lore.kernel.org/lkml/20181211103616.22137-1-anders.roxell@linaro.org)
   [3](https://lore.kernel.org/lkml/20181211133453.2835077-1-arnd@arndb.de) to
   fix allmodconfig
+- 2018-12-11: Bug [3953 - LTP: open posix mmap_11-4 :
+  ...](https://bugs.linaro.org/show_bug.cgi?id=3953) closed as resolved:fixed
 - 2018-12-10: Rafael Tinoco [sent a
   patch](https://lore.kernel.org/lkml/20181210142105.6750-1-rafael.tinoco@linaro.org)
   to fix mm/zmalloc for 32-bit PAE re: [bug
   3765](https://bugs.linaro.org/show_bug.cgi?id=3765)
+- 2018-12-10: Bug [4053 - Hikey - Mainline v4.14 - Unbalanced enable for IRQ 44
+  DMESG WARNING](https://bugs.linaro.org/show_bug.cgi?id=4053) closed as
+  resolved:fixed
+- 2018-12-10: Bug [3782 - arm32: kselftest proc selftests:
+  proc-self-map-files-002 failed](https://bugs.linaro.org/show_bug.cgi?id=3782)
+  closed as resolved:fixed
+- 2018-12-10: Bug [3908 - kselftest: proc-self-map-files-001 failed on all
+  devices](https://bugs.linaro.org/show_bug.cgi?id=3908) closed as
+  resolved:fixed
 - 2018-12-05: Anders Roxell sent patches
   [1](https://lore.kernel.org/lkml/20181204194044.9506-1-anders.roxell@linaro.org)
   [2](https://lore.kernel.org/lkml/20181206143011.23719-1-anders.roxell@linaro.org)

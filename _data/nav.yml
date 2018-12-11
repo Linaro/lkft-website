@@ -32,5 +32,7 @@ pages:
       options:
           - text: Changelog
             url: /logs/changelog/
-          - text: RC Log
+          - text: Release Candidate Log
             url: /logs/rclog/
+          - text: Contribution Log
+            url: /logs/contriblog/

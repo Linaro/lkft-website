@@ -28,6 +28,13 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+### 2018-12-11
+#### 4.4.167, 4.9.145, 4.14.88, 4.19.9
+<!-- sla <24 4 -->
+- Noted that LTP syscalls:mlock203 has been fixed in all environments on
+  4.4.167
+- Reported no regressions in <24h
+
 ### 2018-12-07
 #### 4.9.144
 <!-- sla <24 1 -->

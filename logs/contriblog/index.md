@@ -35,6 +35,9 @@ Linux Kernel project and to the testing suites projects.
 
 ### December
 
+- 2018-12-12: Bug [4043 - LTP: 4.4: mlock203.c:63: FAIL: Locking one memory
+  again increased VmLck](https://bugs.linaro.org/show_bug.cgi?id=4043) closed
+  as resolved:fixed
 - 2018-12-11: Anders Roxell and Arnd Bergmann sent patches
   [1](https://lore.kernel.org/lkml/20181211103733.22284-1-anders.roxell@linaro.org)
   [2](https://lore.kernel.org/lkml/20181211103616.22137-1-anders.roxell@linaro.org)

@@ -10,10 +10,18 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-12-13: Added LTP cpuhotplug tests
+- 2018-12-12: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.56](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2018-12-11: Changed arm64 qemu jobs to use KVM, hosted on a Synquacer
 - 2018-12-04: Dropped 4.18 per [upstream
   announcement](https://lore.kernel.org/lkml/20181121103111.GA9112@kroah.com/)
 - 2018-12-03: Upgrade gcc from Linaro's gcc version 7.1.1 20170707 (Linaro GCC
   7.1-2017.08) to upstream's gcc version 7.3.0, for retpoline support.
+- 2018-11-29: Added
+  [spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker)
+  to LKFT, to provide mitigation status to complement our test results from LTP
+  CVE.
 - 2018-11-26: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.55](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-11-19: LTP upgraded to [20180926

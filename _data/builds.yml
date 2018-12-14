@@ -11,8 +11,8 @@ boards:
   architecture: arm64
   branches:
     "4.4":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=rpb,MACHINE=hikey,label=docker-stretch-amd64
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=rpb,MACHINE=hikey,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=rpb,MACHINE=hikey,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linaro-hikey-stable-rc-4.4-oe/
     "4.9":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=rpb,MACHINE=hikey,label=docker-lkft/

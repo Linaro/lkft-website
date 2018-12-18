@@ -35,6 +35,15 @@ Linux Kernel project and to the testing suites projects.
 
 ### December
 
+- 2018-12-17: Rafael Tinoco [reported a kselftest issue regarding
+  udpgso](https://lore.kernel.org/lkml/bbabafb5-e16c-4025-31d0-d9e5feb5f39a@linaro.org)
+  re: [bug 3980](https://bugs.linaro.org/show_bug.cgi?id=3980)1
+- 2018-12-17: Naresh Kamboju [reported a NULL pointer dereference in arm32 and
+  i386](https://www.spinics.net/lists/netdev/msg540473.html) re: [bug
+  4129](https://bugs.linaro.org/show_bug.cgi?id=4129)
+- 2018-12-17: Anders Roxell [sent a
+  patch](https://lore.kernel.org/lkml/20181217150326.30933-1-anders.roxell@linaro.org)
+  for booting allmodconfig
 - 2018-12-12: Bug [4043 - LTP: 4.4: mlock203.c:63: FAIL: Locking one memory
   again increased VmLck](https://bugs.linaro.org/show_bug.cgi?id=4043) closed
   as resolved:fixed

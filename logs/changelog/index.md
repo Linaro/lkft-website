@@ -10,6 +10,8 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2018
+- 2018-12-18: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.58](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-12-13: Added LTP cpuhotplug tests
 - 2018-12-12: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.56](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)

@@ -9,7 +9,6 @@ permalink: /logs/contriblog/
 This log is a high level overview of all contributions LKFT has propitiated to the
 Linux Kernel project and to the testing suites projects.
 
-## 2018
 <!---
 
     Concept:
@@ -33,8 +32,18 @@ Linux Kernel project and to the testing suites projects.
         re: Link to bug reference, if available
 -->
 
-### December
+## 2019
+### January
+- 2019-01-04: Dan Rue [reported kselftest/net/ip_defrag.sh test failures on
+  mainline](https://marc.info/?l=linux-netdev&m=154662102601613&w=2)
 
+## 2018
+### December
+- 2018-12-19: Rafael Tinoco [reported an LTP issue in
+  tst_device.c](http://lists.linux.it/pipermail/ltp/2018-December/010344.html)
+- 2018-12-19: Anders Roxell [sent a
+  patch](https://lore.kernel.org/lkml/20181219140040.8637-1-anders.roxell@linaro.org)
+  to fix allmodconfig
 - 2018-12-17: Rafael Tinoco [reported a kselftest issue regarding
   udpgso](https://lore.kernel.org/lkml/bbabafb5-e16c-4025-31d0-d9e5feb5f39a@linaro.org)
   re: [bug 3980](https://bugs.linaro.org/show_bug.cgi?id=3980)1

@@ -28,6 +28,19 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
     as index.md.
 -->
 
+## 2019
+
+### 2019-01-07
+#### 4.9.149, 4.14.92, 4.19.14, 4.20.1
+<!-- sla <24 4 -->
+- Reported build failure on 4.9.149-rc1, resulting in -rc3
+- Reported build failure on 4.14.92 pre-rc
+- Reported build failure on 4.14.92-rc1, resulting in -rc2
+- Reported no regressions in <24h
+
+
+## 2018
+
 ### 2018-12-28
 #### 4.9.148, 4.14.91, 4.19.13
 <!-- sla <8 3 -->

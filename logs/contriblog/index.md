@@ -34,6 +34,13 @@ Linux Kernel project and to the testing suites projects.
 
 ## 2019
 ### January
+- 2019-01-08: Anders Roxell sent kselftest patches
+  [1](https://lore.kernel.org/lkml/20190108092223.12467-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20190108092303.12597-1-anders.roxell@linaro.org)
+  [3](https://lore.kernel.org/lkml/20190108092525.12817-1-anders.roxell@linaro.org)
+  [4](https://lore.kernel.org/lkml/20190108092654.13113-1-anders.roxell@linaro.org)
+- 2019-01-08: Anders Roxell sent kernel build patch
+  [1](https://lore.kernel.org/lkml/20190108143713.15120-1-anders.roxell@linaro.org)
 - 2019-01-04: Dan Rue [reported kselftest/net/ip_defrag.sh test failures on
   mainline](https://marc.info/?l=linux-netdev&m=154662102601613&w=2)
 

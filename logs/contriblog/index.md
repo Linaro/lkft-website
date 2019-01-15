@@ -34,9 +34,26 @@ Linux Kernel project and to the testing suites projects.
 
 ## 2019
 ### January
+
+- 2019-01-15: Naresh Kamboju reported a new [LTP
+  failure](http://lists.linux.it/pipermail/ltp/2019-January/010535.html),
+  resulting in test
+  [patch](https://github.com/linux-test-project/ltp/commit/a78e15494bfdc6be68026031ee6d7abd1e7ae9f2)
+- 2019-01-15: Anders Roxell sent build warning/error patches
+  [1](https://lore.kernel.org/lkml/20190110101407.7583-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20190111122525.21167-1-anders.roxell@linaro.org)
+  [3](https://lore.kernel.org/lkml/20190114111327.27272-1-anders.roxell@linaro.org)
+  [4](https://lore.kernel.org/lkml/20190114111435.27397-1-anders.roxell@linaro.org)
+  [5](https://lore.kernel.org/lkml/20190114095754.23175-1-anders.roxell@linaro.org)
+  [6](https://lore.kernel.org/lkml/20190114095540.22956-1-anders.roxell@linaro.org)
+  [7](https://lore.kernel.org/lkml/20190110111535.11235-1-anders.roxell@linaro.org)
+  [8](https://lore.kernel.org/lkml/20190115191839.13823-1-anders.roxell@linaro.org)
+- 2019-01-14: Rafael Tinoco [closed bug 3783 kselftest proc-self-syscall arm32
+  failure as WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3783#c18)
 - 2019-01-08: Anders Roxell sent kselftest patches
   [1](https://lore.kernel.org/lkml/20190108092223.12467-1-anders.roxell@linaro.org)
-  [2](https://lore.kernel.org/lkml/20190108092303.12597-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20190108092303.12597-1-anders.roxell@linaro.org)([bug
+  3938](https://bugs.linaro.org/show_bug.cgi?id=3938))
   [3](https://lore.kernel.org/lkml/20190108092525.12817-1-anders.roxell@linaro.org)
   [4](https://lore.kernel.org/lkml/20190108092654.13113-1-anders.roxell@linaro.org)
 - 2019-01-08: Anders Roxell sent kernel build patch
@@ -55,7 +72,8 @@ Linux Kernel project and to the testing suites projects.
   udpgso](https://lore.kernel.org/lkml/bbabafb5-e16c-4025-31d0-d9e5feb5f39a@linaro.org)
   re: [bug 3980](https://bugs.linaro.org/show_bug.cgi?id=3980)1
 - 2018-12-17: Naresh Kamboju [reported a NULL pointer dereference in arm32 and
-  i386](https://www.spinics.net/lists/netdev/msg540473.html) re: [bug
+  i386](https://www.spinics.net/lists/netdev/msg540473.html), resulting in
+  [patch](https://www.spinics.net/lists/netdev/msg543568.html) re: [bug
   4129](https://bugs.linaro.org/show_bug.cgi?id=4129)
 - 2018-12-17: Anders Roxell [sent a
   patch](https://lore.kernel.org/lkml/20181217150326.30933-1-anders.roxell@linaro.org)

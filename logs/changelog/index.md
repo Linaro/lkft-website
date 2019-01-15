@@ -9,13 +9,25 @@ permalink: /logs/changelog/
 This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
+## 2019
+- 2019-01-11: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.60](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2019-01-09: Changed arm32 qemu jobs to use KVM, hosted on a
+  [SynQuacer](https://www.96boards.org/product/developerbox/)
+- 2019-01-07: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.59](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2019-01-03: Added v4.20 stable branch
+- 2019-01-02: Moved LKFT OpenEmbedded build to its own meta layer
+  [meta-lkft](https://github.com/linaro/meta-lkft)
+
 ## 2018
 - 2018-12-18: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.58](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-12-13: Added LTP cpuhotplug tests
 - 2018-12-12: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.56](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
-- 2018-12-11: Changed arm64 qemu jobs to use KVM, hosted on a Synquacer
+- 2018-12-11: Changed arm64 qemu jobs to use KVM, hosted on a
+  [SynQuacer](https://www.96boards.org/product/developerbox/)
 - 2018-12-04: Dropped 4.18 per [upstream
   announcement](https://lore.kernel.org/lkml/20181121103111.GA9112@kroah.com/)
 - 2018-12-03: Upgrade gcc from Linaro's gcc version 7.1.1 20170707 (Linaro GCC

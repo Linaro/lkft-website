@@ -35,6 +35,9 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 ### January
 
+- 2019-01-16: Rafael Tinoco [closed bug 3771 kselftest/membarrier_test as
+  WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3771#c13)
+  failure as WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3783#c18)
 - 2019-01-15: Naresh Kamboju reported a new [LTP
   failure](http://lists.linux.it/pipermail/ltp/2019-January/010535.html),
   resulting in test

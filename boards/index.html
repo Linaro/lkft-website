@@ -124,6 +124,7 @@ permalink: /boards/
     </ul>
   </div>
 </div>
+<hr>
 <!-- SynQuacer Developer Box -->
 <div class="row">
   <div class="col-md-3">
@@ -132,7 +133,8 @@ permalink: /boards/
   <div class="col-md-7">
     <header>
       <h2>SynQuacer™ Developerbox</h2>
-      <span class="label label-info">ARM 64bit</span>
+      <span class="label label-info">KVM ARM 64bit</span>
+      <span class="label label-info">KVM ARM 32bit</span>
     </header>
     <p>
       <a href="https://www.96boards.org/product/developerbox/">SynQuacer™
@@ -142,9 +144,13 @@ permalink: /boards/
       “SC2A11” is a multi-core chip with 24 cores of ARM® Cortex-A53. It is
       possible to construct a high integrated and low power consumption server
       system.
+    </p><p>
+      This system is used to host 2GB and 1GB QEMU/KVM hosts running ARM on
+      ARM.
     </p>
   </div>
 </div>
+<hr>
 <!-- QEMU -->
 <div class="row">
   <div class="col-md-3">
@@ -153,13 +159,11 @@ permalink: /boards/
   <div class="col-md-7">
     <header>
       <h2>QEMU</h2>
-      <span class="label label-info">ARM 64bit</span>
-      <span class="label label-info">ARM 32bit</span>
-      <span class="label label-info">x86 64bit</span>
-      <span class="label label-info">x86 32bit</span>
+      <span class="label label-info">KVM x86 64bit</span>
+      <span class="label label-info">KVM x86 32bit</span>
     </header>
     <p>
-      All tests are also run under emulation using <a
+      All tests are also run under KVM using <a
       href="https://www.qemu.org/">QEMU</a> on all supported architectures.
       QEMU is nice for troubleshooting without needing local hardware, as well
       as providing another data set to help determine when problems are board
@@ -167,6 +171,7 @@ permalink: /boards/
     </p>
   </div>
 </div>
+<hr>
 <!-- x86_64 Board -->
 <div class="row">
   <div class="col-md-3">

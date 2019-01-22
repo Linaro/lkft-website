@@ -35,6 +35,15 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 ### January
 
+- 2019-01-22: Anders Roxell sent allmodconfig patches
+  [1](https://lore.kernel.org/lkml/20190122103602.2641-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20190122083735.13286-1-anders.roxell@linaro.org)
+- 2019-01-18: Naresh Kamboju reported [kselftest bpf test_netcnt
+  failure](https://lore.kernel.org/netdev/CA+G9fYu-ku4dCOnUReot5jz3X18P1dWKiZCnnZaAJJt+p_HNjQ@mail.gmail.com)
+  re: [bug 4245](https://bugs.linaro.org/show_bug.cgi?id=4245)
+- 2019-01-16: Daniel Díaz [sent 4 kselftest patches
+  upstream](https://lore.kernel.org/lkml/20190116174320.14938-1-daniel.diaz@linaro.org)
+  that are being carried in OE
 - 2019-01-16: Rafael Tinoco [closed bug 3771 kselftest/membarrier_test as
   WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3771#c13)
   failure as WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3783#c18)

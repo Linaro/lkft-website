@@ -30,6 +30,19 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-01-21
+#### 4.9.152, 4.14.95, 4.20.4
+<!-- sla <24 3 -->
+- [Reported
+  crashes](https://lists.linaro.org/pipermail/lkft-triage/2019-January/008732.html)
+  in v4.20.3-15-g5592f5bf010b which were intentional 'canaries' (the canary
+  successfully died)
+- Reported no regressions in <24h
+
+#### 4.19.17
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2019-01-15
 #### 4.4.171, 4.9.151, 4.14.94, 4.19.16, 4.20.3
 <!-- sla <24 5 -->

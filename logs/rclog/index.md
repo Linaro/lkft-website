@@ -30,6 +30,12 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-01-24
+#### 4.4.172, 4.9.153, 4.14.96, 4.19.18, 4.20.5
+<!-- sla <24 5 -->
+- kselftest upgraded to 4.20 for all LTS branches
+- Reported no regressions in <24h
+
 ### 2019-01-21
 #### 4.9.152, 4.14.95, 4.20.4
 <!-- sla <24 3 -->

@@ -1,9 +1,9 @@
-serve:
+serve: .bundle
 	bundler exec jekyll serve -w -l
-install:
-	bundler install
+.bundle:
+	bundler install --path .bundle
 update:
 	bundler update
 clean:
-	rm -rf _site builds.html
+	rm -rf _site .bundle
 

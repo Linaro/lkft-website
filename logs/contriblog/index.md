@@ -35,9 +35,19 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 ### January
 
+- 2019-01-24: Rafael Tinoco [reported ltp/vma05.sh test
+  issue](http://lists.linux.it/pipermail/ltp/2019-January/010634.html) to LTP
+  re: [issue 477](https://github.com/linux-test-project/ltp/issues/477)/[bug
+  4256](https://bugs.linaro.org/show_bug.cgi?id=4256)
+- 2019-01-24: Rafael Tinoco [reported ltp/clock_settime_8-1 hardly
+  passes](https://github.com/linux-test-project/ltp/issues/478) to LTP re: [bug
+  3965](https://bugs.linaro.org/show_bug.cgi?id=3965)
+- 2019-01-24: Naresh Kamboju [reported an arm32 build failure on
+  -next](https://lore.kernel.org/linux-arm-kernel/CA+G9fYv0m79UC+Pq9Cq_5vGcos8A87oPYA7Ph7LUyZrfEkLXQA@mail.gmail.com)
 - 2019-01-22: Anders Roxell sent allmodconfig patches
   [1](https://lore.kernel.org/lkml/20190122103602.2641-1-anders.roxell@linaro.org)
   [2](https://lore.kernel.org/lkml/20190122083735.13286-1-anders.roxell@linaro.org)
+  [3](https://lore.kernel.org/lkml/20190123114811.25388-1-anders.roxell@linaro.org)
 - 2019-01-18: Naresh Kamboju reported [kselftest bpf test_netcnt
   failure](https://lore.kernel.org/netdev/CA+G9fYu-ku4dCOnUReot5jz3X18P1dWKiZCnnZaAJJt+p_HNjQ@mail.gmail.com)
   re: [bug 4245](https://bugs.linaro.org/show_bug.cgi?id=4245)

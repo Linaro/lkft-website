@@ -10,6 +10,10 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2019
+- 2019-01-28: LTP upgraded to 20190115
+- 2019-01-24: LTP "mm" tests added to LKFT (75 tests)
+- 2019-01-23: Upgraded kselftest that is run against all stable kernels to
+  4.20.
 - 2019-01-11: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.60](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2019-01-09: Changed arm32 qemu jobs to use KVM, hosted on a

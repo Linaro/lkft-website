@@ -35,6 +35,16 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 ### January
 
+- 2019-01-29: Rafael Tinoco sent an 8 patch series for [new clock_settime
+  tests](http://lists.linux.it/pipermail/ltp/2019-January/010655.html) to LTP
+- 2019-01-29: Anders Roxell sent build warning/error patches
+  [1](https://lore.kernel.org/lkml/20190129130146.11934-1-anders.roxell@linaro.org)
+- 2019-01-29: Naresh Kamboju [sent a
+  patch](https://lore.kernel.org/netdev/20190129062835.31122-1-naresh.kamboju@linaro.org)
+  to fix kselftest config for netfilter
+- 2019-01-28: Anders Roxell sent an [initial kselftest
+  result](https://lists.linaro.org/pipermail/lkft-triage/2019-January/008967.html)
+  report on -next to kselftest list
 - 2019-01-24: Rafael Tinoco [reported ltp/vma05.sh test
   issue](http://lists.linux.it/pipermail/ltp/2019-January/010634.html) to LTP
   re: [issue 477](https://github.com/linux-test-project/ltp/issues/477)/[bug
@@ -55,8 +65,8 @@ Linux Kernel project and to the testing suites projects.
   upstream](https://lore.kernel.org/lkml/20190116174320.14938-1-daniel.diaz@linaro.org)
   that are being carried in OE
 - 2019-01-16: Rafael Tinoco [closed bug 3771 kselftest/membarrier_test as
-  WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3771#c13)
-  failure as WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3783#c18)
+  WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3771#c13) failure as
+  WONTFIX](https://bugs.linaro.org/show_bug.cgi?id=3783#c18)
 - 2019-01-15: Naresh Kamboju reported a new [LTP
   failure](http://lists.linux.it/pipermail/ltp/2019-January/010535.html),
   resulting in test

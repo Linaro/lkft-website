@@ -35,6 +35,22 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 ### January
 
+- 2019-02-05: Naresh Kamboju
+  [reported](https://lore.kernel.org/lkml/20190204103506.GB3614@kroah.com) and
+  then [confirmed LTP/fanotify09 fixed on
+  4.14](https://lore.kernel.org/lkml/CA+G9fYu5b4Zk2ibs2f400NKVmVcFayxP+nkRMyY-qYXo0zjWVg@mail.gmail.com/)
+- 2019-02-04: Anders Roxell sent a [build warning
+  patch](https://lore.kernel.org/lkml/20190204132904.9288-1-anders.roxell@linaro.org)
+- 2019-02-01: Naresh Kamboju [reported a kernel
+  panic](https://lore.kernel.org/lkml/CA+G9fYu-RXRUPyTeAfSQjXXbtGQeTkbhns9-L5ZVhm12G3xhmQ@mail.gmail.com)
+  on -next while running kselftest/bpf/test_tunnel.sh
+- 2019-01-31: Anders Roxell sent a [build warning
+  patch](https://lore.kernel.org/lkml/20190131161046.21886-1-anders.roxell@linaro.org)
+- 2019-01-30: Naresh Kamboju reported a [kselftest/test_vxlan_fdb_changelink.sh
+  failure](https://lore.kernel.org/netdev/CA+G9fYtR3+VF65c33rGZxq+Lib5G714x2tq4Jq_DhhsVqem6gQ@mail.gmail.com)
+- 2019-01-30: Naresh Kamboju closed the following bugs as resolved
+  [LTP/bind03](https://bugs.linaro.org/show_bug.cgi?id=4042)
+  [LTP/ksm03 and ksm03_1](https://bugs.linaro.org/show_bug.cgi?id=4255)
 - 2019-01-29: Rafael Tinoco sent an 8 patch series for [new clock_settime
   tests](http://lists.linux.it/pipermail/ltp/2019-January/010655.html) to LTP
 - 2019-01-29: Anders Roxell sent build warning/error patches

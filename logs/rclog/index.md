@@ -34,7 +34,7 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 #### 4.4.173, 4.9.155, 4.14.98, 4.19.20, 4.20.7
 <!-- sla <24 5 -->
 - LTP/fanotify09 fixed on 4.14.98 due to backport [requested in
-  4.14.97](https://lore.kernel.org/lkml/20190204103506.GB3614@kroah.com)
+  4.14.97](https://lore.kernel.org/lkml/CA+G9fYvh6axRDLWpR3_ozw46JUknsYgEjvYOZfQEUbhroHPVTA@mail.gmail.com/)
 - Reported no regressions in <24h
 
 ### 2019-01-30

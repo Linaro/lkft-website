@@ -33,8 +33,10 @@ Linux Kernel project and to the testing suites projects.
 -->
 
 ## 2019
-### January
 
+### February
+- 2019-02-12: Anders Roxell sent build error patches
+  [1](https://lore.kernel.org/lkml/20190212112121.32163-1-anders.roxell@linaro.org)
 - 2019-02-05: Naresh Kamboju
   [reported](https://lore.kernel.org/lkml/CA+G9fYvh6axRDLWpR3_ozw46JUknsYgEjvYOZfQEUbhroHPVTA@mail.gmail.com/)
   and then [confirmed LTP/fanotify09 fixed on
@@ -44,6 +46,8 @@ Linux Kernel project and to the testing suites projects.
 - 2019-02-01: Naresh Kamboju [reported a kernel
   panic](https://lore.kernel.org/lkml/CA+G9fYu-RXRUPyTeAfSQjXXbtGQeTkbhns9-L5ZVhm12G3xhmQ@mail.gmail.com)
   on -next while running kselftest/bpf/test_tunnel.sh
+
+### January
 - 2019-01-31: Anders Roxell sent a [build warning
   patch](https://lore.kernel.org/lkml/20190131161046.21886-1-anders.roxell@linaro.org)
 - 2019-01-30: Naresh Kamboju reported a [kselftest/test_vxlan_fdb_changelink.sh

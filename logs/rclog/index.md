@@ -35,7 +35,7 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 <!-- sla <24 3 -->
 - Reported no regressions in <24h
 
-#### 4.9.156, 4.14.99, 4.19.21, 4.20.8
+#### 4.20.8
 <!-- sla <48 1 -->
 - Reported no regressions in <48h
 

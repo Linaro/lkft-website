@@ -21,7 +21,7 @@ or upstream.
 All regressions are triaged and reported internally and/or upstream. Typically
 the test will also be added as a known issue until it is fixed.
 
-# Test Suites
+# Running Test Suites
 
 ## Linux Test Project (LTP)
 
@@ -108,3 +108,12 @@ uses in kselftest can be found at
 
 [libhugetlbfs](https://github.com/libhugetlbfs/libhugetlbfs) is run using the
 latest released version.
+
+# Future Test Suites
+
+We are continously evaluating test suites we think are relevant. We are guided by feeback from our kernel engineers, and the community at large so if you have any input, please do e-mail us at [lkft@linaro.org](lkft@lianro.org), ping us over IRC at freenode/#linaro-lkft or join our [triage ML](https://lists.linaro.org/mailman/listinfo/lkft-triage)
+
+As of Feb-2019, we are planning on adding [benchmarks for storage I/O](https://github.com/algodev-github/S),[KVM unit test](https://git.kernel.org/pub/scm/virt/kvm/kvm-unit-tests.git) and [v4l2 validation test suite](https://linuxtv.org/wiki/index.php/V4L_Test_Suite) to [our LKFT](https://qa-reports.linaro.org/lkft/) instance.
+
+Down the road, we plan on investigating [LKP](https://github.com/intel/lkp-tests),[mmtests](https://github.com/gormanm/mmtests) and [XFStests](http://xfs.org/index.php/Main_Page)
+

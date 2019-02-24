@@ -35,10 +35,14 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 
 ### February
+- 2019-02-18: Naresh Kamboju [reported am57xx-evm boot
+  failure](https://lore.kernel.org/lkml/CA+G9fYsmC5ckLXfQxSUn-tqxLZ4NofEyb9RA69Q07RUoxc79RQ@mail.gmail.com)
+  on -next
 - 2019-02-12: Anders Roxell sent build error patches
   [1](https://lore.kernel.org/lkml/20190212112121.32163-1-anders.roxell@linaro.org)
   [2](https://lore.kernel.org/lkml/20190214205812.7311-1-anders.roxell@linaro.org)
   [3](https://lore.kernel.org/lkml/20190213221625.7551-1-anders.roxell@linaro.org)
+  [4](https://lore.kernel.org/lkml/20190218110050.10589-1-anders.roxell@linaro.org)
 - 2019-02-05: Naresh Kamboju
   [reported](https://lore.kernel.org/lkml/CA+G9fYvh6axRDLWpR3_ozw46JUknsYgEjvYOZfQEUbhroHPVTA@mail.gmail.com/)
   and then [confirmed LTP/fanotify09 fixed on

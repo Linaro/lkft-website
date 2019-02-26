@@ -35,9 +35,21 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 
 ### February
+- 2019-02-22: Anders Roxell [sent a build
+  patch](https://lore.kernel.org/lkml/20190222152554.30006-1-anders.roxell@linaro.org)
+- 2019-02-22: Anders Roxell [sent a
+  patch](https://lore.kernel.org/lkml/20190222084652.1326-1-anders.roxell@linaro.org)
+  to fix bpf testing
+- 2019-02-21: Daniel Díaz [submitted a
+  patch](http://lists.linux.it/pipermail/ltp/2019-February/010916.html) to LTP
+  for MUSL support
+- 2019-02-18: Naresh Kamboju [resolved bug
+  4048](https://bugs.linaro.org/show_bug.cgi?id=4084#c7) LKFT:
+  dragonboard-410c: Kernel panic: VSF: Unable to mount root fs as fixed on
+  linux next
 - 2019-02-18: Naresh Kamboju [reported am57xx-evm boot
   failure](https://lore.kernel.org/lkml/CA+G9fYsmC5ckLXfQxSUn-tqxLZ4NofEyb9RA69Q07RUoxc79RQ@mail.gmail.com)
-  on -next
+  on -next re: [bug 4286](https://bugs.linaro.org/show_bug.cgi?id=4286)
 - 2019-02-12: Anders Roxell sent build error patches
   [1](https://lore.kernel.org/lkml/20190212112121.32163-1-anders.roxell@linaro.org)
   [2](https://lore.kernel.org/lkml/20190214205812.7311-1-anders.roxell@linaro.org)

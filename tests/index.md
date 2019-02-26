@@ -29,7 +29,9 @@ The following test sets are run in
 [LTP](https://github.com/linux-test-project/ltp):
 
 - cap_bounds
+- commands
 - containers
+- dio
 - fcntl-locktests
 - filecaps
 - fs_bind
@@ -40,6 +42,7 @@ The following test sets are run in
 - io
 - ipc
 - math
+- mm
 - nptl
 - pty
 - sched
@@ -111,9 +114,18 @@ latest released version.
 
 # Future Test Suites
 
-We are continously evaluating test suites we think are relevant. We are guided by feeback from our kernel engineers, and the community at large so if you have any input, please do e-mail us at [lkft@linaro.org](lkft@lianro.org), ping us over IRC at freenode/#linaro-lkft or join our [triage ML](https://lists.linaro.org/mailman/listinfo/lkft-triage)
+We are continuously evaluating test suites for use in LKFT. We are guided by
+feedback from kernel engineers and the community at large. If you would like to
+see a particular test or test suite added to LKFT, please [contact us](mailto:
+lkft@linaro.org).
 
-As of Feb-2019, we are planning on adding [benchmarks for storage I/O](https://github.com/algodev-github/S),[KVM unit test](https://git.kernel.org/pub/scm/virt/kvm/kvm-unit-tests.git) and [v4l2 validation test suite](https://linuxtv.org/wiki/index.php/V4L_Test_Suite) to [our LKFT](https://qa-reports.linaro.org/lkft/) instance.
+Tests under development include [benchmarks for storage
+I/O](https://github.com/algodev-github/S), [KVM unit
+test](https://git.kernel.org/pub/scm/virt/kvm/kvm-unit-tests.git) and [v4l2
+validation test suite](https://linuxtv.org/wiki/index.php/V4L_Test_Suite).
 
-Down the road, we plan on investigating [LKP](https://github.com/intel/lkp-tests),[mmtests](https://github.com/gormanm/mmtests) and [XFStests](http://xfs.org/index.php/Main_Page)
+Other tests or test repositories that we are interested in include
+[LKP](https://github.com/intel/lkp-tests),
+[mmtests](https://github.com/gormanm/mmtests) and
+[XFStests](http://xfs.org/index.php/Main_Page).
 

@@ -2,27 +2,12 @@
     <div class="row">
         <footer id="footer">
             <div class="container">
-              <!--
-                <div class="row main-footer-content">
-                    {% for column in site.data.footer.columns %}
-                    <div class="col-xs-6 col-md-2">
-                        <ul class="list-unstyled ">
-                            <li><b><a class="footer-heading" href="{% if column.url %}{{column.url}}{% else %}#{% endif %}">{{column.title}}</a></b></li>
-                            {% if column.items %} {% for item in column.items %}
-                            <li><a class="footer-element" href="{{item.url}}">{{item.text}}</a></li>
-                            {% endfor %} {% endif %}
-                        </ul>
-                    </div>
-                    {% endfor %}
-                </div>
-              -->
-
                 <div class="row footer-slim">
                     <div class="container">
                       <div class="company-footer-bottom">
                           {% for link in site.data.footer.company-links %}
                               <a href="{{link.url}}">{{link.name}}</a> 
-			      {% if forloop.last == false %}
+                              {% if forloop.last == false %}
                               <span class="coloured-bp">&bull;</span>
                               {% endif %}
                           {% endfor %}
@@ -31,6 +16,8 @@
                         <a href="mailto:lkft@linaro.org">lkft@linaro.org</a>
                         <span class="coloured-bp">&bull;</span>
                         freenode/#linaro-lkft
+                        <span class="coloured-bp">&bull;</span>
+                        <a href="https://lists.linaro.org/mailman/listinfo/lkft-triage">lkft-triage@lists.linaro.org</a>
                       </div>
                       <div class="company-footer-bottom">
                           Copyright &copy; {{ 'now' | date: "%Y" }} Linaro Limited <a href="{{site.data.linaro.url}}">{{site.data.linaro.name}}</a>

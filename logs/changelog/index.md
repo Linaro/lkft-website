@@ -10,6 +10,7 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2019
+- 2019-02-27: LTP "commands" tests added to LKFT
 - 2019-02-22: LTP "dio" tests added to LKFT
 - 2019-02-20: Now [sending kselftest
   reports](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2019-February/003456.html)

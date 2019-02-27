@@ -35,6 +35,8 @@ Linux Kernel project and to the testing suites projects.
 ## 2019
 
 ### February
+- 2019-02-26: Dan Rue [opened a upx bug](https://github.com/upx/upx/issues/254)
+  which occurs when running with 64k page size on aarch64.
 - 2019-02-22: Anders Roxell [sent a build
   patch](https://lore.kernel.org/lkml/20190222152554.30006-1-anders.roxell@linaro.org)
 - 2019-02-22: Anders Roxell [sent a

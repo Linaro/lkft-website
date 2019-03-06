@@ -34,6 +34,15 @@ Linux Kernel project and to the testing suites projects.
 
 ## 2019
 
+### March
+
+- 2019-03-04: Anders Roxell [reported a use after
+  free](https://lore.kernel.org/lkml/CADYN=9KkjPSP4KJ+AzG=Njq49zJ5fbWNZ4V_jOvHkq_kt0biyA@mail.gmail.com)
+  with KASAN in next
+- 2019-03-01: Naresh Kamboju
+  [reported](https://lore.kernel.org/lkml/CA+G9fYvTkCZf-5OVU848ceskxhB6tKuabZphLb6XC23Nfe6VGA@mail.gmail.com)
+  a kernel warning triggered by bpf test_sock
+
 ### February
 - 2019-02-26: Dan Rue [opened a upx bug](https://github.com/upx/upx/issues/254)
   which occurs when running with 64k page size on aarch64.

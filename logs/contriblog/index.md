@@ -36,7 +36,7 @@ Linux Kernel project and to the testing suites projects.
 
 ### March
 
-- 2010-03-12: Ming Lei [posted a
+- 2019-03-12: Ming Lei [posted a
   patch](https://patchwork.kernel.org/patch/10831823/) to resolve mmc issue
   reported by Naresh re: [bug
   4286](https://bugs.linaro.org/show_bug.cgi?id=4286)

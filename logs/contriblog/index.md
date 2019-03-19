@@ -36,6 +36,9 @@ Linux Kernel project and to the testing suites projects.
 
 ### March
 
+- 2019-03-13: Naresh Kamboju [reported mount02
+  failure](http://lists.linux.it/pipermail/ltp/2019-March/011231.html) on
+  mainline
 - 2019-03-12: Ming Lei [posted a
   patch](https://patchwork.kernel.org/patch/10831823/) to resolve mmc issue
   reported by Naresh re: [bug

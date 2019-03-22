@@ -10,6 +10,7 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2019
+- 2019-03-19: OpenEmbedded build moved from Rocko to Sumo
 - 2019-03-04: Added v5.0 stable branch
 - 2019-02-27: LTP "commands" tests added to LKFT
 - 2019-02-22: LTP "dio" tests added to LKFT

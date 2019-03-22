@@ -24,7 +24,7 @@ Linux Kernel project and to the testing suites projects.
 
     Where:
         date: date the action occurred
-        person: email address of person taking an action
+        person: name of person taking an action
         verb: description of action taken. May be "reported", "sent patch",
               followed by a *very brief* description of the context. This
               should link to a mailing list post. If it's a mailing list
@@ -36,6 +36,17 @@ Linux Kernel project and to the testing suites projects.
 
 ### March
 
+- 2019-03-21: Anders Roxell sent build warning patches
+  [1](https://lore.kernel.org/lkml/20190321132444.28659-1-anders.roxell@linaro.org)
+  [2](https://lore.kernel.org/lkml/20190321131925.27421-1-anders.roxell@linaro.org)
+- 2019-03-20: Daniel Díaz [sent a
+  backport](https://lore.kernel.org/lkml/20190320211400.7128-1-daniel.diaz@linaro.org)
+  to fix a perf issue on 4.4
+- 2019-03-18: Naresh Kamboju [reported test_align
+  failure](https://lore.kernel.org/netdev/CA+G9fYuNFJSjH39P71UfZTE4SPGsT4AM2Eg_k++B61ck86k42w@mail.gmail.com)
+  re: [bug 4319](https://bugs.linaro.org/show_bug.cgi?id=4319)
+- 2019-03-18: Naresh Kamboju resolved bug "hikey hangs at udhcpc and ip a
+  commands" re: [bug 3960](https://bugs.linaro.org/show_bug.cgi?id=3960)
 - 2019-03-13: Naresh Kamboju [reported mount02
   failure](http://lists.linux.it/pipermail/ltp/2019-March/011231.html) on
   mainline

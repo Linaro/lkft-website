@@ -112,6 +112,12 @@ uses in kselftest can be found at
 [libhugetlbfs](https://github.com/libhugetlbfs/libhugetlbfs) is run using the
 latest released version.
 
+## Perf
+
+Linux [perf](https://perf.wiki.kernel.org/index.php/Main_Page) is built and
+tested using a basic set of tests implemented at
+[test-definitions](https://github.com/Linaro/test-definitions/tree/master/automated/linux/perf).
+
 # Future Test Suites
 
 We are continuously evaluating test suites for use in LKFT. We are guided by

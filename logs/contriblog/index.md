@@ -39,6 +39,7 @@ Linux Kernel project and to the testing suites projects.
 - 2019-03-21: Anders Roxell sent build warning patches
   [1](https://lore.kernel.org/lkml/20190321132444.28659-1-anders.roxell@linaro.org)
   [2](https://lore.kernel.org/lkml/20190321131925.27421-1-anders.roxell@linaro.org)
+  [3](https://lore.kernel.org/lkml/20190325102453.8349-1-anders.roxell@linaro.org)
 - 2019-03-20: Daniel Díaz [sent a
   backport](https://lore.kernel.org/lkml/20190320211400.7128-1-daniel.diaz@linaro.org)
   to fix a perf issue on 4.4

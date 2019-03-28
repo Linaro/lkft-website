@@ -118,6 +118,11 @@ Linux [perf](https://perf.wiki.kernel.org/index.php/Main_Page) is built and
 tested using a basic set of tests implemented at
 [test-definitions](https://github.com/Linaro/test-definitions/tree/master/automated/linux/perf).
 
+## Video4Linux (v4l2)
+
+The [v4l2-compliance tests](https://linuxtv.org/wiki/index.php/V4L_Test_Suite)
+are run using a virtual driver (VIVI)
+
 # Future Test Suites
 
 We are continuously evaluating test suites for use in LKFT. We are guided by

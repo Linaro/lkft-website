@@ -10,6 +10,10 @@ This log is a high level overview of changes in the LKFT environment and
 infrastructure.
 
 ## 2019
+
+- 2019-03-26: Added Video4Linux
+  ([v4l2-compliance](https://linuxtv.org/wiki/index.php/V4L_Test_Suite))
+  testing using a virtual driver (VIVI)
 - 2019-03-26: Added basic perf testing
 - 2019-03-19: OpenEmbedded build moved from Rocko to Sumo
 - 2019-03-04: Added v5.0 stable branch

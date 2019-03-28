@@ -30,6 +30,11 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-03-26
+#### 4.9.166, 4.14.109, 4.19.32, 5.0.5
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2019-03-22
 #### 4.4.177, 4.9.165, 4.14.108, 4.19.31, 5.0.4
 <!-- sla <24 5 -->

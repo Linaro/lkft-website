@@ -11,6 +11,10 @@ infrastructure.
 
 ## 2019
 
+- 2019-04-09: [kvm-unit-tests](https://www.linux-kvm.org/page/KVM-unit-tests)
+  added
+- 2019-04-08: [S I/O Benchmark Suite](https://github.com/Algodev-github/S)
+  enabled for x86_64
 - 2019-03-26: Added Video4Linux
   ([v4l2-compliance](https://linuxtv.org/wiki/index.php/V4L_Test_Suite))
   testing using a virtual driver (VIVI)

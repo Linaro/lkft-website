@@ -123,6 +123,26 @@ tested using a basic set of tests implemented at
 The [v4l2-compliance tests](https://linuxtv.org/wiki/index.php/V4L_Test_Suite)
 are run using a virtual driver (VIVI)
 
+## KVM Unit Tests
+
+[KVM-unit-tests](https://www.linux-kvm.org/page/KVM-unit-tests) are run to
+verify basic functionality of KVM.
+
+## S Suite
+
+[S I/O Benchmark Suite](https://github.com/Algodev-github/S) are enabled for a
+subset of systems to verify I/O performance.
+
+For the moment, this test makes it possible to execute the following
+two benchmarks with the suite:
+- responsiveness, by measuring start-up times of real applications
+  under real background workloads;
+- throughput with processes doing filesystem or raw I/O in parallel
+  (figure of merit measured by many other suites too).
+
+
+
+
 # Future Test Suites
 
 We are continuously evaluating test suites for use in LKFT. We are guided by

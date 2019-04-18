@@ -34,5 +34,5 @@ pages:
             url: /logs/changelog/
           - text: Release Candidate Log
             url: /logs/rclog/
-          - text: Contribution Log
-            url: /logs/contriblog/
+          #- text: Contribution Log
+          #  url: /logs/contriblog/

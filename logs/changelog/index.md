@@ -11,6 +11,10 @@ infrastructure.
 
 ## 2019
 
+- 2019-04-18: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
+  0.63](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
+- 2019-04-18: Archived branches moved back into
+  [qa-reports/lkft](https://qa-reports.linaro.org/lkft/)
 - 2019-04-09: [kvm-unit-tests](https://www.linux-kvm.org/page/KVM-unit-tests)
   added
 - 2019-04-08: [S I/O Benchmark Suite](https://github.com/Algodev-github/S)

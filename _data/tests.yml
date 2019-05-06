@@ -11,6 +11,8 @@ tests:
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/
     - name: "5.0"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.0-oe/
+    - name: "5.1"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
     - name: "mainline"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
     - name: "linux-next"

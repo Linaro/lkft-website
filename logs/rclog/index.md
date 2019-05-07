@@ -60,7 +60,7 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 - Reported no regressions in <24h
 
 ### 2019-04-18
-##### 4.9.170, 4.14.113, 4.19.36, 5.0.9
+#### 4.9.170, 4.14.113, 4.19.36, 5.0.9
 <!-- sla <24 4 -->
 - Reported perf-related build failures on
   [4.19](https://lore.kernel.org/lkml/20190418181526.dopckmdnxxnrnkgj@xps.therub.org/)
@@ -70,7 +70,7 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 - On 4.19 and 5.0, reported no regressions in <24h after perf issues were resolved
 
 ### 2019-04-15
-##### 4.9.169, 4.14.112, 4.19.35, 5.0.8
+#### 4.9.169, 4.14.112, 4.19.35, 5.0.8
 <!-- sla <24 4 -->
 - Reported no regressions in <24h
 

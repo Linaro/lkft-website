@@ -30,6 +30,25 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-05-06
+#### 4.9.174, 4.14.117, 4.19.41, 5.0.14
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+### 2019-05-04
+#### 4.19.40, 5.0.13
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2019-05-02
+#### 4.9.173, 4.14.116, 4.19.39, 5.0.12
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+- Noted that v4l2-compliance kernel crash fixed as a result of LKFT report and
+  subsequent backport of [ed356f110403 ("media: vivid: check if the cec_adapter
+  is
+  valid")](https://lore.kernel.org/lkml/20190502143316.137488919@linuxfoundation.org)
+
 ### 2019-04-30
 #### 4.9.172, 4.14.115, 4.19.38, 5.0.11
 <!-- sla <24 4 -->

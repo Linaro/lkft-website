@@ -6,6 +6,7 @@ along with Linaro's jumbo-jekyll-theme.
 
 ## Developing
 
+* Set BUNDLE_PATH for bundler, e.g. `export BUNDLE_PATH=$HOME/.bundle`
 * Install ruby >= 2.4.2 (required by jumbo-jekyll-theme).
 * Install jekyll and bundler (`gem install jekyll bundler`)
 * Install lkft-website (`bundler install`)

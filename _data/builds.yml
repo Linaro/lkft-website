@@ -9,42 +9,42 @@ branches:
   - linux-next
 
 boards:
-- name: Hikey
-  architecture: arm64
-  branches:
-    "4.4":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linaro-hikey-stable-rc-4.4-oe/
-    "4.9":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
-    "4.14":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
-    "4.19":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.19/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.19/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/
-    "5.0":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.0/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.0/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.0-oe/
-    "5.1":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
-    "mainline":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
-    "linux-next":
-      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
-      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
-      squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
-
+#- name: Hikey
+#  architecture: arm64
+#  branches:
+#    "4.4":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linaro-hikey-stable-rc-4.4/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linaro-hikey-stable-rc-4.4-oe/
+#    "4.9":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.9/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.9/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
+#    "4.14":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.14/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.14/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
+#    "4.19":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-4.19/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-4.19/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/
+#    "5.0":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.0/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.0/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.0-oe/
+#    "5.1":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+#    "mainline":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
+#    "linux-next":
+#      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-next/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+#      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-next/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
+#
 - name: X15
   architecture: arm32
   branches:

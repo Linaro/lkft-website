@@ -30,6 +30,25 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-05-20
+#### 4.9.178, 4.14.121, 4.19.45, 5.0.18, 5.1.4
+<!-- sla <24 5 -->
+- Reported no regressions on 4.9 and 4.14 in <24h
+- Reported ext4 regression
+  ([thread](https://lore.kernel.org/lkml/20190520222342.wtsjx227c6qbkuua@xps.therub.org])
+  on 4.19, 5.0, 5.1 in <24h
+  - Subsequently reported no regressions on 4.19, 5.0, 5.1
+
+### 2019-05-15
+#### 4.4.180, 4.9.177, 4.14.120, 4.19.44, 5.0.17, 5.1.3
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2019-05-14
+#### 4.9.176, 4.14.119, 4.19.43, 5.0.16, 5.1.2
+- Security release (without normal review round) for Microarchitectural Data
+Sampling ([MDS](https://xenbits.xen.org/xsa/advisory-297.html))
+
 ### 2019-05-09
 #### 4.9.175, 4.14.118, 4.19.42, 5.0.15, 5.1.1
 <!-- sla <24 5 -->

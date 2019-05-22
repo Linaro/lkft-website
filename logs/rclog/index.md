@@ -35,7 +35,7 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 <!-- sla <24 5 -->
 - Reported no regressions on 4.9 and 4.14 in <24h
 - Reported ext4 regression
-  ([thread](https://lore.kernel.org/lkml/20190520222342.wtsjx227c6qbkuua@xps.therub.org])
+  ([thread](https://lore.kernel.org/lkml/20190520222342.wtsjx227c6qbkuua@xps.therub.org))
   on 4.19, 5.0, 5.1 in <24h
   - Subsequently reported no regressions on 4.19, 5.0, 5.1
 

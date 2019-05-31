@@ -26,6 +26,7 @@ tested:
 - android-hikey-linaro-4.4
 - android-hikey-linaro-4.9
 - android-hikey-linaro-4.14
+- android-hikey-linaro-4.19
 
 ## mainline
 

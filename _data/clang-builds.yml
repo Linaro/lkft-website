@@ -1,0 +1,22 @@
+toolchains:
+- clang-r328903 
+- clang-master
+architectures:
+- arm64
+- x86_64
+branches:
+- name: "mainline"
+  clang-r328903:
+    arm64:
+      jenkins_build_url: https://ci.linaro.org/job/lkft-linux-clang/ARCH=arm64,CLANG_TOOLCHAIN=clang-r328903,label=docker-stretch-amd64/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=lkft-linux-clang/ARCH=arm64,CLANG_TOOLCHAIN=clang-r328903,label=docker-stretch-amd64
+    x86_64:
+      jenkins_build_url: https://ci.linaro.org/job/lkft-linux-clang/ARCH=x86_64,CLANG_TOOLCHAIN=clang-r328903,label=docker-stretch-amd64/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=lkft-linux-clang/ARCH=x86_64,CLANG_TOOLCHAIN=clang-r328903,label=docker-stretch-amd64
+  clang-master:
+    arm64:
+      jenkins_build_url: https://ci.linaro.org/job/lkft-linux-clang/ARCH=arm64,CLANG_TOOLCHAIN=clang-master,label=docker-stretch-amd64/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=lkft-linux-clang/ARCH=arm64,CLANG_TOOLCHAIN=clang-master,label=docker-stretch-amd64
+    x86_64:
+      jenkins_build_url: https://ci.linaro.org/job/lkft-linux-clang/ARCH=x86_64,CLANG_TOOLCHAIN=clang-master,label=docker-stretch-amd64/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=lkft-linux-clang/ARCH=x86_64,CLANG_TOOLCHAIN=clang-master,label=docker-stretch-amd64

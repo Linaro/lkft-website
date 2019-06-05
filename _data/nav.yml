@@ -28,5 +28,11 @@ pages:
       url: /branches/
     - title: Tests
       url: /tests/
-    - title: Changelog
-      url: /changelog/
+    - title: Logs
+      options:
+          - text: Changelog
+            url: /logs/changelog/
+          - text: Release Candidate Log
+            url: /logs/rclog/
+          #- text: Contribution Log
+          #  url: /logs/contriblog/

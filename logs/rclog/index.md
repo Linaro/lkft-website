@@ -30,6 +30,17 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-06-09
+#### 4.4.181, 4.9.181, 4.14.125, 4.19.50, 5.1.9
+<!-- sla <8 5 -->
+- Reported no regressions in <8h
+
+### 2019-06-07
+#### 4.14.124, 4.19.49, 5.1.8
+<!-- sla <24 3 -->
+- btrfs compile failure reported against 4.14, fixed in -rc2
+- Reported no regressions in <24h
+
 ### 2019-06-03
 #### 4.19.48, 5.0.21, 5.1.7
 <!-- sla <24 3 -->

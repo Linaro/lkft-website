@@ -30,6 +30,16 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-06-17
+#### 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11
+- No stable-review period; this was a security release for [some TCP
+  issues](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md)
+
+### 2019-06-13
+#### 4.14.126, 4.19.51, 5.1.10
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2019-06-09
 #### 4.4.181, 4.9.181, 4.14.125, 4.19.50, 5.1.9
 <!-- sla <8 5 -->

@@ -29,4 +29,3 @@ branch.
 
 The staging branch is online at
 [https://staging.lkft.linaro.org/](https://staging.lkft.linaro.org/).
-

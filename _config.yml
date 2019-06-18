@@ -1,7 +1,7 @@
 title: LKFT
 tagline: Linaro’s Linux Kernel Functional Test framework
 #email: lkft-triage@lists.linaro.org # have to figure out what lists to publish
-footer-text: "freenode/#linaro-lkft • lkft-triage@lists.linaro.org"
+footer-text: "Copyright © 2019 Linaro Limited • [lkft@linaro.org](mailto:lkft@linaro.org) • freenode/#linaro-lkft • [lkft-triage@lists.linaro.org](mailto:lkft-triage@lists.linaro.org)"
 irc_channel: linaro-lkft
 github_username: danrue
 github_repository: danrue/lkft-site

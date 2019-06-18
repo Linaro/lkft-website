@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: page
 title: Branches
 permalink: /branches/
 ---

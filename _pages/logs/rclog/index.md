@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: page
 title: Stable Release Candidate Log
 permalink: /logs/rclog/
 ---

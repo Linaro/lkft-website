@@ -2,7 +2,7 @@
 
 This repository is the source for
 [https://lkft.linaro.org](https://staging.lkft.linaro.org/). It runs Jekyll
-along with Linaro's jumbo-jekyll-theme.
+along with Linaro's seriously_simple_static_starter theme.
 
 ## Developing
 

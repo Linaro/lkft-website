@@ -1,0 +1,110 @@
+-
+  title: HiKey
+  label: Arm 64bit
+  format: right
+  image: /assets/images/hikey-6220.jpg
+  text: >
+      The [HiKey 620](https://www.96boards.org/product/hikey/) was the first board to be certified 96Boards Consumer Edition compatible,
+      1GB and 2GB variants are available from LeMaker. The board is based
+      around the HiSilicon Kirin 620 SoC and also delivers high performance 3D
+      graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a
+      board the size of a credit card.
+
+      ### Specs 
+      
+      - CPU: ARM® CortexTM-A53 Octa-core 64-bit up to 1.2GHz (Arm v8 instruction set)
+
+      - RAM: 2GB LPDDR3 SDRAM @ 800MHz
+
+      - Storage: 8GB eMMC on board storage MicroSD card slot
+
+      - Ethernet Port: USB2.0 expansion
+
+      - USB: 2 x USB2.0 Host 1 x USB 2.0 OTG
+-
+  title: X15
+  label: Arm 32bit
+  image: /assets/images/bb_x15.png
+  text: >
+      [BeagleBoard-X15](https://beagleboard.org/x15) is the top
+      performing, mainline Linux enabled, power-users’ dream board with a core
+      tailored for every computing task and a highspeed interface for every
+      connectivity need.
+
+      ### Specs
+
+      - CPU: TI AM5728 2×1.5-GHz ARM® Cortex-A15
+      
+      - RAM: 2GB DDR3 RAM
+
+      - Storage: 4GB 8-bit eMMC on-board flash storage
+
+      - Ethernet Port: 2×Gigabit Ethernet
+
+      - USB: 3 x USB3.0 Host 1 x USB 2.0 OTG
+-
+  title: Juno r2
+  label: Arm 64bit
+  format: right
+  image: /assets/images/juno_r2.jpg
+  text: >
+      The [Juno](https://developer.arm.com/products/system-design/development-boards/juno-development-board) Arm Development Platform is a software development platform for
+      Armv8-A which includes the Arm Versatile Express Juno development board
+      and an Armv8-A reference software port available through Linaro.
+
+      ### Specs
+
+      - CPU: Cortex® A72 and A53 MPCore™ for PCIExpress development with ARMv8-A
+      - RAM: 8GB 1600MHz DDR
+      - Storage: SATA
+      - Ethernet Port: 1×10/100 Ethernet
+      - USB: 4 x USB2.0 Host
+-
+  title: DragonBoard™ 410c
+  label: Arm 64bit
+  image: /assets/images/db410c.png
+  text: >
+      The [DragonBoard](https://www.96boards.org/product/dragonboard410c/) 410c, a product of Arrow Electronics, is the development board based
+      on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features
+      advanced processing power, Wi-Fi, Bluetooth connectivity, and GPS, all
+      packed into a board the size of a credit card.
+
+      ### Specs
+
+      - CPU: ARM Cortex-A53 Quad-core up to 1.2 GHz per core
+
+      - RAM: 1GB LPDDR3 SDRAM @ 533MHz
+
+      - Storage: 8GB eMMC 4.51 on board storage and MicroSD card slot
+
+      - Ethernet Port: USB2.0 expansion
+
+      - USB: 2 x USB 2.0 Host 1 x USB 2.0 OTG
+-
+  title: SynQuacer™ Developerbox
+  label: KVM ARM 64bit & KVM ARM 32bit
+  format: right
+  image: /assets/images/developerbox-front-sd.png
+  text: >
+      [SynQuacer™ E-Series](https://www.96boards.org/product/developerbox/) is a software development environment compliant with
+      Linaro’s 96Boards open hardware specification. This has been built
+      jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”.
+      “SC2A11” is a multi-core chip with 24 cores of ARM® Cortex-A53.
+
+      This system is used to host 2GB and 1GB QEMU/KVM hosts running ARM on ARM.
+-
+  title: QEMU
+  label: KVM ARM 64bit & KVM ARM 32bit
+  format: right
+  image: /assets/images/Qemu-logo.png
+  text: >
+      All tests are also run under KVM using [QEMU](https://www.qemu.org/) on all supported architectures.
+      QEMU is nice for troubleshooting without needing local hardware, as well
+      as providing another data set to help determine when problems are board
+      specific or architecture specific..
+-
+  title: x86_64 Server
+  label: x86 64bit & x86 32bit
+  image: /assets/images/x86.png
+  text: >
+      Tests are also run in both 64bit and 32bit mode on a typical x86_64 server for the purposes of providing a baseline for comparison.

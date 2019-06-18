@@ -31,6 +31,20 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 ## 2019
 
 ### 2019-06-17
+####  4.14.128, 4.19.53, 5.1.12
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Reported [issue with
+  ptrace](https://lore.kernel.org/linux-kselftest/CA+G9fYsFL5AH6dkdN2Qd6UP=wdiXRDR_ioQFPSCq=uUBcmtHXw@mail.gmail.com)
+  in pre-rc results
+- Noted [v4l2 issue
+  fixed](https://lore.kernel.org/lkml/CA+G9fYueq_CFv59aYSguU_yq_nd9zwpcpnJKrqVtx_VOCSZ+9A@mail.gmail.com
+  ) in 4.14 thanks to requested backport
+- Noted [workqueue.c kernel warning
+  fixed](https://lore.kernel.org/lkml/CA+G9fYsUmFrTDHJfS=1vYVfv4BVRZ0AByEOHV6toidAxWuDqDg@mail.gmail.com)
+  in 5.1
+
+### 2019-06-17
 #### 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11
 - No stable-review period; this was a security release for [some TCP
   issues](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md)

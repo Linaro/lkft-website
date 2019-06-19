@@ -36,7 +36,6 @@ defaults:
 assets:
   compress:
         js: true
-        css: true
   autoprefixer:
       browsers: ["last 2 versions","> 5%","IE 9"]
   sources:
@@ -46,3 +45,7 @@ assets:
     - assets/css/
     - _sass
 include: ['_pages']
+# SASS Config
+sass:
+    sass_dir: _sass
+    style: compressed

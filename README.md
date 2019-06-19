@@ -11,6 +11,8 @@ along with Linaro's seriously_simple_static_starter theme.
 * Install jekyll and bundler (`gem install jekyll bundler`)
 * Install lkft-website (`bundler install`)
 * Build and serve site locally (`bundler exec jekyll serve`)
+* Check out the theme documentation [here](https://github.com/kylekirkby/seriously_simple_static_starter).
+
 
 You may also run "make" to build and serve the site locally.
 

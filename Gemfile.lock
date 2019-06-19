@@ -85,7 +85,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    seriously_simple_static_starter (0.4.0)
+    seriously_simple_static_starter (0.5.0)
       autoprefixer-rails (= 9.5.1.1)
       jekyll (~> 3.7.3)
       jekyll-4-picture-tag (~> 1.0.1)
@@ -101,7 +101,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll-data
-  seriously_simple_static_starter (= 0.4.0)
+  seriously_simple_static_starter (= 0.5.0)
 
 BUNDLED WITH
    1.17.2

@@ -13,7 +13,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lkft.linaro.org"
 # Using the Seriously Simple Static Starter theme https://github.com/kylekirkby/seriously_simple_static_starter
 theme: seriously_simple_static_starter
-plugins: [bootstrap, autoprefixer-rails, jekyll-4-picture-tag, jekyll-assets, jekyll-feed]
+plugins: [jekyll-4-picture-tag, jekyll-assets, jekyll-feed]
 # Enable the use of jekyll-assets not using gulpfile for assets concatenation/compression
 using_jekyll_assets: true
 picture:

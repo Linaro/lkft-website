@@ -17,8 +17,8 @@ header:
           The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible. This is performed by executing a variety of functional-tests on a selection of user-space operating systems.
         type: para  
       - content:
-          - title: Get Started
-            url: /get-started/
+          - title: More info
+            url: /about/
             class: btn-secondary
         type: buttons
 ---

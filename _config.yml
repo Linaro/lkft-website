@@ -3,9 +3,6 @@ tagline: Linaro’s Linux Kernel Functional Test framework
 #email: lkft-triage@lists.linaro.org # have to figure out what lists to publish
 footer-text: "Copyright © 2019 Linaro Limited • [lkft@linaro.org](mailto:lkft@linaro.org) • freenode/#linaro-lkft • [lkft-triage@lists.linaro.org](mailto:lkft-triage@lists.linaro.org)"
 irc_channel: linaro-lkft
-github_username: danrue
-github_repository: danrue/lkft-site
-github_repository_url: https://github.com/danrue/lkft-site
 description: >- # this means to ignore newlines until "baseurl:"
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   stable kernels on arm, arm64, and x86_64 consumer hardware.
@@ -49,3 +46,11 @@ include: ['_pages']
 sass:
     sass_dir: _sass
     style: compressed
+
+exclude:
+ - CODEOWNERS
+ - README.md
+ - build-site.sh
+ - Makefile
+ - Gemfile
+ - Gemfile.lock

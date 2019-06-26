@@ -30,6 +30,32 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-06-26
+#### 4.4.184, 4.9.184, 4.14.131
+<!-- sla <8 2 -->
+<!-- sla <24 1 -->
+- Single patch release, bringing the TCP fix from 2019-06-22 release back to
+  4.4, 4.9, and 4.14
+- Reported no regressions in <24h
+
+### 2019-06-24
+#### 4.14.130, 4.19.56, 5.1.15
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-06-22
+#### 4.19.55, 5.1.14
+- No stable-review period; this was a hot fix release for "[Steam does not
+  connect on kernels newer than
+  2019-06-17](https://github.com/ValveSoftware/steam-for-linux/issues/6326)"
+
+### 2019-06-20
+#### 4.4.183, 4.9.183, 4.14.129, 4.19.54, 5.1.13
+<!-- sla <24 5 -->
+- Reported [pre-rc arm 32/64 build failure on 4.9, suggesting a missing
+  backport](https://lists.linaro.org/pipermail/lkft-triage/2019-June/012900.html)
+- Reported no regressions in <24h
+
 ### 2019-06-17
 ####  4.14.128, 4.19.53, 5.1.12
 <!-- sla <24 3 -->
@@ -46,8 +72,8 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ### 2019-06-17
 #### 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11
-- No stable-review period; this was a security release for [some TCP
-  issues](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md)
+- No stable-review period; this was a security release for [TCP
+  SACK](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md)
 
 ### 2019-06-13
 #### 4.14.126, 4.19.51, 5.1.10

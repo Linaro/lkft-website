@@ -1,9 +1,9 @@
-_site
-.sass-cache
 .asset-cache
+.bundle/
 .jekyll-metadata
+.sass-cache
 *.swp
+_site
 production.lkft.linaro.org/
 staging.lkft.linaro.org/
-.bundle/
-.gems
+Gemfile.lock

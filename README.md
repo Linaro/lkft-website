@@ -15,7 +15,7 @@ That will download the container if it isn't already on your computer and then b
 
 Documentation for the theme used by the website can be found at https://github.com/linaro-marketing/seriously_simple_static_starter.
 
-**IMPORTANT!** If you change Gemfile, you **must** create a Pull Request against https://github.com/linaro-its/jekyll-build-container and update the Dockerfile to match the new gem requirements for this site.
+**IMPORTANT!** If you change Gemfile, you **must** create a Pull Request against https://github.com/linaro-its/jekyll-build-container and update the Dockerfile to match the new gem requirements for this site. If this is not done before creating a Pull Request for your changes on this repository, the web site will likely not build.
 
 ## Redirects
 

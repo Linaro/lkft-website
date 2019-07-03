@@ -4,6 +4,7 @@ branches:
   - "4.14"
   - "4.19"
   - "5.1"
+  - "5.2"
   - mainline
   - linux-next
 
@@ -31,6 +32,10 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+    "5.2":
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.2-oe/
     "mainline":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=hikey,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=hikey,label=docker-lkft
@@ -63,6 +68,10 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=am57xx-evm,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+    "5.2":
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=am57xx-evm,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=am57xx-evm,label=docker-lkft
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.2-oe/
     "mainline":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=am57xx-evm,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=am57xx-evm,label=docker-lkft
@@ -95,6 +104,10 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=juno,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+    "5.2":
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=juno,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=juno,label=docker-lkft
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.2-oe/
     "mainline":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=juno,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=juno,label=docker-lkft
@@ -123,6 +136,10 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=dragonboard-410c,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=dragonboard-410c,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+    "5.2":
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=dragonboard-410c,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=dragonboard-410c,label=docker-lkft
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.2-oe/
     "mainline":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=dragonboard-410c,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=dragonboard-410c,label=docker-lkft
@@ -155,6 +172,10 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=intel-core2-32,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+    "5.2":
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=intel-core2-32,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=intel-core2-32,label=docker-lkft
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.2-oe/
     "mainline":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=intel-core2-32,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=intel-core2-32,label=docker-lkft
@@ -187,6 +208,10 @@ boards:
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=intel-corei7-64,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.1/DISTRO=lkft,MACHINE=intel-corei7-64,label=docker-lkft
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.1-oe/
+    "5.2":
+      jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=intel-corei7-64,label=docker-lkft/
+      jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-stable-rc-5.2/DISTRO=lkft,MACHINE=intel-corei7-64,label=docker-lkft
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.2-oe/
     "mainline":
       jenkins_build_url: https://ci.linaro.org/view/lkft/job/openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=intel-corei7-64,label=docker-lkft/
       jenkins_badge_url: https://ci.linaro.org/buildStatus/icon?job=openembedded-lkft-linux-mainline/DISTRO=lkft,MACHINE=intel-corei7-64,label=docker-lkft

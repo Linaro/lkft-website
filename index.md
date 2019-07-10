@@ -11,11 +11,14 @@ header:
     #   alt: Background image alt tag
     background-color: "red"
     items:
-      - content: LKFT is Linaro’s Linux Kernel Functional Test framework.
+      - content: Linux Kernel Functional Testing
         type: title
       - content: >
-          The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible. This is performed by executing a variety of functional-tests on a selection of user-space operating systems.
-        type: para  
+          LKFT is here to serve kernel developers and kernel development. We
+          are open for collaboration! If you have any requests, feedback, or
+          suggestions for how we can better serve you, please reach out to us
+          at lkft@linaro.org or join our weekly meeting every Tuesday.
+        type: para
       - content:
           - title: More info
             url: /about/

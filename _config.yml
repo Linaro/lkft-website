@@ -51,6 +51,6 @@ exclude:
  - CODEOWNERS
  - README.md
  - build-site.sh
+ - check-links.sh
  - Makefile
  - Gemfile
- - Gemfile.lock

@@ -48,9 +48,12 @@ sass:
     sass_dir: _sass
     style: compressed
 exclude:
- - CODEOWNERS
- - README.md
  - build-site.sh
- - Makefile
+ - check-links.sh
+ - CODEOWNERS
  - Gemfile
  - Gemfile.lock
+ - Makefile
+ - production.lkft.linaro.org
+ - README.md
+ - staging.lkft.linaro.org

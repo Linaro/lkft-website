@@ -1,5 +1,7 @@
 title: LKFT
 tagline: Linaro’s Linux Kernel Functional Test framework
+brand_logo: /assets/images/lkft_logo_dark.png
+favicon: /favicon.ico
 #email: lkft-triage@lists.linaro.org # have to figure out what lists to publish
 footer-text: "Copyright © 2019 Linaro Limited • [lkft@linaro.org](mailto:lkft@linaro.org) • freenode/#linaro-lkft • [lkft-triage@lists.linaro.org](mailto:lkft-triage@lists.linaro.org)"
 irc_channel: linaro-lkft
@@ -28,7 +30,6 @@ defaults:
       type: posts # an empty string here means all files in the project
     values:
       layout: "post"
-
 # Jekyll Assets plugin - using this just for concatentating/uglifying js
 assets:
   compress:
@@ -46,7 +47,6 @@ include: ['_pages']
 sass:
     sass_dir: _sass
     style: compressed
-
 exclude:
  - CODEOWNERS
  - README.md

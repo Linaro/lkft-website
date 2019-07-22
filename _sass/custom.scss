@@ -1,17 +1,18 @@
-td {
-    padding: 5px;
-}
-
-.test_results {
-    margin-bottom:50px;
-    img {
-        height: auto;
-        width: 100%;
-        margin-top: 10px;
+#wrapper {
+    td {
+        padding: 5px;
     }
-}
-.navbar {
-    img.navbar-brand {
-        height: 66px;
+    .test_results {
+        margin-bottom:50px;
+        img {
+            height: auto;
+            width: 100%;
+            margin-top: 10px;
+        }
+    }
+    .navbar {
+        img.navbar-brand {
+            height: 66px;
+        }
     }
 }

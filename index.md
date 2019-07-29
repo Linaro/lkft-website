@@ -6,26 +6,19 @@ description: >
     website template for 2019.
 keywords:  Jekyll Theme, PageSpeed 100, static website, gulpfile
 header:
-    # image:
-    #   path: /assets/images/marketing.jpg
-    #   alt: Background image alt tag
-    background-color: "red"
-    items:
-      - content: Linux Kernel Functional Testing
-        type: title
-      - content: >
-          LKFT is here to serve kernel developers and kernel development. We
-          are open for collaboration! If you have any requests, feedback, or
-          suggestions for how we can better serve you, please reach out to us
-          at lkft@linaro.org or join our weekly meeting every Tuesday.
-        type: para
-      - content:
-          - title: More info
-            url: /about/
-            class: btn-secondary
-        type: buttons
+    showcase_image:
+        alt: Alt tag
+        path: /assets/images/drawing1.svg
+        svg: true
+    sections:
+      - format: title
+        size: h1
+        content: What do we do?
+        class: display-3 font-weight-bold
+      - format: text
+        content: >
+          The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
 ---
-
 ## Test Results
 <div class="row test_results">
 {% for branch in site.data.tests.tests.branches %}

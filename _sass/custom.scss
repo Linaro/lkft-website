@@ -1,18 +1,31 @@
-#wrapper {
-    td {
-        padding: 5px;
-    }
-    .test_results {
-        margin-bottom:50px;
-        img {
-            height: auto;
-            width: 100%;
-            margin-top: 10px;
+html
+{
+    #wrapper {
+        td {
+            padding: 5px;
+        }
+        .test_results {
+            margin-bottom:50px;
+            img {
+                height: auto;
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+        .navbar {
+            img.navbar-brand {
+                height: 66px;
+            }
+        }
+        #main_container #main_content
+        {
+            padding-top:40px;
         }
     }
-    .navbar {
-        img.navbar-brand {
-            height: 66px;
-        }
-    }
+}
+header .jumbotron img.svg_image {
+    height: 450px;
+}
+.jumbotron .col.col-xs-12.col-md-4 {
+    text-align: center;
 }

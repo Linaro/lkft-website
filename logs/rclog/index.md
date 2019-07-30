@@ -30,6 +30,25 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-07-29
+#### 4.14.135, 4.19.63, 5.2.5
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-07-26
+#### 4.19.62, 5.1.21, 5.2.4
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Last 5.1 release
+
+### 2019-07-24
+#### 4.19.61, 5.1.20, 5.2.3
+<!-- sla <24 3 -->
+- Reported no regressions on 4.19 and 5.1 in <24h
+- Reported [KVM regression caused by a test
+  change](https://lore.kernel.org/stable/CADYN=9+WLxhmqX3JNL_s-kWSN97G=8WhD=TF=uAuKecJnKcj_Q@mail.gmail.com/),
+  not a kernel change.
+
 ### 2019-07-17
 #### 4.4.186, 4.9.186, 4.14.134, 4.19.60, 5.1.19, 5.2.2
 <!-- sla <24 6 -->

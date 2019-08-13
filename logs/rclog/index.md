@@ -30,6 +30,20 @@ Linaro's Linux Kernel Functional Test (LKFT) project.
 
 ## 2019
 
+### 2019-08-09
+#### 4.4.189, 4.9.189
+<!-- sla <8 1 -->
+<!-- sla <48 1 -->
+- Reported no regressions on 4.9 in <8h
+- Reported no regressions on 4.4 in <48h
+  - Delay due to the investigation of failed x86 QEMU jobs, which were due to a
+    QEMU upgrade from 2.9 to 3.1 in the lab.
+
+### 2019-08-08
+#### 4.14.138, 4.19.66, 5.2.8
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2019-08-05
 #### 4.4.188, 4.9.188, 4.14.137, 4.19.65, 5.2.7
 <!-- sla <24 5 -->

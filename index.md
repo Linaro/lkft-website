@@ -19,7 +19,8 @@ header:
       - format: text
         text_content:
             text: >
-                The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
+                The mission of LKFT is to perform functional regression testing on select
+                Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
 ---
 ## Test Results
 <div class="row test_results">

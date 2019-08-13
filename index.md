@@ -12,12 +12,14 @@ header:
         svg: true
     sections:
       - format: title
-        size: h1
-        content: What do we do?
-        class: display-3 font-weight-bold
+        title_content:
+            size: h1
+            text: What do we do?
+            class: display-3 font-weight-bold text-left
       - format: text
-        content: >
-          The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
+        text_content:
+            text: >
+                The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible.
 ---
 ## Test Results
 <div class="row test_results">

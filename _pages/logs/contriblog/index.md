@@ -18,10 +18,6 @@ header:
                 This log is a high level overview of all contributions LKFT has propitiated to the
                 Linux Kernel project and to the testing suites projects.
 ---
-
-# Linux Kernel Functional Testing (LKFT)
-
-
 <!---
 
     Concept:

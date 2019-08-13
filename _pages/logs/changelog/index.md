@@ -17,10 +17,6 @@ header:
                 This log is a high level overview of changes in the LKFT environment and
                 infrastructure.
 ---
-
-# Linux Kernel Functional Testing (LKFT) Changelog
-
-
 ## 2019
 
 - 2019-04-18: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

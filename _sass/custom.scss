@@ -23,9 +23,21 @@ html
         }
     }
 }
-header .jumbotron img.svg_image {
-    height: 450px;
+header .jumbotron {
+    img.svg_image {
+        height: 450px;
+        margin-top: 100px;
+        -webkit-box-shadow:none;
+        box-shadow: none;
+    }
+    a {
+        color: #87b048;
+        &:hover {
+            color: darken(#87b048, 20%);
+        }
+    }
 }
+
 .jumbotron .col.col-xs-12.col-md-4 {
     text-align: center;
 }

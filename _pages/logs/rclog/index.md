@@ -1,13 +1,23 @@
 ---
 layout: page
 title: Stable Release Candidate Log
+description: >
+    Log of status and events while doing stable tree release candidate testing in
+    Linaro's Linux Kernel Functional Test (LKFT) project.
 permalink: /logs/rclog/
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Stable Release Candidate Log
+            class: display-3 font-weight-bold text-left
+      - format: text
+        text_content:
+            text: >
+                Log of status and events while doing stable tree release candidate testing in
+                Linaro's Linux Kernel Functional Test (LKFT) project.
 ---
-
-Log of status and events while doing stable tree release candidate testing in
-Linaro's Linux Kernel Functional Test (LKFT) project.
-
-
 <!--
     How to use this file
 

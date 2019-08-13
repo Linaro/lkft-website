@@ -2,12 +2,24 @@
 layout: page
 title: Changelog
 permalink: /logs/changelog/
+description: >
+    This log is a high level overview of changes in the LKFT environment and infrastructure.
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Changelog
+            class: display-3 font-weight-bold text-left
+      - format: text
+        text_content:
+            text: >
+                This log is a high level overview of changes in the LKFT environment and
+                infrastructure.
 ---
 
 # Linux Kernel Functional Testing (LKFT) Changelog
 
-This log is a high level overview of changes in the LKFT environment and
-infrastructure.
 
 ## 2019
 
@@ -162,4 +174,3 @@ infrastructure.
 - 2018-01-05: x86 environments now running LTP on local disk instead of NFS.
   All NFS-related skips have been re-enabled.
 - 2018-01-05: b2260 board added to staging environment.
-

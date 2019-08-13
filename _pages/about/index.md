@@ -1,7 +1,60 @@
 ---
 layout: page
-title: About
+title: About LKFT
 permalink: /about/
+description: >
+    The mission of LKFT is to perform functional regression testing on select Linux
+    kernel branches in real time (as they’re updated) and report any regressions as
+    quickly as possible. This is performed by executing a variety of
+    functional-tests on a selection of user-space operating systems.
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: LKFT is Linaro’s Linux Kernel Functional Test framework.
+            class: display-3 font-weight-bold text-left
+flow:
+    - row: main_content_row
+    - row: container_row
+      sections:
+        - format: feature_block
+          feature_block_content:
+            type: slider
+            position: right
+            slider_content:
+                lightbox_enabled: true
+                seconds_per_slide: 5
+                nav: true
+                dots: false
+                xs_items: 1
+                sm_items: 1
+                md_items: 1
+                lg_items: 1
+                items:
+                    - image: /assets/images/lava_lab_image1.jpg
+                      alt: The Lava Lab Image 1
+                      title: Lava Lab Image 1
+                    - image: /assets/images/lava_lab_image2.jpg
+                      alt: The Lava Lab Image 2
+                      title: Lava Lab Image 2
+                    - image: /assets/images/lava_lab_image3.jpg
+                      alt: The Lava Lab Image 3
+                      title: Lava Lab Image 3
+                    - image: /assets/images/lava_lab_image4.jpg
+                      alt: The Lava Lab Image 4
+                      title: Lava Lab Image 4
+                    - image: /assets/images/lava_lab_image5.jpg
+                      alt: The Lava Lab Image 5
+                      title: Lava Lab Image 5
+            title: The LAVA Lab
+            text: >
+                LAVA is an automated validation architecture primarily aimed at testing deployments of systems based around the Linux kernel on ARM devices, specifically ARMv7 and later. The current range of boards (device types) supported by this LAVA instance can be seen on the scheduler status page which includes details of how many boards of each type are available for tests and currently running jobs.
+            buttons:
+                - title: View Project
+                  url: https://validation.linaro.org
+                  icon: icon-github-circled
+                  class: btn-primary
 ---
 
 LKFT is Linaro’s Linux Kernel Functional Test framework.

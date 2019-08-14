@@ -2,13 +2,22 @@
 layout: page
 title: Contribution Log
 permalink: /logs/contriblog/
+description: >
+    This log is a high level overview of all contributions LKFT has propitiated to the
+    Linux Kernel project and to the testing suites projects.
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Contribution Log
+            class: display-3 font-weight-bold text-left
+      - format: text
+        text_content:
+            text: >
+                This log is a high level overview of all contributions LKFT has propitiated to the
+                Linux Kernel project and to the testing suites projects.
 ---
-
-# Linux Kernel Functional Testing (LKFT) Contribution Log
-
-This log is a high level overview of all contributions LKFT has propitiated to the
-Linux Kernel project and to the testing suites projects.
-
 <!---
 
     Concept:

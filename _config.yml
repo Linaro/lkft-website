@@ -8,6 +8,11 @@ irc_channel: linaro-lkft
 description: >- # this means to ignore newlines until "baseurl:"
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   stable kernels on arm, arm64, and x86_64 consumer hardware.
+# Powered by
+powered_by:
+  image_path: /assets/images/linaro_white_text.svg
+  image_alt: Linaro Logo
+  image_url: https://www.linaro.org
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lkft.linaro.org"
 # Using the Seriously Simple Static Starter theme https://github.com/kylekirkby/seriously_simple_static_starter

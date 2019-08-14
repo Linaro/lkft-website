@@ -2,12 +2,20 @@
 layout: page
 title: Branches
 permalink: /branches/
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Branches
+            class: display-3 font-weight-bold text-left
+      - format: text
+        text_content:
+            text: >
+                LKFT tests the following branches. The canonical source for Linux kernel branch
+                information is [kernel.org](https://www.kernel.org/) and
+                [kernel.org/category/releases.html](https://www.kernel.org/category/releases.html).
 ---
-
-LKFT tests the following branches. The canonical source for Linux kernel branch
-information is [kernel.org](https://www.kernel.org/) and
-[kernel.org/category/releases.html](https://www.kernel.org/category/releases.html).
-
 ## Longterm and Stable
 
 The following longterm stable (LTS) branches are tested:

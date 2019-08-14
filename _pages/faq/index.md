@@ -2,6 +2,13 @@
 layout: page
 title: FAQ
 permalink: /faq/
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: FAQ
+            class: display-3 font-weight-bold text-left
 ---
 
 ## What hardware is available in the LKFT hardware pool?

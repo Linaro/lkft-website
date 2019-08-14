@@ -1,7 +1,7 @@
 # lkft.linaro.org
 
 This repository is the source for
-[https://lkft.linaro.org](https://staging.lkft.linaro.org/). It runs Jekyll
+[https://lkft.linaro.org](https://lkft.linaro.org/). It runs Jekyll
 along with Linaro's jumbo-jekyll-theme.
 
 ## Developing
@@ -24,9 +24,8 @@ https://github.com/marksteele/edge-rewrite.
 
 To contribute to this site, please raise an issue in
 [Github](https://github.com/linaro/lkft-website/issues) or open a pull request
-up against the *[staging](https://github.com/Linaro/lkft-website/tree/staging)*
+up against the *[develop](https://github.com/Linaro/lkft-website/tree/develop)*
 branch.
 
-The staging branch is online at
+The `develop` branch is online at
 [https://staging.lkft.linaro.org/](https://staging.lkft.linaro.org/).
-

@@ -2,17 +2,17 @@
 layout: page
 title: About LKFT
 permalink: /about/
-description: >
-    The mission of LKFT is to perform functional regression testing on select Linux
-    kernel branches in real time (as they’re updated) and report any regressions as
-    quickly as possible. This is performed by executing a variety of
-    functional-tests on a selection of user-space operating systems.
+#description: >
+#    The mission of LKFT is to perform functional regression testing on select Linux
+#    kernel branches in real time (as they’re updated) and report any regressions as
+#    quickly as possible. This is performed by executing a variety of
+#    functional-tests on a selection of user-space operating systems.
 header:
     sections:
       - format: title
         title_content:
             size: h1
-            text: LKFT is Linaro’s Linux Kernel Functional Test framework.
+            text: About LKFT
             class: display-3 font-weight-bold text-left
 flow:
     - row: main_content_row
@@ -49,20 +49,26 @@ flow:
                       title: Lava Lab Image 5
             title: The LAVA Lab
             text: >
-                LAVA is an automated validation architecture primarily aimed at testing deployments of systems based around the Linux kernel on ARM devices, specifically ARMv7 and later. The current range of boards (device types) supported by this LAVA instance can be seen on the scheduler status page which includes details of how many boards of each type are available for tests and currently running jobs.
+                LAVA is an automated validation architecture primarily aimed at
+                testing deployments of systems based around the Linux kernel on
+                ARM devices, specifically ARMv7 and later. The current range of
+                boards (device types) supported by this LAVA instance can be
+                seen on the scheduler status page which includes details of how
+                many boards of each type are available for tests and currently
+                running jobs.
             buttons:
-                - title: View Project
-                  url: https://validation.linaro.org
-                  icon: icon-github-circled
+                - title: View LKFT's LAVA Lab
+                  url: https://lkft.validation.linaro.org/scheduler/
+                  #icon: icon-github-circled
                   class: btn-primary
 ---
 
 LKFT is Linaro’s Linux Kernel Functional Test framework.
 
 The mission of LKFT is to perform functional regression testing on select Linux
-kernel branches in real time (as they’re updated) and report any regressions as
-quickly as possible. This is performed by executing a variety of
-functional-tests on a selection of user-space operating systems.
+kernel branches in real time and report any regressions as quickly as possible.
+This is performed by executing a variety of functional-tests on a selection of
+user-space operating systems.
 
 The goals of LKFT are to shorten derivative Linux kernel release intervals,
 increase the confidence of upstream Linux kernel engineers in the quality of
@@ -85,6 +91,7 @@ improving Arm device automation integration.
 
 ## Selected Talks
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R3H9fPhPf54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VnlPmQ1I6hA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LMs7vCGv8as" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WMItXP1TzOY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

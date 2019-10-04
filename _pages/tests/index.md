@@ -2,6 +2,13 @@
 layout: page
 title: Tests
 permalink: /tests/
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Tests in LKFT
+            class: display-3 font-weight-bold text-left
 ---
 
 # Strategy and Workflow

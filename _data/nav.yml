@@ -1,7 +1,5 @@
 - title: About
   url: /about/
-- title: FAQ
-  url: /faq/
 - title: Boards
   url: /boards/
 - title: Branches
@@ -14,5 +12,3 @@
         url: /logs/changelog/
       - title: Release Candidate Log
         url: /logs/rclog/
-      - title: Contribution Log
-        url: /logs/contriblog/

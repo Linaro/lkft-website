@@ -7,13 +7,13 @@ permalink: /about/
 #    kernel branches in real time (as they’re updated) and report any regressions as
 #    quickly as possible. This is performed by executing a variety of
 #    functional-tests on a selection of user-space operating systems.
-#header:
-#    sections:
-#      - format: title
-#        title_content:
-#            size: h1
-#            text: LKFT is Linaro’s Linux Kernel Functional Test framework.
-#            class: display-3 font-weight-bold text-left
+header:
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: About LKFT
+            class: display-3 font-weight-bold text-left
 flow:
     - row: main_content_row
     - row: container_row

@@ -12,9 +12,9 @@ header:
       - format: text
         text_content:
             text: >
-                LKFT tests the following branches. The canonical source for Linux kernel branch
-                information is [kernel.org](https://www.kernel.org/) and
-                [kernel.org/category/releases.html](https://www.kernel.org/category/releases.html).
+                LKFT tests the following branches. The canonical source for
+                Linux kernel branch information is at
+                [kernel.org](https://www.kernel.org/category/releases.html).
 ---
 ## Longterm and Stable
 
@@ -23,8 +23,9 @@ The following longterm stable (LTS) branches are tested:
 - 4.9
 - 4.14
 - 4.19
+- 5.4
 
-In addition to LTS branches, the latest stable branch is also tested.
+In addition to LTS branches, the latest stable branches are also tested.
 
 ## Android-common
 

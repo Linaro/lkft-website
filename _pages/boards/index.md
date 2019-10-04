@@ -9,11 +9,11 @@ header:
       - format: title
         title_content:
             size: h1
-            text: Boards
+            text: Boards in LKFT
             class: display-3 font-weight-bold text-left
-      - format: text
-        text_content:
-            text: >
-                The following boards are used to test Linux kernels in LKFT.
+#      - format: text
+#        text_content:
+#            text: >
+#                The following boards are used to test Linux kernels in LKFT.
 ---
 {% include boards.html %}

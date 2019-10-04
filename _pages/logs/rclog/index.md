@@ -40,6 +40,173 @@ header:
 
 ## 2019
 
+### 2019-09-29
+#### 4.19.76, 5.2.18, 5.3.2
+<!-- sla <48h 3 -->
+- Reported no regressions in in <48h
+
+### 2019-09-20
+#### 4.4.194, 4.9.194, 4.14.146, 4.19.75, 5.2.17, 5.3.1
+<!-- sla <24h 6 -->
+- Reported no regressions in in <24h
+
+### 2019-09-18
+#### 4.14.145
+<!-- sla <8h 1 -->
+- Reported no regressions in in <8h
+
+#### 4.19.74, 5.2.16
+<!-- sla <24h 2 -->
+- Reported no regressions in in <24h
+
+### 2019-09-13
+#### 4.4.193, 4.9.193, 4.14.144, 4.19.73, 5.2.15
+<!-- sla <24h 5 -->
+- Reported no regressions in <24h
+
+### 2019-09-08
+#### 4.4.192
+<!-- sla <48h 1 -->
+- Reported no regressions in <48h
+
+#### 4.9.192, 4.14.143, 4.19.72, 5.2.14
+<!-- sla <24h 4 -->
+- Reported no regressions in <24h
+
+### 2019-09-04
+#### 4.4.191, 4.9.191, 4.14.142, 4.19.70, 5.2.12
+<!-- sla <24h 5 -->
+- Reported no regressions in <24h
+
+### 2019-08-27
+#### 4.19.69 5.2.11 4.14.141
+<!-- sla <24h 3 -->
+- Reported no regressions in <24h
+
+### 2019-08-22
+#### 4.4.190 4.9.190 4.14.140 4.19.68 5.2.10
+<!-- sla <24h 5 -->
+- Reported no regressions in in <24h
+
+### 2019-08-14
+#### 4.14.139, 4.19.67, 5.2.9
+<!-- sla <24h 3 -->
+- Reported no regressions in <24h
+
+### 2019-08-09
+#### 4.4.189, 4.9.189
+<!-- sla <8 1 -->
+<!-- sla <48 1 -->
+- Reported no regressions on 4.9 in <8h
+- Reported no regressions on 4.4 in <48h
+  - Delay due to the investigation of failed x86 QEMU jobs, which were due to a
+    QEMU upgrade from 2.9 to 3.1 in the lab.
+
+### 2019-08-08
+#### 4.14.138, 4.19.66, 5.2.8
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-08-05
+#### 4.4.188, 4.9.188, 4.14.137, 4.19.65, 5.2.7
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2019-08-02
+#### 4.4.187, 4.9.187, 4.14.136, 4.19.64, 5.2.6
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2019-07-29
+#### 4.14.135, 4.19.63, 5.2.5
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-07-26
+#### 4.19.62, 5.1.21, 5.2.4
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Last 5.1 release
+
+### 2019-07-24
+#### 4.19.61, 5.1.20, 5.2.3
+<!-- sla <24 3 -->
+- Reported no regressions on 4.19 and 5.1 in <24h
+- Reported [KVM regression caused by a test
+  change](https://lore.kernel.org/stable/CADYN=9+WLxhmqX3JNL_s-kWSN97G=8WhD=TF=uAuKecJnKcj_Q@mail.gmail.com/),
+  not a kernel change.
+
+### 2019-07-17
+#### 4.4.186, 4.9.186, 4.14.134, 4.19.60, 5.1.19, 5.2.2
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2019-07-12
+#### 4.19.59, 5.1.18, 5.2.1
+<!-- sla <24 3 -->
+- First 5.2 stable release
+- Reported no regressions in <24h
+
+### 2019-07-08
+#### 4.4.185, 4.9.185, 4.14.133, 4.19.58, 5.1.17
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2019-07-02
+#### 4.14.132, 4.19.57, 5.1.16
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-06-26
+#### 4.4.184, 4.9.184, 4.14.131
+<!-- sla <8 2 -->
+<!-- sla <24 1 -->
+- Single patch release, bringing the TCP fix from 2019-06-22 release back to
+  4.4, 4.9, and 4.14
+- Reported no regressions in <24h
+
+### 2019-06-24
+#### 4.14.130, 4.19.56, 5.1.15
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-06-22
+#### 4.19.55, 5.1.14
+- No stable-review period; this was a hot fix release for "[Steam does not
+  connect on kernels newer than
+  2019-06-17](https://github.com/ValveSoftware/steam-for-linux/issues/6326)"
+
+### 2019-06-20
+#### 4.4.183, 4.9.183, 4.14.129, 4.19.54, 5.1.13
+<!-- sla <24 5 -->
+- Reported [pre-rc arm 32/64 build failure on 4.9, suggesting a missing
+  backport](https://lists.linaro.org/pipermail/lkft-triage/2019-June/012900.html)
+- Reported no regressions in <24h
+
+### 2019-06-17
+####  4.14.128, 4.19.53, 5.1.12
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Reported [issue with
+  ptrace](https://lore.kernel.org/linux-kselftest/CA+G9fYsFL5AH6dkdN2Qd6UP=wdiXRDR_ioQFPSCq=uUBcmtHXw@mail.gmail.com)
+  in pre-rc results
+- Noted [v4l2 issue
+  fixed](https://lore.kernel.org/lkml/CA+G9fYueq_CFv59aYSguU_yq_nd9zwpcpnJKrqVtx_VOCSZ+9A@mail.gmail.com
+  ) in 4.14 thanks to requested backport
+- Noted [workqueue.c kernel warning
+  fixed](https://lore.kernel.org/lkml/CA+G9fYsUmFrTDHJfS=1vYVfv4BVRZ0AByEOHV6toidAxWuDqDg@mail.gmail.com)
+  in 5.1
+
+### 2019-06-17
+#### 4.4.182, 4.9.182, 4.14.127, 4.19.52, 5.1.11
+- No stable-review period; this was a security release for [TCP
+  SACK](https://github.com/Netflix/security-bulletins/blob/master/advisories/third-party/2019-001.md)
+
+### 2019-06-13
+#### 4.14.126, 4.19.51, 5.1.10
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2019-06-09
 #### 4.4.181, 4.9.181, 4.14.125, 4.19.50, 5.1.9
 <!-- sla <8 5 -->

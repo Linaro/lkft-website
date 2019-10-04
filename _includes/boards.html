@@ -1,0 +1,22 @@
+{% for board in site.data.boards %}
+<div class="row feature__block p-t-50 p-b-50">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 block__image order-md-{% if board.format == "right" %}2{% else %}1{% endif %}">
+                {% assign block_image = board.image | replace: '/assets/images/','' %}
+                {% picture feature_block_image {{block_image}} %}
+            </div>
+            <div class="col-md-5 block__text order-md-{% if board.format == "right" %}1{% else %}2{% endif %}">
+                <h2>{{board.title}}</h2>
+                <span class="badge badge-info">{{board.label}}</span>
+                {{board.text | markdownify}}
+                {% if board.buttons %}
+                    {% for btn in board.buttons %}
+                        <a class="btn btn-lg {% if btn.class %}{{btn.class}}{% endif %}" href="{{btn.url}}">{{btn.title}}</a>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

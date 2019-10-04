@@ -1,18 +1,21 @@
 # lkft.linaro.org
 
 This repository is the source for
-[https://lkft.linaro.org](https://lkft.linaro.org/). It runs Jekyll
-along with Linaro's jumbo-jekyll-theme.
+[https://lkft.linaro.org](https://staging.lkft.linaro.org/). It is a static website built with Jekyll
+along with Linaro's seriously_simple_static_starter theme.
 
 ## Developing
 
-* Set BUNDLE_PATH for bundler, e.g. `export BUNDLE_PATH=$HOME/.bundle`
-* Install ruby >= 2.4.2 (required by jumbo-jekyll-theme).
-* Install jekyll and bundler (`gem install jekyll bundler`)
-* Install lkft-website (`bundler install`)
-* Build and serve site locally (`bundler exec jekyll serve`)
+To simplify the development process, a pre-built Docker container is used that has all of the tools and libraries required. That simplifies the prerequisities to just needing to install Docker on your computer in order to build this website using the provided tools.
 
-You may also run "make" to build and serve the site locally.
+* Change into the directory of the cloned repository
+* Run the `build-site.sh` script
+
+That will download the container if it isn't already on your computer and then build the site. There are various environment variables that can be set to override the default behaviour of the build process. Documentation for this can be found at https://github.com/linaro-its/jekyll-build-container/wiki.
+
+Documentation for the theme used by the website can be found at https://github.com/linaro-marketing/seriously_simple_static_starter.
+
+**IMPORTANT!** If you change Gemfile, you **must** create a Pull Request against https://github.com/linaro-its/jekyll-build-container and update the Dockerfile to match the new gem requirements for this site. If this is not done before creating a Pull Request for your changes on this repository, the web site will likely not build.
 
 ## Redirects
 

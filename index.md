@@ -1,24 +1,47 @@
 ---
-layout: home
----
+layout: page
+description: >
+    The Seriously Simple Static Starter is a lightweight and optimsied Jekyll theme. This theme allows
+    you to get your feet off the ground quickly with a modern Google pagespeed 100 out-of-the-box
+    website template for 2019.
+keywords:  Jekyll Theme, PageSpeed 100, static website, gulpfile
+header:
+    #showcase_image:
+    #    alt: Alt tag
+    #    path: /assets/images/drawing1.svg
+    #    svg: true
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Linux Kernel Functional Testing
+            class: display-3 font-weight-bold text-left
+      - format: text
+        text_content:
+            text: >
 
+                The mission of LKFT is to improve the quality of the Linux
+                kernel by performing functional testing on Arm hardware. Our
+                focus is on LTS, stable, and upstream development branches. If
+                you have any requests, feedback, or suggestions for how we can
+                better serve you, please reach out to us at lkft@linaro.org or
+                on freenode at #linaro-lkft.
+---
 ## Test Results
-<div class="container">
-<div class="row">
+<div class="row test_results">
 {% for branch in site.data.tests.tests.branches %}
-<div class="col-6 col-md-4">
+<div class="col-12 col-md-4">
     <a href="{{branch.squad_url}}">
         <img src="{{branch.squad_url}}badge" alt="Squad Logo" />
     </a>
 </div>
 {% endfor %}
 </div>
-</div>
 
 ## LKFT Build Status
 The LKFT build uses OpenEmbedded to build a userspace image, along with the
 kernel, for each board and branch combination under test.
-<table class="table-responsive table-boards">
+<table class="table table-responsive table-boards">
 <thead><tr>
 <th>Board</th>
 {% for branch in site.data.builds.branches %}

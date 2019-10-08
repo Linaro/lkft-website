@@ -40,6 +40,21 @@ header:
 
 ## 2019
 
+### 2019-10-06
+#### 4.4.196, 4.9.196, 4.14.148, 4.19.78, 5.2.20, 5.3.5
+<!-- sla <24h 6 -->
+- Reported no regressions in <24h
+- Noted mismatch in kselftests 5.3.1 vs 5.3.5 for net/udpgso.sh
+
+### 2019-10-03
+#### 4.4.195, 4.9.195, 4.19.77, 5.2.19, 5.3.4
+<!-- sla <24h 5 -->
+- Reported no regressions in <24h
+
+#### 4.14.147
+<!-- sla <48h 1 -->
+- Reported no regressions in <48h
+
 ### 2019-09-29
 #### 4.19.76, 5.2.18, 5.3.2
 <!-- sla <48h 3 -->

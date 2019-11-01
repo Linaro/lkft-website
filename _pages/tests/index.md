@@ -125,6 +125,188 @@ Linux [perf](https://perf.wiki.kernel.org/index.php/Main_Page) is built and
 tested using a basic set of tests implemented at
 [test-definitions](https://github.com/Linaro/test-definitions/tree/master/automated/linux/perf).
 
+### LKFT Integration with Perf testing on Arm64
+
+#### Build Kernel with extra debug configurations
+
+Except the default config, we need to enable extra Linux kernel
+configurations for building kernel image.  Below is some missed
+configurations that we can enable with the commands:
+
+```shell
+  export ARCH=arm64
+  export CROSS_COMPILE=aarch64-linux-gnu-
+  cd $LINUX_SRC
+  make defconfig
+  ./scripts/config -e CONFIG_BPF_SYSCALL
+  ./scripts/config -e CONFIG_BPF_JIT_ALWAYS_ON
+  ./scripts/config -e CONFIG_TRACEPOINTS
+  ./scripts/config -e CONFIG_KPROBES
+  ./scripts/config -e CONFIG_UPROBES
+  ./scripts/config -e CONFIG_KRETPROBES
+  ./scripts/config -e CONFIG_PROC_KCORE
+  ./scripts/config -e CONFIG_NOP_TRACER
+  ./scripts/config -e CONFIG_TRACER_MAX_TRACE
+  ./scripts/config -e CONFIG_RING_BUFFER
+  ./scripts/config -e CONFIG_EVENT_TRACING
+  ./scripts/config -e CONFIG_CONTEXT_SWITCH_TRACER
+  ./scripts/config -e CONFIG_TRACING
+  ./scripts/config -e CONFIG_GENERIC_TRACER
+  ./scripts/config -e CONFIG_FTRACE
+  ./scripts/config -e CONFIG_FUNCTION_TRACER
+  ./scripts/config -e CONFIG_FUNCTION_GRAPH_TRACER
+  ./scripts/config -e CONFIG_SCHED_TRACER
+  ./scripts/config -e CONFIG_FTRACE_SYSCALLS
+  ./scripts/config -e CONFIG_TRACER_SNAPSHOT
+  ./scripts/config -e CONFIG_KPROBE_EVENTS
+  ./scripts/config -e CONFIG_UPROBE_EVENTS
+  ./scripts/config -e CONFIG_BPF_EVENTS
+  ./scripts/config -e CONFIG_DYNAMIC_EVENTS
+  ./scripts/config -e CONFIG_PROBE_EVENTS
+  ./scripts/config -e CONFIG_DYNAMIC_FTRACE
+  yes "" | make oldconfig
+```
+
+#### Installation dependency libs on target board
+
+```shell
+# apt-get install flex bison libelf-dev libaudit-dev libdw-dev libunwind* python-dev binutils-dev \
+  libnuma-dev libbfd-dev libelf1 libperl-dev libslang2 libslang2-dev libunwind8 libunwind8-dev \
+  binutils-multiarch-dev elfutils libiberty-dev libncurses5-dev
+# apt-get install clang-7 llvm-7
+```
+
+#### The kernel source code path
+
+The kernel source code is fatal for 'perf probe' related testings;
+usually, on Arm platform the perf probe related testings fail due to
+perf tool cannot find the kernel source code path.
+
+On x86 platform, it's quite common to use the same PC to build kernel
+and perf tool, and then can directly run the perf test on it.  Thus it's
+smooth for x86 to allow debugging tools to find the source code path
+based on vmlinux's dwarf info.
+
+On the other hand, Arm platforms, usually, we cross compile kernel image
+on our PC or laptop and then run the testing on Arm boards.  So the
+issue is perf tool uses the vmlinux's dwarf info to find the source code
+path but the path is PC's path but not the kernel source code path on
+the target board.
+
+To fix this issue, the simple method is to create the same path on Arm
+platforms with the PC; for example, on the PC side, build the kernel
+in the folder "/home/leoy/Work/opensource/linux-cs-dev"; then on Arm
+board, should create the path "/home/leoy/Work/opensource/linux-cs-dev"
+and mount NFS on this folder.  Thus the Arm board can use the same code
+base and this allows perf tool to easily to find kernel source code.
+
+#### Exporting perf python lib
+
+Perf provides python's .so, which needs to tell python the right path to
+export 'perf' class.  This can be finished with below command:
+
+```shell
+export PYTHONPATH=/home/leoy/Work/opensource/linux-cs-dev/tools/perf/python/
+```
+
+#### Perf config file
+
+We need to configure clang related options thus allows perf tool to have
+knowledge for clang and llvm:
+
+```shell
+# cd $LINUX_SRC
+# ./tools/perf/perf config llvm.clang-path=clang-7
+# ./tools/perf/perf config llvm.kbuild-dir=/home/leoy/Work/opensource/linux-cs-dev/
+# ./tools/perf/perf config llvm.clang-opt="-g"
+```
+
+#### Testing result
+
+```shell
+# cd $LINUX_SRC
+# ./tools/perf/perf test
+```
+
+| Test ID | Test Case                                              | DB410c   | Juno     | Comment                        |
+|:--------|:-------------------------------------------------------|:---------|:---------|:-------------------------------|
+| 1       | vmlinux symtab matches kallsyms                        | Ok       | Ok       | vmlinux must be placed in the current folder. |
+| 2       | Detect openat syscall event                            | Ok       | Ok       |                                |
+| 3       | Detect openat syscall event on all cpus                | Ok       | Ok       |                                |
+| 4       | Read samples using the mmap interface                  | Ok       | Ok       |                                |
+| 5       | Test data source output                                | Ok       | Ok       |                                |
+| 6       | Parse event definition strings                         | Ok       | Ok       |                                |
+| 7       | Simple expression parser                               | Ok       | Ok       |                                |
+| 8       | PERF_RECORD_* events & perf_sample fields              | Ok       | Ok       |                                |
+| 9       | Parse perf pmu format                                  | Ok       | Ok       |                                |
+| 10      | DSO data read                                          | Ok       | Ok       |                                |
+| 11      | DSO data cache                                         | Ok       | Ok       |                                |
+| 12      | DSO data reopen                                        | Ok       | Ok       |                                |
+| 13      | Roundtrip evsel->name                                  | Ok       | Ok       |                                |
+| 14      | Parse sched tracepoints fields                         | Ok       | Ok       |                                |
+| 15      | syscalls:sys_enter_openat event fields                 | Ok       | Ok       |                                |
+| 16      | Setup struct perf_event_attr                           | Ok       | Ok       |                                |
+| 17      | Match and link multiple hists                          | Ok       | Ok       |                                |
+| 18      | 'import perf' in python                                | Ok       | Ok       |                                |
+| 19      | Breakpoint overflow signal handler                     | Disabled | Disabled | The signal handler doesn't work well with breakpoint on Arm/Arm64. |
+| 20      | Breakpoint overflow sampling                           | Disabled | Disabled | The signal handler doesn't work well with breakpoint on Arm/Arm64. |
+| 21      | Breakpoint accounting                                  | Ok       | Ok       |                                |
+| 22.1    | Read Only Watchpoint                                   | Ok       | Ok       |                                |
+| 22.2    | Write Only Watchpoint                                  | Ok       | Ok       |                                |
+| 22.3    | Read / Write Watchpoint                                | Ok       | Ok       |                                |
+| 22.4    | Modify Watchpoint                                      | Ok       | Ok       |                                |
+| 23      | Number of exit events of a simple workload             | Ok       | FAILED   | Any big.LITTLE system cannot migrate events between different CPU variants, thus this case will fail on big.LITTLE system. This case can pass on SMP platform (e.g. DB410c). |
+| 24      | Software clock events period values                    | Ok       | Ok       |                                |
+| 25      | Object code reading                                    | Ok       | Ok       |                                |
+| 26      | Sample parsing                                         | Ok       | Ok       |                                |
+| 27      | Use a dummy software event to keep tracking            | Ok       | Ok       |                                |
+| 28      | Parse with no sample_id_all bit set                    | Ok       | Ok       |                                |
+| 29      | Filter hist entries                                    | Ok       | Ok       |                                |
+| 30      | Lookup mmap thread                                     | Ok       | Ok       |                                |
+| 31      | Share thread mg                                        | Ok       | Ok       |                                |
+| 32      | Sort output of hist entries                            | Ok       | Ok       |                                |
+| 33      | Cumulate child hist entries                            | Ok       | Ok       |                                |
+| 34      | Track with sched_switch                                | Ok       | Ok       |                                |
+| 35      | Filter fds with revents mask in a fdarray              | Ok       | Ok       |                                |
+| 36      | Add fd to a fdarray, making it autogrow                | Ok       | Ok       |                                |
+| 37      | kmod_path__parse                                       | Ok       | Ok       |                                |
+| 38      | Thread map                                             | Ok       | Ok       |                                |
+| 39.1    | Basic BPF llvm compile                                 | Ok       | Ok       |                                |
+| 39.2    | kbuild searching                                       | Ok       | Ok       |                                |
+| 39.3    | Compile source for BPF prologue generation             | Ok       | Ok       |                                |
+| 39.4    | Compile source for BPF relocation                      | Ok       | Ok       |                                |
+| 40      | Session topology                                       | Ok       | Ok       |                                |
+| 41.1    | Basic BPF filtering                                    | Ok       | Ok       |                                |
+| 41.2    | BPF pinning                                            | Ok       | Ok       |                                |
+| 41.3    | BPF prologue generation                                | Ok       | Ok       |                                |
+| 41.4    | BPF relocation checker                                 | Ok       | Ok       |                                |
+| 42      | Synthesize thread map                                  | Ok       | Ok       |                                |
+| 43      | Remove thread map                                      | Ok       | Ok       |                                |
+| 44      | Synthesize cpu map                                     | Ok       | Ok       |                                |
+| 45      | Synthesize stat config                                 | Ok       | Ok       |                                |
+| 46      | Synthesize stat                                        | Ok       | Ok       |                                |
+| 47      | Synthesize stat round                                  | Ok       | Ok       |                                |
+| 48      | Synthesize attr update                                 | Ok       | Ok       |                                |
+| 49      | Event times                                            | Ok       | Ok       |                                |
+| 50      | Read backward ring buffer                              | Ok       | Ok       |                                |
+| 51      | Print cpu map                                          | Ok       | Ok       |                                |
+| 52      | Probe SDT events                                       | Ok       | Ok       |                                |
+| 53      | is_printable_array                                     | Ok       | Ok       |                                |
+| 54      | Print bitmap                                           | Ok       | Ok       |                                |
+| 55      | perf hooks                                             | Ok       | Ok       |                                |
+| 56      | builtin clang support                                  | Skip     | Skip     |                                |
+| 57      | unit_number__scnprintf                                 | Ok       | Ok       |                                |
+| 58      | mem2node                                               | Ok       | Ok       |                                |
+| 59      | time utils                                             | Ok       | Ok       |                                |
+| 60      | map_groups__merge_in                                   | Ok       | Ok       |                                |
+| 61      | DWARF unwind                                           | Ok       | Ok       |                                |
+| 62      | probe libc's inet_pton & backtrace it with ping        | Skip   | Skip     |                                |
+| 63      | Check open filename arg using perf trace + vfs_getname | Ok       | Ok       | If fail, the failure is caused by cannot find kernel source code. |
+| 64      | Zstd perf.data compression/decompression               | Skip     | Skip     |                                |
+| 65      | Add vfs_getname probe to get syscall args filenames    | Ok       | Ok       | If fail, the failure is caused by cannot find kernel source code. |
+| 66      | Use vfs_getname probe to get syscall args filenames    | Ok       | Ok       | If fail, the failure is caused by cannot find kernel source code. |
+
+
 ## Video4Linux (v4l2)
 
 The [v4l2-compliance tests](https://linuxtv.org/wiki/index.php/V4L_Test_Suite)

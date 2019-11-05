@@ -1,26 +1,25 @@
 ---
 layout: page
 description: >
-    The Seriously Simple Static Starter is a lightweight and optimsied Jekyll theme. This theme allows
-    you to get your feet off the ground quickly with a modern Google pagespeed 100 out-of-the-box
-    website template for 2019.
-keywords:  Jekyll Theme, PageSpeed 100, static website, gulpfile
+    Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
+    stable kernels on arm, arm64, and x86_64 consumer hardware.
+keywords:  Linux testing, Arm, Linux building, dragonboard, x15, juno, hikey, aarch64, arm32
 header:
-    # image:
-    #   path: /assets/images/marketing.jpg
-    #   alt: Background image alt tag
-    background-color: "red"
-    items:
-      - content: LKFT is Linaro’s Linux Kernel Functional Test framework.
-        type: title
-      - content: >
-          The mission of LKFT is to perform functional regression testing on select Linux kernel branches in real time (as they’re updated) and report any regressions as quickly as possible. This is performed by executing a variety of functional-tests on a selection of user-space operating systems.
-        type: para  
-      - content:
-          - title: More info
-            url: /about/
-            class: btn-secondary
-        type: buttons
+    sections:
+      - format: title
+        title_content:
+            size: h1
+            text: Linux Kernel Functional Testing
+            class: display-3 font-weight-bold text-left
+      - format: text
+        text_content:
+            text: >
+                The mission of LKFT is to improve the quality of the Linux
+                kernel by performing functional testing on Arm hardware. Our
+                focus is on LTS, stable, and upstream development branches. If
+                you have any requests, feedback, or suggestions for how we can
+                better serve you, please reach out to us at lkft@linaro.org or
+                on freenode at #linaro-lkft.
 permalink: /index2/
 ---
 <div class="iframe-container">

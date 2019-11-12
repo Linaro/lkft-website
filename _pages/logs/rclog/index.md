@@ -40,6 +40,17 @@ header:
 
 ## 2019
 
+### 2019-11-11
+#### 4.4.201, 4.9.201, 4.19.84, 5.3.11
+<!-- sla <24h 4 -->
+- Reported no regressions in <24h
+
+#### 4.14.154
+<!-- sla <24h 1 -->
+- Reported a [boot
+  regression](https://lore.kernel.org/stable/CA+G9fYt=+ymENJg1-m=F3BF8dn7mzxvt5Di34Jw5qFLBHXA5bA@mail.gmail.com/)
+- Subsequently reported no regressions in rc2 in <24h
+
 ### 2019-11-08
 #### 4.4.200, 4.9.200, 4.14.153, 4.19.83, 5.3.10
 <!-- sla <24h 5 -->

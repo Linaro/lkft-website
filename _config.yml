@@ -19,6 +19,7 @@ theme: seriously_simple_static_starter
 plugins: [jekyll-4-picture-tag, jekyll-assets, jekyll-feed]
 # Enable the use of jekyll-assets not using gulpfile for assets concatenation/compression
 using_jekyll_assets: true
+google_analytics: UA-116225604-1
 picture:
   nomarkdown: false
   source: "assets/images"

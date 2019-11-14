@@ -1,15 +1,10 @@
 ---
 layout: page
 description: >
-    The Seriously Simple Static Starter is a lightweight and optimsied Jekyll theme. This theme allows
-    you to get your feet off the ground quickly with a modern Google pagespeed 100 out-of-the-box
-    website template for 2019.
-keywords:  Jekyll Theme, PageSpeed 100, static website, gulpfile
+    Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
+    stable kernels on arm, arm64, and x86_64 consumer hardware.
+keywords:  Linux testing, Arm, Linux building, dragonboard, x15, juno, hikey, aarch64, arm32
 header:
-    #showcase_image:
-    #    alt: Alt tag
-    #    path: /assets/images/drawing1.svg
-    #    svg: true
     sections:
       - format: title
         title_content:
@@ -19,7 +14,6 @@ header:
       - format: text
         text_content:
             text: >
-
                 The mission of LKFT is to improve the quality of the Linux
                 kernel by performing functional testing on Arm hardware. Our
                 focus is on LTS, stable, and upstream development branches. If

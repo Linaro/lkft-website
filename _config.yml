@@ -19,45 +19,45 @@ theme: seriously_simple_static_starter
 plugins: [jekyll-4-picture-tag, jekyll-assets, jekyll-feed]
 # Enable the use of jekyll-assets not using gulpfile for assets concatenation/compression
 using_jekyll_assets: true
+google_analytics: UA-116225604-1
 picture:
   nomarkdown: false
   source: "assets/images"
   output: "assets/images"
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-  -
-    scope:
+      image: "/assets/image/social-media-image.png"
+  - scope:
       type: posts # an empty string here means all files in the project
     values:
       layout: "post"
 # Jekyll Assets plugin - using this just for concatentating/uglifying js
 assets:
   compress:
-        js: true
+    js: true
   autoprefixer:
-      browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers: ["last 2 versions", "> 5%", "IE 9"]
   sources:
     - assets/js/
     - assets/js/vendor/
     - assets/js/app/
     - assets/css/
     - _sass
-include: ['_pages']
+include: ["_pages"]
 # SASS Config
 sass:
-    sass_dir: _sass
-    style: compressed
+  sass_dir: _sass
+  style: compressed
 exclude:
- - build-site.sh
- - check-links.sh
- - CODEOWNERS
- - Gemfile
- - Gemfile.lock
- - Makefile
- - production.lkft.linaro.org
- - README.md
- - staging.lkft.linaro.org
+  - build-site.sh
+  - check-links.sh
+  - CODEOWNERS
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - production.lkft.linaro.org
+  - README.md
+  - staging.lkft.linaro.org

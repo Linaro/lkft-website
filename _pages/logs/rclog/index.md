@@ -40,6 +40,53 @@ header:
 
 ## 2019
 
+### 2019-12-11
+#### 4.19.89, 5.3.16, 5.4.3
+<!-- sla <24h 3 -->
+- Reported no regressions in <24h
+
+### 2019-12-04
+#### 4.4.206, 4.9.206, 4.14.158
+<!-- sla <24h 3 -->
+- Reported no regressions in <24h
+
+### 2019-12-03
+#### 4.19.88, 5.3.15, 5.4.2
+<!-- sla <24h 3 -->
+- Reported no regressions in <24h
+
+### 2019-11-27
+#### 4.14.157, 4.19.87
+<!-- sla <8h 2 -->
+- Reported an arm32 [build
+  failure](https://lore.kernel.org/stable/CAEUSe7_KTY_06epzsXW0LFLVASOiLaFb0ZgRg+4bE2kjQXnEZA@mail.gmail.com/)
+  and an x86_64 [kernel
+  panic](https://lore.kernel.org/stable/CA+G9fYsuM-ALP_EtoFEzJiia26QnUvuKWsH0b-vi43Sp++es6A@mail.gmail.com/)
+  in <8h
+
+#### 4.4.204, 4.9.204, 5.4.1
+<!-- sla <24h 3 -->
+- Reported no regressions in <24h
+
+#### 5.3.14
+<!-- sla <48h 1 -->
+- Reported no regressions in <48h
+
+### 2019-11-22
+#### 4.4.203, 4.9.203, 4.14.156, 4.19.86, 5.3.13
+<!-- sla <24h 5 -->
+- Reported no regressions in <24h
+
+### 2019-11-19
+#### 4.14.155, 5.3.12
+<!-- sla <24h 2 -->
+- Reported no regressions in <24h
+
+### 2019-11-15
+#### 4.4.202, 4.9.202
+<!-- sla <24h 2 -->
+- Reported no regressions in <24h
+
 ### 2019-11-11
 #### 4.4.201, 4.9.201, 4.19.84, 5.3.11
 <!-- sla <24h 4 -->

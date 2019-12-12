@@ -42,22 +42,22 @@ header:
 
 ### 2019-12-11
 #### 4.19.89, 5.3.16, 5.4.3
-<!-- sla <24h 3 -->
+<!-- sla <24 3 -->
 - Reported no regressions in <24h
 
 ### 2019-12-04
 #### 4.4.206, 4.9.206, 4.14.158
-<!-- sla <24h 3 -->
+<!-- sla <24 3 -->
 - Reported no regressions in <24h
 
 ### 2019-12-03
 #### 4.19.88, 5.3.15, 5.4.2
-<!-- sla <24h 3 -->
+<!-- sla <24 3 -->
 - Reported no regressions in <24h
 
 ### 2019-11-27
 #### 4.14.157, 4.19.87
-<!-- sla <8h 2 -->
+<!-- sla <8 2 -->
 - Reported an arm32 [build
   failure](https://lore.kernel.org/stable/CAEUSe7_KTY_06epzsXW0LFLVASOiLaFb0ZgRg+4bE2kjQXnEZA@mail.gmail.com/)
   and an x86_64 [kernel
@@ -65,52 +65,52 @@ header:
   in <8h
 
 #### 4.4.204, 4.9.204, 5.4.1
-<!-- sla <24h 3 -->
+<!-- sla <24 3 -->
 - Reported no regressions in <24h
 
 #### 5.3.14
-<!-- sla <48h 1 -->
+<!-- sla <48 1 -->
 - Reported no regressions in <48h
 
 ### 2019-11-22
 #### 4.4.203, 4.9.203, 4.14.156, 4.19.86, 5.3.13
-<!-- sla <24h 5 -->
+<!-- sla <24 5 -->
 - Reported no regressions in <24h
 
 ### 2019-11-19
 #### 4.14.155, 5.3.12
-<!-- sla <24h 2 -->
+<!-- sla <24 2 -->
 - Reported no regressions in <24h
 
 ### 2019-11-15
 #### 4.4.202, 4.9.202
-<!-- sla <24h 2 -->
+<!-- sla <24 2 -->
 - Reported no regressions in <24h
 
 ### 2019-11-11
 #### 4.4.201, 4.9.201, 4.19.84, 5.3.11
-<!-- sla <24h 4 -->
+<!-- sla <24 4 -->
 - Reported no regressions in <24h
 
 #### 4.14.154
-<!-- sla <24h 1 -->
+<!-- sla <24 1 -->
 - Reported a [boot
   regression](https://lore.kernel.org/stable/CA+G9fYt=+ymENJg1-m=F3BF8dn7mzxvt5Di34Jw5qFLBHXA5bA@mail.gmail.com/)
 - Subsequently reported no regressions in rc2 in <24h
 
 ### 2019-11-08
 #### 4.4.200, 4.9.200, 4.14.153, 4.19.83, 5.3.10
-<!-- sla <24h 5 -->
+<!-- sla <24 5 -->
 - Reported no regressions in <24h
 
 ### 2019-11-04
 #### 4.4.199, 4.9.199, 4.14.152, 4.19.82, 5.3.9
-<!-- sla <24h 5 -->
+<!-- sla <24 5 -->
 - Reported no regressions in <24h
 
 ### 2019-10-27
 #### 4.4.198, 4.9.198, 4.14.151, 4.19.81, 5.3.8
-<!-- sla <48h 5 -->
+<!-- sla <48 5 -->
 - Reported no regressions in <48h
 
 ### 2019-10-16

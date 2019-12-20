@@ -22,17 +22,18 @@ header:
                 on freenode at #linaro-lkft.
 ---
 ## Test Results
-<div class="row test_results">
-{% for branch in site.data.tests.tests.branches %}
-<div class="col-12 col-md-4">
-    <a href="{{branch.squad_url}}">
-        <img src="{{branch.squad_url}}badge" alt="Squad Logo" />
-    </a>
-</div>
-{% endfor %}
+<div id="modals_container"></div>
+<div class="row" id="test_results">
+    <div class="col-12">
+        <ul class="list-group mt-3 mb-4" id="project_list">
+            <li class="list-group-item d-flex flex-row justify-content-sm-around align-items-center "><img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif" /></li>
+        </ul>
+    </div>
 </div>
 
+
 ## LKFT Build Status
+
 The LKFT build uses OpenEmbedded to build a userspace image, along with the
 kernel, for each board and branch combination under test.
 <table class="table table-responsive table-boards">

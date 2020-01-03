@@ -5,12 +5,13 @@ $(document).ready(function(){
     function getLatestProjectBuilds (project) {
         var build_endpoint = project["project_url"] + "builds/?limit=10";
         var project_endpoint = project["project_url"];
-        console.log(build_endpoint);
+
         var project_details = {
                 url: project["squad_url"],
                 builds: "",
                 project: ""
         }
+
         // Get project data
         $.getJSON(project_endpoint, function(project_data) {
             project_details["name"] = project_data["slug"];
@@ -30,6 +31,10 @@ $(document).ready(function(){
                     };
                     console.log(build_test_details);
                     data["results"][key]["test_data"] = build_test_details;
+                });
+                var build_metadata_url = build["metadata"];
+                $.getJSON(build_metadata_url, function(metadata) {
+                    data["results"][key]["metadata"] = metadata["build-url"];
                 });
             });
             build_data.push(project_details);

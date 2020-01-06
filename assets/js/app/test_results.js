@@ -130,17 +130,17 @@ function createProjectList(build_data) {
       time_diff +
       ' hours ago <span class="fa fa-clock"></span></a></div>';
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-success badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Passed">' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-success badge-pill">' +
       latest_build["test_data"]["pass"] +
-      "<span class='d-block d-sm-none'> passed</span></a></div>";
+      "<span> passed</span></a></div>";
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-danger badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Failed">' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-danger badge-pill">' +
       latest_build["test_data"]["fail"] +
-      "<span class='d-block d-sm-none'> failed</span></a></div>";
+      "<span> failed</span></a></div>";
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-info badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Skipped">' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-info badge-pill">' +
       latest_build["test_data"]["skip"] +
-      "<span class='d-block d-sm-none'> skipped</span></a></div>";
+      "<span> skipped</span></a></div>";
 
     listItem +=
       '<div class="flex-even text-center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#' +

@@ -112,7 +112,7 @@ function createProjectList(build_data) {
     } else {
       slug =
         project_details["slug"] +
-        '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/loading.gif" />';
+        '<br><img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><br><small>Building...</small>';
     }
 
     var listItem =
@@ -132,15 +132,15 @@ function createProjectList(build_data) {
     listItem +=
       '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-success badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Passed">' +
       latest_build["test_data"]["pass"] +
-      "</a></div>";
+      "<span class='d-block d-sm-none'> passed</span></a></div>";
     listItem +=
       '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-danger badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Failed">' +
       latest_build["test_data"]["fail"] +
-      "</a></div>";
+      "<span class='d-block d-sm-none'> failed</span></a></div>";
     listItem +=
       '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-info badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Skipped">' +
       latest_build["test_data"]["skip"] +
-      "</a></div>";
+      "<span class='d-block d-sm-none'> skipped</span></a></div>";
 
     listItem +=
       '<div class="flex-even text-center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#' +

@@ -1,5 +1,50 @@
+// Stores the projects
+var project_urls = [
+  {
+    name: "4.4",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/40/"
+  },
+  {
+    name: "4.9",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/23/"
+  },
+  {
+    name: "4.14",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/58/"
+  },
+  {
+    name: "4.19",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/135/"
+  },
+  {
+    name: "5.3",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-5.3-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/204/"
+  },
+  {
+    name: "5.4",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/232/"
+  },
+  {
+    name: "mainline",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-mainline-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/22/"
+  },
+  {
+    name: "linux-next",
+    squad_url: "https://qa-reports.linaro.org/lkft/linux-next-oe/",
+    project_url: "https://qa-reports.linaro.org/api/projects/6/"
+  }
+];
 // Stores the builds data collected
 var build_data = [];
+var progress_division = 100 / project_urls.length;
+var current_progress_val = 0;
 $(document).ready(function() {
   // Get the latest builds for a given qa-reports project url
   function getLatestProjectBuilds(project) {
@@ -30,6 +75,16 @@ $(document).ready(function() {
             skip: status_data["tests_skip"]
           };
           console.log(build_test_details);
+          // Update progress bar
+          current_progress_val = current_progress_val + progress_division;
+          $("#project_load_progress").attr(
+            "aria-valuenow",
+            current_progress_val
+          );
+          $("#project_load_progress").attr(
+            "style",
+            "width: " + current_progress_val / 10 + "%;"
+          );
           data["results"][key]["test_data"] = build_test_details;
         });
         var build_metadata_url = build["metadata"];
@@ -41,52 +96,11 @@ $(document).ready(function() {
     });
   }
 
-  // Stores the projects
-  var project_urls = [
-    {
-      name: "4.4",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/40/"
-    },
-    {
-      name: "4.9",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/23/"
-    },
-    {
-      name: "4.14",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/58/"
-    },
-    {
-      name: "4.19",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/135/"
-    },
-    {
-      name: "5.3",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-5.3-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/204/"
-    },
-    {
-      name: "5.4",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/232/"
-    },
-    {
-      name: "mainline",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-mainline-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/22/"
-    },
-    {
-      name: "linux-next",
-      squad_url: "https://qa-reports.linaro.org/lkft/linux-next-oe/",
-      project_url: "https://qa-reports.linaro.org/api/projects/6/"
-    }
-  ];
   // Check to see if the test_results container is present
   if ($("#test_results").length > 0) {
     console.log("test results are to be loaded.");
+    // Calculate progress bar divisions based on length of project_urls
+
     // Display branches
     $(project_urls).each(function(name, project) {
       console.log(project);
@@ -112,7 +126,7 @@ function createProjectList(build_data) {
     } else {
       slug =
         project_details["slug"] +
-        '<br><img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><br><small>Building...</small>';
+        '<br><img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> building...</small>';
     }
 
     var listItem =
@@ -122,7 +136,7 @@ function createProjectList(build_data) {
       slug +
       "</p></div>";
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
       new Date(latest_build["created_at"]).toLocaleDateString("en-US") +
       " " +
       new Date(latest_build["created_at"]).toLocaleTimeString("en-US") +
@@ -130,15 +144,15 @@ function createProjectList(build_data) {
       time_diff +
       ' hours ago <span class="fa fa-clock"></span></a></div>';
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-success badge-pill">' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-success badge-pill">' +
       latest_build["test_data"]["pass"] +
       "<span> passed</span></a></div>";
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-danger badge-pill">' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-danger badge-pill">' +
       latest_build["test_data"]["fail"] +
       "<span> failed</span></a></div>";
     listItem +=
-      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-info badge-pill">' +
+      '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-info badge-pill">' +
       latest_build["test_data"]["skip"] +
       "<span> skipped</span></a></div>";
 

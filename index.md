@@ -24,14 +24,19 @@ header:
 ## Test Results
 <div id="modals_container"></div>
 <div class="row" id="test_results">
-    <div class="col-12">
-        <ul class="list-group mt-3 mb-4" id="project_list">
-            <li class="list-group-item d-flex flex-column justify-content-sm-around align-items-center ">
-                <img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif" />
-                <p>Please wait while the data is collected...</p>
-            </li>
-        </ul>
-    </div>
+<div class="col-12">
+<ul class="list-group mt-3 mb-4" id="project_list">
+<li class="list-group-item d-flex flex-column justify-content-sm-around align-items-center ">
+ <div class="d-block w-100">
+<div class="progress">
+<div id="project_load_progress" class="progress-bar  progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+</div>
+</div>
+</div>
+<p>Please wait while the data is collected...</p>
+</li>
+</ul>
+</div>
 </div>
 
 ## LKFT Build Status

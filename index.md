@@ -26,11 +26,13 @@ header:
 <div class="row" id="test_results">
     <div class="col-12">
         <ul class="list-group mt-3 mb-4" id="project_list">
-            <li class="list-group-item d-flex flex-row justify-content-sm-around align-items-center "><img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif" /></li>
+            <li class="list-group-item d-flex flex-column justify-content-sm-around align-items-center ">
+                <img id="loader" class="img-responsive" alt="Loading Icon" src="/assets/images/loading.gif" />
+                <p>Please wait while the data is collected...</p>
+            </li>
         </ul>
     </div>
 </div>
-
 
 ## LKFT Build Status
 

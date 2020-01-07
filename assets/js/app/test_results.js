@@ -277,20 +277,6 @@ $(document).ready(function() {
         url: project_urls[i]["project_url"] + "builds/?limit=10",
         success: function(build) {
           createDeferredBuildStatusRequests(build);
-          //   $(build["results"]).each(function(key, build_result) {
-          //     $.ajax({
-          //       method: "GET",
-          //       url: build_result["status"],
-          //       success: function(build_status_result) {
-          //         var build_test_details = {
-          //           pass: build_status_result["tests_pass"],
-          //           fail: build_status_result["tests_fail"],
-          //           skip: build_status_result["tests_skip"]
-          //         };
-          //         build["results"][key]["test_data"] = build_test_details;
-          //       }
-          //     });
-          //   });
           builds.push(build);
           build_progress += build_progress_chunk;
         }

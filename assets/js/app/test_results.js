@@ -1,3 +1,6 @@
+// Stores the builds data collected
+var build_data = [];
+var current_progress_val = 0;
 // Stores the projects
 var project_urls = [
   {
@@ -41,79 +44,60 @@ var project_urls = [
     project_url: "https://qa-reports.linaro.org/api/projects/6/"
   }
 ];
-// Stores the builds data collected
-var build_data = [];
 var progress_division = 100 / project_urls.length;
-var current_progress_val = 0;
-$(document).ready(function() {
-  // Get the latest builds for a given qa-reports project url
-  function getLatestProjectBuilds(project) {
-    var build_endpoint = project["project_url"] + "builds/?limit=10";
-    var project_endpoint = project["project_url"];
+var build_data = [];
 
-    var project_details = {
-      url: project["squad_url"],
-      builds: "",
-      project: ""
-    };
-
-    // Get project data
-    $.getJSON(project_endpoint, function(project_data) {
-      project_details["name"] = project_data["slug"];
-      project_details["project"] = project_data;
+function aggregateResults(projects, builds, build_statuses) {
+  $(projects).each(function(key, project) {
+    // Get the original project
+    var original_project;
+    $(project_urls).each(function(key, original_project_data) {
+      if (original_project_data["project_url"] == project["url"]) {
+        original_project = project_urls[key];
+      }
     });
-    // Get the builds data
-    $.getJSON(build_endpoint, function(data) {
-      project_details["builds"] = data;
-      // Loop over each build
-      $.each(data["results"], function(key, build) {
-        var build_status_url = build["status"];
-        $.getJSON(build_status_url, function(status_data) {
-          var build_test_details = {
-            pass: status_data["tests_pass"],
-            fail: status_data["tests_fail"],
-            skip: status_data["tests_skip"]
-          };
-          console.log(build_test_details);
-          // Update progress bar
-          current_progress_val = current_progress_val + progress_division;
-          $("#project_load_progress").attr(
-            "aria-valuenow",
-            current_progress_val
-          );
-          $("#project_load_progress").attr(
-            "style",
-            "width: " + current_progress_val / 10 + "%;"
-          );
-          data["results"][key]["test_data"] = build_test_details;
-        });
-        var build_metadata_url = build["metadata"];
-        $.getJSON(build_metadata_url, function(metadata) {
-          data["results"][key]["metadata"] = metadata["build-url"];
+    // Setup the project_details object
+    var project_details = {
+      url: original_project["squad_url"],
+      builds: "",
+      project: project,
+      name: project["slug"],
+      project_url: original_project["project_url"]
+    };
+    // Loop over build results and collect test result details
+    $(builds).each(function(key, build) {
+      $(build["results"]).each(function(results_key, build_data) {
+        // Loop over collected test result data and associate corresponding build
+        found = false;
+        $(build_statuses).each(function(status_key, build_status_obj) {
+          if (build_status_obj["build"] === build_data["url"]) {
+            found = true;
+            var build_test_details = {
+              pass: build_status_obj["tests_pass"],
+              fail: build_status_obj["tests_fail"],
+              skip: build_status_obj["tests_skip"]
+            };
+            builds[key]["results"][results_key][
+              "test_data"
+            ] = build_test_details;
+          }
         });
       });
-      build_data.push(project_details);
+      if (build["next"].indexOf(project_details["project_url"]) >= 0) {
+        project_details["builds"] = build;
+      }
     });
-  }
-
-  // Check to see if the test_results container is present
-  if ($("#test_results").length > 0) {
-    console.log("test results are to be loaded.");
-    // Calculate progress bar divisions based on length of project_urls
-
-    // Display branches
-    $(project_urls).each(function(name, project) {
-      console.log(project);
-      getLatestProjectBuilds(project);
-    });
-  }
-});
+    build_data.push(project_details);
+  });
+  presentData(build_data);
+}
 
 function createProjectList(build_data) {
   var elements = [];
   $(build_data).each(function(key, project) {
     var project_details = project["project"];
     var latest_build = project["builds"]["results"][0];
+    // console.log(latest_build["test_data"]);
 
     var timeNow = new Date();
     var createdAt = new Date(latest_build["created_at"]);
@@ -165,12 +149,9 @@ function createProjectList(build_data) {
   });
   return elements;
 }
-
 function createProjectModals(build_data) {
   var elements = [];
   $(build_data).each(function(key, project) {
-    console.log("creating element");
-    console.log(project);
     var project_details = project["project"];
     var builds = project["builds"]["results"];
 
@@ -231,14 +212,96 @@ function createProjectModals(build_data) {
   });
   return elements;
 }
-
-// Display data once Ajax requests have halted
-$(document).ajaxStop(function() {
-  console.log(build_data);
+function presentData(build_data) {
   var build_list = createProjectList(build_data);
   $("#project_list").html(build_list);
-  var project_modals = createProjectModals(build_data);
-  $("#modals_container").html(project_modals);
-  // Instantiate tooltips
-  $('[data-toggle="tooltip"]').tooltip();
+  var modal_list = createProjectModals(build_data);
+  $("#modals_container").html(modal_list);
+}
+
+$(document).ready(function() {
+  // Check to see if the test_results container is present
+  if ($("#test_results").length > 0) {
+    var i,
+      projects = [],
+      builds = [],
+      build_progress_chunk = 100 / project_urls.length,
+      project_progress_chunk = 100 / project_urls.length,
+      build_progress = 0,
+      project_progress = 0,
+      build_statuses = [],
+      deferred_project_request,
+      newStatusRequest,
+      deferred_build_request,
+      current_total_progress = 0,
+      deferred_requests = [],
+      deferred_status_requests = [];
+
+    function updateProgressBar(chunk) {
+      current_total_progress += chunk * 10;
+      $("#project_load_progress").attr("aria-valuenow", current_total_progress);
+      $("#project_load_progress").attr(
+        "style",
+        "width: " + current_total_progress / 10 + "%;"
+      );
+    }
+
+    function createDeferredBuildStatusRequests(build) {
+      $(build["results"]).each(function(key, build_result) {
+        var newStatusRequest = $.ajax({
+          method: "GET",
+          url: build_result["status"],
+          success: function(build_status_result) {
+            build_statuses.push(build_status_result);
+          }
+        });
+        deferred_status_requests.push(newStatusRequest);
+      });
+    }
+
+    for (i = 0; i < project_urls.length; ++i) {
+      // Deferred Project requests
+      deferred_project_request = $.ajax({
+        method: "GET",
+        url: project_urls[i]["project_url"],
+        success: function(project) {
+          projects.push(project);
+          project_progress += project_progress_chunk;
+          updateProgressBar(project_progress_chunk);
+        }
+      });
+      deferred_requests.push(deferred_project_request);
+      // Deferred Build Requests
+      deferred_build_request = $.ajax({
+        method: "GET",
+        url: project_urls[i]["project_url"] + "builds/?limit=10",
+        success: function(build) {
+          createDeferredBuildStatusRequests(build);
+          //   $(build["results"]).each(function(key, build_result) {
+          //     $.ajax({
+          //       method: "GET",
+          //       url: build_result["status"],
+          //       success: function(build_status_result) {
+          //         var build_test_details = {
+          //           pass: build_status_result["tests_pass"],
+          //           fail: build_status_result["tests_fail"],
+          //           skip: build_status_result["tests_skip"]
+          //         };
+          //         build["results"][key]["test_data"] = build_test_details;
+          //       }
+          //     });
+          //   });
+          builds.push(build);
+          build_progress += build_progress_chunk;
+        }
+      });
+      deferred_requests.push(deferred_build_request);
+    }
+    // Once all ajax requests have complete
+    $.when.apply($, deferred_requests).then(function() {
+      $.when.apply($, deferred_status_requests).then(function() {
+        aggregateResults(projects, builds, build_statuses);
+      });
+    });
+  }
 });

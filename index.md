@@ -33,7 +33,6 @@ header:
 </div>
 </div>
 </div>
-<p>Please wait while the data is collected...</p>
 </li>
 </ul>
 </div>

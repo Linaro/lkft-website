@@ -41,6 +41,11 @@ header .jumbotron {
 .jumbotron .col.col-xs-12.col-md-4 {
     text-align: center;
 }
+#project_list {
+    li.list-group-item {
+        padding: 0;
+    }
+}
 .flex-even {
     flex: 1;
 }

@@ -38,7 +38,60 @@ header:
     as index.md.
 -->
 
+## 2020
+
+### 2020-01-07
+#### 4.14.163, 4.19.94, 5.4.9
+<!-- sla <24 3 -->
+- Reported an arm [build
+problem](https://lore.kernel.org/lkml/CA+G9fYvMX4gMi6hmTmukzgr1xPsoJsj0WTm=AS3hC5Mq-dLvsQ@mail.gmail.com)
+on 5.4 before the release candidate was announced
+- Reported no regressions in <24h
+
+### 2020-01-02
+#### 4.4.208, 4.14.162, 4.19.93
+<!-- sla <48 3 -->
+- Reported a [syscalls
+regression](https://lore.kernel.org/netdev/CA+G9fYv3=oJSFodFp4wwF7G7_g5FWYRYbc4F0AMU6jyfLT689A@mail.gmail.com)
+before the release candidate was announced
+- Reported no regressions in <48h
+
+#### 4.9.208
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 5.4.8
+<!-- sla <24 1 -->
+- Reported an [arm64
+regression](https://lore.kernel.org/lkml/CA+G9fYuPkOGKbeQ0FKKx4H0Bs-nRHALsFtwyRw0Rt5DoOCvRHg@mail.gmail.com),
+resulting in an -rc2
+- Reported no regressions in <24h
+
+
 ## 2019
+
+### 2019-12-29
+#### 4.14.161, 4.19.92, 5.4.7
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2019-12-19
+#### 4.4.207, 4.9.207, 4.14.160, 4.19.91, 5.4.6
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2019-12-17
+#### 5.3.18, 5.4.5
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2019-12-16
+#### 4.14.159, 4.19.90, 5.3.17, 5.4.4
+<!-- sla <24 4 -->
+- Reported an [arm
+regression](https://lore.kernel.org/lkml/CA+G9fYupS7hBtYPauO3A_QM-NQTPgxrOSLF=vu=dfHfdeG01Eg@mail.gmail.com)
+on 4.14, resulting in an -rc2
+- Reported no regressions in <24h
 
 ### 2019-12-11
 #### 4.19.89, 5.3.16, 5.4.3

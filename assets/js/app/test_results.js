@@ -44,10 +44,28 @@ var project_urls = [
     project_url: "https://qa-reports.linaro.org/api/projects/6/"
   }
 ];
-var progress_division = 100 / project_urls.length;
-var build_data = [];
+var i,
+  projects = [],
+  builds = [],
+  build_progress_chunk = 30 / project_urls.length,
+  project_progress_chunk = 30 / project_urls.length,
+  status_request_chunk = 30 / (project_urls.length * 10),
+  aggregate_results_chunk = 10 / project_urls.length,
+  build_progress = 0,
+  project_progress = 0,
+  status_request_progress = 0,
+  build_statuses = [],
+  deferred_project_request,
+  newStatusRequest,
+  deferred_build_request,
+  current_total_progress = 0,
+  deferred_requests = [],
+  deferred_status_requests = [],
+  progress_division = 100 / project_urls.length,
+  build_data = [];
 
 function aggregateResults(projects, builds, build_statuses) {
+  var aggregate_results_chunk = 10 / project_urls.length;
   $(projects).each(function(key, project) {
     // Get the original project
     var original_project;
@@ -88,6 +106,7 @@ function aggregateResults(projects, builds, build_statuses) {
       }
     });
     build_data.push(project_details);
+    updateProgressBar(aggregate_results_chunk);
   });
   presentData(build_data);
 }
@@ -218,34 +237,19 @@ function presentData(build_data) {
   var modal_list = createProjectModals(build_data);
   $("#modals_container").html(modal_list);
 }
+function updateProgressBar(chunk) {
+  current_total_progress += chunk * 10;
+  console.log(current_total_progress);
+  $("#project_load_progress").attr("aria-valuenow", current_total_progress);
+  $("#project_load_progress").attr(
+    "style",
+    "width: " + current_total_progress / 10 + "%;"
+  );
+}
 
 $(document).ready(function() {
   // Check to see if the test_results container is present
   if ($("#test_results").length > 0) {
-    var i,
-      projects = [],
-      builds = [],
-      build_progress_chunk = 100 / project_urls.length,
-      project_progress_chunk = 100 / project_urls.length,
-      build_progress = 0,
-      project_progress = 0,
-      build_statuses = [],
-      deferred_project_request,
-      newStatusRequest,
-      deferred_build_request,
-      current_total_progress = 0,
-      deferred_requests = [],
-      deferred_status_requests = [];
-
-    function updateProgressBar(chunk) {
-      current_total_progress += chunk * 10;
-      $("#project_load_progress").attr("aria-valuenow", current_total_progress);
-      $("#project_load_progress").attr(
-        "style",
-        "width: " + current_total_progress / 10 + "%;"
-      );
-    }
-
     function createDeferredBuildStatusRequests(build) {
       $(build["results"]).each(function(key, build_result) {
         var newStatusRequest = $.ajax({
@@ -253,6 +257,7 @@ $(document).ready(function() {
           url: build_result["status"],
           success: function(build_status_result) {
             build_statuses.push(build_status_result);
+            updateProgressBar(status_request_chunk);
           }
         });
         deferred_status_requests.push(newStatusRequest);
@@ -266,7 +271,6 @@ $(document).ready(function() {
         url: project_urls[i]["project_url"],
         success: function(project) {
           projects.push(project);
-          project_progress += project_progress_chunk;
           updateProgressBar(project_progress_chunk);
         }
       });
@@ -278,7 +282,7 @@ $(document).ready(function() {
         success: function(build) {
           createDeferredBuildStatusRequests(build);
           builds.push(build);
-          build_progress += build_progress_chunk;
+          updateProgressBar(build_progress_chunk);
         }
       });
       deferred_requests.push(deferred_build_request);

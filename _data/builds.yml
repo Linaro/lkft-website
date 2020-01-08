@@ -8,6 +8,22 @@ branches:
   - mainline
   - linux-next
 
+gitlab-builds:
+- branch: "4.4"
+  gitlab-branch: "stable-rc-linux-4.4.y"
+- branch: "4.9"
+  gitlab-branch: "stable-rc-linux-4.9.y"
+- branch: "4.14"
+  gitlab-branch: "stable-rc-linux-4.14.y"
+- branch: "4.19"
+  gitlab-branch: "stable-rc-linux-4.19.y"
+- branch: "5.4"
+  gitlab-branch: "stable-rc-linux-5.4.y"
+- branch: "mainline"
+  gitlab-branch: "mainline-master"
+- branch: "next"
+  gitlab-branch: "next-master"
+
 boards:
 - name: Hikey
   architecture: arm64

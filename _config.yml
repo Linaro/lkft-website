@@ -26,7 +26,7 @@ picture:
   output: "assets/images"
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "_site" # an empty string here means all files in the project
     values:
       layout: "default"
       image: "/assets/image/social-media-image.png"

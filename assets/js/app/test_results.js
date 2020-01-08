@@ -73,6 +73,8 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   function getTimeDelta(datetimeObj) {
     return Math.abs(Math.round((new Date() - datetimeObj) / 1000 / 60 / 60));
   }
+
+  // Create a HTML list element for a given set of test data.
   function createProjectList(build_data) {
     var elements = [];
     $(build_data).each(function(key, project) {
@@ -92,32 +94,32 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       var listItem =
         '<li class="list-group-item d-flex flex-column flex-sm-row justify-content-sm-between align-items-center ">';
       listItem +=
-        "<div class='flex-even text-center'><p style='text-align:center;max-width:200px'>" +
+        "<div class='flex-even text-center'><span style='text-align:center;max-width:200px'>" +
         slug +
-        "</p></div>";
+        "</span></div>";
       listItem +=
-        '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
+        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
         new Date(latest_build["created_at"]).toLocaleDateString("en-US") +
         " " +
         new Date(latest_build["created_at"]).toLocaleTimeString("en-US") +
         '">' +
         time_diff +
-        ' hours ago <span class="fa fa-clock"></span></a></div>';
+        ' hours ago <span class="fa fa-clock"></span></span></div>';
       listItem +=
-        '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-success badge-pill">' +
+        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-success badge-pill">' +
         latest_build["test_data"]["pass"] +
-        "<span> passed</span></a></div>";
+        "<span> passed</span></span></div>";
       listItem +=
-        '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-danger badge-pill">' +
+        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-danger badge-pill">' +
         latest_build["test_data"]["fail"] +
-        "<span> failed</span></a></div>";
+        "<span> failed</span></span></div>";
       listItem +=
-        '<div class="flex-even text-center"><a href="#" class="mt-1 mb-1 badge badge-large badge-info badge-pill">' +
+        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-info badge-pill">' +
         latest_build["test_data"]["skip"] +
-        "<span> skipped</span></a></div>";
+        "<span> skipped</span></span></div>";
 
       listItem +=
-        '<div class="flex-even text-center"><a href="#" class="btn btn-primary" data-toggle="modal" data-target="#' +
+        '<div class="flex-even text-center"><a href="#" data-toggle="modal" data-target="#' +
         project_details["slug"] +
         '-modal">View Builds</a></div>';
       listItem += "</li>";
@@ -143,34 +145,32 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       $(builds).each(function(key, build) {
         var time_diff = getTimeDelta(new Date(build["created_at"]));
         var listItem =
-          '<li class="list-group-item d-flex flex-column flex-sm-row justify-content-sm-between align-items-center ">';
-        listItem += project_details["slug"];
+          '<li class="list-group-item d-flex flex-even text-center flex-column flex-sm-row justify-content-sm-between align-items-center ">';
+        listItem +=
+          '<div class="flex-even text-center">' +
+          project_details["slug"] +
+          "</div>";
 
         listItem +=
-          '<a href="#" class="mt-1 mb-1 badge badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
+          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +
           new Date(build["created_at"]).toLocaleDateString("en-US") +
           " " +
           new Date(build["created_at"]).toLocaleTimeString("en-US") +
           '">' +
           time_diff +
-          ' hours ago <span class="fa fa-clock"></span></a>';
+          ' hours ago <span class="fa fa-clock"></span></span></div>';
         listItem +=
-          '<a href="#" class="mt-1 mb-1 badge badge-success badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Passed">' +
+          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-success badge-pill">' +
           build["test_data"]["pass"] +
-          "</a>";
+          "</span></div>";
         listItem +=
-          '<a href="#" class="mt-1 mb-1 badge badge-danger badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Failed">' +
+          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-danger badge-pill">' +
           build["test_data"]["fail"] +
-          "</a>";
+          "</span></div>";
         listItem +=
-          '<a href="#" class="mt-1 mb-1 badge badge-info badge-pill" data-toggle="tooltip" data-placement="top" title="Tests Skipped">' +
+          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-info badge-pill">' +
           build["test_data"]["skip"] +
-          "</a>";
-
-        listItem +=
-          '<a href="" class="btn btn-primary" data-toggle="modal" data-target="#' +
-          project_details["slug"] +
-          '-modal">View</a>';
+          "</span></div>";
         listItem += "</li>";
 
         modal += listItem;
@@ -179,7 +179,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       modal +=
         '</ul><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button><a href="' +
         project["url"] +
-        '" class="btn btn-primary">View all Builds</a></div></div></div></div>';
+        '">View all Builds</a></div></div></div></div>';
       elements.push(modal);
     });
     return elements;

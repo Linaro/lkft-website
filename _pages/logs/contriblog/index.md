@@ -64,10 +64,8 @@ header:
   patch](https://patchwork.kernel.org/patch/10831823/) to resolve mmc issue
   reported by Naresh re: [bug
   4286](https://bugs.linaro.org/show_bug.cgi?id=4286)
-- 2019-03-12: Alan Maguire [posted a
-  patch](https://git.kernel.org/pub/scm/linux/kernel/git/davem/net.git/commit/?id=f4b3ec4e6aa1a2ca437905a519ae08e8cf6af754)
-  to fix test_tunnel.sh issue raised by Naresh re: [bug
-  4307](https://bugs.linaro.org/show_bug.cgi?id=4307)
+- 2019-03-12: Alan Maguire posted a patch to fix test_tunnel.sh issue raised by
+  Naresh re: [bug 4307](https://bugs.linaro.org/show_bug.cgi?id=4307)
 - 2019-03-11: Naresh Kamboju confirmed ltp/statx04 fixed via [upstream
   patch](http://patchwork.ozlabs.org/patch/1043765/) re: [bug
   4012](https://bugs.linaro.org/show_bug.cgi?id=4012)

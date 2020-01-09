@@ -84,18 +84,21 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       var time_diff = getTimeDelta(new Date(latest_build["created_at"]));
       var slug = "";
       if (latest_build["finished"] === true) {
-        slug = project_details["slug"];
+        testing = "";
       } else {
-        slug =
-          project_details["slug"] +
+        testing =
           '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
       }
 
       var listItem =
         '<li class="list-group-item d-flex flex-column flex-sm-row justify-content-sm-between align-items-center ">';
       listItem +=
-        "<div class='flex-even text-center ml-1 mr-1'><span style='text-align:center;max-width:200px'>" +
-        slug +
+        "<div class='flex-even ml-1 mr-1'><span>" +
+        project_details["slug"] +
+        "</span></div>";
+      listItem +=
+        "<div class='flex-even ml-1 mr-1 text-center'><span>" +
+        testing +
         "</span></div>";
       listItem +=
         '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
@@ -145,19 +148,19 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
 
       $(builds).each(function(key, build) {
         if (build["finished"] === true) {
-          slug = build["version"];
+          testing = "";
         } else {
-          slug =
-            build["version"] +
+          testing =
             '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
         }
         var time_diff = getTimeDelta(new Date(build["created_at"]));
         var listItem =
-          '<li class="list-group-item d-flex flex-even text-center flex-column flex-sm-row justify-content-sm-between align-items-center ">';
+          '<li class="list-group-item d-flex flex-even flex-column flex-sm-row justify-content-sm-between align-items-center ">';
         listItem +=
-          '<div class="flex-even flex-grow-2 text-center ml-1 mr-1 ">' +
-          slug +
+          '<div class="flex-even flex-grow-2 ml-1 mr-1 ">' +
+          build["version"] +
           "</div>";
+        listItem += '<div class="flex-even ml-1 mr-1 ">' + testing + "</div>";
 
         listItem +=
           '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +

@@ -154,8 +154,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
         var time_diff = getTimeDelta(new Date(build["created_at"]));
         var listItem =
           '<li class="list-group-item d-flex flex-even text-center flex-column flex-sm-row justify-content-sm-between align-items-center ">';
-        listItem +=
-          '<div class="flex-even text-center">' + build["version"] + "</div>";
+        listItem += '<div class="flex-even text-center">' + slug + "</div>";
 
         listItem +=
           '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +

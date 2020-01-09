@@ -88,7 +88,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       } else {
         slug =
           project_details["slug"] +
-          '<br><img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
+          '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
       }
 
       var listItem =
@@ -144,6 +144,13 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
         '</p><ul class="list-group" id="build_list">';
 
       $(builds).each(function(key, build) {
+        if (build["finished"] === true) {
+          slug = build["version"];
+        } else {
+          slug =
+            build["version"] +
+            '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
+        }
         var time_diff = getTimeDelta(new Date(build["created_at"]));
         var listItem =
           '<li class="list-group-item d-flex flex-even text-center flex-column flex-sm-row justify-content-sm-between align-items-center ">';

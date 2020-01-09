@@ -135,7 +135,15 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
     $(build_data).each(function(key, project) {
       console.log(project);
       var project_details = project["project"];
-      var builds = project["builds"]["results"];
+      var builds = project["builds"]["results"].sort(function(a, b) {
+        if (a.version < b.version) {
+          return -1;
+        }
+        if (a.version > b.version) {
+          return 1;
+        }
+        return 0;
+      });
 
       var modal =
         '<div class="modal  fade" id="' +
@@ -196,9 +204,18 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
     return elements;
   }
   function presentData(build_data) {
-    var build_list = createProjectList(build_data);
+    var sorted_build_data = build_data.sort(function(a, b) {
+      if (a.name < b.name) {
+        return -1;
+      }
+      if (a.name > b.name) {
+        return 1;
+      }
+      return 0;
+    });
+    var build_list = createProjectList(sorted_build_data);
     $("#project_list").html(build_list);
-    var modal_list = createProjectModals(build_data);
+    var modal_list = createProjectModals(sorted_build_data);
     $("#modals_container").html(modal_list);
   }
   function updateProgressBar(chunk) {

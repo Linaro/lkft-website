@@ -130,6 +130,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   function createProjectModals(build_data) {
     var elements = [];
     $(build_data).each(function(key, project) {
+      console.log(project);
       var project_details = project["project"];
       var builds = project["builds"]["results"];
 
@@ -147,9 +148,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
         var listItem =
           '<li class="list-group-item d-flex flex-even text-center flex-column flex-sm-row justify-content-sm-between align-items-center ">';
         listItem +=
-          '<div class="flex-even text-center">' +
-          project_details["slug"] +
-          "</div>";
+          '<div class="flex-even text-center">' + build["version"] + "</div>";
 
         listItem +=
           '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +

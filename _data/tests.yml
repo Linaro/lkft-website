@@ -2,18 +2,26 @@
 tests:
   branches:
     - name: "4.4"
+      project_url: "https://qa-reports.linaro.org/api/projects/40/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
     - name: "4.9"
+      project_url: "https://qa-reports.linaro.org/api/projects/23/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
     - name: "4.14"
+      project_url: "https://qa-reports.linaro.org/api/projects/58/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
     - name: "4.19"
+      project_url: "https://qa-reports.linaro.org/api/projects/135/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/
     - name: "5.3"
+      project_url: "https://qa-reports.linaro.org/api/projects/204/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.3-oe/
     - name: "5.4"
+      project_url: "https://qa-reports.linaro.org/api/projects/232/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/
     - name: "mainline"
+      project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
     - name: "linux-next"
+      project_url: "https://qa-reports.linaro.org/api/projects/6/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/

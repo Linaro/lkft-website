@@ -2,7 +2,7 @@ title: LKFT
 tagline: Linaro’s Linux Kernel Functional Test framework
 brand_logo: /assets/images/lkft_logo_dark.png
 favicon: /favicon.ico
-footer-text: "Copyright © 2019 Linaro Limited • lkft@linaro.org • freenode/#linaro-lkft"
+footer-text: "Copyright © 2020 Linaro Limited • lkft@linaro.org • freenode/#linaro-lkft"
 irc_channel: linaro-lkft
 description: >- # this means to ignore newlines until "baseurl:"
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
@@ -26,7 +26,7 @@ picture:
   output: "assets/images"
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "_site" # an empty string here means all files in the project
     values:
       layout: "default"
       image: "/assets/image/social-media-image.png"

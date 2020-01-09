@@ -41,3 +41,23 @@ header .jumbotron {
 .jumbotron .col.col-xs-12.col-md-4 {
     text-align: center;
 }
+#project_list, #modals_container {
+    li.list-group-item {
+        padding: 0;
+    }
+}
+.modal-title {
+    font-weight: 600;
+}
+.flex-even {
+    flex: 1;
+}
+.badge-large {
+    font-size: 16px;
+}
+.badge-pill {
+    padding: 3px;
+}
+.flex-grow-3 {
+    flex-grow: 3;
+}

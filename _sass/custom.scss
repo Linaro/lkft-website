@@ -46,12 +46,15 @@ header .jumbotron {
         padding: 0;
     }
 }
+.modal-title {
+    font-weight: 600;
+}
 .flex-even {
     flex: 1;
 }
 .badge-large {
     font-size: 16px;
 }
-.flex-grow-2 {
-    flex-grow: 2;
+.flex-grow-3 {
+    flex-grow: 3;
 }

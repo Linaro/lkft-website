@@ -148,9 +148,9 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       var modal =
         '<div class="modal  fade" id="' +
         project_details["slug"] +
-        '-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">' +
+        '-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h3 class="modal-title">' +
         project_details["slug"] +
-        '</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><p>' +
+        '</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><p>' +
         project_details["description"] +
         '</p><ul class="list-group" id="build_list">';
 
@@ -165,7 +165,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
         var listItem =
           '<li class="list-group-item d-flex flex-even flex-column flex-sm-row justify-content-sm-between align-items-center ">';
         listItem +=
-          '<div class="flex-even flex-grow-2 ml-1 mr-1 ">' +
+          '<div class="flex-even flex-grow-3 ml-1 mr-1 ">' +
           build["version"] +
           "</div>";
         listItem += '<div class="flex-even ml-1 mr-1 ">' + testing + "</div>";

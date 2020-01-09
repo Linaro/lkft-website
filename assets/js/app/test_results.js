@@ -136,13 +136,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       console.log(project);
       var project_details = project["project"];
       var builds = project["builds"]["results"].sort(function(a, b) {
-        if (a.version < b.version) {
-          return -1;
-        }
-        if (a.version > b.version) {
-          return 1;
-        }
-        return 0;
+        return Number(b.id) - Number(a.id);
       });
 
       var modal =
@@ -153,6 +147,8 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
         '</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><p>' +
         project_details["description"] +
         '</p><ul class="list-group" id="build_list">';
+
+      console.log(builds);
 
       $(builds).each(function(key, build) {
         if (build["finished"] === true) {

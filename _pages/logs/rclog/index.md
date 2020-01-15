@@ -36,13 +36,34 @@ header:
 
     Then, to get current SLA metrics, run ./getsla.py from the same directory
     as index.md.
+
+    Likewise, stable regressions are counted using <!-- regressions 3 -->,
+    where "3" is the number of regressions reported. We count one regression
+    per branch - so if a regression from a single patch is found to break 5
+    branches, that would count as 5 regressions.
+
 -->
 
 ## 2020
 
+### 2020-01-14
+#### 4.4.210, 4.9.210, 4.14.165, 4.19.96, 5.4.12
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2020-01-11
+#### 4.4.209, 4.9.209, 4.14.164, 4.19.95, 5.4.11
+<!-- sla <24 5 -->
+<!-- regressions 1 -->
+- Reported an arm [build
+  failure](https://lore.kernel.org/lkml/CA+G9fYvSQJ0BVAAMyTk0mViqCdNjtsZCrhhorRnrmcPg98yQVA@mail.gmail.com/)
+  on 4.4 pre-rc
+- Reported no regressions in <24h
+
 ### 2020-01-07
 #### 4.14.163, 4.19.94, 5.4.9
 <!-- sla <24 3 -->
+<!-- regressions 1 -->
 - Reported an arm [build
 problem](https://lore.kernel.org/lkml/CA+G9fYvMX4gMi6hmTmukzgr1xPsoJsj0WTm=AS3hC5Mq-dLvsQ@mail.gmail.com)
 on 5.4 before the release candidate was announced
@@ -51,6 +72,7 @@ on 5.4 before the release candidate was announced
 ### 2020-01-02
 #### 4.4.208, 4.14.162, 4.19.93
 <!-- sla <48 3 -->
+<!-- regressions 1 -->
 - Reported a [syscalls
 regression](https://lore.kernel.org/netdev/CA+G9fYv3=oJSFodFp4wwF7G7_g5FWYRYbc4F0AMU6jyfLT689A@mail.gmail.com)
 before the release candidate was announced
@@ -62,6 +84,7 @@ before the release candidate was announced
 
 #### 5.4.8
 <!-- sla <24 1 -->
+<!-- regressions 1 -->
 - Reported an [arm64
 regression](https://lore.kernel.org/lkml/CA+G9fYuPkOGKbeQ0FKKx4H0Bs-nRHALsFtwyRw0Rt5DoOCvRHg@mail.gmail.com),
 resulting in an -rc2

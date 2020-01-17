@@ -37,7 +37,7 @@ header:
     Then, to get current SLA metrics, run ./getsla.py from the same directory
     as index.md.
 
-    Likewise, stable regressions are counted using <!-- regressions 3 -->,
+    Likewise, stable regressions are counted using "regressions 3",
     where "3" is the number of regressions reported. We count one regression
     per branch - so if a regression from a single patch is found to break 5
     branches, that would count as 5 regressions.

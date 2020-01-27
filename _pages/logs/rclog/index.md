@@ -46,6 +46,37 @@ header:
 
 ## 2020
 
+### 2020-01-24
+#### 4.14.168, 4.19.99
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
+#### 5.4.15
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [Perf build
+failure](https://lore.kernel.org/stable/CA+G9fYtxRoK6D1_oMf9zQj8MW0JtPdphDDO1NHcYQcoFNL5pjw@mail.gmail.com/)
+in <8h
+- Reported no regressions for -rc2
+
+### 2020-01-22
+#### 4.9.211, 4.14.167, 4.19.98, 5.4.14
+<!-- sla <8 4 -->
+<!-- regressions 1 -->
+- Reported [build
+failure](https://lore.kernel.org/lkml/CA+G9fYvKw7ijk-vxA58SR_d0_-3_in28uFG5H6pikypgDpAHPQ@mail.gmail.com)
+  on 4.19 pre-rc
+- Reported no regressions in <8h
+
+#### 4.4.211
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2020-01-16
+#### 4.14.166, 4.19.97, 5.4.13
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2020-01-14
 #### 4.4.210, 4.9.210, 4.14.165, 4.19.96, 5.4.12
 <!-- sla <24 5 -->

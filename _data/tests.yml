@@ -16,6 +16,11 @@ tests:
     - name: "5.4"
       project_url: "https://qa-reports.linaro.org/api/projects/232/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/
+# XXX Blocked by https://github.com/Linaro/lkft-website/issues/223
+# or alternatively, once 5.5 has enough data to be rendered.
+#    - name: "5.5"
+#      project_url: "https://qa-reports.linaro.org/api/projects/263/"
+#      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.5-oe/
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/

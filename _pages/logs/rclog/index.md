@@ -46,6 +46,43 @@ header:
 
 ## 2020
 
+### 2020-02-03
+#### 5.4.18
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build
+  regression](https://lists.linaro.org/pipermail/lkft-triage/2020-February/020144.html)
+  on Arm 32-bits in <8h
+- Reported no regressions in -rc3
+
+#### 4.14.170, 4.19.102, 4.9.213, 5.5.2
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 4.4.213
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2020-01-30
+#### 4.19.101, 5.4.17, 5.5.1
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+
+### 2020-01-28
+#### 4.9.212, 4.14.169
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported build regression in [4.9
+  pre-rc](https://lore.kernel.org/stable/CA+G9fYs0hK+WaRwdD+64_15Un6fOdEb-RQH0=jZLwJ49nnKK6A@mail.gmail.com/)
+  and [4.14
+  pre-rc](https://lore.kernel.org/stable/CA+G9fYtJxdSV7SKWU9SDkt9gjznkvPr-z84fe8Xe_YbBD2RRrw@mail.gmail.com/)
+- Reported no regressions on rc2 in <24h
+
+#### 4.4.212, 4.19.100, 5.4.16
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2020-01-24
 #### 4.14.168, 4.19.99
 <!-- sla <8 2 -->

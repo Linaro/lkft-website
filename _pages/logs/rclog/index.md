@@ -46,6 +46,24 @@ header:
 
 ## 2020
 
+### 2020-02-13
+#### 4.4.214, 4.9.214, 4.14.171, 4.19.104, 5.4.20, 5.5.4
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2020-02-10
+#### 4.19.103, 5.4.19
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
+#### 5.5.3
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported 64K-pages [build
+  failure](https://lore.kernel.org/stable/CA+G9fYu4pDFaG-dA2KbVp61HGNzA1R3F_=Z5isC8_ammG4iZkQ@mail.gmail.com/)
+  on Arm 64-bits
+- Reported no regressions in -rc2
+
 ### 2020-02-03
 #### 5.4.18
 <!-- sla <8 1 -->

@@ -25,11 +25,15 @@ tests:
       project_url: "https://qa-reports.linaro.org/api/projects/232/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/
       order_num: 6
+    - name: "5.5"
+      project_url: "https://qa-reports.linaro.org/api/projects/263/"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.5-oe/
+      order_num: 7
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
-      order_num: 7
+      order_num: 8
     - name: "linux-next"
       project_url: "https://qa-reports.linaro.org/api/projects/6/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
-      order_num: 8
+      order_num: 9

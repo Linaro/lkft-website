@@ -36,13 +36,102 @@ header:
 
     Then, to get current SLA metrics, run ./getsla.py from the same directory
     as index.md.
+
+    Likewise, stable regressions are counted using "regressions 3",
+    where "3" is the number of regressions reported. We count one regression
+    per branch - so if a regression from a single patch is found to break 5
+    branches, that would count as 5 regressions.
+
 -->
 
 ## 2020
 
+### 2020-02-03
+#### 5.4.18
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build
+  regression](https://lists.linaro.org/pipermail/lkft-triage/2020-February/020144.html)
+  on Arm 32-bits in <8h
+- Reported no regressions in -rc3
+
+#### 4.14.170, 4.19.102, 4.9.213, 5.5.2
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 4.4.213
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2020-01-30
+#### 4.19.101, 5.4.17, 5.5.1
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+
+### 2020-01-28
+#### 4.9.212, 4.14.169
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported build regression in [4.9
+  pre-rc](https://lore.kernel.org/stable/CA+G9fYs0hK+WaRwdD+64_15Un6fOdEb-RQH0=jZLwJ49nnKK6A@mail.gmail.com/)
+  and [4.14
+  pre-rc](https://lore.kernel.org/stable/CA+G9fYtJxdSV7SKWU9SDkt9gjznkvPr-z84fe8Xe_YbBD2RRrw@mail.gmail.com/)
+- Reported no regressions on rc2 in <24h
+
+#### 4.4.212, 4.19.100, 5.4.16
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2020-01-24
+#### 4.14.168, 4.19.99
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
+#### 5.4.15
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [Perf build
+failure](https://lore.kernel.org/stable/CA+G9fYtxRoK6D1_oMf9zQj8MW0JtPdphDDO1NHcYQcoFNL5pjw@mail.gmail.com/)
+in <8h
+- Reported no regressions for -rc2
+
+### 2020-01-22
+#### 4.9.211, 4.14.167, 4.19.98, 5.4.14
+<!-- sla <8 4 -->
+<!-- regressions 1 -->
+- Reported [build
+failure](https://lore.kernel.org/lkml/CA+G9fYvKw7ijk-vxA58SR_d0_-3_in28uFG5H6pikypgDpAHPQ@mail.gmail.com)
+  on 4.19 pre-rc
+- Reported no regressions in <8h
+
+#### 4.4.211
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2020-01-16
+#### 4.14.166, 4.19.97, 5.4.13
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2020-01-14
+#### 4.4.210, 4.9.210, 4.14.165, 4.19.96, 5.4.12
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2020-01-11
+#### 4.4.209, 4.9.209, 4.14.164, 4.19.95, 5.4.11
+<!-- sla <24 5 -->
+<!-- regressions 1 -->
+- Reported an arm [build
+  failure](https://lore.kernel.org/lkml/CA+G9fYvSQJ0BVAAMyTk0mViqCdNjtsZCrhhorRnrmcPg98yQVA@mail.gmail.com/)
+  on 4.4 pre-rc
+- Reported no regressions in <24h
+
 ### 2020-01-07
 #### 4.14.163, 4.19.94, 5.4.9
 <!-- sla <24 3 -->
+<!-- regressions 1 -->
 - Reported an arm [build
 problem](https://lore.kernel.org/lkml/CA+G9fYvMX4gMi6hmTmukzgr1xPsoJsj0WTm=AS3hC5Mq-dLvsQ@mail.gmail.com)
 on 5.4 before the release candidate was announced
@@ -51,6 +140,7 @@ on 5.4 before the release candidate was announced
 ### 2020-01-02
 #### 4.4.208, 4.14.162, 4.19.93
 <!-- sla <48 3 -->
+<!-- regressions 1 -->
 - Reported a [syscalls
 regression](https://lore.kernel.org/netdev/CA+G9fYv3=oJSFodFp4wwF7G7_g5FWYRYbc4F0AMU6jyfLT689A@mail.gmail.com)
 before the release candidate was announced
@@ -62,6 +152,7 @@ before the release candidate was announced
 
 #### 5.4.8
 <!-- sla <24 1 -->
+<!-- regressions 1 -->
 - Reported an [arm64
 regression](https://lore.kernel.org/lkml/CA+G9fYuPkOGKbeQ0FKKx4H0Bs-nRHALsFtwyRw0Rt5DoOCvRHg@mail.gmail.com),
 resulting in an -rc2

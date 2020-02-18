@@ -38,8 +38,27 @@ header:
 </div>
 </div>
 
-## LKFT Build Status
+## LKFT 2.0 Build Status
+Our second generation build and continuous integration uses <a
+href="https://gitlab.com/Linaro/lkft/kernel-runs/pipelines">GitLab
+pipelines</a> and <a href="https://gitlab.com/Linaro/tuxbuild">TuxBuild</a>.
+<table class="table table-responsive table-boards">
+<thead><tr>
+{% for branch in site.data.builds.gitlab-builds %}
+    <th>{{branch.branch}}</th>
+{% endfor %}
+</tr></thead>
+<tbody>
+{% for branch in site.data.builds.gitlab-builds %}
+    <td>
+<a href="https://gitlab.com/Linaro/lkft/kernel-runs/pipelines/{{branch.gitlab-branch}}/latest"><img src="https://gitlab.com/Linaro/lkft/kernel-runs/badges/{{branch.gitlab-branch}}/pipeline.svg"></a>
+    </td>
+{% endfor %}
+</tbody>
+</table>
 
+
+## LKFT Build Status
 The LKFT build uses OpenEmbedded to build a userspace image, along with the
 kernel, for each board and branch combination under test.
 <table class="table table-responsive table-boards">
@@ -76,42 +95,3 @@ kernel, for each board and branch combination under test.
 {% endfor %}
 </tbody>
 </table>
-
-{% if site.data.settings.clang_enabled %}
-## Kernel Build Status (using Clang)
-In an effort to support building the Linux kernel using <a
-href="https://clang.llvm.org/">Clang</a>, the following table provides the
-current status of a kernel build on several branches, Clang distributions, and
-architectures.
-<table class="table-responsive table-boards">
-<thead>
-  <tr>
-    <th>Branch</th>
-    {% for toolchain in site.data.clang-builds.toolchains %}
-      {% for architecture in site.data.clang-builds.architectures %}
-        <th>{{toolchain}} - {{architecture}}</th>
-      {% endfor %}
-    {% endfor %}
-  </tr>
-</thead>
-<tbody>
-{% for branch in site.data.clang-builds.branches %}
-  <tr>
-    <td>
-      <strong>{{branch.name}}</strong>
-    </td>
-    {% for toolchain in site.data.clang-builds.toolchains %}
-      {% for architecture in site.data.clang-builds.architectures %}
-        <td>
-          <a href="{{branch[toolchain][architecture].jenkins_build_url}}">
-            <img src="{{branch[toolchain][architecture].jenkins_badge_url}}"
-            alt="Jenkins Build Badge" />
-          </a>
-        </td>
-      {% endfor %}
-    {% endfor %}
-  </tr>
-{% endfor %}
-</tbody>
-</table>
-{% endif %}

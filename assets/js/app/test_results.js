@@ -37,6 +37,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       // Setup the project_details object
       var project_details = {
         url: original_project["squad_url"],
+        order_num: original_project["order_num"],
         builds: "",
         project: project,
         name: project["slug"],
@@ -73,7 +74,6 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   function getTimeDelta(datetimeObj) {
     return Math.abs(Math.round((new Date() - datetimeObj) / 1000 / 60 / 60));
   }
-
   // Create a HTML list element for a given set of test data.
   function createProjectList(build_data) {
     var elements = [];
@@ -201,10 +201,10 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   }
   function presentData(build_data) {
     var sorted_build_data = build_data.sort(function(a, b) {
-      if (a.name < b.name) {
+      if (a.order_num < b.order_num) {
         return -1;
       }
-      if (a.name > b.name) {
+      if (a.order_num > b.order_num) {
         return 1;
       }
       return 0;

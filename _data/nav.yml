@@ -1,5 +1,7 @@
 - title: About
   url: /about/
+- title: LKFT 101
+  url: /lkft-101/
 - title: Boards
   url: /boards/
 - title: Branches
@@ -8,7 +10,5 @@
   url: /tests/
 - title: Logs
   items:
-      - title: Changelog
-        url: /logs/changelog/
       - title: Release Candidate Log
         url: /logs/rclog/

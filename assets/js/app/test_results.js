@@ -1,6 +1,8 @@
 // Stores the projects
 $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   var project_urls = json["tests"]["branches"];
+  //   console.log("Project urls");
+  //   console.log(project_urls);
   // Stores the builds data collected
   var build_data = [],
     current_progress_val = 0,
@@ -37,7 +39,6 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       // Setup the project_details object
       var project_details = {
         url: original_project["squad_url"],
-        order_num: original_project["order_num"],
         builds: "",
         project: project,
         name: project["slug"],
@@ -62,7 +63,12 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
             }
           });
         });
-        if (build["next"].indexOf(project_details["project_url"]) >= 0) {
+        console.log(build);
+        if (
+          build["results"][0]["project"].indexOf(
+            project_details["project_url"]
+          ) >= 0
+        ) {
           project_details["builds"] = build;
         }
       });
@@ -77,137 +83,143 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   // Create a HTML list element for a given set of test data.
   function createProjectList(build_data) {
     var elements = [];
-    $(build_data).each(function(key, project) {
-      var project_details = project["project"];
-      var latest_build = project["builds"]["results"][0];
-      // Get the time delta
-      var time_diff = getTimeDelta(new Date(latest_build["created_at"]));
-      var slug = "";
-      if (latest_build["finished"] === true) {
-        testing = "";
-      } else {
-        testing =
-          '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
+    for (i = 0; i < project_urls.length; i++) {
+      for (b = 0; b < build_data.length; b++) {
+        if (build_data[b]["project_url"] == project_urls[i]["project_url"]) {
+          var project_details = build_data[b]["project"];
+          console.log(build_data);
+          var latest_build = build_data[b]["builds"]["results"][0];
+          // Get the time delta
+          var time_diff = getTimeDelta(new Date(latest_build["created_at"]));
+          var slug = "";
+          if (latest_build["finished"] === true) {
+            testing = "";
+          } else {
+            testing =
+              '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
+          }
+
+          var listItem =
+            '<li class="list-group-item d-flex flex-column flex-sm-row justify-content-sm-between align-items-center ">';
+          listItem +=
+            "<div class='flex-even ml-1 mr-1'><span>" +
+            project_details["slug"] +
+            "</span></div>";
+          listItem +=
+            "<div class='flex-even ml-1 mr-1 text-center'><span>" +
+            testing +
+            "</span></div>";
+          listItem +=
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
+            new Date(latest_build["created_at"]).toLocaleDateString("en-US") +
+            " " +
+            new Date(latest_build["created_at"]).toLocaleTimeString("en-US") +
+            '">' +
+            time_diff +
+            ' hours ago <span class="fa fa-clock"></span></span></div>';
+          listItem +=
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-success badge-pill">' +
+            latest_build["test_data"]["pass"] +
+            "<span> passed</span></span></div>";
+          listItem +=
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-danger badge-pill">' +
+            latest_build["test_data"]["fail"] +
+            "<span> failed</span></span></div>";
+          listItem +=
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-info badge-pill">' +
+            latest_build["test_data"]["skip"] +
+            "<span> skipped</span></span></div>";
+
+          listItem +=
+            '<div class="flex-even text-center"><a href="#" data-toggle="modal" data-target="#' +
+            project_details["slug"] +
+            '-modal">View Builds</a></div>';
+          listItem += "</li>";
+          elements.push(listItem);
+        }
       }
-
-      var listItem =
-        '<li class="list-group-item d-flex flex-column flex-sm-row justify-content-sm-between align-items-center ">';
-      listItem +=
-        "<div class='flex-even ml-1 mr-1'><span>" +
-        project_details["slug"] +
-        "</span></div>";
-      listItem +=
-        "<div class='flex-even ml-1 mr-1 text-center'><span>" +
-        testing +
-        "</span></div>";
-      listItem +=
-        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
-        new Date(latest_build["created_at"]).toLocaleDateString("en-US") +
-        " " +
-        new Date(latest_build["created_at"]).toLocaleTimeString("en-US") +
-        '">' +
-        time_diff +
-        ' hours ago <span class="fa fa-clock"></span></span></div>';
-      listItem +=
-        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-success badge-pill">' +
-        latest_build["test_data"]["pass"] +
-        "<span> passed</span></span></div>";
-      listItem +=
-        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-danger badge-pill">' +
-        latest_build["test_data"]["fail"] +
-        "<span> failed</span></span></div>";
-      listItem +=
-        '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-info badge-pill">' +
-        latest_build["test_data"]["skip"] +
-        "<span> skipped</span></span></div>";
-
-      listItem +=
-        '<div class="flex-even text-center"><a href="#" data-toggle="modal" data-target="#' +
-        project_details["slug"] +
-        '-modal">View Builds</a></div>';
-      listItem += "</li>";
-      elements.push(listItem);
-    });
+    }
     return elements;
   }
   function createProjectModals(build_data) {
     var elements = [];
-    $(build_data).each(function(key, project) {
-      console.log(project);
-      var project_details = project["project"];
-      var builds = project["builds"]["results"].sort(function(a, b) {
-        return Number(b.id) - Number(a.id);
-      });
 
-      var modal =
-        '<div class="modal  fade" id="' +
-        project_details["slug"] +
-        '-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h3 class="modal-title">' +
-        project_details["slug"] +
-        '</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><p>' +
-        project_details["description"] +
-        '</p><ul class="list-group" id="build_list">';
+    for (i = 0; i < project_urls.length; i++) {
+      for (b = 0; b < build_data.length; b++) {
+        if (build_data[b]["project_url"] == project_urls[i]["project_url"]) {
+          var project_details = build_data[b]["project"];
+          var builds = build_data[b]["builds"]["results"].sort(function(a, b) {
+            return Number(b.id) - Number(a.id);
+          });
+          console.log("Builds");
+          console.log(builds);
+          var modal =
+            '<div class="modal  fade" id="' +
+            project_details["slug"] +
+            '-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true"><div class="modal-dialog modal-lg modal-dialog-centered" role="document"><div class="modal-content"><div class="modal-header"><h3 class="modal-title">' +
+            project_details["slug"] +
+            '</h3><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button></div><div class="modal-body"><p>' +
+            project_details["description"] +
+            '</p><ul class="list-group" id="build_list">';
 
-      console.log(builds);
+          $(builds).each(function(key, build) {
+            if (build["finished"] === true) {
+              testing = "";
+            } else {
+              testing =
+                '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
+            }
+            var time_diff = getTimeDelta(new Date(build["created_at"]));
+            var listItem =
+              '<li class="list-group-item d-flex flex-even flex-column flex-sm-row justify-content-sm-between align-items-center ">';
+            listItem +=
+              '<div class="flex-even flex-grow-3 ml-1 mr-1 ">' +
+              build["version"] +
+              "</div>";
+            listItem +=
+              '<div class="flex-even ml-1 mr-1 ">' + testing + "</div>";
 
-      $(builds).each(function(key, build) {
-        if (build["finished"] === true) {
-          testing = "";
-        } else {
-          testing =
-            '<img id="loader" class="img-responsive" style="width:20px;" alt="Loading Icon" src="/assets/images/building_loader.gif" /><small> testing...</small>';
+            listItem +=
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +
+              new Date(build["created_at"]).toLocaleDateString("en-US") +
+              " " +
+              new Date(build["created_at"]).toLocaleTimeString("en-US") +
+              '">' +
+              time_diff +
+              ' hours ago <span class="fa fa-clock"></span></span></div>';
+            listItem +=
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-success badge-pill">' +
+              build["test_data"]["pass"] +
+              "</span></div>";
+            listItem +=
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-danger badge-pill">' +
+              build["test_data"]["fail"] +
+              "</span></div>";
+            listItem +=
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-info badge-pill">' +
+              build["test_data"]["skip"] +
+              "</span></div>";
+            listItem += "</li>";
+
+            modal += listItem;
+          });
+
+          modal +=
+            '</ul><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button><a href="' +
+            build_data[b]["url"] +
+            '">View all Builds</a></div></div></div></div>';
+          elements.push(modal);
         }
-        var time_diff = getTimeDelta(new Date(build["created_at"]));
-        var listItem =
-          '<li class="list-group-item d-flex flex-even flex-column flex-sm-row justify-content-sm-between align-items-center ">';
-        listItem +=
-          '<div class="flex-even flex-grow-3 ml-1 mr-1 ">' +
-          build["version"] +
-          "</div>";
-        listItem += '<div class="flex-even ml-1 mr-1 ">' + testing + "</div>";
-
-        listItem +=
-          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +
-          new Date(build["created_at"]).toLocaleDateString("en-US") +
-          " " +
-          new Date(build["created_at"]).toLocaleTimeString("en-US") +
-          '">' +
-          time_diff +
-          ' hours ago <span class="fa fa-clock"></span></span></div>';
-        listItem +=
-          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-success badge-pill">' +
-          build["test_data"]["pass"] +
-          "</span></div>";
-        listItem +=
-          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-danger badge-pill">' +
-          build["test_data"]["fail"] +
-          "</span></div>";
-        listItem +=
-          '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-info badge-pill">' +
-          build["test_data"]["skip"] +
-          "</span></div>";
-        listItem += "</li>";
-
-        modal += listItem;
-      });
-
-      modal +=
-        '</ul><div class="modal-footer"><button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button><a href="' +
-        project["url"] +
-        '">View all Builds</a></div></div></div></div>';
-      elements.push(modal);
-    });
+      }
+    }
     return elements;
   }
   function presentData(build_data) {
     var sorted_build_data = build_data.sort(function(a, b) {
-      if (a.order_num < b.order_num) {
-        return -1;
-      }
-      if (a.order_num > b.order_num) {
-        return 1;
-      }
-      return 0;
+      return (
+        project_urls.indexOf(a["project_url"]) -
+        project_urls.indexOf(b["project_url"])
+      );
     });
     var build_list = createProjectList(sorted_build_data);
     $("#project_list").html(build_list);
@@ -226,17 +238,21 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   $(document).ready(function() {
     if ($("#test_results").length > 0) {
       function createDeferredBuildStatusRequests(build) {
-        $(build["results"]).each(function(key, build_result) {
+        var limit = 10;
+        if (build["count"] < 10) {
+          var limit = build["count"];
+        }
+        for (i = 0; i < limit; i++) {
           var newStatusRequest = $.ajax({
             method: "GET",
-            url: build_result["status"],
+            url: build["results"][i]["status"],
             success: function(build_status_result) {
               build_statuses.push(build_status_result);
               updateProgressBar(status_request_chunk);
             }
           });
           deferred_status_requests.push(newStatusRequest);
-        });
+        }
       }
       // Create ajax request objects for each project
       for (i = 0; i < project_urls.length; ++i) {

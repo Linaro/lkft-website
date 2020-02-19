@@ -207,15 +207,9 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
     return elements;
   }
   function presentData(build_data) {
-    var sorted_build_data = build_data.sort(function(a, b) {
-      return (
-        project_urls.indexOf(a["project_url"]) -
-        project_urls.indexOf(b["project_url"])
-      );
-    });
-    var build_list = createProjectList(sorted_build_data);
+    var build_list = createProjectList(build_data);
     $("#project_list").html(build_list);
-    var modal_list = createProjectModals(sorted_build_data);
+    var modal_list = createProjectModals(build_data);
     $("#modals_container").html(modal_list);
   }
   function updateProgressBar(chunk) {

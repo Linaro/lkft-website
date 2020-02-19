@@ -1,8 +1,8 @@
 // Stores the projects
 $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   var project_urls = json["tests"]["branches"];
-  //   console.log("Project urls");
-  //   console.log(project_urls);
+  console.log("Project urls");
+  console.log(project_urls);
   // Stores the builds data collected
   var build_data = [],
     current_progress_val = 0,
@@ -63,12 +63,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
             }
           });
         });
-        console.log(build);
-        if (
-          build["results"][0]["project"].indexOf(
-            project_details["project_url"]
-          ) >= 0
-        ) {
+        if (build["next"].indexOf(project_details["project_url"]) >= 0) {
           project_details["builds"] = build;
         }
       });
@@ -87,7 +82,6 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       for (b = 0; b < build_data.length; b++) {
         if (build_data[b]["project_url"] == project_urls[i]["project_url"]) {
           var project_details = build_data[b]["project"];
-          console.log(build_data);
           var latest_build = build_data[b]["builds"]["results"][0];
           // Get the time delta
           var time_diff = getTimeDelta(new Date(latest_build["created_at"]));
@@ -151,8 +145,6 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
           var builds = build_data[b]["builds"]["results"].sort(function(a, b) {
             return Number(b.id) - Number(a.id);
           });
-          console.log("Builds");
-          console.log(builds);
           var modal =
             '<div class="modal  fade" id="' +
             project_details["slug"] +
@@ -238,21 +230,17 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   $(document).ready(function() {
     if ($("#test_results").length > 0) {
       function createDeferredBuildStatusRequests(build) {
-        var limit = 10;
-        if (build["count"] < 10) {
-          var limit = build["count"];
-        }
-        for (i = 0; i < limit; i++) {
+        $(build["results"]).each(function(key, build_result) {
           var newStatusRequest = $.ajax({
             method: "GET",
-            url: build["results"][i]["status"],
+            url: build_result["status"],
             success: function(build_status_result) {
               build_statuses.push(build_status_result);
               updateProgressBar(status_request_chunk);
             }
           });
           deferred_status_requests.push(newStatusRequest);
-        }
+        });
       }
       // Create ajax request objects for each project
       for (i = 0; i < project_urls.length; ++i) {

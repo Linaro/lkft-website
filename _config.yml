@@ -1,15 +1,63 @@
-title: Linaro LKFT
-#email: lkft-triage@lists.linaro.org # have to figure out what lists to publish
+title: LKFT
+tagline: Linaro’s Linux Kernel Functional Test framework
+brand_logo: /assets/images/lkft_logo_dark.png
+favicon: /favicon.ico
+footer-text: "Copyright © 2020 Linaro Limited • lkft@linaro.org • freenode/#linaro-lkft"
 irc_channel: linaro-lkft
-github_username: linaro
-github_repository: linaro/lkft-website
-github_repository_url: https://github.com/linaro/lkft-website
 description: >- # this means to ignore newlines until "baseurl:"
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   stable kernels on arm, arm64, and x86_64 consumer hardware.
+# Powered by
+powered_by:
+  image_path: /assets/images/linaro_white_text.svg
+  image_alt: Linaro Logo
+  image_url: https://www.linaro.org
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lkft.linaro.org" # the base hostname & protocol for your site, e.g. http://example.com  
-# Using the Jumbo Jekyll Theme https://github.com/Linaro/jumbo-jekyll-theme
-theme: jumbo-jekyll-theme
-plugins:
-    - jekyll-data
+url: "https://lkft.linaro.org"
+# Using the Seriously Simple Static Starter theme https://github.com/kylekirkby/seriously_simple_static_starter
+theme: seriously_simple_static_starter
+plugins: [jekyll-4-picture-tag, jekyll-assets, jekyll-feed]
+# Enable the use of jekyll-assets not using gulpfile for assets concatenation/compression
+using_jekyll_assets: true
+google_analytics: UA-116225604-1
+picture:
+  nomarkdown: false
+  source: "assets/images"
+  output: "assets/images"
+defaults:
+  - scope:
+      path: "_site" # an empty string here means all files in the project
+    values:
+      layout: "default"
+      image: "/assets/image/social-media-image.png"
+  - scope:
+      type: posts # an empty string here means all files in the project
+    values:
+      layout: "post"
+# Jekyll Assets plugin - using this just for concatentating/uglifying js
+assets:
+  compress:
+    js: true
+  autoprefixer:
+    browsers: ["last 2 versions", "> 5%", "IE 9"]
+  sources:
+    - assets/js/
+    - assets/js/vendor/
+    - assets/js/app/
+    - assets/css/
+    - _sass
+include: ["_pages"]
+# SASS Config
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude:
+  - build-site.sh
+  - check-links.sh
+  - CODEOWNERS
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - production.lkft.linaro.org
+  - README.md
+  - staging.lkft.linaro.org

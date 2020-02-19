@@ -1,8 +1,6 @@
 // Stores the projects
 $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
   var project_urls = json["tests"]["branches"];
-  console.log("Project urls");
-  console.log(project_urls);
   // Stores the builds data collected
   var build_data = [],
     current_progress_val = 0,

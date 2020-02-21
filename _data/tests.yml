@@ -28,3 +28,6 @@ tests:
     - name: "linux-next"
       project_url: "https://qa-reports.linaro.org/api/projects/6/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
+    # - name: linux-stable-rc-4.13-oe
+    #   project_url: https://qa-reports.linaro.org/api/projects/57/
+    #   squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.13-oe/

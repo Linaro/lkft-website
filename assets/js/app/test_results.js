@@ -61,7 +61,11 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
             }
           });
         });
-        if (build["next"].indexOf(project_details["project_url"]) >= 0) {
+        if (
+          build["results"][0]["project"].indexOf(
+            project_details["project_url"]
+          ) >= 0
+        ) {
           project_details["builds"] = build;
         }
       });

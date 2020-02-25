@@ -46,6 +46,22 @@ header:
 
 ## 2020
 
+### 2020-02-18
+#### 4.19.105, 5.4.21
+<!-- sla <8 2 -->
+<!-- regressions 1 -->
+- Reported DTBs [build
+  failure](https://lore.kernel.org/stable/CA+G9fYsxGkwOQYhuxwOZMwJi=1v4qc+cZ8PZgV6MczFNjo84HQ@mail.gmail.com/)
+  on 5.4.21-rc1
+- Reported no regressions in <8h
+
+#### 5.5.5
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- LDI underflow [reported](https://lore.kernel.org/stable/CA+G9fYtmJkYdUG1wXgUHs3KoLdGQPYFcR8oTzFmDJ5oMXu5kaQ@mail.gmail.com/)
+  on 5.5.5-rc1
+- Reported no regressions in <24h
+
 ### 2020-02-13
 #### 4.4.214, 4.9.214, 4.14.171, 4.19.104, 5.4.20, 5.5.4
 <!-- sla <24 6 -->

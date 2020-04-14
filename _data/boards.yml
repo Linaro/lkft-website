@@ -29,7 +29,7 @@
       The [HiKey 620](https://www.96boards.org/product/hikey/) was the first board to be certified 96Boards Consumer Edition compatible,
       1GB and 2GB variants are available from LeMaker. The board is based
       around the HiSilicon Kirin 620 SoC and also delivers high performance 3D
-      graphics support, Wi-Fi, and Bluetooth connectivity, all packed into a
+      graphics support, Wi-Fi, and _Bluetooth_® wireless technology connectivity, all packed into a
       board the size of a credit card.
 
       ### Specs
@@ -88,7 +88,7 @@
   text: >
       The [DragonBoard](https://www.96boards.org/product/dragonboard410c/) 410c, a product of Arrow Electronics, is the development board based
       on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features
-      advanced processing power, Wi-Fi, Bluetooth connectivity, and GPS, all
+      advanced processing power, Wi-Fi, _Bluetooth_® wireless technology connectivity, and GPS, all
       packed into a board the size of a credit card.
 
       ### Specs

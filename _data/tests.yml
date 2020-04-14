@@ -24,11 +24,20 @@ tests:
     - name: "5.4"
       project_url: "https://qa-reports.linaro.org/api/projects/232/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/
+<<<<<<< HEAD
       order_num: 6
     - name: "5.5"
       project_url: "https://qa-reports.linaro.org/api/projects/263/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.5-oe/
       order_num: 7
+=======
+    - name: "5.5"
+      project_url: "https://qa-reports.linaro.org/api/projects/263/"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.5-oe/
+    - name: "5.6"
+      project_url: "https://qa-reports.linaro.org/api/projects/284/"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.6-oe/
+>>>>>>> 22aa4d359ab2e62c2252b722f59a5f93a3609525
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
@@ -36,4 +45,10 @@ tests:
     - name: "linux-next"
       project_url: "https://qa-reports.linaro.org/api/projects/6/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
+<<<<<<< HEAD
       order_num: 9
+=======
+    # - name: linux-stable-rc-4.13-oe
+    #   project_url: https://qa-reports.linaro.org/api/projects/57/
+    #   squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.13-oe/
+>>>>>>> 22aa4d359ab2e62c2252b722f59a5f93a3609525

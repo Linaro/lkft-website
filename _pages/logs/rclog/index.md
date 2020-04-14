@@ -46,6 +46,50 @@ header:
 
 ## 2020
 
+### 2020-03-03
+#### 4.19.108, 5.4.24, 5.5.8
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2020-02-27
+#### 4.4.215, 4.9.215, 4.14.172, 4.19.107, 5.4.23, 5.5.7
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2020-02-18
+#### 4.19.105, 5.4.21
+<!-- sla <8 2 -->
+<!-- regressions 1 -->
+- Reported DTBs [build
+  failure](https://lore.kernel.org/stable/CA+G9fYsxGkwOQYhuxwOZMwJi=1v4qc+cZ8PZgV6MczFNjo84HQ@mail.gmail.com/)
+  on 5.4.21-rc1
+- Reported no regressions in <8h
+
+#### 5.5.5
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- LDI underflow [reported](https://lore.kernel.org/stable/CA+G9fYtmJkYdUG1wXgUHs3KoLdGQPYFcR8oTzFmDJ5oMXu5kaQ@mail.gmail.com/)
+  on 5.5.5-rc1
+- Reported no regressions in <24h
+
+### 2020-02-13
+#### 4.4.214, 4.9.214, 4.14.171, 4.19.104, 5.4.20, 5.5.4
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2020-02-10
+#### 4.19.103, 5.4.19
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
+#### 5.5.3
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported 64K-pages [build
+  failure](https://lore.kernel.org/stable/CA+G9fYu4pDFaG-dA2KbVp61HGNzA1R3F_=Z5isC8_ammG4iZkQ@mail.gmail.com/)
+  on Arm 64-bits
+- Reported no regressions in -rc2
+
 ### 2020-02-03
 #### 5.4.18
 <!-- sla <8 1 -->

@@ -46,6 +46,160 @@ header:
 
 ## 2020
 
+### 2020-05-13
+#### 4.19.123, 5.4.41
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.6.13
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+### 2020-05-08
+#### 4.4.223-rc1, 5.4.40-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Build](https://lore.kernel.org/stable/CA+G9fYu5XMh+gkA9MBkg+yKAvHUEZBvRww-PbeiTnJYaYsN5ag@mail.gmail.com/)
+[errors](https://lore.kernel.org/stable/CA+G9fYu6e9ytJejS=No4ytQT=U+YjqOPghVQXD=gAHB82L-WUw@mail.gmail.com/) on arm reported in <8h
+
+#### 4.4.223-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [boot
+failure](https://lore.kernel.org/stable/CA+G9fYt7JXrXiTyt+DkvM6boVyRQSCPp_90n5JkUNgaXJiBcZw@mail.gmail.com/) on arm in <24h
+
+#### 4.4.223-rc3
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.9.223, 4.14.180, 4.19.122, 5.4.40-rc2, 5.6.12
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2020-05-04
+#### 4.4.222, 4.9.222, 4.14.179, 4.19.121, 5.4.39, 5.6.11
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2020-05-01
+#### 4.4.221, 4.9.221-rc1, 4.9.221-rc2, 4.14.178-rc1, 4.19.120-rc1, 5.4.37, 5.6.9
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+#### 4.14.178-rc2, 4.19.120-rc2
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+### 2020-04-28
+#### 4.19.119, 5.4.36, 5.6.8
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2020-04-22
+#### 4.19.118, 5.4.35, 5.6.7
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 4.14.177-rc1
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+- Reported [platform specific
+warnings](https://lore.kernel.org/stable/CA+G9fYv5ofZJfrKFNbj6kaGJfLsvS7gOvVAEq_q9cMq9f9cM6w@mail.gmail.com/) (DB410c, HiKey)
+
+#### 4.4.220, 4.9.220, 4.14.177-rc2
+<!-- sla <8 3 -->
+- Reported no regressions in <8h
+
+### 2020-04-20
+#### 4.19.117
+<!-- sla <24 1 -->
+- Reported a kernel panic in <24h; hard to reproduce
+
+#### 5.4.34, 5.5.19, 5.6.6
+<!-- sla <8 3 -->
+- Reported no regressions in <8h
+- Last 5.5.y release
+
+### 2020-04-16
+#### 5.4.33, 5.5.18, 5.6.5
+<!-- sla <8 3 -->
+- Reported no regressions in <8h
+
+#### 4.19.116
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2020-04-11
+#### 4.4.219, 4.9.219, 4.14.176, 4.19.115, 5.4,32, 5.5.17, 5.6.4
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2020-04-07
+#### 5.6.3-rc1
+<!-- sla <8 1 -->
+- Reported no regression in <8h
+
+#### 5.4.31, 5.5.16, 5.6.3-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2020-04-01
+#### 4.4.218, 4.9.218, 4.14.175, 4.19.114, 5.4.30, 5.5.15, 5.6.2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2020-03-31
+#### 5.5.14-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [BPF
+regression](https://lore.kernel.org/stable/CA+G9fYuU-5o5DG1VSQuCPx=TSs61-1jBekdGb5yvMRz4ur3BQg@mail.gmail.com/) in <8h
+
+#### 5.6.1-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported Perf [build
+regression](https://lore.kernel.org/stable/CA+G9fYsZjmf34pQT1DeLN_DDwvxCWEkbzBfF0q2VERHb25dfZQ@mail.gmail.com/) in <24h
+
+#### 5.4.29-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+### 2020-03-24
+#### 4.19.113, 5.4.28, 5.5.12
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2020-03-19
+#### 5.4.27, 5.5.11
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Build failure
+[reported](https://lore.kernel.org/stable/CA+G9fYtR4eynoMt6r313FHgEhftDobn2SE9PFiDR=7_wZNfSTQ@mail.gmail.com/) for arm and arm64
+- Reported no regression in -rc3 in <24h
+
+#### 4.9.217, 4.14.174, 4.19.112
+<!-- sla <8 3 -->
+- Reported no regressions in <8h
+
+#### 4.4.217
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2020-03-17
+#### 4.19.111, 5.4.26, 5.5.10
+<!-- sla <24 3 -->
+- No regressions reported in <24h
+
+### 2020-03-10
+#### 4.9.216
+<!-- sla <8 1 -->
+- No regressions reported in <8h
+
+#### 4.4.216, 4.14.173, 4.19.109. 5.4.25, 5.5.9
+<!-- sla <24 5 -->
+- No regressions reported in <24h
+
 ### 2020-03-03
 #### 4.19.108, 5.4.24, 5.5.8
 <!-- sla <24 3 -->

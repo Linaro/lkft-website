@@ -46,6 +46,23 @@ header:
 
 ## 2020
 
+### 2020-06-05
+#### 4.19.127, 5.4.45, 5.6.17, 5.7.1
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2020-06-01
+#### 4.4.226, 4.9.226-rc3, 4.14.183, 4.19.126, 5.4.44-rc1, 5.6.16-rc1
+<!-- regressions 1 -->
+<!-- sla <24 6 -->
+- Reported [build regression](https://lore.kernel.org/stable/CA+G9fYuwMbm2NUmSLohbUs+KzKcyY9rC0dc4kh9AD9hJi6+ePw@mail.gmail.com/)
+before review round on 4.9.226
+- Reported no regressions in <24h
+
+#### 5.4.44-rc2, 5.6.16-rc2
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
 ### 2020-05-26
 #### 4.4.225, 4.9.225, 4.14.182 4.19.125, 5.4.43 5.6.15
 <!-- sla <24 6 -->

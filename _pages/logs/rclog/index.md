@@ -46,6 +46,24 @@ header:
 
 ## 2020
 
+### 2020-06-19
+#### 4.19.129-rc2, 5.4.48-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.4.228, 4.9.228, 4.14.185, 4.19.129-rc1, 5.7.5
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 5.4.48-rc1
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+### 2020-06-16
+#### 5.4.47, 5.6.19, 5.7.3
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2020-06-09
 #### 4.14.184-rc1, 4.19.128-rc1
 <!-- sla <8 2 -->

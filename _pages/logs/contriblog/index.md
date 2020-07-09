@@ -326,9 +326,8 @@ header:
 - 2018-10-18: Rafael Tinoco [reported arm kvm inconsistent lock state
   warnings](https://www.spinics.net/lists/netdev/msg529635.html) re: [bug
   4027](https://bugs.linaro.org/show_bug.cgi?id=4027)
-- 2018-10-18: Rafael Tinoco [reported kselftest proc-self-syscall
-  failure](http://lists.infradead.org/pipermail/linux-arm-kernel/2018-October/607895.html)
-  re: [bug 3783](https://bugs.linaro.org/show_bug.cgi?id=3783)
+- 2018-10-18: Rafael Tinoco reported kselftest proc-self-syscall
+  failure re: [bug 3783](https://bugs.linaro.org/show_bug.cgi?id=3783)
 - 2018-10-15: Anders Roxell [sent a patch to fix mm
   warning](https://lore.kernel.org/lkml/20181015111600.5479-1-anders.roxell@linaro.org/)
 - 2018-10-08: Naresh Kamboju [reported kselftest test_kmod.sh

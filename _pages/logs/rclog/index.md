@@ -46,6 +46,33 @@ header:
 
 ## 2020
 
+### 2020-07-20
+#### 4.9.231-rc0, 4.14.189-rc0, 4.19.134-rc0, 5.4.53-rc0
+<!-- regressions 4 -->
+- Reported [arm](https://lore.kernel.org/stable/CA+G9fYuPe=XkrTx+yDo556D5t4wrFRFXctPPb2+7w+v-hAHvyw@mail.gmail.com/)
+[build
+regressions](https://lore.kernel.org/stable/CA+G9fYs0gT__dkBE7XbRj-n5kZmfeHFj=GXhHZ+d-BSNBdtYyg@mail.gmail.com/)
+before review request
+
+#### 5.7.10-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [RISC-V build
+regression](https://lore.kernel.org/stable/CA+G9fYteJs0X1Ctjbt-51Q9J2JHM--cOpYg+02jSdfnbWbwr2g@mail.gmail.com/)
+in <8h
+
+#### 5.4.53-rc1, 5.7.10-rc2
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported
+[Perf](https://lore.kernel.org/stable/CA+G9fYt_HQbAVT8obg59CkOTpHh=gYyQdjcx8PeMdo2Ba-A+Dw@mail.gmail.com/)
+[regressions](https://lore.kernel.org/stable/CA+G9fYuVJAHyXqPhhqtcdDstKrjb-TLu=d7DZTuQX3YuCsypHA@mail.gmail.com/)
+in <24h
+
+#### 4.4.231-rc1, 4.9.231-rc1, 4.14.189-rc1, 4.19.134-rc1
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2020-07-14
 #### 4.19.133, 5.4.52, 5.7.9
 <!-- sla <24 3 -->

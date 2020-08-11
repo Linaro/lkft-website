@@ -46,6 +46,58 @@ header:
 
 ## 2020
 
+### 2020-08-05
+#### 4.14.193, 4.19.138, 5.4.57, 5.7.14-rc2
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.7.14-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [arm64 build regression with
+GCC 7.3](https://lore.kernel.org/stable/CA+G9fYv_aX36Kq_RD5dAL_By4AFq=-ZY_qh7VhLG=HJQv5mDzg@mail.gmail.com/)
+in <8h
+
+### 2020-08-03
+#### 4.14.192, 4.19.137, 5.4.56, 5.7.13-rc3
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.7.13-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [arm64 build
+regression](https://lore.kernel.org/stable/CA+G9fYs35Eiq1QFM0MOj6Y7gC=YKaiknCPgcJpJ5NMW4Y7qnYQ@mail.gmail.com/)
+in <8h
+
+### 2020-07-30
+#### 5.4.55-rc1
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- Reported [kernel panic on arm64 with
+64K-pages](https://lore.kernel.org/stable/CA+G9fYvCPwwmF-k=Z9Z6P2KYrOMHurcORwa3RW2H1j6pq1QEDg@mail.gmail.com/)
+in <48h
+
+#### 4.4.232, 4.9.232, 4.14.191, 4.19.136, 5.7.12
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2020-07-27
+#### 4.19.135-rc3
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+#### 4.19.135-rc1
+<!-- sla <24 3 -->
+<!-- regressions 1 -->
+- Reported [boot
+regression](https://lore.kernel.org/stable/CA+G9fYvBRONMYwX36Hcju4JA5TwstkT2Afyuy2DB1zQcBcc1CA@mail.gmail.com/)
+on x86_64 in <24h
+
+#### 4.14.190, 5.4.54, 5.7.11
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2020-07-20
 #### 4.9.231-rc0, 4.14.189-rc0, 4.19.134-rc0, 5.4.53-rc0
 <!-- regressions 4 -->

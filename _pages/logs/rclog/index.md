@@ -46,6 +46,18 @@ header:
 
 ## 2020
 
+### 2020-08-10
+#### 4.19.139
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [KASAN BUG on
+x86_64](https://lore.kernel.org/stable/CA+G9fYsZs6u8LH6gJ=bnc8UWrNzLZXnaq2oMY+psNCQPzyPxdQ@mail.gmail.com/)
+and LTP tracing
+
+#### 5.4.58, 5.7.15, 5.8.1
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2020-08-05
 #### 4.14.193, 4.19.138, 5.4.57, 5.7.14-rc2
 <!-- sla <24 4 -->

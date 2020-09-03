@@ -39,9 +39,8 @@ header:
 </div>
 
 ## LKFT 2.0 Build Status
-Our second generation build and continuous integration uses <a
-href="https://gitlab.com/Linaro/lkft/kernel-runs/pipelines">GitLab
-pipelines</a> and <a href="https://gitlab.com/Linaro/tuxbuild">TuxBuild</a>.
+Our second generation build and continuous integration uses GitLab pipelines
+and <a href="https://gitlab.com/Linaro/tuxbuild">TuxBuild</a>.
 <table class="table table-responsive table-boards">
 <thead><tr>
 {% for branch in site.data.builds.gitlab-builds %}
@@ -51,7 +50,7 @@ pipelines</a> and <a href="https://gitlab.com/Linaro/tuxbuild">TuxBuild</a>.
 <tbody>
 {% for branch in site.data.builds.gitlab-builds %}
     <td>
-<a href="https://gitlab.com/Linaro/lkft/kernel-runs/pipelines/{{branch.gitlab-branch}}/latest"><img src="https://gitlab.com/Linaro/lkft/kernel-runs/badges/{{branch.gitlab-branch}}/pipeline.svg"></a>
+<a href="{{branch.gitlab-pipeline-url}}"><img src="{{branch.gitlab-badge-url}}"></a>
     </td>
 {% endfor %}
 </tbody>

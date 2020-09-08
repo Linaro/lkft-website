@@ -16,9 +16,6 @@ tests:
     - name: "5.4"
       project_url: "https://qa-reports.linaro.org/api/projects/232/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/
-    - name: "5.7"
-      project_url: "https://qa-reports.linaro.org/api/projects/310/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.7-oe/
     - name: "5.8"
       project_url: "https://qa-reports.linaro.org/api/projects/347/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.8-oe/

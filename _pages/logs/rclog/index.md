@@ -46,6 +46,25 @@ header:
 
 ## 2020
 
+### 2020-08-20
+#### 5.4.60, 5.7.17, 5.8.3
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- Reported
+[crypto](https://lore.kernel.org/stable/CA+G9fYt+z3Cs9Cbf8HH8o59gsUkwjuKRCZmvQQ2K5OM_ydSRHQ@mail.gmail.com/)
+[and](https://lore.kernel.org/stable/CA+G9fYuCgzAOZw6iM6sLwJP9=0wrO0WcTHLCQtEHWQB9=WCuSw@mail.gmail.com/)
+[cve](https://lore.kernel.org/stable/CA+G9fYtebf78TH-XpqArunHc1L6s9mHdLEbpY1EY9tSyDjp=sg@mail.gmail.com/)
+problems
+
+#### 4.4.233, 4.9.233, 4.14.194-rc2, 4.19.141
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+### 2020-08-17
+#### 4.19.140-rc1, 5.4.59-rc1, 5.7.16-rc1, 5.8.2-rc1
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2020-08-10
 #### 4.19.139
 <!-- sla <24 1 -->

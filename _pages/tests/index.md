@@ -38,6 +38,9 @@ The following test sets are run in
 - cap_bounds
 - commands
 - containers
+- controllers
+- crypto
+- cve
 - dio
 - fcntl-locktests
 - filecaps
@@ -55,7 +58,7 @@ The following test sets are run in
 - sched
 - securebits
 - syscalls
-- timers
+- tracing
 
 The version of LTP used is the most recent release, plus backports that fix
 regressions, if any.

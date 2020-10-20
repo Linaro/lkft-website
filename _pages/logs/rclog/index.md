@@ -82,6 +82,21 @@ crashes](https://lore.kernel.org/stable/CA+G9fYuBa4C-zkiywo6W1AqUGpNP1VoUg7+KkJX
 <!-- sla <48 3 -->
 - Reported no regressions in <48h
 
+### 2020-09-15
+#### 5.4.66-rc1, 5.4.66-rc2
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported [build](https://lore.kernel.org/stable/CA+G9fYv5hvOYNdfX6F40aZPP9Vr6aEsP_-22gX2P+Q95TrfF-A@mail.gmail.com/) [failures](https://lore.kernel.org/stable/20200915201732.4474qpgnxwshanpw@nuc.therub.org/)
+on arm and arm64
+
+#### 4.19.146, 5.4.66-rc3
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.8.10
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2020-09-11
 #### 4.4.236, 4.9.236, 4.14.198, 4.19.145, 5.4.65, 5.8.9
 <!-- sla <24 6 -->

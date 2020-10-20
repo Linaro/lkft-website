@@ -46,6 +46,27 @@ header:
 
 ## 2020
 
+### 2020-09-29
+#### 4.19.149-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a Perf [build
+regression](https://lore.kernel.org/stable/CA+G9fYsMyseOo3ntS_7o4qibCHEPGr0w5AQYweXjjBTyJN0DYA@mail.gmail.com/)
+
+#### 4.9.238-rc1
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- Reported Arm64 [kernel
+crashes](https://lore.kernel.org/stable/CA+G9fYuBa4C-zkiywo6W1AqUGpNP1VoUg7+KkJX9Ra_LN3gKHA@mail.gmail.com/)
+
+#### 5.4.69, 5.8.13
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.4.238, 4.14.200, 4.19.149-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2020-08-20
 #### 5.4.60, 5.7.17, 5.8.3
 <!-- sla <8 3 -->

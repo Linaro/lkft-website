@@ -82,6 +82,33 @@ crashes](https://lore.kernel.org/stable/CA+G9fYuBa4C-zkiywo6W1AqUGpNP1VoUg7+KkJX
 <!-- sla <48 3 -->
 - Reported no regressions in <48h
 
+### 2020-09-04
+#### 5.4.63, 5.8.7
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+### 2020-09-01
+#### 5.4.62-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [Perf build
+failure](https://lore.kernel.org/stable/CA+G9fYvsNkxvs7hdCB3LC9W+rP8hBa3F1fG3951S+xHfiOJwNA@mail.gmail.com/)
+
+#### 5.8.6-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [cve-2017-17053 regression on
+i386](https://lore.kernel.org/stable/CA+G9fYt+NW7w_NSmqhgQYEmWR_Yo0XDGj1skSoCSqUeLfDPu_A@mail.gmail.com/)
+(previously reported upstream against linux-next and mainline)
+
+#### 4.4.235-rc2, 5.4.62-rc2, 5.8.6-rc2
+<!-- sla <24 3 -->
+- XXX in <24h
+
+#### 4.9.235, 4.14.196, 4.19.143
+<!-- sla <24 3 -->
+- XXX in <24h
+
 ### 2020-08-26
 #### 5.7.19, 5.8.5
 <!-- sla <24 2 -->

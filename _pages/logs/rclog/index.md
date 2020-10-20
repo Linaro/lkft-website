@@ -82,6 +82,19 @@ crashes](https://lore.kernel.org/stable/CA+G9fYuBa4C-zkiywo6W1AqUGpNP1VoUg7+KkJX
 <!-- sla <48 3 -->
 - Reported no regressions in <48h
 
+### 2020-09-25
+#### 5.8.12
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+#### 4.19.148, 5.4.68
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2020-09-21
+#### 4.4.237, 4.9.237, 4.14.199, 4.19.147, 5.4.67, 5.8.11
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2020-09-15
 #### 5.4.66-rc1, 5.4.66-rc2
 <!-- sla <24 2 -->

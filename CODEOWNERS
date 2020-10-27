@@ -1,2 +1,6 @@
-build-site.sh   @pcolmer @morancj
-Gemfile         @pcolmer @morancj
+build-site.sh       @pcolmer @kylekirkby
+check-links.sh      @pcolmer @kylekirkby
+CODEOWNERS          @pcolmer @kylekirkby
+Gemfile             @pcolmer @kylekirkby
+.github-env-master  @pcolmer @kylekirkby
+.github/workflows   @pcolmer @kylekirkby

@@ -342,11 +342,6 @@ feedback from kernel engineers and the community at large. If you would like to
 see a particular test or test suite added to LKFT, please [contact us](mailto:
 lkft@linaro.org).
 
-Tests under development include [benchmarks for storage
-I/O](https://github.com/algodev-github/S), [KVM unit
-test](https://git.kernel.org/pub/scm/virt/kvm/kvm-unit-tests.git) and [v4l2
-validation test suite](https://linuxtv.org/wiki/index.php/V4L_Test_Suite).
-
 Other tests or test repositories that we are interested in include
 [LKP](https://github.com/intel/lkp-tests),
 [mmtests](https://github.com/gormanm/mmtests) and

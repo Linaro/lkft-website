@@ -341,9 +341,3 @@ We are continuously evaluating test suites for use in LKFT. We are guided by
 feedback from kernel engineers and the community at large. If you would like to
 see a particular test or test suite added to LKFT, please [contact us](mailto:
 lkft@linaro.org).
-
-Other tests or test repositories that we are interested in include
-[LKP](https://github.com/intel/lkp-tests),
-[mmtests](https://github.com/gormanm/mmtests) and
-[XFStests](http://xfs.org/index.php/Main_Page).
-

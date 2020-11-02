@@ -332,7 +332,10 @@ two benchmarks with the suite:
 - throughput with processes doing filesystem or raw I/O in parallel
   (figure of merit measured by many other suites too).
 
-
+## KUnit
+Separate test runs of
+[KUnit](https://www.kernel.org/doc/html/latest/dev-tools/kunit/index.html) are
+enabled for Qemu on x86 (64/32 bits) and arm (64/32 bits).
 
 
 # Future Test Suites

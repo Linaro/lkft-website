@@ -1,8 +1,6 @@
 # lkft.linaro.org
 
-This repository is the source for
-[https://lkft.linaro.org](https://staging.lkft.linaro.org/). It is a static website built with Jekyll
-along with Linaro's seriously_simple_static_starter theme.
+This repository is the source for <https://lkft.linaro.org>. It is a static website built with Jekyll along with Linaro's seriously_simple_static_starter theme.
 
 ## Developing
 
@@ -25,10 +23,6 @@ https://github.com/marksteele/edge-rewrite.
 
 ## Contributing
 
-To contribute to this site, please raise an issue in
-[Github](https://github.com/linaro/lkft-website/issues) or open a pull request
-up against the *[develop](https://github.com/Linaro/lkft-website/tree/develop)*
-branch.
+To contribute to this site, please raise an issue in [Github](https://github.com/linaro/lkft-website/issues) or open a pull request against the *[master](https://github.com/Linaro/lkft-website/tree/master)* branch.
 
-The `develop` branch is online at
-[https://staging.lkft.linaro.org/](https://staging.lkft.linaro.org/).
+If the build of the pull request is successful, a preview website will be available for the changes to be reviewed. The link to the website will be provided in the Pull Request.

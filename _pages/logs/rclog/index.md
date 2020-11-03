@@ -64,6 +64,7 @@ header:
 #### 4.4.240, 4.9.240, 4.14.202, 4.19.152, 5.4.72, 5.8.16, 5.9.1
 <!-- sla <24 7 -->
 - Reported no regressions in <24h
+- Last 5.8.y release
 
 ### 2020-10-12
 #### 4.4.239, 4.9.239, 4.14.201, 4.19.151, 5.4.71, 5.8.15
@@ -174,6 +175,7 @@ i386](https://lore.kernel.org/stable/CA+G9fYt+NW7w_NSmqhgQYEmWR_Yo0XDGj1skSoCSqU
 #### 4.4.234-rc2, 4.9.234-rc2, 4.14.195-rc2, 4.19.142-rc2, 5.4.61-rc2, 5.7.18-rc2, 5.8.4-rc2
 <!-- sla <24 7 -->
 - Reported no regressions in <24h
+- Last 5.7.y release
 
 ### 2020-08-20
 #### 5.4.60, 5.7.17, 5.8.3
@@ -334,6 +336,7 @@ regression](https://lore.kernel.org/stable/0367b2521cc678cb858c5af64c085506@kern
 #### 5.4.47, 5.6.19, 5.7.3
 <!-- sla <24 3 -->
 - Reported no regressions in <24h
+- Last 5.6.y release
 
 ### 2020-06-09
 #### 4.14.184-rc1, 4.19.128-rc1
@@ -702,6 +705,7 @@ resulting in an -rc2
 #### 5.3.18, 5.4.5
 <!-- sla <24 2 -->
 - Reported no regressions in <24h
+- Last 5.3.y release
 
 ### 2019-12-16
 #### 4.14.159, 4.19.90, 5.3.17, 5.4.4

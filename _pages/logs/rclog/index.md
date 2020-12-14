@@ -46,6 +46,23 @@ header:
 
 ## 2020
 
+### 2020-12-10
+#### 5.4.83-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build
+failures](https://lore.kernel.org/stable/CA+G9fYsXCcmcJTVnNUu1Pb5j5gv4CCnSqTO79Uu3tKc=aECYTg@mail.gmail.com/)
+on s390
+
+#### 4.4.248, 4.9.248, 4.14.212, 4.19.163, 5.4.83-rc2, 5.9.14
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2020-12-06
+#### 4.14.211, 4.19.162, 5.4.82, 5.9.13
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2020-12-01
 #### 4.4.247, 4.9.247, 4.14.210, 4.19.161, 5.4.81, 5.9.12
 <!-- sla <24 6 -->

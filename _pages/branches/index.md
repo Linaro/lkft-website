@@ -24,6 +24,7 @@ The following longterm stable (LTS) branches are tested:
 - 4.14
 - 4.19
 - 5.4
+- 5.10
 
 In addition to LTS branches, the latest stable branches are also tested.
 

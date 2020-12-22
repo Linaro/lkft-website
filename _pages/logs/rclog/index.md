@@ -46,6 +46,21 @@ header:
 
 ## 2020
 
+### 2020-12-19
+#### 5.4.85, 5.9.16, 5.10.2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Last 5.9.y release
+
+### 2020-12-14
+#### 5.9.15
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 5.4.84, 5.10.1
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2020-12-10
 #### 5.4.83-rc1
 <!-- sla <8 1 -->

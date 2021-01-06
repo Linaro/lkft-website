@@ -44,6 +44,24 @@ header:
 
 -->
 
+## 2021
+
+### 2021-01-04
+#### 4.19.165-rc2
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+#### 4.19.165-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build failure on arm
+32-bits](https://lore.kernel.org/stable/CAEUSe78+F1Q9LFjpf8SQzQa6+Ak4wcPiiNcUVxEcv+KPdrYvBw@mail.gmail.com/)
+in <8h
+
+#### 5.4.87, 5.10.5
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ## 2020
 
 ### 2020-12-28

@@ -46,6 +46,22 @@ header:
 
 ## 2020
 
+### 2020-12-28
+#### 5.4.86-rc2, 5.10.4-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.4.86-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [Perf
+build](https://lore.kernel.org/stable/CA+G9fYsAz_drXA3RJW-hZ8uAUv8AQ7X_JwmM38NSp6ERZQ8Wkg@mail.gmail.com/)
+failure in <8h
+
+#### 4.4.249, 4.9.249, 4.14.213, 4.19.164, 5.10.4-rc1
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
 ### 2020-12-23
 #### 5.10.3
 <!-- sla <24 1 -->

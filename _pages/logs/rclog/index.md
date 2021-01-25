@@ -46,6 +46,34 @@ header:
 
 ## 2021
 
+### 2021-01-22
+#### 4.4.253-rc2, 4.9.253-rc2, 4.14.217-rc2, 4.19.170, 5.4.92, 5.10.10
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+#### 4.4.253-rc1, 4.9.253-rc1, 4.14.217-rc1
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- Reported [build
+failure](https://lore.kernel.org/stable/CA+G9fYso4QNbRWdrQiiOiMb5RUr8VtM3AkKEGLasgN+KsPSvDw@mail.gmail.com/)
+for Clang 10 on arm64
+
+### 2021-01-18
+#### 4.19.169-rc2, 5.4.91-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.10.9
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.19.169-rc1, 5.4.91-rc1
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported [build
+failures](https://lore.kernel.org/stable/CA+G9fYsVb-4L65-YjNxVhGWeQySQAQVyQGudDtbmzfZq4g4vFA@mail.gmail.com/)
+for MIPS
+
 ### 2021-01-15
 #### 4.4.252, 4.9.252, 4.14.216, 4.19.168, 5.4.90, 5.10.8
 <!-- sla <24 6 -->

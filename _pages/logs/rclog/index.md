@@ -46,6 +46,23 @@ header:
 
 ## 2021
 
+### 2021-01-29
+#### 5.10.12
+- Reported no regressions in <8h
+
+#### 4.4.254, 4.9.254, 4.14.218, 4.19.172, 5.4.94, 5.10.12
+- Reported no regressions in <24h
+
+### 2021-01-25
+#### 4.19.171, 5.4.93-rc3, 5.10.11-rc2
+- Reported no regressions in <24h
+
+#### 5.4.93-rc1, 5.10.11-rc1
+- Reported build regressions on [x86_64,
+i386](https://lore.kernel.org/stable/ef5b0670-83ea-e754-033c-2f3f56a8c822@linaro.org/)
+and
+[RISC-V](https://lore.kernel.org/stable/dec01147-3526-59d8-d7a2-5d23d42c5671@linaro.org/)
+
 ### 2021-01-22
 #### 4.4.253-rc2, 4.9.253-rc2, 4.14.217-rc2, 4.19.170, 5.4.92, 5.10.10
 <!-- sla <24 6 -->

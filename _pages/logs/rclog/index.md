@@ -46,6 +46,31 @@ header:
 
 ## 2021
 
+### 2021-02-15
+#### 5.4.99, 5.10.17
+- Reported no regressions in <24h
+
+### 2021-02-11
+#### 4.19.176-rc2, 5.4.98, 5.10.16
+- Reported no regressions in <24h
+
+#### 4.19.176-rc1
+- Reported [lockdep
+regression](https://lore.kernel.org/stable/CA+G9fYugE5n1qsudwP7XntBvvNcEquxQkMEskWvxJAZdZX5Fng@mail.gmail.com/)
+on X15
+
+### 2021-02-08
+#### 5.10.15
+- Reported [x86_64 build
+regression](https://lore.kernel.org/stable/CA+G9fYsjJ+K7w-PQ4gp=L3QO_VSaUMr6syvAS77--aFbfZVK-g@mail.gmail.com/)
+under OE
+
+#### 4.19.175, 5.4.97
+- Reported no regressions in <24h
+
+#### 4.4.257, 4.9.257, 4.14.221
+- Reported no regressions in <48h
+
 ### 2021-02-05
 #### 4.14.220, 4.19.174, 5.4.96, 5.10.14
 <!-- sla <24 4 -->

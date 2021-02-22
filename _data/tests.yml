@@ -19,6 +19,9 @@ tests:
     - name: "5.10"
       project_url: "https://qa-reports.linaro.org/api/projects/597/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.10-oe/
+    - name: "5.11"
+      project_url: "https://qa-reports.linaro.org/api/projects/651/"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.11-oe/
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/

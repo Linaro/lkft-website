@@ -3,31 +3,31 @@ tests:
   branches:
     - name: "4.4"
       project_url: "https://qa-reports.linaro.org/api/projects/40/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.4-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-4.4.y/
     - name: "4.9"
       project_url: "https://qa-reports.linaro.org/api/projects/23/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.9-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-4.9.y/
     - name: "4.14"
       project_url: "https://qa-reports.linaro.org/api/projects/58/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.14-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-4.14.y/
     - name: "4.19"
       project_url: "https://qa-reports.linaro.org/api/projects/135/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.19-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-4.19.y/
     - name: "5.4"
       project_url: "https://qa-reports.linaro.org/api/projects/232/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.4-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.4.y/
     - name: "5.10"
       project_url: "https://qa-reports.linaro.org/api/projects/597/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.10-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.10.y/
     - name: "5.11"
       project_url: "https://qa-reports.linaro.org/api/projects/651/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-5.11-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.11.y/
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-master/
     - name: "linux-next"
       project_url: "https://qa-reports.linaro.org/api/projects/6/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-next-oe/
+      squad_url: https://qa-reports.linaro.org/lkft/linux-next-master/
     # - name: linux-stable-rc-4.13-oe
     #   project_url: https://qa-reports.linaro.org/api/projects/57/
     #   squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-4.13-oe/

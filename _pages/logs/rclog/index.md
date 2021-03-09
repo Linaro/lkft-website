@@ -48,19 +48,25 @@ header:
 
 ### 2021-02-15
 #### 5.4.99, 5.10.17
+<!-- sla <24 2 -->
 - Reported no regressions in <24h
 
 ### 2021-02-11
 #### 4.19.176-rc2, 5.4.98, 5.10.16
+<!-- sla <24 3 -->
 - Reported no regressions in <24h
 
 #### 4.19.176-rc1
+<!-- regressions 1 -->
+<!-- sla <24 1 -->
 - Reported [lockdep
 regression](https://lore.kernel.org/stable/CA+G9fYugE5n1qsudwP7XntBvvNcEquxQkMEskWvxJAZdZX5Fng@mail.gmail.com/)
 on X15
 
 ### 2021-02-08
 #### 5.10.15
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
 - Reported [x86_64 build
 regression](https://lore.kernel.org/stable/CA+G9fYsjJ+K7w-PQ4gp=L3QO_VSaUMr6syvAS77--aFbfZVK-g@mail.gmail.com/)
 under OE
@@ -83,16 +89,21 @@ under OE
 
 ### 2021-01-29
 #### 5.10.12
+<!-- sla <8 1 -->
 - Reported no regressions in <8h
 
 #### 4.4.254, 4.9.254, 4.14.218, 4.19.172, 5.4.94, 5.10.12
+<!-- sla <24 6 -->
 - Reported no regressions in <24h
 
 ### 2021-01-25
 #### 4.19.171, 5.4.93-rc3, 5.10.11-rc2
+<!-- sla <24 3 -->
 - Reported no regressions in <24h
 
 #### 5.4.93-rc1, 5.10.11-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
 - Reported build regressions on [x86_64,
 i386](https://lore.kernel.org/stable/ef5b0670-83ea-e754-033c-2f3f56a8c822@linaro.org/)
 and

@@ -46,6 +46,56 @@ header:
 
 ## 2021
 
+### 2021-03-05
+#### 4.4.260, 4.14.224, 4.19.179, 5.4.103, 5.10.21
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 4.9.260, 5.11.4
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+### 2021-03-01
+#### 5.10.20-rc4, 5.11.3-rc3
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported [LTP pty
+hangup01](https://lore.kernel.org/stable/CA+G9fYvkW+84U9e0Cjft_pq9bGnBBqCXST7Hg+gx4pKNyuGPFQ@mail.gmail.com/)
+on all devices
+
+#### 4.4.259-rc2, 4.9.259-rc3, 4.14.223-rc4, 4.19.178-rc4, 5.4.102-rc5
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 4.9.259-rc1, 4.14.223-rc1, 4.19.178-rc1, 5.4.102-rc1
+<!-- sla <24 4 -->
+<!-- regressions 4 -->
+- Reported icmpv6 build
+[failure](https://lore.kernel.org/stable/CA+G9fYsguv3qBbnHtiw9NKwb9REuQRbdji3YvQh7ETxSRbheAQ@mail.gmail.com/)
+
+#### 4.19.178-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [kfree_sensitive build
+failure](https://lore.kernel.org/stable/CA+G9fYufUB394TpDuO5-m2GEi=1LDZvsVcHmp-HyWbWV1tYjkA@mail.gmail.com/)
+on arm
+
+#### 5.10.20-rc1
+<!-- regressions 1 -->
+- Reported [sstep build
+failure](https://lore.kernel.org/stable/CA+G9fYsv+xCtoAYXgz5jkMLDGALjXCEvy=HiSWZigA5jLtnytQ@mail.gmail.com/)
+on PowerPC
+
+#### 5.10.20-rc1, 5.11.3-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported [rcar_du_kms build
+failure](https://lore.kernel.org/stable/CA+G9fYvApAT=vx_XxhbMZ=rS8ShhYkSKa0JsHC8k0dFn5xwU=Q@mail.gmail.com/)
+
+#### 4.4.259-rc1
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2021-02-25
 #### 5.4.101, 5.10.19, 5.11.2
 <!-- sla <24 3 -->

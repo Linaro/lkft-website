@@ -46,6 +46,23 @@ header:
 
 ## 2021
 
+### 2021-03-10
+#### 4.4.261, 4.9.261, 4.14.225, 4.19.180, 5.4.105, 5.10.23-rc2, 5.11.6
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+#### 5.10.23-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build
+error](https://lore.kernel.org/stable/CA+G9fYuydf-g2FPOtP9LAX-4zY3EF64Bx0OQjbjn=a4V+0=eLA@mail.gmail.com/)
+for arm64
+
+### 2021-03-08
+#### 5.4.104, 5.10.22, 5.11.5
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2021-03-05
 #### 4.4.260, 4.14.224, 4.19.179, 5.4.103, 5.10.21
 <!-- sla <24 5 -->

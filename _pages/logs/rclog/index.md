@@ -46,6 +46,37 @@ header:
 
 ## 2021
 
+### 2021-03-22
+#### 5.10.26-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build
+failure](https://lore.kernel.org/stable/CA+G9fYtK9effpD=wRmiJWmiE9iphE9NVxPw=W9dxV=OTSduR4w@mail.gmail.com/)
+on MIPS
+
+#### 5.10.26-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported and bisected [kernel
+crash](https://lore.kernel.org/stable/CA+G9fYsYXPkx+0sBYg-v46V6d9JhJxyXEir5PxX0byTXN+r0wg@mail.gmail.com/)
+on all architectures
+
+#### 5.10.26-rc3
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+#### 5.11.9
+<!-- sla <24 1 -->
+- Reported no regressions in <8h
+
+#### 4.19.183, 5.4.108
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.4.263, 4.9.263, 4.14.227
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2021-03-19
 #### 5.10.25, 5.11.8
 <!-- sla <8 2 -->

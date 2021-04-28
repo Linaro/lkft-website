@@ -22,6 +22,9 @@ tests:
     - name: "5.11"
       project_url: "https://qa-reports.linaro.org/api/projects/651/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.11.y/
+    - name: "5.12"
+      project_url: "https://qa-reports.linaro.org/api/projects/758/"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.12.y/
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-master/

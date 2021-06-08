@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7 block__image order-md-{% if board.format == "right" %}2{% else %}1{% endif %}">
-                {% assign block_image = board.image | replace: '/assets/images/','' %}
+                {% assign block_image = board.image  %}
                 {% picture feature_block_image {{block_image}} %}
             </div>
             <div class="col-md-5 block__text order-md-{% if board.format == "right" %}1{% else %}2{% endif %}">

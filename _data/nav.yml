@@ -1,14 +1,22 @@
-- title: About
-  url: /about/
-- title: LKFT 101
-  url: /lkft-101/
-- title: Boards
-  url: /boards/
-- title: Branches
-  url: /branches/
-- title: Tests
-  url: /tests/
-- title: Logs
-  items:
-      - title: Release Candidate Log
+search:
+  enabled: false
+  label: LKFT
+universal_nav: false
+brand:
+  path: /assets/images/lkft_logo_dark.png
+  alt: LKFT Logo
+pages:
+  - title: About
+    url: /about/
+  - title: LKFT 101
+    url: /lkft-101/
+  - title: Boards
+    url: /boards/
+  - title: Branches
+    url: /branches/
+  - title: Tests
+    url: /tests/
+  - title: Logs
+    options:
+      - text: Release Candidate Log
         url: /logs/rclog/

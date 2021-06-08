@@ -1,9 +1,11 @@
-.asset-cache
-.bundle/
-.jekyll-metadata
-.sass-cache
 *.swp
+.asset-cache
+.sass-cache
+Gemfile.lock
 _site
+.jekyll-metadata
+assets/resized
 production.lkft.linaro.org/
 staging.lkft.linaro.org/
-Gemfile.lock
+.asset_pipeline
+.jekyll-cache

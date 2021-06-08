@@ -1,5 +1,7 @@
 source "https://rubygems.org"
-gem "seriously_simple_static_starter"
+gem "linaro-jekyll-theme", "4.3.3"
+# Jekyll Plugins
 group :jekyll_plugins do
-  gem "jekyll-data"
-end
+    gem "closure-compiler"
+    gem "nokogiri"
+  end

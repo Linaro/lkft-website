@@ -40,6 +40,42 @@ jumbotron:
 
 ## 2021
 
+### 2021-05-12
+#### 5.4.119
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- Reported [arm64
+build](https://lore.kernel.org/stable/CA+G9fYs1AH8ZNWMJ=H4TY5C6bqp--=SZfW9P=WbB85qSBDkuXw@mail.gmail.com/)
+regression
+- Reported [MIPS/Clang
+build](https://lore.kernel.org/stable/CA+G9fYufHvM+C=39gtk5CF-r4sYYpRkQFGsmKrkdQcXj_XKFag@mail.gmail.com/)
+regression
+
+#### 5.10.37, 5.11.21, 5.12.4
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- Reported [MIPS/Clang
+build](https://lore.kernel.org/stable/CA+G9fYufHvM+C=39gtk5CF-r4sYYpRkQFGsmKrkdQcXj_XKFag@mail.gmail.com/)
+regression
+
+### 2021-05-10
+#### 5.12.3
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 5.4.118, 5.10.36, 5.11.20
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2021-05-05
+#### 5.12.2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.19.190, 5.4.117, 5.10.35, 5.11.19
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2021-04-30
 #### 5.4.116, 5.10.34, 5.11.18, 5.12.1
 <!-- sla <24 4 -->

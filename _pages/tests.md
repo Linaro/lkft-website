@@ -1,14 +1,10 @@
 ---
-layout: page
+layout: flow
 title: Tests
 permalink: /tests/
-header:
-    sections:
-      - format: title
-        title_content:
-            size: h1
-            text: Tests in LKFT
-            class: display-3 font-weight-bold text-left
+jumbotron:
+    title: Tests in LKFT
+    title-class: display-3 font-weight-bold text-left
 ---
 
 # Strategy and Workflow

@@ -1,21 +1,15 @@
 ---
-layout: page
+layout: flow
 title: "LKFT 101: An Introduction"
 permalink: /lkft-101/
 description: An introduction to LKFT
-header:
-    sections:
-      - format: title
-        title_content:
-            size: h1
-            text: "LKFT 101: An Introduction"
-            class: display-3 font-weight-bold text-left
-      - format: text
-        text_content:
-            text: >
-                The [Linux Kernel Functional Test (LKFT) project](https://lkft.linaro.org/) is
-                comprised of a diverse and distributed set of composable tools and projects
-                that come together to make a cohesive Linux kernel testing service.
+jumbotron:
+    title: "LKFT 101: An Introduction"
+    title-class: display-3 font-weight-bold text-left
+    description: >
+        The [Linux Kernel Functional Test (LKFT) project](https://lkft.linaro.org/) is
+        comprised of a diverse and distributed set of composable tools and projects
+        that come together to make a cohesive Linux kernel testing service.
 ---
 
 ## LKFT Git Repositories

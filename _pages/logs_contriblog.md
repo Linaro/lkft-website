@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: flow
 title: Contribution Log
 permalink: /logs/contriblog/
 description: >

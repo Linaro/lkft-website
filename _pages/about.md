@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: flow
 title: About LKFT
 permalink: /about/
 #description: >
@@ -7,13 +7,9 @@ permalink: /about/
 #    kernel branches in real time (as they’re updated) and report any regressions as
 #    quickly as possible. This is performed by executing a variety of
 #    functional-tests on a selection of user-space operating systems.
-header:
-    sections:
-      - format: title
-        title_content:
-            size: h1
-            text: About LKFT
-            class: display-3 font-weight-bold text-left
+jumbotron:
+    title: About LKFT
+    title-class: display-3 font-weight-bold text-left
 flow:
     - row: main_content_row
     - row: container_row
@@ -91,12 +87,36 @@ improving Arm device automation integration.
 
 ## Selected Talks
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R3H9fPhPf54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="row">
+  <div class="col col-12 col-sm-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/R3H9fPhPf54" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="col col-12 col-sm-6">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VnlPmQ1I6hA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-12 col-sm-6">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LMs7vCGv8as" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="col col-12 col-sm-6">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WMItXP1TzOY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-12 col-sm-6">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tc92uw3m-SI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="col col-12 col-sm-6">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xZz50o9QaUQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+<div class="row">
+  <div class="col col-12 col-sm-6">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FAuHKTeZhDk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+  <div class="col col-12 col-sm-6">
+  </div>
+</div>
 
 [linaro-organization]: https://linaro.org

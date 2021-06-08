@@ -1,20 +1,14 @@
 ---
-layout: page
+layout: flow
 title: Branches
 permalink: /branches/
-header:
-    sections:
-      - format: title
-        title_content:
-            size: h1
-            text: Branches
-            class: display-3 font-weight-bold text-left
-      - format: text
-        text_content:
-            text: >
-                LKFT tests the following branches. The canonical source for
-                Linux kernel branch information is at
-                [kernel.org](https://www.kernel.org/category/releases.html).
+jumbotron:
+    title: Branches
+    title-class: display-3 font-weight-bold text-left
+    description: >
+        LKFT tests the following branches. The canonical source for
+        Linux kernel branch information is at
+        [kernel.org](https://www.kernel.org/category/releases.html).
 ---
 ## Longterm and Stable
 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: flow
 title: Status
 permalink: /status/
 ---

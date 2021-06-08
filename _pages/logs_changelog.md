@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: flow
 title: Changelog
 permalink: /logs/changelog/
 description: >

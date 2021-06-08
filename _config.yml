@@ -27,7 +27,7 @@ exclude:
   - .asset-cache
   - _static-site
   - .sass-cache
-  - production.mcuboot.com
+  - production.lkft.linaro.org
 sass:
   style: compressed
   load_paths:
@@ -81,7 +81,7 @@ include: ["_pages"]
 # Blog images/thumbs dir
 blog_images_dir: assets/images/content/
 # Email
-email: enquiries@mcuboot.com
+email: contact@linaro.org
 # Company Address
 address:
   - Harston Mill
@@ -121,9 +121,9 @@ google_analytics:
 # Set the site-wide default social media share image.
 social_media_share_image: /assets/images/social-media-image.png
 # Set the default favicon
-favicon: /assets/images/favicon.png
+favicon: /favicon.ico
 # Site Name - your brand name
-name: MCUBoot
+name: LKFT
 # The blog filler element
 blog_filler_element: blog/blog_filler_element.html
 # Placeholder avatar
@@ -151,7 +151,7 @@ disqus:
 # Edit on GitHub Settings
 edit-on-github:
   enabled: true
-  repo: https://www.github.com/mcu-tools/website-mcuboot
+  repo: https://www.github.com/Linaro/lkft-website
 # Shema.org settings used in the schema.html include.
 schema:
   "@context": "https://schema.org"

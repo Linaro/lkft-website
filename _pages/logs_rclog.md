@@ -40,6 +40,21 @@ jumbotron:
 
 ## 2021
 
+### 2021-05-20
+#### 4.4.269-rc2, 4.9.269, 4.14.233, 4.19.191, 5.4.121, 5.10.39-rc2, 5.12.6-rc2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2021-05-17
+#### 5.12.5-rc2
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+#### 5.4.120, 5.10.38, 5.11.22, 5.12.5-rc1
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+- Last 5.11.y release
+
 ### 2021-05-12
 #### 5.4.119
 <!-- sla <8 1 -->

@@ -40,6 +40,21 @@ jumbotron:
 
 ## 2021
 
+### 2021-06-08
+#### 4.19.194-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.19.194-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [DTB problem on
+Arm](https://lore.kernel.org/stable/CA+G9fYu3URCR6_ZL+KPYFEOVL4f=8TjjyFncmvoLuYrR_YR3=A@mail.gmail.com/)
+
+#### 4.4.272, 4.9.272, 4.14.236, 5.4.125, 5.10.43, 5.12.10
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2021-05-31
 #### 4.4.271-rc2, 4.9.271-rc2, 4.14.235-rc2
 <!-- sla <8 3 -->

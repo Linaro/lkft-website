@@ -105,6 +105,7 @@
 -
   title: DragonBoard™ 845c
   label: Arm 64bit
+  format: right
   image: /assets/images/db845c.png
   text: >
       The Robotics [DragonBoard™ 845c](https://www.96boards.org/product/rb3-platform/) development board is based on the Qualcomm® SDA845 processor.

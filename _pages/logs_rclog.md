@@ -40,6 +40,28 @@ jumbotron:
 
 ## 2021
 
+### 2021-06-16
+#### 5.4.127, 5.10.45, 5.12.12
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2021-06-14
+#### 5.10.44-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [DB845c kernel
+crash](https://lore.kernel.org/stable/CA+G9fYsfvtr7NNcb0bvEZpYYotdY7Uf+wMY22iLhr0weZ8Om3g@mail.gmail.com/)
+
+#### 5.10.44-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [DB845c kernel
+crash](https://lore.kernel.org/stable/CA+G9fYuQy0c6_POrWNs51rKyuQ2O-PnY5edCDMDgyGTA-txA_A@mail.gmail.com/)
+
+#### 4.4.273, 4.9.273-rc1, 4.9.273-rc2, 4.14.237, 4.19.195, 5.4.126, 5.12.11
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2021-06-08
 #### 4.19.194-rc2
 <!-- sla <8 1 -->

@@ -86,7 +86,7 @@
   label: Arm 64bit
   image: /assets/images/db410c.png
   text: >
-      The [DragonBoard](https://www.96boards.org/product/dragonboard410c/) 410c, a product of Arrow Electronics, is the development board based
+      The [DragonBoard 410c](https://www.96boards.org/product/dragonboard410c/), a product of Arrow Electronics, is the development board based
       on the mid-tier Qualcomm® Snapdragon™ 410E processor. It features
       advanced processing power, Wi-Fi, _Bluetooth_® wireless technology connectivity, and GPS, all
       packed into a board the size of a credit card.
@@ -102,6 +102,28 @@
       - Ethernet Port: USB2.0 expansion
 
       - USB: 2 x USB 2.0 Host 1 x USB 2.0 OTG
+-
+  title: DragonBoard™ 845c
+  label: Arm 64bit
+  image: /assets/images/db845c.png
+  text: >
+      The Robotics [DragonBoard™ 845c](https://www.96boards.org/product/rb3-platform/) development board is based on the Qualcomm® SDA845 processor.
+      The development board supports Linux and Robotics Operating System (ROS), while also including support for the Qualcomm® Neural Processing software development kit
+      (SDK) for advanced on-device AI, the Qualcomm® Computer Vision Suite, the Qualcomm® Hexagon DSP SDK, and AWS RoboMaker.
+
+
+      ### Specs
+
+      - CPU: Qualcomm SDA845 embedded platform, custom 64-bit ARM v8-compliant octa-core CPU Up to 2.8 GHz,10nm LPP FinFET process technology
+
+      - RAM: 4GB LPDDR4x SDRAM @ 1866 MHz
+
+      - Storage: 64GB UFS 2.1 on-board storage and 1 x MicroSD card slot
+
+      - Ethernet Port: 1x GbE Ethernet
+
+      - USB: 1 x USB 2.0 Micro B (Debug only ), 1 x USB 2.0 Micro B (Debug only ), 2x USB 3.0 Type A (Host mode only)
+
 -
   title: SynQuacer™ Developerbox
   label: KVM ARM 64bit & KVM ARM 32bit

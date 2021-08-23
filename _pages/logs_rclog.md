@@ -40,6 +40,27 @@ jumbotron:
 
 ## 2021
 
+### 2021-07-09
+#### 4.4.275
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- Reported a [net namespace
+regression](https://lore.kernel.org/stable/CA+G9fYvBmvrivr+gnBhTPsYzzMPnRHigGGRNewp6X76n1Qw=Yw@mail.gmail.com/)
+on arm64
+
+#### 5.4.131, 5.10.49, 5.12.16
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 4.9.275, 4.14.239, 4.19.197
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+### 2021-07-05
+#### 5.4.130, 5.10.48, 5.12.15, 5.13.1
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2021-06-28
 #### 4.4.274, 4.9.274, 4.14.238, 4.19.196, 5.4.129, 5.10.47, 5.12.14
 <!-- sla <24 7 -->

@@ -40,6 +40,39 @@ jumbotron:
 
 ## 2021
 
+### 2021-07-15
+#### 5.12.18-rc1, 5.13.3-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported [build
+regressions](https://lore.kernel.org/stable/CAEUSe7_+8fQZ=1+jcxJVTRw0DYttGmR-aBdobZ0GWYQi3Vg97w@mail.gmail.com/)
+[on
+s390](https://lore.kernel.org/stable/CAEUSe7-HX=WrpXfcfnBUAjvEMGvraWv5hXwSgXqfUM4X1KarFg@mail.gmail.com/)
+
+#### 5.4.133-rc1, 5.10.51-rc1, 5.12.18-rc2, 5.13.3-rc2
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.4.133-rc2, 5.10.51-rc2
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+### 2021-07-12
+#### 5.4.132-rc1, 5.10.50-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported PowerPC
+[build](https://lore.kernel.org/stable/CA+G9fYu6+hex77zTHTCopRvSVpCfxPjLydEL3Ew+92poZkncSw@mail.gmail.com/)
+[regressions](https://lore.kernel.org/stable/CA+G9fYtdYvUse1Osfrux6DVU_DiLAKveQqnEZ36eoG-fThJBqw@mail.gmail.com/)
+
+#### 5.4.132-rc2, 5.10.50-rc2, 5.13.2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 5.12.17
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2021-07-09
 #### 4.4.275
 <!-- sla <48 1 -->

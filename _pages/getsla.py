@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import sys
 
 SLA = {
     '>48': 0,
@@ -6,12 +7,15 @@ SLA = {
     '<24': 0,
     '<8': 0,
 }
-with open('index.md') as f:
+
+filename = 'index.md'
+if len(sys.argv) > 1:
+    filename = sys.argv[1]
+with open(filename) as f:
     for line in f.readlines():
         if ' sla ' in line:
             (_, _, hour, count, _) = line.split(' ')
             SLA[str(hour)] += int(count)
-
 total = sum(SLA.values())
 print("Total RCs: {}".format(total))
 for sla, count in SLA.items():

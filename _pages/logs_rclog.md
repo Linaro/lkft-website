@@ -40,6 +40,48 @@ jumbotron:
 
 ## 2021
 
+### 2021-07-22
+#### 5.10.53-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build regressions on Arm64](https://lore.kernel.org/stable/beeb7568-388f-38e4-eb1f-28b1557bc191@linaro.org/) (DTB)
+
+#### 5.13.5-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [64K-pages problem with SATA](https://lore.kernel.org/stable/CA+G9fYt_9nfDcQzKm8SZtmQXzzrybutS9vD4GgUw_0o8UD1HOQ@mail.gmail.com/) on Juno
+
+#### 5.4.135, 5.10.53-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2021-07-19
+#### 4.14.240-rc1, 4.19.198-rc1, 5.4.134-rc1
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- Reported [arm64](https://lore.kernel.org/stable/CA+G9fYvCbZdAQbZw0+e-5ueyzRdsCog4JPQoHNK4TyxXLWpzqQ@mail.gmail.com/) [(QC) DTB](https://lore.kernel.org/stable/CA+G9fYvCbZdAQbZw0+e-5ueyzRdsCog4JPQoHNK4TyxXLWpzqQ@mail.gmail.com/) [failure](https://lore.kernel.org/stable/CA+G9fYuH=9=ssubxox8vpC2p-qMw45cH8Qta_dTs=Mae7A4W+Q@mail.gmail.com/)
+
+#### 5.10.52-rc1, 5.12.19-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported [arm64 (TI)](https://lore.kernel.org/stable/CA+G9fYv6TQOKp1O7JnN9zfEL_A5XP=VXRc3h-=n33jjXxP3OyA@mail.gmail.com/) [DTB failure](https://lore.kernel.org/stable/CA+G9fYts0yyTCEpSQf=1AEWEJ5Y7=o=3fGE7k5rhPA5mXJCBng@mail.gmail.com/)
+
+#### 4.19.198-rc2, 5.4.134-rc2
+<!-- sla <24 1 -->
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- Reported [Perf build failure](https://lore.kernel.org/stable/3d770ab7-5008-cbee-98c1-101d839739cd@linaro.org/) [on all architectures](https://lore.kernel.org/stable/CA+G9fYtAN7y5Z82nO59daxD=AtYOyu2J7ECFjY2P64JR9Fqifg@mail.gmail.com/)
+
+#### 5.10.52-rc2, 5.12.19-rc2, 5.13.4-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Last 5.12.y release
+
+#### 4.4.276, 4.9.276, 4.14.240-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+
 ### 2021-07-15
 #### 5.12.18-rc1, 5.13.3-rc1
 <!-- sla <8 2 -->

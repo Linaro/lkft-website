@@ -40,6 +40,34 @@ jumbotron:
 
 ## 2021
 
+### 2021-07-29
+#### 4.19.200, 5.4.137, 5.10.55, 5.13.7
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+### 2021-07-26
+#### 4.4.277-rc1, 4.9.277-rc1, 4.14.241-rc1, 4.19.199-rc1
+<!-- sla <24 4 -->
+<!-- regressions 4 -->
+- Reported [Perf](https://lore.kernel.org/stable/CA+G9fYvKUnzAph-kNsc45v1vF9DLK5NgYONdue4q-Zuw1S3oVQ@mail.gmail.com/) [build](https://lore.kernel.org/stable/CA+G9fYtKbCnGTMJod3PYEmcUHYLhj-WHS-rKQNCiWw7DvdVzjQ@mail.gmail.com/) [regressions](https://lore.kernel.org/stable/CA+G9fYvRc=hugyiNZVEMxx8_Cm5J+MWTLsYdSqjehJX_nsNkNA@mail.gmail.com/) on [all architectures](https://lore.kernel.org/stable/CA+G9fYuaWpyewAmYV041o9g+dFqutGEKnemCPFz6KmCH63TS9Q@mail.gmail.com/)
+
+#### 5.10.54-rc1, 5.13.6-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported [net/core](https://lore.kernel.org/stable/19e027f2-c751-9bc6-52f4-e0c560c1a909@linaro.org/) [build regressions](https://lore.kernel.org/stable/99b34fe9-0f1f-c94f-58d5-cfb43de98d76@linaro.org/) on all architectures
+
+#### 5.10.54-rc2, 5.13.6-rc2
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
+#### 4.19.199-rc3, 5.4.136-rc1
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.4.277-rc2, 4.9.277-rc2, 4.14.241-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2021-07-22
 #### 5.10.53-rc1
 <!-- sla <8 1 -->

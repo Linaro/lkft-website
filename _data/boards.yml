@@ -137,6 +137,28 @@
       “SC2A11” is a multi-core chip with 24 cores of ARM® Cortex-A53.
 
       This system is used to host 2GB and 1GB QEMU/KVM hosts running ARM on ARM.
+
+-
+  title: Fujitsu Supercomputer PRIMEHPC FX700
+  label: Fujitsu Supercomputer PRIMEHPC FX700
+  image: /assets/images/fx700.png
+  text: >
+      [Fujitsu Supercomputer PRIMEHPC](https://www.fujitsu.com/global/products/computing/servers/supercomputer/) is equipped the same
+      A64FX CPU as in the supercomputer Fugaku developed together with Japan’s leading research institute, RIKEN.
+      It achieves extremely high performance for the amount of power it consumes, and features high scalability.
+
+      ### Specs
+
+      - CPU: A64FX Armv8.2-A SVE 48 cores 1.8 GHz or 2.0 GHz
+
+      - RAM: 32 GiB (HBM2, 4 stacks) 1,024 GB/s Bandwidth
+
+      - Storage: 2 Slot (Gen3 x4lane / M.2 NVMe
+
+      - Ethernet: InfiniBand EDR / HDR100 (*1)
+
+      - PCIE Slot: 2 Slot (Gen3 x16lane / HHHL)
+
 -
   title: QEMU
   label: KVM ARM 64bit & KVM ARM 32bit

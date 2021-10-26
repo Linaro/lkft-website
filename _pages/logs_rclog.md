@@ -40,6 +40,20 @@ jumbotron:
 
 ## 2021
 
+### 2021-09-27
+#### 5.14.9-rc1, 5.10.70-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported a [build error](https://lore.kernel.org/stable/CA+G9fYvJ0rqin3f+46dzrXEeGcP+s6iwsUdnHJiQr8qzkPEJFw@mail.gmail.com/) [with s390](https://lore.kernel.org/stable/CA+G9fYvpn2OVw3-GrkDSPHA1piSD9L4v=thu+z5Z-uDXAx4FUQ@mail.gmail.com/)
+
+#### 5.14.9-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 5.4.150, 5.10.70-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2021-09-24
 #### 4.4.285-rc1, 4.9.284-rc1, 4.14.248-rc1, 4.19.208-rc1, 5.4.149-rc1
 <!-- sla <8 5 -->

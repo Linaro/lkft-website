@@ -40,6 +40,25 @@ jumbotron:
 
 ## 2021
 
+### 2021-10-18
+### 4.19.213-rc1, 5.4.155-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported Arm (32/64 bits) [build](https://lore.kernel.org/stable/CA+G9fYt2KddbTHMTe1WmvSg8v04UpdTKJOM5xvS2m0FiBo3-=A@mail.gmail.com/) [errors](https://lore.kernel.org/stable/CA+G9fYvnv0vYb3cL0i_71SaLoJ5FOUQh3BCTMXkD3rEmjny_+A@mail.gmail.com/)
+
+#### 5.14.14-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported arm64 [allmodconfig error](https://lore.kernel.org/stable/CA+G9fYtLTmosatvO8VBe-RDjEHEvY01P=Fw5mvRvwbxL31ahOA@mail.gmail.com/) on firmware/arm_ffa
+
+#### 4.14.252, 4.19.213-rc2, 5.4.155-rc2, 5.10.75
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.14.14-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
 ### 2021-10-14
 #### 4.4.289, 4.9.287, 4.14.251, 4.19.212, 5.4.154, 5.10.74, 5.14.13
 <!-- sla <48 7 -->

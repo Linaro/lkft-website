@@ -40,6 +40,43 @@ jumbotron:
 
 ## 2021
 
+### 2021-10-08
+#### 5.4.152, 5.10.72, 5.14.11
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 4.4.288, 4.9.286, 4.14.250, 4.19.210
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2021-10-04
+#### 5.14.10-rc3
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+#### 4.14.249-rc1, 4.19.209-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Kernel crash](https://lore.kernel.org/stable/CA+G9fYsDP=N0WeZhcBA=_0PQVKbTm=r=qA7ctLB9+Ck8WWP2dw@mail.gmail.com/) [reported on all devices](https://lore.kernel.org/stable/CA+G9fYtyzfpSnapCFEVgeWGD8ZwS2_Lv5KPwjX4hUwDAv52kFg@mail.gmail.com/)
+
+#### 5.14.10-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Lock warning [reported on arm](https://lore.kernel.org/stable/CA+G9fYs2WTaKa3jVfCBFTke8rFDupj=mNiaN=mWK-cYcvya8NA@mail.gmail.com/), [i386, x86](https://lore.kernel.org/stable/CA+G9fYuZf8qJJnUMfL8jXScgvX17MLTVDNNXAXYGMS_paBOfHg@mail.gmail.com/)
+
+#### 5.14.10-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [same warning, but good reverts](https://lore.kernel.org/stable/CA+G9fYs=K4V4MgApsoEfGm6YUFnRSP6X6r7_H0uJ-ZzHp4EFJQ@mail.gmail.com/)
+
+#### 4.9.285-rc2, 4.14.249-rc2, 4.19.209-rc2, 5.4.151-rc2, 5.10.71-rc2
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 4.4.286-rc2
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2021-09-27
 #### 5.14.9-rc1, 5.10.70-rc1
 <!-- sla <8 2 -->

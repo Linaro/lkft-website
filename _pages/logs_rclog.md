@@ -40,6 +40,35 @@ jumbotron:
 
 ## 2021
 
+### 2021-09-24
+#### 4.4.285-rc1, 4.9.284-rc1, 4.14.248-rc1, 4.19.208-rc1, 5.4.149-rc1
+<!-- sla <8 5 -->
+<!-- regressions 5 -->
+- Reported a [build](https://lore.kernel.org/stable/eab2f99b-8be2-2ca3-27de-d98cb36b327c@linaro.org/) [error](https://lore.kernel.org/stable/6afcb65a-bf4f-7990-c7aa-21bc0cd66520@linaro.org/) [with](https://lore.kernel.org/stable/4bd73a4e-e606-0054-e4b1-9d6c89a81186@linaro.org/) [mxs_defconfig](https://lore.kernel.org/stable/05f5f22f-f83d-cce1-3d40-a8bdb030472b@linaro.org/) on [arm](https://lore.kernel.org/stable/e23f6b4d-1ddb-d9bf-8ee7-16fe40532330@linaro.org/)
+
+#### 5.10.69-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [Perf build error with memchr_inv](https://lore.kernel.org/stable/c7a38a76-18b0-efaa-efed-f73e53e58277@linaro.org/) on arm, arm64, i386, x86
+
+#### 5.14.8-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [Perf build error with copy_config_terms](https://lore.kernel.org/stable/6ebcc3a5-d57b-8aef-1964-17a210eb9334@linaro.org/) on arm, arm64, i386, x86
+
+#### 4.4.285-rc2, 4.9.284-rc2, 4.14.248-rc2, 4.19.208-rc2, 5.4.149-rc2, 5.10.69-rc2, 5.14.8-rc2
+<!-- sla <48 7 -->
+- Reported no regressions in <48h
+
+### 2021-09-20
+#### 4.9.283-rc2, 4.14.247-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.4.284, 4.19.207, 5.4.148, 5.10.68, 5.14.7
+<!-- sla <48 5 -->
+- Reported no regressions in <48h
+
 ### 2021-09-16
 #### 5.10.67, 5.13.19, 5.14.6
 <!-- sla <24 3 -->

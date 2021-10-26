@@ -40,6 +40,35 @@ jumbotron:
 
 ## 2021
 
+### 2021-10-14
+#### 4.4.289, 4.9.287, 4.14.251, 4.19.212, 5.4.154, 5.10.74, 5.14.13
+<!-- sla <48 7 -->
+- Reported no regressions in <48h
+
+### 2021-10-11
+#### 5.14.12-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported an [intermittent kernel crash](https://lore.kernel.org/stable/CA+G9fYutz0ZgJ=rrg8=Fd7vh9c7G-SJfF2YoH5wZyGzUHu4Dqw@mail.gmail.com/) on X15
+
+#### 5.4.153-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [PowerPC build failure](https://lore.kernel.org/stable/CA+G9fYsCPt53vxOoCQtM-2tndioDdzdXdgJT9FV2+c0UhwSs3Q@mail.gmail.com/)
+
+#### 5.4.153-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported another [PowerPC build failure](https://lore.kernel.org/stable/CA+G9fYt3vmhvuoFJ6p49DHiFE60oBeWUwuSLrh7vXwr=8_rpfg@mail.gmail.com/)
+
+#### 4.19.211-rc3, 5.4.153-rc3, 5.10.73-rc3
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 5.10.73-rc2
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2021-10-08
 #### 5.4.152, 5.10.72, 5.14.11
 <!-- sla <24 3 -->

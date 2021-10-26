@@ -172,6 +172,7 @@ jumbotron:
 #### 5.10.67, 5.13.19, 5.14.6
 <!-- sla <24 3 -->
 - Reported no regressions in <24h
+- Last 5.13.y release
 
 ### 2021-09-13
 #### 5.13.17, 5.14.4
@@ -1635,6 +1636,7 @@ on 4.14, resulting in an -rc2
 <!-- sla <24 6 -->
 - Reported no regressions in <24h
 - Noted mismatch in kselftests 5.3.1 vs 5.3.5 for net/udpgso.sh
+- Last 5.2.y release
 
 ### 2019-10-03
 #### 4.4.195, 4.9.195, 4.19.77, 5.2.19, 5.3.4

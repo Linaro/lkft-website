@@ -40,6 +40,21 @@ jumbotron:
 
 ## 2021
 
+### 2021-09-16
+#### 5.10.67, 5.13.19, 5.14.6
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2021-09-13
+#### 5.13.17, 5.14.4
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported an Arm [Clang build error, lengthy discussion](https://lore.kernel.org/stable/CA+G9fYtdPnwf+fi4Oyxng65pWjW9ujZ7dd2Z-EEEHyJimNHN6g@mail.gmail.com/)
+
+#### 5.4.146, 5.10.65
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2021-09-10
 #### 5.4.145, 5.10.64, 5.13.16, 5.14.3
 <!-- sla <48 4 -->

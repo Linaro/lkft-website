@@ -16,7 +16,7 @@ jumbotron:
             focus is on LTS, stable, and upstream development branches. If
             you have any requests, feedback, or suggestions for how we can
             better serve you, please reach out to us at lkft@linaro.org or
-            on freenode at #linaro-lkft.
+            on Libera.Chat at #linaro-lkft.
 ---
 ## Test Results
 <div id="modals_container"></div>

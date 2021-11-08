@@ -40,6 +40,26 @@ jumbotron:
 
 ## 2021
 
+### 2021-11-04
+#### 5.10.78-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Build issue with [PageHasHWPoisoned on all architectures](https://lore.kernel.org/stable/3971a9b4-ebb6-a789-2143-31cf257d0d38@linaro.org/)
+
+#### 4.19.216, 5.4.158, 5.10.78-rc2, 5.14.17, 5.15.1
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2021-11-01
+#### 4.14.254-rc1, 4.19.215-rc1, 5.4.157-rc1
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- Reported [MMC Arm build failure](https://lore.kernel.org/stable/CA+G9fYvsNtCJ7wT-ONaunmuGDwpPxbyHcZp_u9evtN7d8RwDeA@mail.gmail.com/)
+
+#### 4.4.291, 4.9.289, 4.14.254-rc2, 4.19.215-rc2, 5.4.157-rc2, 5.10.77, 5.14.16
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2021-10-25
 #### 4.4.290, 4.9.288, 4.14.253, 4.19.214, 5.4.156, 5.10.76, 5.14.15
 <!-- sla <24 7 -->

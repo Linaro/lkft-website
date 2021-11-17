@@ -40,6 +40,16 @@ jumbotron:
 
 ## 2021
 
+### 2021-11-10
+#### 5.10.79-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported boot time out with mm’s filemap
+
+#### 4.4.292, 4.9.290, 4.14.255, 4.19.217, 5.4.159, 5.14.18, 5.15.2
+<!-- sla <24 7 -->
+- No regressions reported in <24h
+
 ### 2021-11-04
 #### 5.10.78-rc1
 <!-- sla <8 1 -->

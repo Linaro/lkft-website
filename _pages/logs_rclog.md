@@ -40,6 +40,42 @@ jumbotron:
 
 ## 2021
 
+### 2021-11-19
+#### 5.10.81, 5.14.21, 5.15.4
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+- Noted a [kselftest failure on x86 IOPL](https://lore.kernel.org/stable/106740f9-4efc-f1ac-fd42-bf8afc994333@linaro.org/)
+- Last 5.14.y release
+
+### 2021-11-15
+#### 5.15.3-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [kernel crash on Arm64/qemu](https://lore.kernel.org/stable/CA+G9fYuF1F-9TAwgR9ik_qjFqQvp324FJwFJbYForA_iRexZjg@mail.gmail.com/) due to crypto API
+
+#### 5.15.3-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported the [same kernel crash on Arm64](https://lore.kernel.org/stable/CA+G9fYvyATAWicFbnKnOTqc=MKUXNrbCBYP6zej3FJJyA31WPQ@mail.gmail.com/) due to crypto API
+
+#### 5.10.80-rc3
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [New warning on Arm64](https://lore.kernel.org/stable/CADYN=9LNevXvdmgkCC06FFxQEq3JHHb4k=0DfiGLpW3viBzojA@mail.gmail.com/) on drivers/soc/tegra/pmc.c
+
+#### 5.4.160-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [build error with Perf](https://lore.kernel.org/stable/CA+G9fYvxhzL9KUxZcRzMxnbGPK5GKTCtb5kWM3JB09D+-KhVug@mail.gmail.com/)
+
+#### 5.15.3-rc4
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 5.4.160-rc2, 5.10.80-rc1, 5.10.80-rc2, 5.10.80-rc4, 5.14.19-rc1, 5.14.19-rc2, 5.15.3-rc3
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2021-11-10
 #### 5.10.79-rc1
 <!-- sla <24 1 -->

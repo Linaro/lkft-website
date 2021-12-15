@@ -40,6 +40,24 @@ jumbotron:
 
 ## 2021
 
+### 2021-12-06
+#### 5.10.84-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [amdgpu build error with allmodconfig](https://lore.kernel.org/stable/CA+G9fYtYmZY-m1ZCaF3qJeGtn=8CJR_4K8EB_T4W+wuh31CNjg@mail.gmail.com/)
+
+#### 5.10.84-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.19.220, 5.4.164, 5.15.7
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 4.4.294, 4.9.292
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
 ### 2021-11-29
 #### 5.10.83
 <!-- sla <8 1 -->

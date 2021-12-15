@@ -40,6 +40,38 @@ jumbotron:
 
 ## 2021
 
+### 2021-11-24
+#### 5.10.82-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [cpuidle-tegra error on arm64](https://lore.kernel.org/stable/CA+G9fYskrxZvmrjhO32Q9r7mb1AtKdLBm4OvDNvt5v4PTgm4pA@mail.gmail.com/)
+
+#### 5.4.162-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported and bisected a [DTS error on QC on arm64](https://lore.kernel.org/stable/CA+G9fYv5fnntoa1vzXp52=TSxCK=U8fV8J-AbE+WmKH1w4ebwg@mail.gmail.com/)
+
+#### 4.19.218-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- Reported a [build error on s390/gcc-11 with defconfig](https://lore.kernel.org/stable/CA+G9fYt4wOWx5fEkMdYmT0JO+G5+6KBgdDDS7oS_2ox8X_JF4g@mail.gmail.com/)
+- [New warning on Arm64](https://lore.kernel.org/stable/CA+G9fYvxnPa4HXXqcF-2Y-dW2VEer3ZZ9Wa9P5fKy8b3qUB89g@mail.gmail.com/) on drivers/soc/tegra/pmc.c
+
+#### 4.14.256-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [New warning on Arm64](https://lore.kernel.org/stable/CA+G9fYu83b6_dJ8GOUTcsoUvkZdVWz9Q458f0vsRfXS7pdbXqQ@mail.gmail.com/) on drivers/soc/tegra/pmc.c
+
+#### 4.9.291-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- Reported a [build error on arm/gcc-11 with tiny-/allnoconfig](https://lore.kernel.org/stable/CA+G9fYuZqV51ZGQd-ySaDqSQ_YDJHYav4KW4B0zEq1Rh2_KCDA@mail.gmail.com/)
+- [New warning on Arm64](https://lore.kernel.org/stable/CA+G9fYvXKXWMQY_X6NCBT41kGKszi3oRBw1HCfg+BN6GOWoRhg@mail.gmail.com/) on drivers/soc/tegra/pmc.c
+
+#### 4.4.293-rc3, 4.9.291-rc3, 4.14.256-rc3, 4.19.218-rc3, 5.4.162-rc2, 5.10.82-rc2, 5.15.5
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2021-11-19
 #### 5.10.81, 5.14.21, 5.15.4
 <!-- sla <24 3 -->

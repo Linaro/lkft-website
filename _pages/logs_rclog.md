@@ -40,6 +40,15 @@ jumbotron:
 
 ## 2021
 
+### 2021-11-29
+#### 5.10.83
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.19.219, 5.4.163, 5.15.6
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2021-11-24
 #### 5.10.82-rc1
 <!-- sla <8 1 -->

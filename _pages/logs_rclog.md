@@ -40,6 +40,34 @@ jumbotron:
 
 ## 2021
 
+### 2021-12-15
+#### 5.4.166, 5.10.86, 5.15.9
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2021-12-13
+#### 5.10.85
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [compilation problem](https://lore.kernel.org/all/CAEUSe794fvuFwWPDvTeK1TRZw3OizSWOdDsVzVdj+SuWZA_LxA@mail.gmail.com/) with Arm and gcc-plugins
+
+#### 4.14.258, 4.19.221
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported [2 new](https://lore.kernel.org/all/CA+G9fYsEQCjOi_58WcMb4i-2t1Gv=KjPuWa6L792YAZF=zzinw@mail.gmail.com/) [warnings](https://lore.kernel.org/all/CA+G9fYuCFSbLMarXOnapUXN_NRgQMkjfr_rSTPjzBJQ-FT-Q3g@mail.gmail.com/) on x86/i386 on MEMREMAP_PROT
+
+#### 5.15.8
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.4.295, 4.9.293
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.4.165
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2021-12-06
 #### 5.10.84-rc1
 <!-- sla <24 1 -->

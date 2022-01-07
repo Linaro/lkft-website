@@ -3,21 +3,22 @@ layout: flow
 title: Contribution Log
 permalink: /logs/contriblog/
 description: >
-    This log is a high level overview of all contributions LKFT has propitiated to the
-    Linux Kernel project and to the testing suites projects.
+  This log is a high level overview of all contributions LKFT has propitiated to the
+  Linux Kernel project and to the testing suites projects.
 header:
-    sections:
-      - format: title
-        title_content:
-            size: h1
-            text: Contribution Log
-            class: display-3 font-weight-bold text-left
-      - format: text
-        text_content:
-            text: >
-                This log is a high level overview of all contributions LKFT has propitiated to the
-                Linux Kernel project and to the testing suites projects.
+  sections:
+    - format: title
+      title_content:
+        size: h1
+        text: Contribution Log
+        class: display-3 font-weight-bold text-left
+    - format: text
+      text_content:
+        text: >
+          This log is a high level overview of all contributions LKFT has propitiated to the
+          Linux Kernel project and to the testing suites projects.
 ---
+
 <!---
 
     Concept:
@@ -79,6 +80,7 @@ header:
   a kernel warning triggered by bpf test_sock
 
 ### February
+
 - 2019-02-26: Dan Rue [opened a upx bug](https://github.com/upx/upx/issues/254)
   which occurs when running with 64k page size on aarch64.
 - 2019-02-22: Anders Roxell [sent a build
@@ -112,6 +114,7 @@ header:
   on -next while running kselftest/bpf/test_tunnel.sh
 
 ### January
+
 - 2019-01-31: Anders Roxell sent a [build warning
   patch](https://lore.kernel.org/lkml/20190131161046.21886-1-anders.roxell@linaro.org)
 - 2019-01-30: Naresh Kamboju reported a [kselftest/test_vxlan_fdb_changelink.sh
@@ -178,7 +181,9 @@ header:
   mainline](https://marc.info/?l=linux-netdev&m=154662102601613&w=2)
 
 ## 2018
+
 ### December
+
 - 2018-12-19: Rafael Tinoco [reported an LTP issue in
   tst_device.c](http://lists.linux.it/pipermail/ltp/2018-December/010344.html)
 - 2018-12-19: Anders Roxell [sent a

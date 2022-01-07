@@ -3,20 +3,21 @@ layout: flow
 title: Changelog
 permalink: /logs/changelog/
 description: >
-    This log is a high level overview of changes in the LKFT environment and infrastructure.
+  This log is a high level overview of changes in the LKFT environment and infrastructure.
 header:
-    sections:
-      - format: title
-        title_content:
-            size: h1
-            text: Changelog
-            class: display-3 font-weight-bold text-left
-      - format: text
-        text_content:
-            text: >
-                This log is a high level overview of changes in the LKFT environment and
-                infrastructure.
+  sections:
+    - format: title
+      title_content:
+        size: h1
+        text: Changelog
+        class: display-3 font-weight-bold text-left
+    - format: text
+      text_content:
+        text: >
+          This log is a high level overview of changes in the LKFT environment and
+          infrastructure.
 ---
+
 ## 2019
 
 - 2019-04-18: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
@@ -53,6 +54,7 @@ header:
   [meta-lkft](https://github.com/linaro/meta-lkft)
 
 ## 2018
+
 - 2018-12-18: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.58](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-12-13: Added LTP cpuhotplug tests

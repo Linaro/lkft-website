@@ -25,7 +25,7 @@ jumbotron:
 <div id="modals_container"></div>
 <div class="row" id="test_results">
     <div class="col-12">
-        <ul class="list-group mt-3 mb-4" id="progress_list">
+        <ul class="list-group mt-3 mb-4 d-none" id="progress_list">
             <li class="list-group-item d-flex flex-column justify-content-sm-around align-items-center">
                 <div class="d-block w-100">
                     <div class="progress">

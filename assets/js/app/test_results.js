@@ -290,7 +290,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function (json) {
     if ($("#test_results").length > 0) {
       let currentBuildData = localStorage.getItem("build_data");
       let lastFetchTime = localStorage.getItem("lastFetchTime");
-      console.log("Current build data:", currentBuildData);
+      console.log("Current build data:", currentBuildData !== null);
       console.log("Last fetch time: ", lastFetchTime);
       // Check to see if there is currently build data save in local storage.
       if (currentBuildData !== null) {

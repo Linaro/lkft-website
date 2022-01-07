@@ -1,5 +1,5 @@
 // Stores the projects
-$.when($.getJSON("/assets/json/tests.json")).done(function(json) {
+$.when($.getJSON("/assets/json/tests.json")).done(function (json) {
   var project_urls = json["tests"]["branches"];
   // Stores the builds data collected
   var build_data = [],
@@ -26,10 +26,10 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
 
   function aggregateResults(projects, builds, build_statuses) {
     var aggregate_results_chunk = 10 / project_urls.length;
-    $(projects).each(function(key, project) {
+    $(projects).each(function (key, project) {
       // Get the original project details
       var original_project;
-      $(project_urls).each(function(key, original_project_data) {
+      $(project_urls).each(function (key, original_project_data) {
         if (original_project_data["project_url"] == project["url"]) {
           original_project = project_urls[key];
         }
@@ -40,24 +40,23 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
         builds: "",
         project: project,
         name: project["slug"],
-        project_url: original_project["project_url"]
+        project_url: original_project["project_url"],
       };
       // Loop over build results and collect test result details
-      $(builds).each(function(key, build) {
-        $(build["results"]).each(function(results_key, build_data) {
+      $(builds).each(function (key, build) {
+        $(build["results"]).each(function (results_key, build_data) {
           // Loop over collected test result data and associate corresponding build
           found = false;
-          $(build_statuses).each(function(status_key, build_status_obj) {
+          $(build_statuses).each(function (status_key, build_status_obj) {
             if (build_status_obj["build"] === build_data["url"]) {
               found = true;
               var build_test_details = {
                 pass: build_status_obj["tests_pass"],
                 fail: build_status_obj["tests_fail"],
-                skip: build_status_obj["tests_skip"]
+                skip: build_status_obj["tests_skip"],
               };
-              builds[key]["results"][results_key][
-                "test_data"
-              ] = build_test_details;
+              builds[key]["results"][results_key]["test_data"] =
+                build_test_details;
             }
           });
         });
@@ -72,6 +71,8 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       build_data.push(project_details);
       updateProgressBar(aggregate_results_chunk);
     });
+    localStorage.setItem("build_data", JSON.stringify(build_data));
+    localStorage.setItem("lastFetchTime", new Date().getTime());
     presentData(build_data);
   }
   function getTimeDelta(datetimeObj) {
@@ -96,17 +97,17 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
           }
 
           var listItem =
-            '<li class="list-group-item d-flex flex-column flex-sm-row justify-content-sm-between align-items-center ">';
+            '<li class="list-group-item d-flex flex-column flex-md-row justify-content-md-between align-items-center ">';
           listItem +=
-            "<div class='flex-even ml-1 mr-1'><span>" +
+            "<div class='flex-even ml-1 mr-1 text-center text-md-left' style='width: 230px;'><span>" +
             project_details["slug"] +
             "</span></div>";
           listItem +=
-            "<div class='flex-even ml-1 mr-1 text-center'><span>" +
+            "<div class='flex-even ml-1 mr-1 text-center' style='width: 100px;'><span>" +
             testing +
             "</span></div>";
           listItem +=
-            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
+            '<div class="flex-even text-center" style="width: 120px;"><span class="mt-1 mb-1 badge badge-large badge-pill badge-light" data-toggle="tooltip" data-placement="top" title="' +
             new Date(latest_build["created_at"]).toLocaleDateString("en-US") +
             " " +
             new Date(latest_build["created_at"]).toLocaleTimeString("en-US") +
@@ -114,15 +115,15 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
             time_diff +
             ' hours ago <span class="fa fa-clock"></span></span></div>';
           listItem +=
-            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-success badge-pill">' +
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-success badge-pill" style="width: 120px;">' +
             latest_build["test_data"]["pass"] +
             "<span> passed</span></span></div>";
           listItem +=
-            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-danger badge-pill">' +
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-danger badge-pill" style="width: 120px;">' +
             latest_build["test_data"]["fail"] +
             "<span> failed</span></span></div>";
           listItem +=
-            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-info badge-pill">' +
+            '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-large badge-info badge-pill" style="width: 120px;">' +
             latest_build["test_data"]["skip"] +
             "<span> skipped</span></span></div>";
 
@@ -144,7 +145,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       for (b = 0; b < build_data.length; b++) {
         if (build_data[b]["project_url"] == project_urls[i]["project_url"]) {
           var project_details = build_data[b]["project"];
-          var builds = build_data[b]["builds"]["results"].sort(function(a, b) {
+          var builds = build_data[b]["builds"]["results"].sort(function (a, b) {
             return Number(b.id) - Number(a.id);
           });
           var modal =
@@ -156,7 +157,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
             project_details["description"] +
             '</p><ul class="list-group" id="build_list">';
 
-          $(builds).each(function(key, build) {
+          $(builds).each(function (key, build) {
             if (build["finished"] === true) {
               testing = "";
             } else {
@@ -167,14 +168,16 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
             var listItem =
               '<li class="list-group-item d-flex flex-even flex-column flex-sm-row justify-content-sm-between align-items-center ">';
             listItem +=
-              '<div class="flex-even flex-grow-3 ml-1 mr-1 ">' +
+              '<div class="flex-even flex-grow-3 ml-1 mr-1 " style="width: 230px;">' +
               build["version"] +
               "</div>";
             listItem +=
-              '<div class="flex-even ml-1 mr-1 ">' + testing + "</div>";
+              '<div class="flex-even ml-1 mr-1 " style="width: 100px;">' +
+              testing +
+              "</div>";
 
             listItem +=
-              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +
+              '<div class="flex-even text-center" style="width: 120px;"><span class="mt-1 mb-1 badge badge-pill badge-light" title="' +
               new Date(build["created_at"]).toLocaleDateString("en-US") +
               " " +
               new Date(build["created_at"]).toLocaleTimeString("en-US") +
@@ -182,15 +185,15 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
               time_diff +
               ' hours ago <span class="fa fa-clock"></span></span></div>';
             listItem +=
-              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-success badge-pill">' +
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-success badge-pill" style="width: 110px;">' +
               build["test_data"]["pass"] +
               "</span></div>";
             listItem +=
-              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-danger badge-pill">' +
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-danger badge-pill" style="width: 110px;">' +
               build["test_data"]["fail"] +
               "</span></div>";
             listItem +=
-              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-info badge-pill">' +
+              '<div class="flex-even text-center"><span class="mt-1 mb-1 badge badge-info badge-pill" style="width: 110px;">' +
               build["test_data"]["skip"] +
               "</span></div>";
             listItem += "</li>";
@@ -209,6 +212,8 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
     return elements;
   }
   function presentData(build_data) {
+    $("#progress_list").addClass("d-none");
+    $("#progress_list").removeClass("d-block");
     var build_list = createProjectList(build_data);
     $("#project_list").html(build_list);
     var modal_list = createProjectModals(build_data);
@@ -222,52 +227,91 @@ $.when($.getJSON("/assets/json/tests.json")).done(function(json) {
       "width: " + current_total_progress / 10 + "%;"
     );
   }
-  // Check to see if the test_results container is present
-  $(document).ready(function() {
-    if ($("#test_results").length > 0) {
-      function createDeferredBuildStatusRequests(build) {
-        $(build["results"]).each(function(key, build_result) {
-          var newStatusRequest = $.ajax({
-            method: "GET",
-            url: build_result["status"],
-            success: function(build_status_result) {
-              build_statuses.push(build_status_result);
-              updateProgressBar(status_request_chunk);
-            }
-          });
-          deferred_status_requests.push(newStatusRequest);
-        });
-      }
-      // Create ajax request objects for each project
-      for (i = 0; i < project_urls.length; ++i) {
-        // Deferred Project Requests
-        deferred_project_request = $.ajax({
+  const fetchData = () => {
+    $("#progress_list").removeClass("d-none");
+    $("#progress_list").addClass("d-block");
+    function createDeferredBuildStatusRequests(build) {
+      $(build["results"]).each(function (key, build_result) {
+        var newStatusRequest = $.ajax({
           method: "GET",
-          url: project_urls[i]["project_url"],
-          success: function(project) {
-            projects.push(project);
-            updateProgressBar(project_progress_chunk);
-          }
+          url: build_result["status"],
+          success: function (build_status_result) {
+            build_statuses.push(build_status_result);
+            updateProgressBar(status_request_chunk);
+          },
         });
-        deferred_requests.push(deferred_project_request);
-        // Deferred Build Requests
-        deferred_build_request = $.ajax({
-          method: "GET",
-          url: project_urls[i]["project_url"] + "builds/?limit=10",
-          success: function(build) {
-            createDeferredBuildStatusRequests(build);
-            builds.push(build);
-            updateProgressBar(build_progress_chunk);
-          }
-        });
-        deferred_requests.push(deferred_build_request);
-      }
-      // Once all ajax requests have completed
-      $.when.apply($, deferred_requests).then(function() {
-        $.when.apply($, deferred_status_requests).then(function() {
-          aggregateResults(projects, builds, build_statuses);
-        });
+        deferred_status_requests.push(newStatusRequest);
       });
+    }
+
+    // Create ajax request objects for each project
+    for (i = 0; i < project_urls.length; ++i) {
+      // Deferred Project Requests
+      deferred_project_request = $.ajax({
+        method: "GET",
+
+        url: project_urls[i]["project_url"],
+        success: function (project) {
+          projects.push(project);
+          updateProgressBar(project_progress_chunk);
+        },
+      });
+      deferred_requests.push(deferred_project_request);
+      // Deferred Build Requests
+      deferred_build_request = $.ajax({
+        method: "GET",
+        url: project_urls[i]["project_url"] + "builds/?limit=10",
+        success: function (build) {
+          createDeferredBuildStatusRequests(build);
+          builds.push(build);
+          updateProgressBar(build_progress_chunk);
+        },
+      });
+      deferred_requests.push(deferred_build_request);
+    }
+    // Once all ajax requests have completed
+    $.when.apply($, deferred_requests).then(function () {
+      $.when.apply($, deferred_status_requests).then(function () {
+        aggregateResults(projects, builds, build_statuses);
+      });
+    });
+  };
+  // Check to see if the test_results container is present
+  $(document).ready(function () {
+    if ($("#refresh_btn").length > 0) {
+      $("#refresh_btn").click(function () {
+        $("#project_list").empty();
+        $("#modals_container").empty();
+        $("#project_load_progress").attr("aria-valuenow", 0);
+        $("#project_load_progress").attr("style", "width: 0%");
+        fetchData();
+      });
+    }
+    if ($("#test_results").length > 0) {
+      let currentBuildData = localStorage.getItem("build_data");
+      let lastFetchTime = localStorage.getItem("lastFetchTime");
+      console.log("Current build data:", currentBuildData);
+      console.log("Last fetch time: ", lastFetchTime);
+      // Check to see if there is currently build data save in local storage.
+      if (currentBuildData !== null) {
+        // Check that lastFetchTime is not null.
+        if (lastFetchTime !== null) {
+          // If there is build data, check to see if lastFetchTime was > 5 minutes ago.
+          if (
+            new Date(lastFetchTime) <
+            new Date(new Date().getTime() - 300000).getTime()
+          ) {
+            fetchData();
+          } else {
+            // If it was, use the data from local storage.
+            presentData(JSON.parse(currentBuildData));
+          }
+        } else {
+          fetchData();
+        }
+      } else {
+        fetchData();
+      }
     }
   });
 });

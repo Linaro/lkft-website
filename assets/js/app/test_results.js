@@ -72,7 +72,7 @@ $.when($.getJSON("/assets/json/tests.json")).done(function (json) {
       updateProgressBar(aggregate_results_chunk);
     });
     localStorage.setItem("build_data", JSON.stringify(build_data));
-    localStorage.setItem("lastFetchTime", new Date().getTime());
+    localStorage.setItem("lastFetchTime", new Date());
     presentData(build_data);
   }
   function getTimeDelta(datetimeObj) {
@@ -297,10 +297,11 @@ $.when($.getJSON("/assets/json/tests.json")).done(function (json) {
         // Check that lastFetchTime is not null.
         if (lastFetchTime !== null) {
           // If there is build data, check to see if lastFetchTime was > 5 minutes ago.
-          if (
-            new Date(lastFetchTime) <
-            new Date(new Date().getTime() - 300000).getTime()
-          ) {
+          let pastDate = new Date(lastFetchTime);
+          let dateDiff = new Date(new Date().getTime() - 300000);
+          console.log("Past date: ", pastDate);
+          console.log("Date diff: ", dateDiff);
+          if (pastDate < dateDiff) {
             fetchData();
           } else {
             // If it was, use the data from local storage.

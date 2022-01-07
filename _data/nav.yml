@@ -3,7 +3,7 @@ search:
   label: LKFT
 universal_nav: false
 brand:
-  path: /assets/images/lkft_logo_dark.png
+  path: /assets/images/lkft_logo_onblack.svg
   alt: LKFT Logo
 pages:
   - title: About

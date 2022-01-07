@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="55mm"
+   height="55mm"
+   viewBox="0 0 55 55"
+   version="1.1"
+   id="svg1187"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="lkft_logo_onblack.svg">
+  <defs
+     id="defs1181" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.3304002"
+     inkscape:cx="91.514124"
+     inkscape:cy="94.614061"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2055"
+     inkscape:window-x="1920"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1184">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-242)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:0.01805055;stroke:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1804-3"
+       width="55.000004"
+       height="55.000004"
+       x="-2e-06"
+       y="242"
+       inkscape:export-filename="/home/ddiaz/devel/lkft-tools/logo/lkft_logo_onblack.png"
+       inkscape:export-xdpi="472.90179"
+       inkscape:export-ydpi="472.90179" />
+    <g
+       id="g1802"
+       transform="matrix(1.7600093,0,0,1.7600093,-244.01924,-185.37109)">
+      <path
+         d="m 149.69234,260.10319 v 0.90664 h -2.94781 v -4.89197 h 1.13488 v 3.98533 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1005"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 151.21905,258.09881 h 0.18133 c 0.16792,0 0.28893,-0.0526 0.36266,-0.15804 l 1.10137,-1.59808 c 0.0646,-0.085 0.13476,-0.14394 0.20955,-0.17639 0.0751,-0.0321 0.16863,-0.0483 0.28046,-0.0483 h 0.98707 l -1.45027,1.97732 c -0.10301,0.13652 -0.21378,0.23495 -0.33267,0.29563 0.0854,0.0314 0.16228,0.0751 0.23177,0.13088 0.0695,0.0557 0.13441,0.12876 0.19474,0.21801 l 1.47743,2.26978 h -1.01388 c -0.0653,0 -0.1203,-0.004 -0.16651,-0.0134 -0.0459,-0.009 -0.0854,-0.0222 -0.11924,-0.0402 -0.0332,-0.018 -0.0624,-0.0399 -0.0871,-0.0653 -0.0247,-0.0261 -0.0483,-0.0557 -0.0705,-0.0892 l -1.10772,-1.70216 c -0.0406,-0.0628 -0.0914,-0.10689 -0.15276,-0.13264 -0.0617,-0.0258 -0.14534,-0.0385 -0.25047,-0.0385 h -0.27517 v 2.08139 h -1.13488 v -4.89162 h 1.13488 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1009"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 155.96991,256.9907 v 1.23896 h 1.67217 v 0.8763 h -1.67217 v 1.90394 h -1.14159 v -4.89197 h 3.14925 v 0.87277 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1013"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 162.14776,257.01759 h -1.37654 v 3.99203 h -1.13489 v -3.99203 h -1.37654 V 256.118 h 3.88797 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1017"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 168.43168,258.59493 c -0.0533,4.46122 -2.17417,8.43315 -5.44936,10.99855 h -8.7309 c 6.11258,0 11.07723,-4.90749 11.1686,-10.99855 z"
+         style="fill:#539800;fill-opacity:0.29803922;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1021"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 154.2515,244.24026 c -7.82109,0 -14.18449,6.36129 -14.18449,14.18237 0,7.82144 6.3634,14.18449 14.18449,14.18449 0.0617,0 0.121,0 0.18273,-0.002 h 9.07945 v -3.01168 h -0.53129 -8.73089 c -6.17009,0 -11.17071,-5.00098 -11.17071,-11.17071 0,-6.16973 5.00062,-11.17071 11.17071,-11.17071 6.16973,0 11.1707,5.00098 11.1707,11.17071 v 0.0427 h 3.01167 v -0.0427 c 0,-7.82108 -6.36129,-14.18237 -14.18237,-14.18237"
+         style="fill:#539800;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1025"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 168.47595,271.0665 -2.74743,-1.58609 v 3.17218 z"
+         style="fill:#539800;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.35277775"
+         id="path1029"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

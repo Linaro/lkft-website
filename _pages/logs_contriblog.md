@@ -127,7 +127,7 @@ header:
   patch](https://lore.kernel.org/netdev/20190129062835.31122-1-naresh.kamboju@linaro.org)
   to fix kselftest config for netfilter
 - 2019-01-28: Anders Roxell sent an [initial kselftest
-  result](https://lists.linaro.org/pipermail/lkft-triage/2019-January/008967.html)
+  result](https://lists.linaro.org/archives/list/lkft-triage@lists.linaro.org/thread/6UDFLU2QNLMOCDCNVL4DLESHV7XOSCFJ/)
   report on -next to kselftest list
 - 2019-01-24: Rafael Tinoco [reported ltp/vma05.sh test
   issue](http://lists.linux.it/pipermail/ltp/2019-January/010634.html) to LTP
@@ -250,7 +250,7 @@ header:
   with kselftest timers rtctest re: [bug
   3402](https://bugs.linaro.org/show_bug.cgi?id=3402)
 - 2018-11-27: Naresh Kamboju [sent a kselftest
-  patch](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002853.html)
+  patch](https://lists.linaro.org/archives/list/linux-kselftest-mirror@lists.linaro.org/thread/3GWSH2XJ7PMLQCDGHTVOKGJ3HHFVHFTX/)
   to add a config frag for FTRACE re: [bug
   3920](https://bugs.linaro.org/show_bug.cgi?id=3920)
 - 2018-11-26: Rafael Tinoco [sent a patch to fix thread_info->syscall on
@@ -261,10 +261,10 @@ header:
   to fix fw_Firmware.sh re: [bug
   3503](https://bugs.linaro.org/show_bug.cgi?id=3503)
 - 2018-11-21: Naresh Kamboju [reported kselftest get_cgroup_id_user
-  issue](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002831.html)
+  issue](https://lists.linaro.org/archives/list/linux-kselftest-mirror@lists.linaro.org/thread/E5Z6BOWOAGKQVUIXODFAVPIXE6Q76AHG/)
   re: [bug 3920](https://bugs.linaro.org/show_bug.cgi?id=3920)
 - 2018-11-21: Naresh Kamboju [reported a libbpf
-  problem](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-November/002832.html)
+  problem](https://lists.linaro.org/archives/list/linux-kselftest-mirror@lists.linaro.org/thread/4DGOLVZ735WYAKXJGRF3KY3SAN3R756W/)
   in kselftest bpf tests
 - 2018-11-20: Naresh Kamboju [reported a problem with kselftest
   udpgro.sh](https://www.spinics.net/lists/netdev/msg534015.html) re: [bug
@@ -291,7 +291,7 @@ header:
   backport](http://lists.linux.it/pipermail/ltp/2018-November/009894.html) re:
   [bug 4042](https://bugs.linaro.org/show_bug.cgi?id=4042)
 - 2018-11-08: Rafael Tinoco [requested a backport for
-  mlock](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-November/069243.html)
+  mlock](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/thread/C5HR754J4SGMQJFNDH7ZHAWZVF7IDUTJ/)
   re: [bug 4043](https://bugs.linaro.org/show_bug.cgi?id=4043)
 - 2018-11-07: Rafael Tinoco [reported a regression on next found by
   fsync01](https://www.spinics.net/lists/linux-next/msg45114.html) re: [bug
@@ -314,7 +314,7 @@ header:
   wakeirq"](https://lore.kernel.org/lkml/1540490241-32021-1-git-send-email-john.stultz@linaro.org/)
   re: [bug 3960](https://bugs.linaro.org/show_bug.cgi?id=3960)
 - 2018-10-25: Naresh Kamboju [reported kselftest test_verifier
-  failure](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-October/002541.html)
+  failure](https://lists.linaro.org/archives/list/linux-kselftest-mirror@lists.linaro.org/thread/WNRACQPSOUTQY3LNI7IWEBA4OQXUMDCU/)
   re: [bug 4038](https://bugs.linaro.org/show_bug.cgi?id=4038)
 - 2018-10-25: Naresh Kamboju [reported ltp syscall keyctl05
   failure](http://lists.linux.it/pipermail/ltp/2018-October/009571.html). As a
@@ -331,7 +331,7 @@ header:
 - 2018-10-15: Anders Roxell [sent a patch to fix mm
   warning](https://lore.kernel.org/lkml/20181015111600.5479-1-anders.roxell@linaro.org/)
 - 2018-10-08: Naresh Kamboju [reported kselftest test_kmod.sh
-  hang](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2018-October/002378.html)
+  hang](https://lists.linaro.org/archives/list/linux-kselftest-mirror@lists.linaro.org/thread/GMEQWEUMH73MZS2AE43GWLNRV526CAU3/)
   resulting in a [patch by Willem de
   Bruijn](http://patchwork.ozlabs.org/patch/942590/) re: [bug
   3925](https://bugs.linaro.org/show_bug.cgi?id=3925)

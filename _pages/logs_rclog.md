@@ -1445,7 +1445,7 @@ regression](https://lore.kernel.org/stable/CA+G9fYsZjmf34pQT1DeLN_DDwvxCWEkbzBfF
 <!-- sla <8 1 -->
 <!-- regressions 1 -->
 - Reported [build
-  regression](https://lists.linaro.org/pipermail/lkft-triage/2020-February/020144.html)
+  regression](https://lists.linaro.org/archives/list/lkft-triage@lists.linaro.org/message/YIAAYP4VQ3PUYGEJIE4T6FNVZGXIXAJU/)
   on Arm 32-bits in <8h
 - Reported no regressions in -rc3
 
@@ -1822,7 +1822,7 @@ on 4.14, resulting in an -rc2
 #### 4.4.183, 4.9.183, 4.14.129, 4.19.54, 5.1.13
 <!-- sla <24 5 -->
 - Reported [pre-rc arm 32/64 build failure on 4.9, suggesting a missing
-  backport](https://lists.linaro.org/pipermail/lkft-triage/2019-June/012900.html)
+  backport](https://lists.linaro.org/archives/list/lkft-triage@lists.linaro.org/message/ZZ4ZR6TRZKULPGIG4Y5IYRXLN5GFYA5K/)
 - Reported no regressions in <24h
 
 ### 2019-06-17
@@ -2049,7 +2049,7 @@ Sampling ([MDS](https://xenbits.xen.org/xsa/advisory-297.html))
 #### 4.9.152, 4.14.95, 4.20.4
 <!-- sla <24 3 -->
 - [Reported
-  crashes](https://lists.linaro.org/pipermail/lkft-triage/2019-January/008732.html)
+  crashes](https://lists.linaro.org/archives/list/lkft-triage@lists.linaro.org/message/K7SXEIG54I4POLRDQHOVAJLNWMZBJBAG/)
   in v4.20.3-15-g5592f5bf010b which were intentional 'canaries' (the canary
   successfully died)
 - Reported no regressions in <24h
@@ -2218,7 +2218,7 @@ Sampling ([MDS](https://xenbits.xen.org/xsa/advisory-297.html))
 <!-- sla <24 4 -->
 - Reported no regressions in <24h
 - Reported [build
-  failure](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/060654.html)
+  failure](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/SE7PCM5MVB6N3VFZJXMM7SLSMNHB7JVY/)
   on pre-rc tree
 
 ### 2018-09-13
@@ -2230,20 +2230,21 @@ Sampling ([MDS](https://xenbits.xen.org/xsa/advisory-297.html))
 #### 4.4.155, 4.9.126, 4.14.69, 4.18.7
 <!-- sla <48 4 -->
 - Reported no regressions on 4.9, 4.14, and 4.18 in <48h
-- [Reported regressions related to "userns: move user access out of the
-  mutex"](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/059118.html)
+- Reported regressions related to "userns: move user access out of the
+  mutex"
   on 4.4 in <48h
   - Reported no regressions against 4.4.155-rc3 in <48h
+- Note that archive copy of message on linux-stable-mirror@lists.linaro.org ("2018-September/059118.html") is currently unavailable.
 
 ### 2018-09-03
 #### 4.4.154, 4.9.125, 4.14.68, 4.18.6
 <!-- sla <24 4 -->
 - Reported no regressions on 4.4 and 4.9 in <24h
 - Reported [build
-  failure](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-August/057175.html)
+  failure](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/TWDCCPMQ7G3I3GGC2ALPT6MX5MQDNR2Y/)
   on pre-rc tree
 - 4.18 and 4.14 [BUG
-  found](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/058162.html)
+  found](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/KDCAQMTA4CYZH4OW4CGBIJ45VDV66RB3/)
   on - tlb_flush_mmu
   - Bad patch - mm/tlb, x86/mm: Support invalidating TLB caches for
     RCU_TABLE_FREE
@@ -2513,8 +2514,7 @@ proposed](http://lists.linux.it/pipermail/ltp/2018-July/008724.html).
 <!-- sla <48 1 -->
 - First response in <48h.
 - A network driver issue from 4.9.94 was discovered on x15 in the network
-  stack, reported at
-  [https://lists.linaro.org/pipermail/linux-stable-mirror/2018-April/038977.html](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-April/038977.html)
+  stack, reported via linux-stable-mirror@lists.linaro.org but archive copy ("2018-April/038977.html") is currently unavailable.
 
 #### 4.14.35, 4.15.18, 4.16.3
 <!-- sla <24 3 -->

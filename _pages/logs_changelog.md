@@ -36,7 +36,7 @@ header:
 - 2019-02-27: LTP "commands" tests added to LKFT
 - 2019-02-22: LTP "dio" tests added to LKFT
 - 2019-02-20: Now [sending kselftest
-  reports](https://lists.linaro.org/pipermail/linux-kselftest-mirror/2019-February/003456.html)
+  reports](https://lists.linaro.org/archives/list/linux-kselftest-mirror@lists.linaro.org/thread/5JL3PDTKPAC52SE6NLXSWNOG3MOMWO2L/)
   for -next to kselftest ML
 - 2019-01-28: LTP upgraded to 20190115
 - 2019-01-24: LTP "mm" tests added to LKFT (75 tests)
@@ -84,7 +84,7 @@ header:
 - 2018-09-06: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD
   0.50](https://github.com/Linaro/squad/blob/master/CHANGELOG.md)
 - 2018-09-03: Added i386 support and [announced on
-  -stable](https://lists.linaro.org/pipermail/linux-stable-mirror/2018-September/058310.html)
+  -stable](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/JSBLPHQYU52DHEPG2NDNCFNKUFL6ZICU/)
 - 2018-09-04: Dropped 4.17 per [upstream
   announcement](https://lwn.net/Articles/763430/)
 - 2018-08-14: [qa-reports](https://qa-reports.linaro.org/) upgraded to [SQUAD

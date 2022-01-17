@@ -3432,11 +3432,10 @@ jumbotron:
 <!-- sla <48 4 -->
 
 - Reported no regressions on 4.9, 4.14, and 4.18 in <48h
-- Reported regressions related to "userns: move user access out of the
-  mutex"
+- [Reported regressions related to "userns: move user access out of the
+  mutex"](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/QCDRN4PCHKD5VBZ2L4QN2EXA5SGAZFNK/)
   on 4.4 in <48h
   - Reported no regressions against 4.4.155-rc3 in <48h
-- Note that archive copy of message on linux-stable-mirror@lists.linaro.org ("2018-September/059118.html") is currently unavailable.
 
 ### 2018-09-03
 
@@ -3837,7 +3836,7 @@ jumbotron:
 
 - First response in <48h.
 - A network driver issue from 4.9.94 was discovered on x15 in the network
-  stack, reported via linux-stable-mirror@lists.linaro.org but archive copy ("2018-April/038977.html") is currently unavailable.
+  stack, reported at [https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/SJHWS46R522K43MV7X4YBOMFDJ4YEMCC/](https://lists.linaro.org/archives/list/linux-stable-mirror@lists.linaro.org/message/SJHWS46R522K43MV7X4YBOMFDJ4YEMCC/).
 
 #### 4.14.35, 4.15.18, 4.16.3
 

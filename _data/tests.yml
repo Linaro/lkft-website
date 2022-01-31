@@ -19,7 +19,7 @@ tests:
       project_url: "https://qa-reports.linaro.org/api/projects/597/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.10.y/
     - name: "5.15"
-      project_url: "https://qa-reports.linaro.org/api/projects/1062/"
+      project_url: "https://qa-reports.linaro.org/api/projects/1022/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.15.y/
     - name: "5.16"
       project_url: "https://qa-reports.linaro.org/api/projects/1107/"

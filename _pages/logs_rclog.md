@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2022
 
+### 2022-01-18
+#### 5.16.2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [build error on PowerPC](https://lore.kernel.org/stable/CA+G9fYvJaFVKu24oFuR1wGFRe4N2A=yxH6ksx61bunfR9Y3Ejw@mail.gmail.com/) with allnoconfig/gcc-9
+
+#### 5.10.93, 5.15.16
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2022-01-14
 #### 5.4.172, 5.10.92, 5.15.15, 5.16.1
 <!-- sla <24 4 -->

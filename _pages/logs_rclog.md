@@ -41,6 +41,43 @@ jumbotron:
 
 ## 2022
 
+### 2022-01-27
+#### 5.4.175, 5.10.95, 5.15.18, 5.16.4
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 4.4.301, 4.9.299, 4.14.264, 4.19.227
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2022-01-24
+#### 5.10.94-rc1, 5.15.17-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Reported](https://lore.kernel.org/stable/12c8fd1e-431e-9a59-9e7a-e8d856c088b9@linaro.org/) and [bisected](https://lore.kernel.org/stable/ef6a4bcf-832b-3a5d-9643-827239293772@linaro.org/) [regressions](https://lore.kernel.org/stable/374e9357-35eb-3555-3fe5-7b72c3a77a39@linaro.org/) on Arm64 libbpf and Perf
+
+#### 5.4.174-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Reported and bisected regressions](https://lore.kernel.org/stable/e2c9b01d-0500-645f-b4cc-f8dcb769996e@linaro.org/) on PA-RISC, and Perf
+
+#### 4.9.298-REGRESSIONS, 4.14.263-REGRESSIONS
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- [Reported](https://lore.kernel.org/stable/CA+G9fYvzftL7cWFysem9z4AMKFXMRShy6-Ewp74ckP1xeaBCAA@mail.gmail.com/) [regressions](https://lore.kernel.org/stable/CA+G9fYshfJ-WCB141=ha8uf0-FhE9Pim6hd5BWAVxDpvHhTR0w@mail.gmail.com/) on Arm’s etnaviv
+
+#### 4.4.300, 4.19.226
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.9.298-rc2, 4.14.263-rc2, 5.4.174-rc2, 5.10.94-rc2, 5.15.17-rc2
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 5.16.3-rc2
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2022-01-18
 #### 5.16.2
 <!-- sla <24 1 -->

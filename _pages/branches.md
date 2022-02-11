@@ -24,16 +24,27 @@ The following longterm stable (LTS) branches are tested:
 
 In addition to LTS branches, the latest stable branches are also tested.
 
-## Android-common
+## Common Android Kernel
 
+The same version kernels as above are tested with Android builds as well,
+but they are tested with specific branches related to various Android versions.
 The following branches from
-[hikey-linaro](https://android.googlesource.com/kernel/hikey-linaro/) tree are
+[Common Android Kernel](https://android.googlesource.com/kernel/common/) tree are
 tested:
 
-- android-hikey-linaro-4.4
-- android-hikey-linaro-4.9
-- android-hikey-linaro-4.14
-- android-hikey-linaro-4.19
+- android-4.9-q
+- android-4.14-q
+- android-4.14-stable
+- android-4.19-q
+- android-4.19-stable
+- android11-5.4
+- android11-5.4-lts
+- android12-5.4
+- android12-5.4-lts
+- android12-5.10
+- android12-5.10-lts
+- android13-5.10
+- android13-5.15
 
 ## mainline
 

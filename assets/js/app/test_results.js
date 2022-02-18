@@ -282,11 +282,6 @@ $.when($.getJSON("/assets/json/tests.json")).done(function (json) {
             for (let i = 0; i < allProjectsData.length; i++) {
               presentData(allProjectsData[i]);
             }
-            localStorage.setItem(
-              "all_projects_data",
-              JSON.stringify(all_projects_data)
-            );
-            localStorage.setItem("lastFetchTime", new Date());
             $("#progress_list").addClass("d-none");
             $("#progress_list").removeClass("d-block");
           }

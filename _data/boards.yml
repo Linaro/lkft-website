@@ -1,26 +1,4 @@
 -
-  title: LS2088A
-  label: Arm 64bit
-  format: left
-  image: /assets/images/LS2088A-RDB-BD1.jpg
-  text: >
-      The QorIQ® LS2088A reference design board provides a comprehensive
-      platform that enables design and evaluation of the product (QorIQ LS2088A
-      processor).
-
-      ### Specs
-
-      - CPU: LS2088A CPU Up to 8x Arm® Cortex®-A72 CPU. Up to 2.0GHz core speed.
-
-      - RAM: Two x DDR4 UDIMM x72 supports for 4GB memory per slot, 2.1 GT/s data rate. ECC enabled.
-
-      - Storage: 128MB NOR flash, 8-bit 2GB SLC NAND flash
-
-      - Ethernet Port: Support for up to 4-ports of 10GbE, SFP+, Support for up to 4-ports of 10GbE, copper (4xRJ45)
-
-      - USB: Two USB type A connectors on the front or rear panel connected to a USB PHY. One configured as a host, the second as OTG
-
--
   title: HiKey
   label: Arm 64bit
   format: right

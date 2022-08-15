@@ -41,6 +41,24 @@ jumbotron:
 
 ## 2022
 
+### 2022-02-21
+#### 5.16.11-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [build failures on MIPS](https://lore.kernel.org/stable/CA+G9fYsELVHqtz6KV8UWvOHJY=F3YD-DQ7_hoauhHUtrV7GHKQ@mail.gmail.com/)/gcc-{8,10} (malta)
+#### 5.15.25-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported build failures on MIPS/gcc-{8,10} (malta) and [new warnings on Arm64, Arm, MIPS](https://lore.kernel.org/stable/CA+G9fYtW1xOWQLC8YEuQxwnJBu7dvsc5B=0p5xYqKUzYcurB7g@mail.gmail.com/)
+
+#### 5.4.181, 5.10.102
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.9.303, 4.14.268, 4.19.231
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2022-02-14
 #### 5.15.24-rc1, 5.16.10-rc1
 <!-- sla <8 2 -->

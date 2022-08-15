@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2022
 
+### 2022-02-14
+#### 5.15.24-rc1, 5.16.10-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported an [arm64/clang-nightly](https://lore.kernel.org/stable/CA+G9fYv72=mb-9UqAF5kK1TZ5+HEEjY=1_372K30tAzKEmAR0g@mail.gmail.com/) [error](https://lore.kernel.org/stable/CA+G9fYvfx2jRPnU6zVK8v9vNbwXc4wV0KX0JfGWeNsAbL72y-g@mail.gmail.com/)
+- Reported no regressions in <24h
+
+#### 4.19.230, 5.4.180, 5.10.101
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 4.9.302, 4.14.267
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
 ### 2022-02-09
 #### 4.9.301, 4.14.266, 4.19.229, 5.4.179, 5.10.100, 5.15.23, 5.16.9
 <!-- sla <24 7 -->

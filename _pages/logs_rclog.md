@@ -81,7 +81,7 @@ jumbotron:
 <!-- regressions 1 -->
 - [Reported and bisected regressions](https://lore.kernel.org/stable/e2c9b01d-0500-645f-b4cc-f8dcb769996e@linaro.org/) on PA-RISC, and Perf
 
-#### 4.9.298-REGRESSIONS, 4.14.263-REGRESSIONS
+#### 4.9.298-rc1, 4.14.263-rc1
 <!-- sla <24 2 -->
 <!-- regressions 2 -->
 - [Reported](https://lore.kernel.org/stable/CA+G9fYvzftL7cWFysem9z4AMKFXMRShy6-Ewp74ckP1xeaBCAA@mail.gmail.com/) [regressions](https://lore.kernel.org/stable/CA+G9fYshfJ-WCB141=ha8uf0-FhE9Pim6hd5BWAVxDpvHhTR0w@mail.gmail.com/) on Arm’s etnaviv

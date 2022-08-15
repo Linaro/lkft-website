@@ -41,6 +41,29 @@ jumbotron:
 
 ## 2022
 
+### 2022-02-09
+#### 4.9.301, 4.14.266, 4.19.229, 5.4.179, 5.10.100, 5.15.23, 5.16.9
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2022-02-07
+#### 5.15.22-rc1, 5.16.8-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- KVM/arm [errors](https://lore.kernel.org/stable/CA+G9fYtLmasiEHvfTw+PSabJCfJR2d8yiVyhn1nd4TcKfZ7bOw@mail.gmail.com/) [reported](https://lore.kernel.org/stable/CA+G9fYsd_kjuXOJx9umAhkaA7rRx40gVhY9ZBEe6xsMOZ2oTQg@mail.gmail.com/)
+
+#### 5.15.22-rc2, 5.16.8-rc2
+<!-- sla <8 2 -->
+- Reported no regressions in <8h
+
+#### 4.19.228, 5.4.178, 5.10.99
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 4.9.300, 4.14.265
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
 ### 2022-02-04
 #### 5.4.177, 5.10.97, 5.15.20, 5.16.6
 <!-- sla <24 4 -->

@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2022
 
+### 2022-03-17
+#### 5.4.186, 5.10.107, 5.15.30, 5.16.16
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+### 2022-03-14
+#### 4.19.235-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Confirmed regression on arm64](https://lore.kernel.org/stable/CA+G9fYuwyUPMBRuBL10Z0r1MRt0sZ-MqvC6ySHBtpqdSp8UcDQ@mail.gmail.com/), not on mainline
+
+#### 4.9.307-rc2, 4.14.272-rc2, 4.19.235-rc2, 5.4.185, 5.10.106, 5.15.29, 5.16.15
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2022-03-09
 #### 4.9.306-rc1, 4.14.271-rc1, 5.10.105-rc1, 5.15.28-rc1, 5.16.14-rc1
 <!-- sla <8 5 -->

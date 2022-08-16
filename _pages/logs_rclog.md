@@ -41,6 +41,30 @@ jumbotron:
 
 ## 2022
 
+### 2022-04-06
+#### 4.9.310
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [allnoconfig/tinyconfig failures on Arm64](https://lore.kernel.org/stable/CA+G9fYvAL0BUz8KuMrJyAKEWVwcuuk=_ejQksqxocB86Oq30SA@mail.gmail.com/)
+
+### 2022-04-05
+#### 5.10.110-rc3
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+#### 5.10.110-rc2, 5.15.33-rc2, 5.16.19-rc2, 5.17.2-rc2
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.10.110-rc1, 5.15.33-rc1, 5.16.19-rc1, 5.17.2-rc1
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2022-04-01
+#### 4.14.275
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2022-03-25
 #### 5.17.1
 <!-- sla <24 1 -->

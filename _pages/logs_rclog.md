@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2022
 
+### 2022-04-14
+#### 4.19.238
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- Reported [kernel deadlock warning on arm64](https://lore.kernel.org/stable/CA+G9fYvgzFW7sMZVdw5r970QNNg4OK8=pbQV0kDfbOX-rXu5Rw@mail.gmail.com/)
+
+#### 5.4.189
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2022-04-12
+#### 5.15.34-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [kfence errors on i386 and x86](https://lore.kernel.org/stable/CA+G9fYseyeNoxQwEWtiiU8dLs_1coNa+sdV-1nqoif6tER_46Q@mail.gmail.com/)
+
+#### 5.10.111-rc2, 5.15.34-rc2, 5.16.20, 5.17.3
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2022-04-06
 #### 4.9.310
 <!-- sla <24 1 -->

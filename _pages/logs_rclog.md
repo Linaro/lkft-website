@@ -41,6 +41,44 @@ jumbotron:
 
 ## 2022
 
+### 2022-03-09
+#### 4.9.306-rc1, 4.14.271-rc1, 5.10.105-rc1, 5.15.28-rc1, 5.16.14-rc1
+<!-- sla <8 5 -->
+<!-- regressions 5 -->
+- [Report](https://lore.kernel.org/stable/2f501345-e847-668e-7ca3-23af49b69224@linaro.org/)·[ed](https://lore.kernel.org/stable/249f3f06-5486-5988-dedb-3ba7eed580f3@linaro.org/) [arm](https://lore.kernel.org/stable/9c2a575d-72c9-8ba6-0cd3-517f88cf522a@linaro.org/)·[32](https://lore.kernel.org/stable/b17d6dad-b5b3-6c59-b156-831913f7cd3e@linaro.org/) [regressions](https://lore.kernel.org/stable/3e00dc5b-e147-e231-4d56-6b5b32968833@linaro.org/)
+
+#### 4.19.234-rc1, 5.4.184-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Reported arm32](https://lore.kernel.org/stable/6652bbe8-dfa7-a866-4f4a-e4790ecafe94@linaro.org/), [i386 and x86_64 regressions](https://lore.kernel.org/stable/d6f2a085-9d76-03d6-9b88-aec5769a50d8@linaro.org/)
+
+#### 5.16.14-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.9.306-rc2, 4.14.271-rc2, 4.19.234-rc2, 5.4.184-rc2, 5.10.105-rc2, 5.15.28-rc2
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+### 2022-03-07
+#### 5.15.27-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Confirmed a [build error on MIPS](https://lore.kernel.org/stable/CA+G9fYv74gGWQLkEZ4idGYri+F9BFV1+9=bz5L0+aophSzDdVA@mail.gmail.com/)
+
+#### 5.15.27-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build errors on Arm64](https://lore.kernel.org/stable/CA+G9fYtXE1TvxtXZPw++ZkGAUZ4f1rD1tBkMsDb33jsm-C1OZw@mail.gmail.com/)
+
+#### 5.10.104-rc2, 5.16.13-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.9.305, 4.14.270, 4.19.233, 5.4.183
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
 ### 2022-02-28
 #### 4.9.304, 4.14.269, 4.19.232, 5.4.182, 5.10.103, 5.15.26, 5.16.12
 <!-- sla <24 7 -->

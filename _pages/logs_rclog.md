@@ -41,6 +41,25 @@ jumbotron:
 
 ## 2022
 
+### 2022-03-25
+#### 5.17.1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [crash on Dragonboard 410c](https://lore.kernel.org/stable/CA+G9fYtayz_X5tjiCT4gWZNNG=O-zx6-GTLgtqH855RoYw_5xw@mail.gmail.com/)
+
+#### 4.9.309, 4.14.274, 4.19.237, 5.4.188, 5.10.109, 5.15.32, 5.16.18
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2022-03-21
+#### 5.4.187, 5.10.108, 5.15.31, 5.16.17
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 4.9.308, 4.14.273, 4.19.236
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2022-03-17
 #### 5.4.186, 5.10.107, 5.15.30, 5.16.16
 <!-- sla <24 4 -->

@@ -41,6 +41,25 @@ jumbotron:
 
 ## 2022
 
+### 2022-06-14
+#### 4.14.284, 4.19.248, 5.10.123, 5.15.48, 5.18.5
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 4.9.319, 5.4.199
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+### 2022-06-13
+#### 4.9.318, 4.14.283, 4.19.247, 5.10.122-rc2, 5.15.47-rc2, 5.17.15-rc2, 5.18.4-rc2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+- Last 5.17 release
+
+#### 5.4.198
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2022-06-07
 #### 5.17.14
 <!-- sla <24 1 -->

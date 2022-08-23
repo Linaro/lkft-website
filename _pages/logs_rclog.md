@@ -41,6 +41,17 @@ jumbotron:
 
 ## 2022
 
+### 2022-06-30
+#### 4.9.321, 4.14.286, 4.19.250, 5.4.203, 5.10.128, 5.15.52, 5.18.9
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2022-06-27
+#### 5.4.202, 5.10.127, 5.15.51, 5.18.8
+<!-- sla <8 4 -->
+<!-- regressions 4 -->
+- New warnings [reported](https://lore.kernel.org/stable/fe46a586-1af9-5988-9644-f7dd9ca63ca3@linaro.org/) [on](https://lore.kernel.org/stable/1dac60a4-8f97-6914-b2ce-f24449fc5036@linaro.org/) [all](https://lore.kernel.org/stable/24080846-a369-9333-589c-ad88d775bc04@linaro.org/) [branches](https://lore.kernel.org/stable/04e07f2b-7c0f-cdcf-ef95-9c164422ed78@linaro.org/)
+
 ### 2022-06-23
 #### 4.9.320, 4.14.285, 4.19.249, 5.4.201, 5.10.125, 5.15.50, 5.18.7
 <!-- sla <48 7 -->

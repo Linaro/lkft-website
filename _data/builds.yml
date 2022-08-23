@@ -5,6 +5,7 @@ branches:
   - "5.4"
   - "5.10"
   - "5.15"
+  - "5.19"
   - mainline
   - linux-next
 
@@ -27,6 +28,9 @@ gitlab-builds:
 - branch: "5.15"
   gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-5.15.y/latest"
   gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-5.15.y/pipeline.svg"
+- branch: "5.19"
+  gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-5.19.y/latest"
+  gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-5.19.y/pipeline.svg"
 - branch: "mainline"
   gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/torvalds/linux-mainline/pipelines/master/latest"
   gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/torvalds/linux-mainline/badges/master/pipeline.svg"

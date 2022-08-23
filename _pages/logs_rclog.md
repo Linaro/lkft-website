@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2022
 
+### 2022-07-23
+#### 5.10.133
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2022-07-22
+#### 5.15.57, 5.18.14
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2022-07-19
+#### 5.18.13-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [i386 build regressions and x86 warnings](https://lore.kernel.org/stable/CA+G9fYsCL48P5zFMKUxoJ-1vwUJSWhcn17rUx=1rxOdzdw_Mmg@mail.gmail.com/)
+
+#### 4.9.324, 4.14.289, 4.19.253, 5.4.207, 5.10.132, 5.15.56, 5.18.13-rc3
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2022-07-12
 #### 5.10.131-rc2
 <!-- sla <24 1 -->

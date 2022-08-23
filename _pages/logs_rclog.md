@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2022
 
+### 2022-06-07
+#### 5.17.14
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [KUnit/KFENCE regressions](https://lore.kernel.org/stable/CA+G9fYui20CoDeqa6OrCYB+CGpgoFkhXtkdMDFJd1H55efCm6Q@mail.gmail.com/)
+
+#### 5.10.121, 5.15.46, 5.18.3
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2022-06-03
 #### 5.4.197, 5.10.120, 5.15.45, 5.17.13, 5.18.2
 <!-- sla <24 5 -->

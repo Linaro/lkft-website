@@ -41,6 +41,46 @@ jumbotron:
 
 ## 2022
 
+### 2022-07-12
+#### 5.10.131-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported the same [kernel panics on x86](https://lore.kernel.org/stable/CA+G9fYs0E4tAty4hFBCNOYLK9zwCQAZ=nWJHx2a1NvvGLYScDw@mail.gmail.com/)
+
+#### 5.18.12
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [kernel panic with kvm-unit-tests, a qemu_x86 boot  warning, and Perf build warnings](https://lore.kernel.org/all/CA+G9fYvRQ9gzee8pjRmsyedz6oGyh5pzSYEPkuDoKEE+X2RZDg@mail.gmail.com/)
+
+#### 5.15.55
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [kernel panic with kvm-unit-tests, a qemu_x86 boot warning](https://lore.kernel.org/all/CA+G9fYtntg7=zWSs-dm+n_AUr_u0eBOU0zrwWqMeXZ+SF6_bLw@mail.gmail.com/)
+
+#### 5.10.131-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [Perf build regression](https://lore.kernel.org/all/CA+G9fYsBFy65-Y1Yo_Zr_bJWGV6QYhMaEhyaShOG+qoOD7pu+w@mail.gmail.com/)
+
+### 2022-07-11
+#### 5.15.54-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [PowerPC build regressions](https://lore.kernel.org/all/CA+G9fYsvtJu832j-1NmJ00ZOvGLAxAHUkNWo8PDztT--oO0_Ng@mail.gmail.com/)
+
+#### 5.15.54-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported an [IRQ build error on arm/arm64](https://lore.kernel.org/all/CA+G9fYvUMLv8Sszs+TrgHsXrGOyJvdUiG_Ze4HAc_4rUp1cWOA@mail.gmail.com/)
+
+#### 5.15.54-rc3
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 4.9.323, 4.14.288, 4.19.252, 5.4.205, 5.10.130, 5.18.11
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2022-07-05
 #### 4.9.322, 4.14.287, 4.19.251, 5.4.204, 5.10.129, 5.15.53, 5.18.10
 <!-- sla <24 7 -->

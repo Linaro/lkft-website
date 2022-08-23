@@ -41,6 +41,45 @@ jumbotron:
 
 ## 2022
 
+### 2022-08-19
+#### 5.10.137-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [build regression on PowerPC with GCC and Clang](https://lore.kernel.org/stable/CA+G9fYsj9ihvrUnMJ2zK-wLF6fcP6D6Kn7GRPqN3-BsrUVmr-Q@mail.gmail.com/)
+
+#### 5.15.62-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [S/390 build error due to redefinition of 'arch_kexec_kernel_image_probe'](https://lore.kernel.org/stable/CA+G9fYtXnZP2vdAi4eU_ApC_YFz6TqTd6Eh5Mumb2=0Y_dK5Yw@mail.gmail.com/)
+
+#### 5.18.19, 5.19.3
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+- Last 5.18 release
+
+#### 5.10.137-rc2, 5.15.62-rc2
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+### 2022-08-15
+#### 5.15.61-rc1
+<!-- sla <24 2 -->
+<!-- regressions 1 -->
+- Reported a [PowerPC build failure in fsl_pci.c](https://lore.kernel.org/stable/CA+G9fYuXHvYQkWnDac6T8s9XnP_jctCbV=yEx3Z9EhWko2dPPg@mail.gmail.com/)
+
+#### 5.19.2-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [build failures on allmodconfig on arm64/clang](https://lore.kernel.org/stable/CA+G9fYtZP_rYnmRyLbMrxKPGtJuoOw4h412dJXBJnzab41CzUw@mail.gmail.com/)
+
+#### 5.15.61-rc2, 5.18.18-rc2, 5.19.2-rc2
+<!-- sla <8 3 -->
+- Reported no regressions in <8h
+
+#### 5.18.18-rc1
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2022-08-09
 #### 4.19.255, 5.4.210, 5.10.136, 5.15.60, 5.18.17, 5.19.1
 <!-- sla <24 6 -->

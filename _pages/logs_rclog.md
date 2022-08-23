@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2022
 
+### 2022-05-27
+#### 5.10.119, 5.15.44, 5.17.12, 5.18.1
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2022-05-23
+#### 5.10.118
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported and bisected [a Perf build regression on x86](https://lore.kernel.org/stable/18a4a99f-e72a-1578-d6e5-8f5bb4ec4897@linaro.org/)
+
+#### 4.9.316, 4.14.281, 4.19.245, 5.4.196, 5.15.42, 5.17.10
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2022-05-16
 #### 5.17.9
 <!-- sla <8 1 -->

@@ -41,6 +41,25 @@ jumbotron:
 
 ## 2022
 
+### 2022-06-23
+#### 4.9.320, 4.14.285, 4.19.249, 5.4.201, 5.10.125, 5.15.50, 5.18.7
+<!-- sla <48 7 -->
+- Reported no regressions in <48h
+
+### 2022-06-20
+#### 5.15.49
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported build regression with [clang-13 allmodconfig builds](https://lore.kernel.org/stable/CA+G9fYsvY-0ub_CXbb5is0vRLQ9+SaPS8Op=9mZzCkeccUN+mg@mail.gmail.com/)
+
+#### 5.4.200, 5.10.124
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.18.6
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2022-06-14
 #### 4.14.284, 4.19.248, 5.10.123, 5.15.48, 5.18.5
 <!-- sla <24 5 -->

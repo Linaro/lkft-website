@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2022
 
+### 2022-08-23
+#### 4.9.326-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [build failures on Arm and MIPS](https://lore.kernel.org/stable/CA+G9fYvXcuoi6Z9XEZHUOOUA=zT4wjXD9f2yjqrw6a_=2pZA6w@mail.gmail.com/)
+
+#### 4.9.326-rc2, 4.14.291, 4.19.256, 5.4.211, 5.10.138-rc3, 5.15.63-rc2, 5.19.4-rc2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2022-08-19
 #### 5.10.137-rc1
 <!-- sla <24 1 -->

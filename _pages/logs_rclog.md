@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2022
 
+### 2022-09-16
+#### 5.10.144, 5.15.69, 5.19.10
+<!-- regressions 3 -->
+<!-- sla <48 3 -->
+- Reported [GPIO](https://lore.kernel.org/stable/CA+G9fYty3xhJMSuDY1EwcWf9O7dyeFvJ4Y2TAaeC8jc0ZY8Y2g@mail.gmail.com/) [regressions](https://lore.kernel.org/stable/CA+G9fYtbiOXm0mmHQ0B+wmNANZjMeEd2jOA+1KxjU3wO-1sQgA@mail.gmail.com/) [on x86_64](https://lore.kernel.org/stable/CA+G9fYtxYKgqia+Crjok5yLshm3TpFwMyD8V5_-OkayA8UnDww@mail.gmail.com/)
+
+#### 4.9.329, 4.14.294, 4.19.259, 5.4.214
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2022-09-13
+#### 4.9.328, 4.14.293, 4.19.257, 5.4.212, 5.10.143, 5.15.68, 5.19.9
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2022-09-06
 #### 5.10.142, 5.15.66, 5.19.8
 <!-- sla <8 3 -->

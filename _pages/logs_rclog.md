@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2022
 
+### 2022-09-21
+#### 5.15.70
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [undeclared function with allmodconfig on Arm64](https://lore.kernel.org/stable/CA+G9fYs5BDHc2638p7br6-RzQzdJjxOOUvujyssy0bOWKOtLCg@mail.gmail.com/)
+
+#### 5.10.145, 5.19.11-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2022-09-16
 #### 5.10.144, 5.15.69, 5.19.10
 <!-- regressions 3 -->

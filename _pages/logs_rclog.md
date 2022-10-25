@@ -41,6 +41,28 @@ jumbotron:
 
 ## 2022
 
+### 2022-10-05
+#### 5.4.217
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- New [objtool warning on x86_64](https://lore.kernel.org/stable/68134b95-ea83-cb02-0ded-fd147b117820@linaro.org/)
+
+### 2022-10-03
+#### 5.19.13
+<!-- sla <24 1 -->
+<!-- regressions 2 -->
+- Reported a [new build warning on Arm, PowerPC, MIPS](https://lore.kernel.org/stable/CA+G9fYvxTQ52SDLnF2-7Kynuy0NcojXuikC8L5BaTZWBsCMv2g@mail.gmail.com/)
+- Reported a Kunit/KASAN warning on qemu-arm64
+
+#### 5.15.72
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- Reported [Perf build regressions](https://lore.kernel.org/stable/CA+G9fYvj34XjumQhSXy74Z6-Www2zOngAc89_EPeHyv1SAXzxg@mail.gmail.com/)
+
+#### 4.19.261, 5.4.216, 5.10.147
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2022-09-26
 #### 5.4.215-rc1, 5.10.146-rc1
 <!-- sla <8 2 -->

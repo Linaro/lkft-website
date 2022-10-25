@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2022
 
+### 2022-09-26
+#### 5.4.215-rc1, 5.10.146-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Reported [build problem with gpio-ixp4xx](https://lore.kernel.org/stable/CA+G9fYsaviCxmAqWzOxgkU7HcmzU=e0LKci2_+5uPUOc+8xb3A@mail.gmail.com/) and GCC
+
+#### 5.15.71-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported [build errors with gpio-ixp4xx and rtas_entry](https://lore.kernel.org/stable/CA+G9fYsiTk-nq98AaQF+BNmxtEH911m+SDhXGbLns5Nb91cMWA@mail.gmail.com/)
+
+#### 5.19.12
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [deadlock warning on Raspberry Pi 4 and DB845c](https://lore.kernel.org/stable/CA+G9fYtxogp--B0Em6VCL0C3wwVFXa6xW-Rq2kQk3br+FPGLgg@mail.gmail.com/)
+
+#### 4.9.330-rc2, 4.14.295-rc2, 4.19.260-rc2, 5.4.215-rc2, 5.10.146-rc2, 5.15.71-rc2
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2022-09-21
 #### 5.15.70
 <!-- sla <24 1 -->

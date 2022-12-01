@@ -41,6 +41,25 @@ jumbotron:
 
 ## 2022
 
+### 2022-11-08
+#### 5.10.154-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [DTB regression on Arm64](https://lore.kernel.org/stable/CA+G9fYtSBS77MiW99t7HGyBPnnpxyu-6L3HUPsA+pXd_fkZRVg@mail.gmail.com/)
+
+#### 6.0.8
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported a [regression on net/ip_defrag.sh](https://lore.kernel.org/stable/CA+G9fYuGaGMYYjZDM0X8Wu0Q68=KAYpzOFeDypMF64tpVWcaFQ@mail.gmail.com/) selftest on x86/i386
+
+#### 4.9.333, 4.19.265, 5.4.224, 5.10.154-rc2, 5.15.78
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 4.14.299
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2022-11-02
 #### 6.0.7
 <!-- sla <24 1 -->

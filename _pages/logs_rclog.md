@@ -41,6 +41,30 @@ jumbotron:
 
 ## 2022
 
+### 2022-11-23
+#### 5.10.156-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [NFS mount failed](https://lore.kernel.org/stable/CA+G9fYvKfbJHcMZtybf_0Ru3+6fKPg9HwWTOhdCLrOBXMaeG1A@mail.gmail.com/) on Raspberry Pi 4
+
+#### 5.15.80-rc1, 6.0.10-rc1
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Confirmed [RTC build regression](https://lore.kernel.org/stable/CA+G9fYtnHTdCS=RWNULkzENX=mtRrJzc6e++PfeprmFqrQBr9g@mail.gmail.com/) on [Arm with allmodconfig](https://lore.kernel.org/stable/CA+G9fYt1PhHTfGcN9Rf7883Gz9RvGOicbgoqHNLGym8Vdoet9g@mail.gmail.com/)
+
+#### 5.15.80-rc2, 6.0.10-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.9.334, 4.14.300, 4.19.267, 5.4.225
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2022-11-21
+#### 4.19.266
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2022-11-14
 #### 5.15.79-rc1
 <!-- sla <24 1 -->

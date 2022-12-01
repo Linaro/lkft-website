@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2022
 
+### 2022-11-14
+#### 5.15.79-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Confirmed a [build failure with allmodconfig on Arm 32/64](https://lore.kernel.org/stable/CA+G9fYs7z7hbf0rcKhhyAkROTnQHnbmOzZ+oTMbW=Es6pu159A@mail.gmail.com/)
+
+#### 5.10.155, 5.15.79-rc2, 6.0.9
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2022-11-08
 #### 5.10.154-rc1
 <!-- sla <8 1 -->

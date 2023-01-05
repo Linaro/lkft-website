@@ -41,6 +41,20 @@ jumbotron:
 
 ## 2022
 
+### 2022-12-05
+#### 5.15.82-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Found [RISC-V build regressions](https://lore.kernel.org/stable/CAEUSe7_2g6fde2JU7_yA9QCK+FfdLshCRnDd81FF3=SJwwDAzg@mail.gmail.com/)
+
+#### 6.0.12, 5.4.226-rc2, 5.10.158-rc2, 5.15.82-rc3, 6.0.12-rc3
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+#### 4.9.335-rc2, 4.14.301-rc2, 4.19.268-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2022-11-30
 #### 6.0.11-rc1
 <!-- sla <24 1 -->

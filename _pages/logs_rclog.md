@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2022
 
+### 2022-12-28
+#### 6.1.2-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build errors with allmodconfig/GCC-8 on Arm64, Arm, i386, MIPS, PA-RISC, SuperH; allmodconfig/GCC-12 on Arm64, Arm](https://lore.kernel.org/stable/9560136e-d6e9-995a-141a-61dd05a62b8a@linaro.org/)
+
+#### 5.15.86-rc1, 6.0.16-rc1
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- [Build errors with allmodconfig/GCC-8 on Arm64, Arm, i386, MIPS, PA-RISC, SuperH](https://lore.kernel.org/stable/0328eb25-f711-d6ca-28f4-60601b6e0bfe@linaro.org/); [allmodconfig/GCC-12 on Arm64, Arm](https://lore.kernel.org/stable/c3c2ef47-b46d-b446-5475-366867954528@linaro.org/)
+
+#### 5.15.86-rc2, 6.0.16-rc2, 6.1.2-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2022-12-19
 #### 5.10.161, 5.15.85, 6.0.15, 6.1.1
 <!-- sla <24 4 -->

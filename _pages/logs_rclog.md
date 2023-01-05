@@ -41,6 +41,17 @@ jumbotron:
 
 ## 2022
 
+### 2022-11-30
+#### 6.0.11-rc1
+<!-- sla <24 1 -->
+<!-- regressions 2 -->
+- Reported [allmodconfig failures with Clang 15+](https://lore.kernel.org/stable/CA+G9fYuJVxhKbeN9OGCr2_zyfa1k3j4DS1gAoTW0P89Eyz2FHg@mail.gmail.com/) on x86_64
+- Reported an [intermittent kernel panic with X15](https://lore.kernel.org/stable/CA+G9fYtyJB4gOX3TnpsUz+icC3QC1XFL5OyQ+Ms9TfdzjDj=vg@mail.gmail.com/), initially from next-20220526
+
+#### 5.10.157, 5.15.81, 6.0.11-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2022-11-23
 #### 5.10.156-rc1
 <!-- sla <8 1 -->

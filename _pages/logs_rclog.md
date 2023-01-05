@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2022
 
+### 2022-12-15
+#### 5.4.228, 5.10.160, 5.15.84, 6.0.14
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+### 2022-12-12
+#### 6.0.13
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Found a [Clang-nightly regression on x86_64](https://lore.kernel.org/stable/CA+G9fYt7QTkGWPhj0NX8bcDOvEvf9jOW5Oaj8T2zmzasHjo1yA@mail.gmail.com/)
+
+#### 5.10.159-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Kernel panic found on Raspberry Pi 4](https://lore.kernel.org/stable/CA+G9fYtNvr-82FG23mkKj2LAMtS87hGEEpjZsGNUhr8oPU6O2A@mail.gmail.com/)
+
+#### 4.9.336, 4.14.302, 4.19.269, 5.4.227, 5.10.159-rc2, 5.15.83
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2022-12-05
 #### 5.15.82-rc1
 <!-- sla <8 1 -->

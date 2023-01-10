@@ -1,5 +1,4 @@
 branches:
-  - "4.9"
   - "4.14"
   - "4.19"
   - "5.4"
@@ -10,9 +9,6 @@ branches:
   - linux-next
 
 gitlab-builds:
-- branch: "4.9"
-  gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-4.9.y/latest"
-  gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-4.9.y/pipeline.svg"
 - branch: "4.14"
   gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-4.14.y/latest"
   gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-4.14.y/pipeline.svg"

@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2023
 
+### 2023-02-13
+#### 5.10.168-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Kernel crash on DragonBoard 410c](https://lore.kernel.org/stable/CA+G9fYvz7_C8ugBPkx5uf_2LBhsGytXnhG3JC4EYb0CEkFb+Jg@mail.gmail.com/) due to nvmem backport. Bisection confirmed [nvmem patch](https://lore.kernel.org/stable/CA+G9fYsTyg_kXBizEi+DOhKkkwm0fx9DdbHFmMy-rYx6Kg5Bhw@mail.gmail.com/)
+
+#### 5.10.168-rc2, 5.15.94, 6.1.12
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2023-02-07
 #### 6.1.11
 <!-- sla <8 1 -->

@@ -41,6 +41,19 @@ jumbotron:
 
 ## 2023
 
+### 2023-03-01
+#### 6.1.15
+<!-- sla <24 1 -->
+- [net/mptcp test failure](https://lore.kernel.org/all/CA+G9fYtDGpgT4dckXD-y-N92nqUxuvue_7AtDdBcHrbOMsDZLg@mail.gmail.com/) due to kselftests upgrade from 6.1.14 to 6.2.1 ([not a regression](https://lore.kernel.org/all/CA+G9fYsn+AhWTFA+ZJmfFsM71WGLPOFemZp_vhFMMLUcgcAXKg@mail.gmail.com/))
+
+#### 4.19.275, 5.4.234, 5.10.171, 5.15.97
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 6.2.2
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2023-02-23
 #### 5.15.96-rc2
 <!-- sla <8 1 -->

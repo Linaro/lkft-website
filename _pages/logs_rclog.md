@@ -41,6 +41,41 @@ jumbotron:
 
 ## 2023
 
+### 2023-03-15
+#### 4.19.278-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Lots of Arm build failures; new Perf error](https://lore.kernel.org/stable/7e46d536-cc68-4b7c-e56e-cf1b94a925cb@linaro.org/)
+
+#### 5.4.237-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Three separate failures on Arm, Arm64, PowerPC](https://lore.kernel.org/stable/dce37bda-d5d9-72d8-2b22-2c69b6498870@linaro.org/)
+
+#### 5.15.103-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [PowerPC IRQ build failures](https://lore.kernel.org/stable/6ed70071-96a3-4f79-17e4-c94f3ef868e2@linaro.org/)
+
+#### 6.1.20-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [PowerPC IRQ build failures and -mcpu errors](https://lore.kernel.org/stable/b97c4328-54fd-0461-5fa9-323a0d2ba1f4@linaro.org/)
+
+#### 6.2.7-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [PowerPC build failures for Cell and ppc64e configs](https://lore.kernel.org/stable/20ff835c-99e1-4611-95d6-3050604c1b32@linaro.org/)
+
+#### 5.10.175-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Failures on ARC, Arm, MIPS, PA-RISC, PowerPC, RISC-V, SPARC, SuperH, x86; IRQ build failures on PowerPC](https://lore.kernel.org/stable/c30fa569-91bf-619c-612f-1c796a61d1a4@linaro.org/)
+
+#### 4.14.310-rc2, 4.19.278-rc3, 5.4.237-rc2, 5.10.175-rc2, 5.15.103-rc2, 6.1.20-rc2, 6.2.7-rc2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2023-03-10
 #### 4.14.308-rc1
 <!-- sla <24 1 -->

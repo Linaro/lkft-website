@@ -41,6 +41,29 @@ jumbotron:
 
 ## 2023
 
+### 2023-01-22
+#### 5.10.165-rc1, 5.15.90-rc1, 6.1.8-rc1
+<!-- sla <24 3 -->
+<!-- regressions 3 -->
+- [Reported and bisected build regressions on SuperH](https://lore.kernel.org/stable/CA+G9fYtQ9SLrGt0TtW5d3ctZBHEpQpau_+pNzho=qHve8QiDaA@mail.gmail.com/) (dreamcast, microdev)
+
+#### 5.4.230-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [GCC-8 failures on i386, PowerPC, SuperH, System/390, x86](https://lore.kernel.org/stable/CA+G9fYuYi1Rvv19R_EVdht_7LV9qiR-6KVvZUGjct3kEk0uQTA@mail.gmail.com/)
+
+#### 5.10.165-rc2, 5.15.90-rc2
+<!-- sla <24 2 -->
+- Reported [kselftest-arm64 failures (MTE)](https://lore.kernel.org/stable/CA+G9fYvgEEOkatUJB1p_DQuL1BcDyk9mq-3d-iUjgxhP+pONTw@mail.gmail.com/), discovered through [newer and better Qemu](https://lore.kernel.org/stable/CA+G9fYvXfmrBMUULtDKyG4Z8aHSa10R=Oth9maJ-hCuJ+Xy51Q@mail.gmail.com/); no kernel regressions
+
+#### 4.14.304, 4.19.271, 6.1.8-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 5.4.230-rc2
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2023-01-16
 #### 5.10.164-rc1
 <!-- sla <8 1 -->

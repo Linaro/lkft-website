@@ -41,6 +41,28 @@ jumbotron:
 
 ## 2023
 
+### 2023-01-12
+#### 5.10.163, 5.15.88, 6.1.6
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+### 2023-01-10
+#### 6.1.5
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Kernel panic on LTP mm with GCC-12 on FVP with 64k pages](https://lore.kernel.org/stable/CA+G9fYuQzq1bBt9k0PtpAc0Ubn9wXmjzVGNRhSOFBr-fx3KQQw@mail.gmail.com/)
+
+#### 6.0.19
+<!-- sla <24 1 -->
+<!-- regressions 2 -->
+- [Kernel panic on LTP controllers with Clang-15 on Raspberry Pi 4](https://lore.kernel.org/linux-patches/CA+G9fYtpM7X15rY6g6asDxrjxDSfj5sDiP8P5Yb1TS3VVmjGNw@mail.gmail.com/)
+- [Kernel panic on LTP mm with GCC-12 on FVP with 64k pages](https://lore.kernel.org/stable/CA+G9fYuQzq1bBt9k0PtpAc0Ubn9wXmjzVGNRhSOFBr-fx3KQQw@mail.gmail.com/)
+- Last 6.0 release
+
+#### 5.15.87
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2023-01-05
 #### 4.9.337
 <!-- sla <24 1 -->

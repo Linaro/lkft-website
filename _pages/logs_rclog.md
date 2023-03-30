@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2023
 
+### 2023-02-07
+#### 6.1.11
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [New warning introduced in selftests/vm](https://lore.kernel.org/stable/CA+G9fYtgJX507GJ3fG7-G+vGhG4BnU=kzu3fOH_a-_aMU0S_0w@mail.gmail.com/)
+
+#### 5.15.93
+<!-- sla <24 1 -->
+- XXX in <24h
+
 ### 2023-02-03
 #### 4.19.272-rc1
 <!-- sla <8 1 -->

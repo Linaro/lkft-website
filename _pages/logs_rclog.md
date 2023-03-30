@@ -41,6 +41,25 @@ jumbotron:
 
 ## 2023
 
+### 2023-02-23
+#### 5.15.96-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Completely [broken due to executable permissions](https://lore.kernel.org/all/CA+G9fYuhcaYO1m29-9vQr-HK7_xJYouAAkM=ouMYzOBk+otCVg@mail.gmail.com/), now fixed
+
+#### 4.19.274-rc2, 5.4.233-rc2, 5.10.170-rc2, 5.15.96-rc3, 6.1.14-rc2, 6.2.1-rc2
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
+#### 4.14.307
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2023-02-20
+#### 4.14.306, 4.19.273, 5.4.232, 5.10.169, 5.15.95, 6.1.13
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2023-02-13
 #### 5.10.168-rc1
 <!-- sla <24 1 -->

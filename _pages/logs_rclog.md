@@ -41,6 +41,31 @@ jumbotron:
 
 ## 2023
 
+### 2023-02-03
+#### 4.19.272-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build error on drivers/memory on Arm](https://lore.kernel.org/stable/CA+G9fYvd8D3LfxPg2afZXKFC3WNHrhyE7c3fFLViaG4WhJeHVg@mail.gmail.com/)
+
+#### 5.15.92
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [New warnings with GCC-12 on Arm64/i386 on selftests/arm64/fp and selftests/vm](https://lore.kernel.org/stable/CA+G9fYsRZcCu986iGaqrRw7uDjdaX2NEbDs9P5QFr58ja5BnTA@mail.gmail.com/)
+
+#### 6.1.10
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Clang-nightly bug with allmodconfig](https://lore.kernel.org/all/CA+G9fYtsSuw=W0LSpzJRzsXB6qGYS3og1v=FOrvPHSAdRPCDPA@mail.gmail.com/)
+
+#### 4.14.305-rc1, 4.14.305-rc2, 4.19.272-rc2, 4.19.272-rc3, 5.4.231-rc1, 5.4.231-rc2, 5.10.167
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
+### 2023-01-30
+#### 5.10.166, 5.15.91, 6.1.9-rc3
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2023-01-22
 #### 5.10.165-rc1, 5.15.90-rc1, 6.1.8-rc1
 <!-- sla <24 3 -->

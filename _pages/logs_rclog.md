@@ -41,6 +41,47 @@ jumbotron:
 
 ## 2023
 
+### 2023-03-10
+#### 4.14.308-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- System/390 regression with [GCC-8](https://lore.kernel.org/stable/CA+G9fYuyMYnzNLgvyQwjnnVY4=QjOK6kKoTJ_guJ+z0LDn5uMA@mail.gmail.com/)
+
+#### 5.4.235-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- System/390 regressions with [GCC-8 and GCC-12](https://lore.kernel.org/stable/CA+G9fYsn6W73x+Mox3XcG9bp-eZ4URbuJ7MdwxzJyM2132VD9Q@mail.gmail.com/)
+
+#### 5.10.173-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- System/390 regressions with [GCC-8, GCC-12, and Clang-16](https://lore.kernel.org/stable/CA+G9fYuemYyXoZ3--tDqiZmR1f10DNRf-eSDje1dvkJQpeXsGg@mail.gmail.com/)
+
+#### 4.19.276, 5.15.100, 6.1.17, 6.2.4
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 4.14.308-rc2, 5.4.235-rc2, 5.10.173-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+### 2023-03-07
+#### 5.15.99-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [Perf build failure on all architectures](https://lore.kernel.org/stable/c1bc24d9-0977-4d7e-bee8-aa897b1cb435@linaro.org/)
+- [New warning introduced on x86_64](https://lore.kernel.org/stable/4ce8fe57-53eb-4a83-a468-ebfc98fed496@linaro.org/)
+
+#### 6.1.16-rc1, 6.2.3-rc1
+<!-- sla <8 1 -->
+<!-- sla <24 1 -->
+<!-- regressions 2 -->
+- [PowerPC regression](https://lore.kernel.org/stable/29636c67-aab7-1235-27af-469bcec7ae66@linaro.org/) [with -mcpu](https://lore.kernel.org/stable/81cd2720-0414-1213-3826-31bd240d5c75@linaro.org/)
+
+#### 5.15.99-rc2, 6.1.16-rc2, 6.2.3-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2023-03-01
 #### 6.1.15
 <!-- sla <24 1 -->

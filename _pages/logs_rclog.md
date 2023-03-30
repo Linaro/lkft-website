@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2023
 
+### 2023-01-16
+#### 5.10.164-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Reported a [build regression on DRM (dp_aux_isr)](https://lore.kernel.org/stable/CAEUSe786JgSDJOtCU_tB81ddYxJk_sSfgzM33r7iFccsU7O5QA@mail.gmail.com/)
+
+#### 5.4.229-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Confirmed [build problems on RISC-V](https://lore.kernel.org/stable/CA+G9fYswDKDVtmSNw7VhYCYynY3m8+taBcKN3-XRBa+BKDuMnQ@mail.gmail.com/) and other architectures
+
+#### 4.14.303, 4.19.270-rc2, 5.4.229-rc2, 5.10.164-rc2, 5.15.89, 6.1.7-rc1, 6.1.7-rc2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2023-01-12
 #### 5.10.163, 5.15.88, 6.1.6
 <!-- sla <48 3 -->

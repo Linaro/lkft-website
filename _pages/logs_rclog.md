@@ -41,6 +41,25 @@ jumbotron:
 
 ## 2023
 
+### 2023-03-20
+#### 6.1.21-rc2, 6.2.8-rc2
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Build failure with [ppc64e_defconfig](https://lore.kernel.org/stable/CA+G9fYsD6PVkfrpS+k6TBye5r1JzWVOzRwAsndSYzVwgB+dTxg@mail.gmail.com/) and [Clang on PowerPC](https://lore.kernel.org/stable/CA+G9fYvNEThYX-c204_knup5G_1vA27j+HouS-n=HMUsdJpC_g@mail.gmail.com/)
+
+#### 6.1.21-rc1, 6.2.8-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- Build failures with [cell, ppc64e, tqm8xx configs](https://lore.kernel.org/stable/CA+G9fYtCtfSqrje=1wkw1ODpnJorDMFkB1bSVexpyc4gi3X0ZQ@mail.gmail.com/) and [Clang on PowerPC](https://lore.kernel.org/stable/CA+G9fYvNEThYX-c204_knup5G_1vA27j+HouS-n=HMUsdJpC_g@mail.gmail.com/)
+
+#### 5.4.238-rc1, 5.4.238-rc2, 5.10.176, 5.15.104
+<!-- sla <8 4 -->
+- Reported no regressions in <8h
+
+#### 4.14.311, 4.19.279, 6.1.21-rc3, 6.2.8-rc3
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
 ### 2023-03-15
 #### 4.19.278-rc1
 <!-- sla <8 1 -->

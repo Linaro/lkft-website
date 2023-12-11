@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2023
 
+### 2023-05-09
+#### 5.15.111-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [New warnings](https://lore.kernel.org/stable/863a112f-f4a4-d580-9687-f6214d555939@linaro.org/) in Arm, PowerPC, RISC-V
+
+#### 6.1.28-rc2, 6.2.15-rc2, 6.3.2-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2023-04-28
 #### 5.15.110-REGRESSIONS
 <!-- regressions 1 -->

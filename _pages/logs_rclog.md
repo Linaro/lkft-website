@@ -41,6 +41,30 @@ jumbotron:
 
 ## 2023
 
+### 2023-04-28
+#### 5.15.110-REGRESSIONS
+<!-- regressions 1 -->
+<!-- sla <24 1 -->
+- Reported a [regression on LTP controllers](https://lore.kernel.org/all/CA+G9fYsP58FUqHmmVJ7Oa3JthKzSEJbW=mpFN9M5-2NN75OVDQ@mail.gmail.com/) on Juno (Arm64)
+
+#### 6.3.1-REGRESSIONS
+<!-- regressions 1 -->
+<!-- sla <24 1 -->
+- Reported [LTP controllers and Ftrace regressions](https://lore.kernel.org/all/CA+G9fYveLf0kWbhCPm9fm3sDCVk3HQrAph0rF0j8HU21jMxGHw@mail.gmail.com/) on i386 and x86
+
+#### 6.1.27, 6.2.14
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+### 2023-04-24
+#### 4.14.314, 4.19.282, 5.4.242, 5.10.179
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.15.109, 6.1.26, 6.2.13
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2023-04-18
 #### 5.10.178-rc1, 5.15.108-rc1
 <!-- sla <8 2 -->

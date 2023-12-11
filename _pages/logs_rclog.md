@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2023
 
+### 2023-04-18
+#### 5.10.178-rc1, 5.15.108-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Build regressions](https://lore.kernel.org/stable/CA+G9fYsA+CzsxVYgQEN3c2pOV6F+1EOqY1vQrhj8yt1t-EYs7g@mail.gmail.com/) on Arm, Arm64, i386, x86_64, [due to cgroup/cpuset](https://lore.kernel.org/stable/CA+G9fYs9sHnfhn4hSFP=AmOfgj-zvoK9vmBejRvzKPj4uXx+VA@mail.gmail.com/)
+
+#### 4.14.313, 4.19.281, 5.4.241
+<!-- sla <24 3 -->
+<!-- regressions 3 -->
+- [Reported](https://lore.kernel.org/stable/CA+G9fYvuJFV8bJNO5qObtZzvPDJwNdwjkgmPBo1GfCnL35GFtQ@mail.gmail.com/) [LTP](https://lore.kernel.org/stable/CA+G9fYtQZpMB=uuEj9QFVXRp-JteNLd2N7ezpbfOP_ee080DaQ@mail.gmail.com/) [regressions](https://lore.kernel.org/stable/CA+G9fYuT3N0LFaJGzQW2SYPJxEbEWLONDZO2OfBbeHNrsowy2w@mail.gmail.com/)
+
+### 5.15.108-rc4, 6.1.25-rc1, 6.1.25-rc3, 6.2.12-rc1, 6.2.12-rc3
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
 ### 2023-04-12
 #### 5.15.107, 6.1.24, 6.2.11
 <!-- sla <48 3 -->

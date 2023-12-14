@@ -41,6 +41,39 @@ jumbotron:
 
 ## 2023
 
+### 2023-08-31
+#### 4.19.294-rc2, 5.15.130, 6.1.51, 6.4.14
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 4.14.325, 5.4.256, 5.10.194, 6.5.1
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+### 2023-08-28
+#### 4.14.324
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Build failures on PowerPC](https://lore.kernel.org/stable/868cd8e3-2e7e-7b98-0a6e-e5586cb6ab0d@linaro.org/) with GCC
+
+#### 4.19.293
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build failures on Arm32](https://lore.kernel.org/stable/CA+G9fYuQXq7-jkL59MMKfRbqqB509T3nQdtcW+4wVW_QRovx5g@mail.gmail.com/) with GCC
+
+#### 5.15.129
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Circular dependency deadlock](https://lore.kernel.org/stable/CA+G9fYv9xTu4bKJGy=e=KZSG5pZ+tJAmfZr=0dbuKNs=9OOKhA@mail.gmail.com/) while booting on Raspberry Pi 4
+
+#### 5.10.193, 6.1.50, 6.4.13
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+#### 5.4.255
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2023-08-26
 #### 6.1.49
 <!-- sla <48 1 -->

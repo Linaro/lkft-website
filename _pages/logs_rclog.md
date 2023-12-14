@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2023
 
+### 2023-08-01
+#### 6.4.8-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [selftests: rseq build failure](https://lore.kernel.org/stable/CA+G9fYsv5dFJfjNq7O+CW3J9jEV0zDQiOR+8dyacwhpDih0xJw@mail.gmail.com/)
+
+#### 5.15.124-rc1, 6.1.43-rc1
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- Reported [arm: orion5x_defconfig build failure](https://lore.kernel.org/stable/CA+G9fYsqEE6P8vKKvWgFDjpgT64FebUssPNS48n6qfUriu6Z1w@mail.gmail.com/)
+
+#### 5.15.124-rc2, 6.1.43-rc2, 6.4.8-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2023-07-25
 #### 5.4.251-rc1, 5.10.188-rc1
 <!-- sla <8 2 -->

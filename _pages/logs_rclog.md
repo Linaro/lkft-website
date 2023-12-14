@@ -41,6 +41,76 @@ jumbotron:
 
 ## 2023
 
+### 2023-11-24
+#### 4.14.331-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [System/390 build failures](https://lore.kernel.org/stable/8761f367-1928-40f2-a4da-9d57ecb73218@linaro.org/)
+
+#### 4.19.300-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [Arm32 and Arm64 build failures](https://lore.kernel.org/stable/d48b5514-759f-47a0-b024-494ce87ec60f@linaro.org/)
+
+#### 5.4.262-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Arm64 build failures](https://lore.kernel.org/stable/CA+G9fYuVgqVc57YAwfA8MK6_Q86wD=RznCYKHDf_tD3foM9Y5w@mail.gmail.com/)
+
+#### 5.10.202-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [System/390 and PowerPC build failures](https://lore.kernel.org/stable/a67ec47c-6d4c-4a2f-a4c0-5284d895982a@linaro.org/)
+
+#### 5.15.140-rc1
+<!-- sla <8 1 -->
+<!-- regressions 3 -->
+- [PA-RISC and System/390 build failures](https://lore.kernel.org/stable/c0a5a523-708b-431c-b212-df1af5ad7bc0@linaro.org/)
+- [LTP’s syscalls/preadv03 test regression](https://lore.kernel.org/stable/81a11ebe-ea47-4e21-b5eb-536b1a723168@linaro.org/)
+
+#### 6.1.64-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Arm64 build failures](https://lore.kernel.org/stable/CA+G9fYs1QwVjKK0wBcm2EtDbSbvG7fu7Ca=SBAZfGDAsEJLPZw@mail.gmail.com/)
+
+#### 6.5.13-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Arm64 build failures](https://lore.kernel.org/stable/CA+G9fYt27vXw5po2gtEqi8=hJSR7Ge3+XAS+fAHt4MiHbEXfpQ@mail.gmail.com/)
+
+#### 6.6.3-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Arm64 build failures](https://lore.kernel.org/stable/CA+G9fYtrUpJ_+-k6dBaX0yZX-dkkrz3Qg-1FRwkG83pZvN44ow@mail.gmail.com/)
+
+#### 6.1.64-rc3
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [System/390 and PowerPC build failures](https://lore.kernel.org/stable/a853e6f3-f658-4049-9c36-66835d144eac@linaro.org/)
+
+#### 6.6.3-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [System/390 build failures](https://lore.kernel.org/stable/e819d653-8a1e-4088-a4dd-a093356da8e8@linaro.org/)
+
+#### 5.4.262-rc4
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [New warning in PCI: keystone with Arm64/Clang](https://lore.kernel.org/stable/CA+G9fYudTmZ+t84YLfe2wTXxORpTFBp8p9S=NYVOMretu-VSyg@mail.gmail.com/)
+
+#### 6.1.64-rc4
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [LTP’s syscalls/preadv03 test regression](https://lore.kernel.org/stable/CA+G9fYsk_5WxkeQHqh_5McrkOBGW+4yF81=TdrNyPQOSZxz7Rg@mail.gmail.com/)
+
+#### 6.5.13-rc4, 6.6.3-rc4
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.14.331-rc2, 4.19.300-rc3, 5.10.202-rc3, 5.15.140-rc3
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
 ### 2023-11-15
 #### 6.5.12
 <!-- sla <8 1 -->

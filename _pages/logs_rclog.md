@@ -41,6 +41,15 @@ jumbotron:
 
 ## 2023
 
+### 2023-10-16
+#### 6.1.59, 6.5.8-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 5.15.136
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2023-10-12
 #### 6.1.58
 <!-- sla <24 1 -->

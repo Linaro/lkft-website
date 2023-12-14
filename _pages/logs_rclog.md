@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2023
 
+### 2023-05-22
+#### 6.3.4-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build regression (XHCI)](https://lore.kernel.org/stable/4889c7c7-1206-dab5-3ef1-13d4506e08be@linaro.org/) on Arm and MIPS, bisected and validated
+
+#### 5.15.113, 6.1.30, 6.3.4-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2023-05-15
 #### 4.14.315, 4.19.283, 5.4.243, 5.10.180, 5.15.112, 6.1.29, 6.2.16
 <!-- sla <48 5 -->

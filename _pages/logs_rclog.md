@@ -41,6 +41,17 @@ jumbotron:
 
 ## 2023
 
+### 2023-09-11
+#### 6.1.53
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [New warning on fs/udf](https://lore.kernel.org/stable/1ffe4f64-f238-859a-ab14-7559d03c4671@linaro.org/) on Arm32, PowerPC, S/390
+
+#### 6.4.16, 6.5.3
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+- LAST 6.4.y release
+
 ### 2023-09-04
 #### 5.15.131, 6.1.52, 6.4.15, 6.5.2
 <!-- sla <24 4 -->

@@ -41,6 +41,22 @@ jumbotron:
 
 ## 2023
 
+### 2023-10-04
+#### 5.15.134
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [RCU warning on trc_inspect_reader](https://lore.kernel.org/stable/CA+G9fYunnEUT2evdabX1KOTiryP1heNHWDH4LWZCt2SVRmnKOA@mail.gmail.com/) on x86
+
+#### 6.1.56
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Direct IO problems with NFS](https://lore.kernel.org/stable/CA+G9fYsqbZhSQnEi-qSc7n+4d7nPap8HWcdbZGWLfo3mTH-L7A@mail.gmail.com/) on Raspberry Pi 4
+
+#### 6.5.6
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [RCU warning on trc_inspect_reader](https://lore.kernel.org/stable/CA+G9fYunnEUT2evdabX1KOTiryP1heNHWDH4LWZCt2SVRmnKOA@mail.gmail.com/) on x86
+
 ### 2023-09-20
 #### 4.19.295
 <!-- sla <48 1 -->

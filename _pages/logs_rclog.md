@@ -41,6 +41,20 @@ jumbotron:
 
 ## 2023
 
+### 2023-10-31
+#### 6.5.10-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [RISC-V build failures](https://lore.kernel.org/stable/CA+G9fYtSAX+aPUvUShSvb=LOAsQBEMfxRVAi0CJ-PD+SiQLPwg@mail.gmail.com/) on hugetlbpage with GCC and Clang
+
+#### 6.5.10-rc2
+<!-- sla <8 1 -->
+- Reported no regressions in <8h
+
+#### 6.1.61
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2023-10-23
 #### 5.4.259-rc1, 5.10.199-rc1, 5.15.137-rc1
 <!-- sla <8 3 -->

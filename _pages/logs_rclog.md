@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2023
 
+### 2023-11-15
+#### 6.5.12
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build failures with KUnit configs](https://lore.kernel.org/stable/CAEUSe7_KQ_-Q2ADLVcuKjb9vGOpkgAEgzgq5o-Hf=7a7c9NLXw@mail.gmail.com/) on Arm/x86 (32- and 64-bits)
+
+#### 5.10.201
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [allmodconfig failures](https://lore.kernel.org/stable/CA+G9fYtOMKserwz7w_gpe4bZnEwrd_-zSyndSepFP_jO9X-o1w@mail.gmail.com/) on Arm32 and Arm64
+
+#### 4.14.330, 4.19.299, 5.4.261, 5.15.139, 6.1.63, 6.6.2
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2023-11-06
 #### 5.10.200-rc1
 <!-- sla <8 1 -->

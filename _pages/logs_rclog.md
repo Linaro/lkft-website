@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2023
 
+### 2023-10-12
+#### 6.1.58
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2023-10-09
+#### 6.1.57
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Inconsistent lock state with IPv6](https://lore.kernel.org/stable/CA+G9fYvWCf4fYuQsVLu0NdN+=W73bW1hr1hiokajktNzPFyYtA@mail.gmail.com/)
+
+#### 4.14.327, 4.19.296, 5.4.258, 5.10.198, 5.15.135, 6.5.7
+<!-- sla <48 6 -->
+- Reported no regressions in <48h
+
 ### 2023-10-04
 #### 5.15.134
 <!-- sla <24 1 -->

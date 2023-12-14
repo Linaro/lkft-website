@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2023
 
+### 2023-10-23
+#### 5.4.259-rc1, 5.10.199-rc1, 5.15.137-rc1
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- [Build breakage](https://lore.kernel.org/stable/eb759f41-db11-4f2e-b3a0-e9e92dea3196@linaro.org/) [with GPIO](https://lore.kernel.org/stable/f403e53d-69f9-4254-b9db-bdb1912e4cfa@linaro.org/) [on Arm32](https://lore.kernel.org/stable/724521b8-9c63-4645-b3e0-30d9635573a7@linaro.org/)
+
+#### 4.14.328-rc1, 4.14.328-rc2, 4.19.297, 5.4.259-rc2, 5.10.199-rc2, 5.15.137-rc2, 6.1.60, 6.5.9
+<!-- sla <24 8 -->
+- Reported no regressions in <24h
+
 ### 2023-10-16
 #### 6.1.59, 6.5.8-rc2
 <!-- sla <24 2 -->

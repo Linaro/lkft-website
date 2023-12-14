@@ -41,6 +41,20 @@ jumbotron:
 
 ## 2023
 
+### 2023-05-15
+#### 4.14.315, 4.19.283, 5.4.243, 5.10.180, 5.15.112, 6.1.29, 6.2.16
+<!-- sla <48 5 -->
+<!-- sla <24 2 -->
+<!-- regressions 7 -->
+- Reported regressions due to Kselftests upgrade (6.2.14 to 6.3.2): membarrier, memfd, rseq, kvm, clone3
+- Reported an LTP regression on ltp-syscalls’ fallocate06
+- Reported an LTP regression on ltp-commands’ mkfs01_ntfs_sh
+- LAST 6.2.y release.
+
+#### 6.3.3
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
 ### 2023-05-09
 #### 5.15.111-rc2
 <!-- sla <24 1 -->

@@ -41,6 +41,31 @@ jumbotron:
 
 ## 2023
 
+### 2023-06-01
+#### 5.15.115-rc1, 6.1.32-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Build failures with](https://lore.kernel.org/stable/CA+G9fYt9d+bZwao0ia_7kp1maKLWepci6R4gUnb_FN2OjCSjyg@mail.gmail.com/) [drivers/dma/at_xdmac.c](https://lore.kernel.org/stable/CA+G9fYuHjNhe-5TboAbrOeZrL3xL-CYYSaEnL=8onebLUqDt8g@mail.gmail.com/)
+
+#### 5.15.115-rc2
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [System/390 build failures](https://lore.kernel.org/stable/CAEUSe7-qcYwBbeFGKAOvf-rPMdgAMfE6t42Urnhjam9nWN-gFg@mail.gmail.com/)
+
+#### 5.4.245, 5.10.182, 5.15.115-rc3, 6.1.32-rc2, 6.3.6
+<!-- sla <24 5 -->
+- Reported no regressions in <24h
+
+### 2023-05-28
+#### 4.19.284-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reported [System/390 build failures](https://lore.kernel.org/stable/CA+G9fYspKgo+qF5Onq_HDz1-w6NscULrFUSw=YKp+1e=4NkBBQ@mail.gmail.com/)
+
+#### 4.14.316, 4.19.284-rc2, 5.4.244, 5.10.181, 5.15.114, 6.1.31, 6.3.5
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2023-05-22
 #### 6.3.4-rc1
 <!-- sla <8 1 -->

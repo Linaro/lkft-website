@@ -41,6 +41,22 @@ jumbotron:
 
 ## 2023
 
+### 2023-07-09
+#### 6.3.13-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Build regressions on Arm32](https://lore.kernel.org/stable/CAEUSe7_dcPNEMqCbd6r+f_zJypQ196MSxigq6i+5eSh3=vvDOQ@mail.gmail.com/) (e.g. omap1_defconfig)
+
+#### 6.3.13-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [New warning introduced](https://lore.kernel.org/stable/CAEUSe7_KV_+jLJzE4u4_DHUPbi8Z=ASh-=aKB_JQr4+pz_8GVw@mail.gmail.com/) on many architectures
+
+#### 6.3.13-rc4, 6.4.3-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+- LAST 6.3.y release
+
 ### 2023-07-03
 #### 5.15.120-rc1
 <!-- sla <24 1 -->

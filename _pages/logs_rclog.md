@@ -41,6 +41,32 @@ jumbotron:
 
 ## 2023
 
+### 2023-08-13
+#### 6.4.11
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Kernel warning on x86](https://lore.kernel.org/stable/b2145971-5417-e1b1-40b4-f971e247e1ea@linaro.org/) (missing return thunk) with Clang
+
+#### 6.1.46
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Kernel warning on x86](https://lore.kernel.org/stable/239281dd-3cb8-23de-9ea1-27e9c224cfbd@linaro.org/) (missing return thunk) with Clang
+
+#### 5.15.127
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Kernel warning on x86](https://lore.kernel.org/stable/5a3f5686-b303-8c30-a637-787be94f6623@linaro.org/) (missing return thunk) with Clang
+- Not reproducible: Netdev watchdog on tx queue
+
+#### 5.10.191
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Kernel warning on x86](https://lore.kernel.org/stable/04946479-9fce-d803-5734-ed8ce4bf2672@linaro.org/) (missing return thunk) with Clang
+
+#### 4.14.323, 4.19.292, 5.4.254
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2023-08-09
 #### 4.14.322, 4.19.291
 <!-- sla <48 2 -->

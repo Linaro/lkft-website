@@ -41,6 +41,31 @@ jumbotron:
 
 ## 2023
 
+### 2023-06-29
+#### 6.1.37-rc1, 6.4.1-rc1
+<!-- sla <24 1 -->
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [SPARC and PA-RISC build regressions](https://lore.kernel.org/stable/CAEUSe7-xC90CGpJjQD4w10ea=nXMiGhsFouhaa8fVK5W-WJJJQ@mail.gmail.com/), [like mainline](https://lore.kernel.org/stable/CA+G9fYsM2s3q1k=+wHszvNbkKbHGe1pskkffWvaGXjYrp6qR=g@mail.gmail.com/)
+
+#### 6.3.11-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Arm64 build failures on mm/fault.c, unlike mainline](https://lore.kernel.org/stable/CAEUSe7__cNqH6d1D96m8XriVckS9MnL6CRfd+iTYXnNkqu9nvQ@mail.gmail.com/)
+
+#### 6.1.37-rc3, 6.3.11-rc4
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 6.4.1-rc3
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2023-06-26
+#### 4.14.320, 4.19.288, 5.4.249, 5.10.186, 5.15.119, 6.1.36, 6.3.10
+<!-- sla <48 7 -->
+- Reported no regressions in <48h
+
 ### 2023-06-19
 #### 4.14.319, 6.1.35, 6.3.9
 <!-- sla <24 3 -->

@@ -41,6 +41,22 @@ jumbotron:
 
 ## 2023
 
+### 2023-07-03
+#### 5.15.120-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Build regression on [PA-RISC’s asm/assembly.h](https://lore.kernel.org/stable/CA+G9fYueycAbx7DDR3S57d43UX49SOGnW6igQUZ0voEcapxdYw@mail.gmail.com/)
+
+#### 6.3.12-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Test regression on [LTP’s hugefallocate01](https://lore.kernel.org/stable/CA+G9fYvf-sw8tCHjxhoMvHrtzzdE69EwvB2PmypUkGDdCFFASA@mail.gmail.com/)
+
+#### 5.15.120-rc2, 6.1.38-rc2, 6.3.12-rc2, 6.4.2-rc2
+<!-- sla <48 4 -->
+- Reported no regressions in <48h
+
+
 ### 2023-06-29
 #### 6.1.37-rc1, 6.4.1-rc1
 <!-- sla <24 1 -->

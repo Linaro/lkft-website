@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2023
 
+### 2023-08-09
+#### 4.14.322, 4.19.291
+<!-- sla <48 2 -->
+<!-- regressions 2 -->
+- [Two new warnings](https://lore.kernel.org/stable/CAEUSe7-etoOT0ox2byNnKwmLaFQAE4j5dWnO2G2T_JuRHgr_3g@mail.gmail.com/) on [x86 with GCC 8](https://lore.kernel.org/stable/CAEUSe787p3uDD9Q0wq=Y=PY0-wLxbYY8oY6T24dhm+qgK1MjNw@mail.gmail.com/)
+
+#### 5.15.126
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Build failures on Arm/Arm64](https://lore.kernel.org/stable/CAEUSe79ibvfBR6epj=BhysfrKV47zBAFLZr7j=ZP+-Lf4NzuTw@mail.gmail.com/) with Clang 17 and GCC 8
+
+#### 6.1.45, 6.4.10
+<!-- sla <48 2 -->
+<!-- regressions 2 -->
+- [ld.lld failures on x86](https://lore.kernel.org/stable/CA+G9fYvQdQqTqCgbS4sit_Y2AtKtDiWMOkGZjoeSEFhc=M_jKw@mail.gmail.com/) [with Clang 17](https://lore.kernel.org/stable/CA+G9fYuoajK0n7RNhSqm-ycO6Md3W4ah_Sc=b_KVAQwY=Rt6YQ@mail.gmail.com/)
+
+#### 5.4.253, 5.10.190
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
 ### 2023-08-01
 #### 6.4.8-rc1
 <!-- sla <24 1 -->

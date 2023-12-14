@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2023
 
+### 2023-12-05
+#### 5.15.142-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [PowerPC build failures on iommu.c](https://lore.kernel.org/stable/CA+G9fYs-XB29+aZ2kk9psA+MTo8PCh0owWgwGRiq8JK60CuUtg@mail.gmail.com/)
+
+#### 6.1.66-rc1
+<!-- sla <24 1 -->
+<!-- regressions 3 -->
+- [System/390, PowerPC and RISC-V failing](https://lore.kernel.org/stable/CA+G9fYt4DSUQA-zcuZUxVnoSx+DUo0ZB1sX=d2SSwBaD0s_a+w@mail.gmail.com/) on allmodconfig
+
+#### 6.6.5
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [allmodconfig failing on x86](https://lore.kernel.org/stable/CA+G9fYuL_-Q67t+Y7ST5taYv1XkkoJegH2zBvw_ZUOhF9QRiOg@mail.gmail.com/) with GCC-8, passing with GCC-13
+
+#### 4.14.332, 4.19.301-rc1, 4.19.301-rc2, 5.4.263-rc3, 5.10.203-rc3, 5.15.142-rc2, 6.1.66-rc2
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2023-11-30
 #### 5.15.141-rc1
 <!-- sla <8 1 -->

@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2023
 
+### 2023-11-30
+#### 5.15.141-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Lots of failures with tracing/kprobes](https://lore.kernel.org/stable/CAEUSe78tYPTFuauB7cxZzvAeMhzB_25Q8DqLUfF7Nro9WsUhNw@mail.gmail.com/)
+
+#### 5.15.141-rc2, 6.1.65, 6.6.4
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2023-11-24
 #### 4.14.331-rc1
 <!-- sla <8 1 -->

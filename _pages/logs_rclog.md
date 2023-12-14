@@ -41,6 +41,26 @@ jumbotron:
 
 ## 2023
 
+### 2023-07-21
+#### 5.15.121, 6.1.40, 6.4.5
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2023-07-16
+#### 6.1.39-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build errors with Clang](https://lore.kernel.org/stable/CAEUSe7-XjSvLKxFuHbKUrJBWAmgKRg5oZRppnDYn1CuoWCUURw@mail.gmail.com/) [on x86/i386](https://lore.kernel.org/stable/CA+G9fYs5n6aobE04YZy3Qy1ZMhAvH6-uQRqidgFmSoei91iW8g@mail.gmail.com/)
+
+#### 6.4.4-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [KUnit/KASAN Handshake](https://lore.kernel.org/stable/CA+G9fYsSE1q5UiCZxP+EW_QuhMsLqBmVUoRnJqR=59S+5JFEZA@mail.gmail.com/) regression
+
+#### 6.1.39-rc3, 6.4.4-rc3
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2023-07-09
 #### 6.3.13-rc1
 <!-- sla <24 1 -->

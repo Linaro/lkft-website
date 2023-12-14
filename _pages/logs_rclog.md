@@ -41,6 +41,30 @@ jumbotron:
 
 ## 2023
 
+### 2023-09-20
+#### 4.19.295
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Build failures on Arm](https://lore.kernel.org/stable/CA+G9fYsZ-dwwaQRRPxUpCx+hhKuUNCp9C5K2EhgyH-kuZR+5GQ@mail.gmail.com/) due to PCI driver
+
+#### 5.4.257
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [New warning on Arm64](https://lore.kernel.org/stable/CA+G9fYsM0Lr8TNQJxsZFDZwcH-rEzkVV+y+x5FX18oH5wm5dRg@mail.gmail.com/)/allmodconfig on drm/mediatek
+
+#### 4.14.326, 5.10.196, 5.15.133, 6.1.55, 6.5.5
+<!-- sla <48 5 -->
+- Reported no regressions in <48h
+
+### 2023-09-17
+#### 6.5.4
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+#### 5.10.195, 5.15.132, 6.1.54
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
 ### 2023-09-11
 #### 6.1.53
 <!-- sla <8 1 -->

@@ -41,6 +41,23 @@ jumbotron:
 
 ## 2023
 
+### 2023-08-26
+#### 6.1.49
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2023-08-24
+#### 5.10.192, 5.15.128, 6.1.48
+<!-- sla <24 3 -->
+<!-- regressions 3 -->
+- Reported no regressions in <24h
+- [chown02 failures](https://lore.kernel.org/stable/CA+G9fYtVDzeAKWLmLOuBWcKzK62+qWYAvpUyp4TqTGKfHKFb+A@mail.gmail.com/) [reported, however](https://lore.kernel.org/stable/CA+G9fYvNipSR9HDcWT7F6j+yvy87jsbzLG-vUQSGH-o2JQv4nQ@mail.gmail.com/), [on Raspberry Pi 4](https://lore.kernel.org/stable/CA+G9fYsPPpduLzJ4+GZe_18jgYw56=w5bQ2W1jnyWa-8krmOSw@mail.gmail.com/)
+
+### 2023-08-21
+#### 6.1.47, 6.4.12
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ### 2023-08-13
 #### 6.4.11
 <!-- sla <24 1 -->

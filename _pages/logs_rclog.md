@@ -41,6 +41,20 @@ jumbotron:
 
 ## 2023
 
+### 2023-07-25
+#### 5.4.251-rc1, 5.10.188-rc1
+<!-- sla <8 2 -->
+<!-- regressions 1 -->
+- [Reported build regressions](https://lore.kernel.org/stable/CA+G9fYuH-jyxJwgEgX4J4+eh=nEEk9aqt4YPNUW9j==mwtw=jA@mail.gmail.com/)
+
+#### 5.4.251-rc2, 5.10.188-rc2, 6.1.42, 6.4.7
+<!-- sla <24 4 -->
+- Reported no regressions in <24h
+
+#### 5.15.123
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2023-07-21
 #### 5.15.121, 6.1.40, 6.4.5
 <!-- sla <24 3 -->

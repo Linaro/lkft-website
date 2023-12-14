@@ -41,6 +41,20 @@ jumbotron:
 
 ## 2023
 
+### 2023-11-06
+#### 5.10.200-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [RISC-V build failures](https://lore.kernel.org/stable/8aec1bd5-befc-486c-9e47-7571b937b8c7@linaro.org/) on irqchip
+
+#### 5.10.200-rc2, 5.15.138-rc2
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
+#### 4.14.329, 4.19.298, 5.4.260, 5.15.138, 6.1.62, 6.5.11, 6.6.1
+<!-- sla <48 7 -->
+- Reported no regressions in <48h
+
 ### 2023-10-31
 #### 6.5.10-rc1
 <!-- sla <24 1 -->

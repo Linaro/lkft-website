@@ -41,6 +41,21 @@ jumbotron:
 
 ## 2023
 
+### 2023-12-11
+#### 4.14.333-rc1, 4.19.302-rc1
+<!-- sla <8 2 -->
+<!-- regressions 2 -->
+- [Build failure on Arm](https://lore.kernel.org/stable/f63a13c6-7e19-42a9-89fd-c37249a855eb@linaro.org/) (32/64-bits) [due to PL011 patch](https://lore.kernel.org/stable/ff65c696-1fde-4e4c-b964-356e81495cab@linaro.org/)
+
+#### 5.15.143-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Build failures and new warnings on x86/i386](https://lore.kernel.org/stable/a2fbbaa2-51d2-4a8c-b032-5331e72cd116@linaro.org/) with GCC 12 and 8
+
+#### 4.14.333-rc2, 4.19.302-rc2, 5.4.264, 5.10.204, 5.15.143-rc2, 6.1.68, 6.6.7
+<!-- sla <24 7 -->
+- Reported no regressions in <24h
+
 ### 2023-12-05
 #### 5.15.142-rc1
 <!-- sla <24 1 -->

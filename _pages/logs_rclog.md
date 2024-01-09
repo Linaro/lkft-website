@@ -41,6 +41,27 @@ jumbotron:
 
 ## 2023
 
+### 2023-12-20
+#### 5.15.145
+<!-- sla <24 1 -->
+- Reported no regressions in <24h
+
+### 2023-12-18
+#### 5.10.205-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build failure on drm/sun4i](https://lore.kernel.org/all/CA+G9fYszCtMbbrurrjqpDzSa20ZX5mVdQ+RZv-KdiyLU4o5=0Q@mail.gmail.com/)
+
+#### 4.19.303-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- Reviewed an [empty patch](https://lore.kernel.org/stable/6299a661-5ae5-4f7c-9fa7-96c4e7ae39eb@linaro.org/)
+- [New warnings in 32-bits](https://lore.kernel.org/stable/cf94f746-55d7-4f22-bb53-b5c1be843354@linaro.org/) architectures
+
+#### 4.14.334, 5.4.265, 5.10.205-rc2, 5.15.144, 6.1.69, 6.6.8
+<!-- sla <24 6 -->
+- Reported no regressions in <24h
+
 ### 2023-12-11
 #### 4.14.333-rc1, 4.19.302-rc1
 <!-- sla <8 2 -->

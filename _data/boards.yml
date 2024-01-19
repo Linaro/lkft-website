@@ -102,19 +102,27 @@
       - Ethernet Port: 1x GbE Ethernet
 
       - USB: 1 x USB 2.0 Micro B (Debug only ), 1 x USB 2.0 Micro B (Debug only ), 2x USB 3.0 Type A (Host mode only)
-
 -
-  title: SynQuacer™ Developerbox
-  label: KVM ARM 64bit & KVM ARM 32bit
-  format: right
-  image: /assets/images/developerbox-front-sd.png
+  title: ROCK 4
+  label: ROCK Pi 4 Model B
+  image: /assets/images/RockPi4.png
   text: >
-      [SynQuacer™ E-Series](https://www.96boards.org/product/developerbox/) is a software development environment compliant with
-      Linaro’s 96Boards open hardware specification. This has been built
-      jointly by Socionext Inc., Linaro and GIGABYTE. It contains one “SC2A11”.
-      “SC2A11” is a multi-core chip with 24 cores of ARM® Cortex-A53.
+      [ROCK 4](https://rockpi.org/rockpi4) is a Single Board Computer (SBC) in an ultra-small form factor that offers class-leading performance
+      while leveraging outstanding mechanical compatibility. The ROCK 4 offers makers, IoT enthusiasts, hobbyists, PC DIY enthusiasts and
+      others a reliable and extremely capable platform for building and tinkering their ideas into reality.
 
-      This system is used to host 2GB and 1GB QEMU/KVM hosts running ARM on ARM.
+
+      ### Specs
+
+      - CPU: Rockchip RK3399 Dual Cortex-A72 (up to 2.0Ghz) plus quad Cortex-A53 (up to 1.5Ghz) Harvard Superscalar processor cores
+
+      - RAM: 64bit dual channel LPDDR4@3200Mb/s 4GB
+
+      - Storage: Industrial level high performance eMMC storage, 16G/32G/64G/128G available (soldered)
+
+      - Network:  1x GbE Ethernet
+
+      - USB: 1 x USB 3.0 OTG, 2 x USB 2.0 HOST
 -
   title: QEMU
   label: KVM ARM 64bit & KVM ARM 32bit
@@ -126,8 +134,17 @@
       as providing another data set to help determine when problems are board
       specific or architecture specific..
 -
+  title: Arm FVP (Fixed Virtual Platforms)
+  label: Armv-A Base Rev C FVP
+  image: /assets/images/Arm_logo_2017.svg.png
+  text: >
+      Running at speeds comparable to the real hardware, Fixed Virtual Platforms (FVPs) are complete simulations of an Arm system,
+      including processor, memory and peripherals. These are set out in a "programmer's view", which gives you a comprehensive model
+      on which to build and test your software.
+-
   title: x86_64 Server
   label: x86 64bit & x86 32bit
+  format: right
   image: /assets/images/x86.png
   text: >
       Tests are also run in both 64bit and 32bit mode on a typical x86_64 server for the purposes of providing a baseline for comparison.

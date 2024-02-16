@@ -39,6 +39,44 @@ jumbotron:
 
 -->
 
+## 2024
+
+### 2024-01-05
+#### 4.14.335-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [IRQ/pinctrl build regression on Arm 32/64 bits](https://lore.kernel.org/stable/2948beff-a9f6-42b2-8bfb-534ec9188de6@linaro.org/), and
+- net/vlan build regression with Arm64/Clang-17
+
+#### 5.4.266-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Bisected and reported [build regressions with fsleep on Arm32](https://lore.kernel.org/stable/77569e45-ab73-4049-b90e-cd60cbb872ef@linaro.org/)
+
+#### 4.14.335-rc2
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- Same [Arm64/Clang-17 net/vlan build regressions](https://lore.kernel.org/stable/CA+G9fYsjCRtzFpeBQJepL7H=wyyUu0hi0kN+A3w6-BzksHwYhg@mail.gmail.com/) as rc1
+
+#### 4.14.335-rc3, 4.19.304, 5.4.266-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2024-01-03
+#### 5.10.206
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Kernel warning with module_kallsyms_on_each_symbol](https://lore.kernel.org/stable/eb17f8c6-3967-4a39-aaa3-0252950c9084@linaro.org/)
+
+#### 6.6.10
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Build regression (again) with nl80211_set_cqm_rssi](https://lore.kernel.org/stable/99fe3993-51b5-4284-8a22-869764f393d8@linaro.org/) on x86
+
+#### 5.15.146, 6.1.71,
+<!-- sla <24 2 -->
+- Reported no regressions in <24h
+
 ## 2023
 
 ### 2023-12-30

@@ -41,6 +41,16 @@ jumbotron:
 
 ## 2024
 
+### 2024-01-18
+#### 6.1.74, 6.6.13
+<!-- sla <24 2 -->
+<!-- regressions 2 -->
+- [MIPS build regressions](https://lore.kernel.org/stable/CA+G9fYt3TKtjxV6=CQTwe5mDuYP7JYyFpkUb05StTEx7E4Mk3Q@mail.gmail.com/) with rcu_cpu_starting
+
+#### 6.7.1
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2024-01-13
 #### 4.19.305, 5.4.267, 5.10.208, 5.15.147, 6.1.73, 6.6.12
 <!-- sla <48 6 -->

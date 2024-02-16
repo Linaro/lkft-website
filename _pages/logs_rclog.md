@@ -41,6 +41,36 @@ jumbotron:
 
 ## 2024
 
+### 2024-02-03
+#### 6.1.77-rc1
+<!-- sla <8 1 -->
+<!-- regressions 1 -->
+- [Build errors/warnings on XHCI with Clang](https://lore.kernel.org/stable/13ddf68c-df25-4f5a-8044-33543a726889@linaro.org/)
+
+#### 6.6.16-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [Same Clang problems on XHCI, and PMIC errors on Arm](https://lore.kernel.org/stable/4344da38-13b2-44db-8a2b-fd65ef5501c1@linaro.org/)
+
+#### 6.7.4-rc1
+<!-- sla <8 1 -->
+<!-- regressions 2 -->
+- [Same Clang and PMIC problems](https://lore.kernel.org/stable/5c1f616b-6244-4df9-967f-8063968dff3c@linaro.org/)
+
+#### 6.1.77-rc2, 6.6.16-rc2, 6.7.4-rc2
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
+### 2024-01-29
+#### 6.1.76
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- net/mlx5e IPsec [build failure on Arm64 and System/390](https://lore.kernel.org/stable/4a2b55da-ee57-4fca-bb7b-240792b25460@linaro.org/) (also reported [before the RC window](https://lore.kernel.org/stable/CA+G9fYvYQRnBbZhHknSKbwYiCr_3vPwC5zPz2NsV9_1F7=paQQ@mail.gmail.com/))
+
+#### 6.1.76-rc2, 6.6.15, 6.7.3
+<!-- sla <24 3 -->
+- Reported no regressions in <24h
+
 ### 2024-01-23
 #### 5.4.268-rc2, 5.15.148-rc2, 6.1.75-rc2, 6.6.14-rc2, 6.7.2-rc2
 <!-- sla <24 5 -->

@@ -178,11 +178,6 @@ up as 'xfail' (expected fail), instead of a failure. The known issues that LKFT
 uses in kselftest can be found at
 [qa-reports-known-issues](https://github.com/Linaro/qa-reports-known-issues/blob/master/kselftests-production.yaml).
 
-## Libhugetlbfs
-
-[libhugetlbfs](https://github.com/libhugetlbfs/libhugetlbfs) is run using the
-latest released version.
-
 ## Perf
 
 Linux [perf](https://perf.wiki.kernel.org/index.php/Main_Page) is built and

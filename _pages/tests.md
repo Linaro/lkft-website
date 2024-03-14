@@ -42,7 +42,6 @@ The following test sets are run in
 - filecaps
 - fs_bind
 - fs_perms_simple
-- fsx
 - fs
 - hugetlb
 - io

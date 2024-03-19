@@ -6,6 +6,8 @@ branches:
   - "5.15"
   - "6.1"
   - "6.6"
+  - "6.7"
+  - "6.8"
   - mainline
   - linux-next
 
@@ -31,6 +33,12 @@ gitlab-builds:
 - branch: "6.6"
   gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-6.6.y/latest"
   gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-6.6.y/pipeline.svg"
+- branch: "6.7"
+  gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-6.7.y/latest"
+  gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-6.7.y/pipeline.svg"
+- branch: "6.8"
+  gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/pipelines/linux-6.8.y/latest"
+  gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/stable/linux-stable-rc/badges/linux-6.8.y/pipeline.svg"
 - branch: "mainline"
   gitlab-pipeline-url: "https://gitlab.com/Linaro/lkft/mirrors/torvalds/linux-mainline/pipelines/master/latest"
   gitlab-badge-url: "https://gitlab.com/Linaro/lkft/mirrors/torvalds/linux-mainline/badges/master/pipeline.svg"

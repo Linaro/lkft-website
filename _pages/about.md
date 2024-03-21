@@ -64,7 +64,8 @@ LKFT is Linaro’s Linux Kernel Functional Test framework.
 The mission of LKFT is to perform functional regression testing on select Linux
 kernel branches in real time and report any regressions as quickly as possible.
 This is performed by executing a variety of functional-tests on a selection of
-user-space operating systems.
+user-space operating systems. And also to report regressions on the Android
+Common kernels.
 
 The goals of LKFT are to shorten derivative Linux kernel release intervals,
 increase the confidence of upstream Linux kernel engineers in the quality of

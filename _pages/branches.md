@@ -32,10 +32,6 @@ The following branches from
 [Common Android Kernel](https://android.googlesource.com/kernel/common/) tree are
 tested:
 
-- android-4.9-q
-- android-4.14-q
-- android-4.14-stable
-- android-4.19-q
 - android-4.19-stable
 - android11-5.4
 - android11-5.4-lts
@@ -45,6 +41,12 @@ tested:
 - android12-5.10-lts
 - android13-5.10
 - android13-5.15
+- android14-5.15
+- android14-5.15-lts
+- android14-6.1
+- android14-6.1-lts
+- android15-6.1
+- android15-6.6
 
 ## mainline
 

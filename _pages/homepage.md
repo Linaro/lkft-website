@@ -12,12 +12,12 @@ jumbotron:
   title-class: display-3 font-weight-bold text-left
   class: h-auto
   description: >
-    The mission of LKFT is to improve the quality of the Linux
-    kernel by performing functional testing on Arm hardware. Our
-    focus is on LTS, stable, and upstream development branches. If
-    you have any requests, feedback, or suggestions for how we can
-    better serve you, please reach out to us at lkft@linaro.org or
-    on Libera.Chat at #linaro-lkft.
+    The mission of LKFT is to improve the quality of the Linux kernel by
+    performing functional testing on Arm hardware. Our focus is on LTS, stable,
+    and upstream development branches. And also to improve the quality of the
+    Android Common kernel and their branches. If you have any requests,
+    feedback, or suggestions for how we can better serve you, please reach out
+    to us at lkft@linaro.org or on Libera.Chat at #linaro-lkft.
 ---
 
 ## Test Results

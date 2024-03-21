@@ -103,8 +103,34 @@
 
       - USB: 1 x USB 2.0 Micro B (Debug only ), 1 x USB 2.0 Micro B (Debug only ), 2x USB 3.0 Type A (Host mode only)
 -
+  title: WinLink E850-96Board
+  label: Arm 64bit
+  image: /assets/images/E850-96.png
+  text: >
+      The [WinLink E850-96Board](https://www.96boards.org/product/e850-96b/) is a 96Boards CE HW Specification V2.0 Development Board based on
+      Samsung Exynos 850 Mobile processor, developed by WinLink. Exynos 850 is manufactured on 8nm low-power FinFET process design,
+      high performance optimized Little Cortex-A55 Octa micro-processor for smart phone and tablet applications and also for embedded
+      gadgets.
+
+      ### Specs
+
+      - CPU: Cortex-A55 Octa core up to 2.0GHz
+
+      - GPU: ARM Mali G52MP1, 2nd Generation Bifrost architecture OpenGL ES1.1/2.0/3.2 OpenCL 2.0 Full Profile and Vulkan 1.0/1.1
+
+      - RAM: 4GBytes LPDDR4 on board(MCP, KMDP6001DA-B425)
+
+      - Storage: eMMC v5.1, 64GB onboard(MCP, KMDP6001DA-B425) and 1 x MicroSD card slot
+
+      - Network: 1x10/100 Ethernet (RJ-45) socket
+
+      - Wireless: WiFi 2.4/5GHz & BT5.0 (S612 RF transceiver)
+
+      - USB: 1 x USB 2.0 Micro B (Debug only ), 2x USB 2.0 Type A (Host mode only)
+-
   title: ROCK 4
   label: ROCK Pi 4 Model B
+  format: right
   image: /assets/images/RockPi4.png
   text: >
       [ROCK 4](https://rockpi.org/rockpi4) is a Single Board Computer (SBC) in an ultra-small form factor that offers class-leading performance
@@ -126,7 +152,6 @@
 -
   title: QEMU
   label: KVM ARM 64bit & KVM ARM 32bit
-  format: right
   image: /assets/images/Qemu-logo.png
   text: >
       All tests are also run under KVM using [QEMU](https://www.qemu.org/) on all supported architectures.
@@ -136,6 +161,7 @@
 -
   title: Arm FVP (Fixed Virtual Platforms)
   label: Armv-A Base Rev C FVP
+  format: right
   image: /assets/images/Arm_logo_2017.svg.png
   text: >
       Running at speeds comparable to the real hardware, Fixed Virtual Platforms (FVPs) are complete simulations of an Arm system,
@@ -144,7 +170,6 @@
 -
   title: x86_64 Server
   label: x86 64bit & x86 32bit
-  format: right
   image: /assets/images/x86.png
   text: >
       Tests are also run in both 64bit and 32bit mode on a typical x86_64 server for the purposes of providing a baseline for comparison.

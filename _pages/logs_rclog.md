@@ -41,6 +41,219 @@ jumbotron:
 
 ## 2024
 
+### 2024-05-14
+
+#### 6.8.10-rc2, 6.6.31-rc2
+<!-- sla <24 2 -->
+<!-- regressions 1 -->
+- [Reported test regression kselftest-ftrace](https://lore.kernel.org/lkml/CA+G9fYsZ7iTr8UGyaN-FB1R8=zLWnciB_10mzk8QCRhUMLSfFQ@mail.gmail.com/)
+
+#### 5.10.217-rc1, 6.6.31-rc3, 6.8.10-rc3
+<!-- sla <24 3 -->
+- Reported no regressions (<24h)
+
+#### 4.19.314-rc1, 5.4.276-rc1, 5.15.159-rc2, 6.1.91-rc3, 6.9.1-rc1
+<!-- sla <48 5 -->
+- Reported no regressions (<48h)
+
+### 2024-04-30
+
+#### 6.8.9-rc1, 6.6.30-rc1, 6.1.90-rc1, 5.15.158-rc1
+<!-- sla <24 4 -->
+- Reported no regressions (<24h)
+
+#### 5.4.275-rc2, 5.10.216-rc2, 4.19.313-rc1
+<!-- sla <48 3 -->
+- Reported no regressions (<48h)
+
+### 2024-04-24
+
+#### 6.6.29-rc1, 6.8.8-rc1
+<!-- sla <48 2 -->
+- Reported no regressions (<48h)
+
+#### 6.1.88-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Reported arm omap2plus build regressions](https://lore.kernel.org/all/CA+G9fYuv0nH3K9BJTmJyxLXxvKQjh91KdUi4yjJ0ewncW5cSjw@mail.gmail.com/)
+
+#### 5.15.157-rc1
+<!-- sla <24 1 -->
+<!-- regressions 2 -->
+- [Reported s390 build regressions](https://lore.kernel.org/all/CA+G9fYsm9OYUh+H9X2kpJWXsPdde36=WbSWc+mU0vO0i-QaWOw@mail.gmail.com/#t)
+
+### 2024-04-15
+
+#### 6.6.28-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Reported qemu-arm64 boot regressions and Bisected, reported the missing commit](https://lore.kernel.org/stable/CA+G9fYuxQemNR=6ypi681qMqg+szi+ZZL_Xdhz0Wg1BO0-7bjA@mail.gmail.com/)
+
+#### 6.8.7-rc1, 6.1.87-rc1, 5.15.156-rc1
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+### 2024-04-11
+
+#### 4.19.312-rc1
+<!-- regressions 1 -->
+- [Reported arm imx_v6_v7_defconfig build regressions and Greg dropped the patch](https://lore.kernel.org/stable/CA+G9fYuwCn0D6jzrn0dBKsa+X0zUBUMiuRqcYvc-qkKToXK5dA@mail.gmail.com/)
+
+#### 6.8.6-rc1, 6.6.27-rc1, 6.1.86-rc1, 5.15.155-rc1, 5.10.215-rc1, 5.4.274-rc1
+<!-- sla <48 6 -->
+- Reported no regressions in <48h
+
+### 2024-04-01
+
+#### 6.8.3-rc1, 6.7.12-rc1, 6.6.24-rc1
+<!-- regressions 1 -->
+- [libgpiod test regressions on all arch and Bartosz made a quick fix patch and then Proposed fix patch tested by Anders](https://lore.kernel.org/all/CA+G9fYt+LiPtb3jP8QqgfrfBtQBNWawCqGUabg+GBqXZSVa5pg@mail.gmail.com/)
+- [Warning regression drivers/scsi/sg on x86_64](https://lore.kernel.org/all/CA+G9fYvewkbwR_i07HHTM=8E2yS-0wRhOT-C45LP3SNtzgd+4Q@mail.gmail.com/)
+
+#### 6.8.3-rc1
+<!-- regressions 2 -->
+- [Kernel crash regression on qemu-i386 - intermittent](https://lore.kernel.org/all/CA+G9fYuHZ9TCsGYMuxisqSFVoJ3brQx4C5Xk7=FJ+23PHbhKWw@mail.gmail.com/)
+
+#### 6.1.84-rc1
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2024-03-24
+
+#### 5.10.214-rc1
+<!-- regressions 1 -->
+- [PowerPC build regressions with backlight, fb.h](https://lore.kernel.org/stable/cd76c1d0-9622-4a05-9e98-51824bec25bc@linaro.org/)
+
+#### 5.15.153-rc1
+<!-- regressions 2 -->
+- [Allmodconfig build regression on cpufreq/brcmstb-avs](https://lore.kernel.org/stable/CA+G9fYvzw6_Rp-hH2f=S-xVT-TM8waqJ0F5Fg607YZqcGNYh-Q@mail.gmail.com/)
+- [PowerPC build regressions with backlight, fb.h](https://lore.kernel.org/stable/CA+G9fYtU7A1XxOS9BvmoQAjhcuUsaSPQKnOzz-qYV6ORnG9k-g@mail.gmail.com/)
+
+#### 6.1.83-rc1
+<!-- regressions 2 -->
+- [Allmodconfig build regression with libbpf (btf.c)](https://lore.kernel.org/stable/CA+G9fYuFh7K4XO+hVyJ59vWbfCaGpNf1ko9bUaZ0qV86wLbreQ@mail.gmail.com/)
+
+#### 6.6.23-rc1
+<!-- regressions 2 -->
+- [Allmodconfib build regression with libbpf (btf.c), another one on Arm64 on iommu](https://lore.kernel.org/stable/CA+G9fYueiBdV-uRVbX+JB2_nt831_+8fnyoQ6v62rAsyLQne6g@mail.gmail.com/)
+
+#### 6.7.11-rc1
+<!-- regressions 3 -->
+- [Boot failure on 32-bits architectures](https://lore.kernel.org/stable/CA+G9fYtBKCPVmRETNpo3OdQbky-XiY6RDQ+Pc2b4Yj1yLe_e0g@mail.gmail.com/)
+
+#### 6.8.2-rc1
+<!-- regressions 3 -->
+- [PowerPC build regressions with backlight, fb.h](https://lore.kernel.org/stable/CA+G9fYu1G1+LKu0mOhppUbVcAJ2DaC-zSh2GBhfShR_No9T=9g@mail.gmail.com/)
+- [Boot failure on 32-bits architectures](https://lore.kernel.org/stable/CA+G9fYuJZ+uYmm=qytHv-9AggymX6AXuf-10suxXrH1QoJx44A@mail.gmail.com/)
+
+#### 5.10.214-rc2
+<!-- regressions 4 -->
+- [New warnings on printk.c for panic_in_progress.c](https://lore.kernel.org/stable/9b3d2eee-4e42-4af8-9650-7a4b6eff6626@linaro.org/)
+
+#### 5.15.153-rc2
+<!-- regressions 2 -->
+- [Same allmodconfig build regression on cpufreq/brcmstb-avs as RC1](https://lore.kernel.org/stable/1f06b9bc-37b4-4359-8b97-0ed08b196870@linaro.org/)
+- [New warnings on printk.c for panic_in_progress.c](https://lore.kernel.org/stable/1ca89b68-fe6b-4963-a33c-971fd7e1f0e6@linaro.org/)
+
+#### 6.6.23-rc2
+<!-- regressions 5 -->
+- [New warnings on RISC-V, Clang-17 in syscall_wrapper.h](https://lore.kernel.org/stable/56d3285a-ed22-44bd-8c22-ce51ad159a81@linaro.org/)
+
+#### 6.7.11-rc2
+<!-- regressions 5 -->
+- [New warnings on RISC-V, Clang-17 in syscall_wrapper.h; fix patch tested](https://lore.kernel.org/stable/56d3285a-ed22-44bd-8c22-ce51ad159a81@linaro.org/)
+- [Boot failure on 32-bits architectures](https://lore.kernel.org/stable/CA+G9fYtJZAioPkbOVJSRY0k6sSKBLc8_ZeBxv3CNfw-gP7yGtw@mail.gmail.com/)
+
+#### 6.8.2-rc2
+<!-- regressions 6 -->
+- [Allmodconfig build failure on SPARC with GCC](https://lore.kernel.org/stable/289f01fa-a323-4021-8a1d-a12b474d055b@linaro.org/)
+
+#### 5.4.273-rc2
+<!-- regressions 2 -->
+- [New warning on cpufreq/brcmstb-avs on arm](https://lore.kernel.org/stable/84a54bf1-356a-443a-a463-c0e3b582cd7f@linaro.org/)
+
+#### 4.19.311-rc2
+<!-- regressions 2 -->
+- [New warning on cpufreq/brcmstb-avs on arm](https://lore.kernel.org/stable/83814bca-1e33-4914-b00d-4b84ff1a1a23@linaro.org/)
+
+#### 6.1.83-rc2
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2024-03-13
+
+#### 5.15.152
+<!-- regressions 1 -->
+- [New modpost warnings](https://lore.kernel.org/stable/2f15e804-a2d7-4ad0-9b84-02db8c89985d@linaro.org/)
+
+#### 5.10.213, 6.1.82, 6.6.22, 6.7.10
+<!-- sla <24 4 -->
+- Reported no regressions in <48h
+
+#### 4.19.310, 5.4.272, 6.8.1
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+### 2024-03-04
+
+#### 5.10.212-rc1, 5.15.151-rc1
+<!-- sla <24 2 -->
+<!-- regressions 1 -->
+- [Build failures with arch_stack_walk on RISC-V](https://lore.kernel.org/stable/CA+G9fYvOpuVjEe_0E5bwsmP39VQwdybDEoKTZGeYC3ULtqmViQ@mail.gmail.com/)
+
+#### 6.7.9-rc3
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+#### 4.19.309, 5.4.271, 5.10.212-rc2, 5.15.151-rc2, 6.1.81, 6.6.21
+<!-- sla <48 6 -->
+- Reported no regressions in <48h
+
+### 2024-02-27
+
+#### 5.10.211
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [New warnings on 32-bits architectures](https://lore.kernel.org/stable/0b1b1523-3f26-4ce3-bdeb-4df3c2a8e685@linaro.org/)
+
+#### 5.15.150
+<!-- sla <24 1 -->
+<!-- regressions 2 -->
+- [Build regression on RISC-V](https://lore.kernel.org/stable/ac2c579e-4ff0-42e2-ab70-efb8ded2d257@linaro.org/)
+
+#### 4.19.308, 6.1.80
+<!-- sla <48 2 -->
+- Reported no regressions in <48h
+
+#### 5.4.270, 6.6.19, 6.7.7
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+### 2024-02-21
+
+#### 5.4.269, 5.10.210, 5.15.149
+<!-- sla <24 3 -->
+<!-- regressions 1 -->
+- [Allmodconfig build failure on i386](https://lore.kernel.org/stable/CA+G9fYua_rKjdmKMgYrRY_HRyMWPdJNz5=O0K4+M9P9wBWLPcw@mail.gmail.com/)
+
+#### 4.19.307
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
+### 2024-02-20
+
+#### 6.1.79-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [PowerPC assembler regressions with cpu_setup_6xx.S](https://lore.kernel.org/stable/c873370c-c12f-4f03-a722-1ae59743089b@linaro.org/)
+#### 6.6.18-rc2, 6.7.6-rc1, 6.7.6-rc2
+<!-- sla <48 3 -->
+- Reported no regressions in <48h
+
+#### 6.1.79-rc2
+<!-- sla <48 1 -->
+- Reported no regressions in <48h
+
 ### 2024-02-03
 #### 6.1.77-rc1
 <!-- sla <8 1 -->

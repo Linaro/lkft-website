@@ -6,18 +6,16 @@ title: Linaro’s Linux Kernel Functional Test framework
 description: >
   Linaro's Linux Kernel Functional Testing (LKFT) project validates Linux
   stable kernels on arm, arm64, and x86_64 consumer hardware.
-keywords: Linux testing, Arm, Linux building, dragonboard, x15, juno, hikey, aarch64, arm32
+keywords: Linux testing, Arm, Linux building, dragonboard, x15, juno, hikey, aarch64, arm32, tuxsuite, tuxtest, tuxmake
 jumbotron:
   title: Linux Kernel Functional Testing
   title-class: display-3 font-weight-bold text-left
   class: h-auto
   description: >
-    The mission of LKFT is to improve the quality of the Linux kernel by
-    performing functional testing on Arm hardware. Our focus is on LTS, stable,
-    and upstream development branches. And also to improve the quality of the
-    Android Common kernel and their branches. If you have any requests,
-    feedback, or suggestions for how we can better serve you, please reach out
-    to us at lkft@linaro.org or on Libera.Chat at #linaro-lkft.
+    The mission of LKFT is to improve the quality of the Linux kernel by performing functional testing on Arm hardware. 
+    We focus on LTS, stable, and upstream development branches with the Arm ecosystem as our first-class citizen. 
+    We also improve the quality of the Android Common kernel and its branches. If you have any requests,
+    feedback, or suggestions for how we can better serve you, please contact us at lkft@linaro.org.
 ---
 
 ## Test Results

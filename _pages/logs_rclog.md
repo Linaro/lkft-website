@@ -41,6 +41,83 @@ jumbotron:
 
 ## 2024
 
+### 2024-06-25
+
+#### 6.6.36-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Reported arm build regressions](https://lore.kernel.org/stable/CA+G9fYscT-jC378sz7FVw_GSjQYq64=tKgJfvzB+3Gak=9wdvg@mail.gmail.com/)
+
+#### 6.1.96-rc1, 6.9.7-rc1
+<!-- sla <48 2 -->
+- Reported no regressions (<48h)
+
+### 2024-06-19
+
+#### 6.9.6-rc1
+<!-- sla <24 1 -->
+<!-- regressions 1 -->
+- [Reported kernel crash LTP controllers cgroup_fj_stress](https://lore.kernel.org/stable/CA+G9fYtPV3kskAyc4NQws68-CpBrV+ohxkt1EEaAN54Dh6J6Uw@mail.gmail.com/)
+
+####  6.1.95-rc1, 6.6.35-rc1
+<!-- sla <48 2 -->
+- Reported no regressions (<48h)
+
+### 2024-06-18
+
+#### 5.10.220-rc1
+<!-- sla <24 1 -->
+- Reported no regressions (<24h)
+
+### 2024-06-13
+
+#### 6.1.94-rc1
+<!-- sla <24 1 -->
+- Reported no regressions (<24h)
+
+#### 5.15.161-rc1
+<!-- sla <48 1 -->
+- Reported no regressions (<48h)
+
+#### 5.10.219-rc1
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Reported build regressions on Powerpc and riscv](https://lore.kernel.org/stable/CA+G9fYvLoT=WGZvUjp=oHG=g=o0LG-JaYC+ku+m-e4BH9epxyA@mail.gmail.com/)
+
+#### 6.6.34-rc1
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Reported build regressions on powerpc](https://lore.kernel.org/stable/CA+G9fYtj6+LNNfg=ds7_b5KLP2kKSqXwPOYc2bV1uL-ZGHtJdA@mail.gmail.com/)
+
+#### 5.4.278-rc1
+<!-- sla <48 1 -->
+- Reported no regressions (<48h)
+
+#### 6.9.5-rc1
+<!-- sla <24 1 -->
+- Reported no regressions (<24h)
+
+#### 4.19.316-rc1
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Reported arm omap2plus_defconfig builds](https://lore.kernel.org/stable/CA+G9fYtN0R0=i_oP5ZfUxmBuqatTOY9XDfKCw9wjsQVo=YRAaw@mail.gmail.com/)
+
+### 2024-06-06
+
+#### 6.6.33-rc2
+<!-- sla <48 1 -->
+<!-- regressions 1 -->
+- [Reported build regressions on riscv](https://lore.kernel.org/stable/CA+G9fYs1zvpNDYiRL83Cs5D_o++QHQ5rpwjQHSDCPr3GM1bAQQ@mail.gmail.com/)
+
+#### 6.1.93-rc2, 6.9.4-rc2
+<!-- sla <48 2 -->
+- Reported no regressions (<48h)
+
+#### 6.1.93-rc1, 6.6.33-rc1, 6.9.4-rc1
+<!-- sla <8 3 -->
+<!-- regressions 3 -->
+- [Reported Build regressions on Powerpc](https://lore.kernel.org/stable/CA+G9fYvOP-FL7w55vPig3p1iva_MAO+sqWnh3ZwPEopd_y-jow@mail.gmail.com/)
+
 ### 2024-05-27
 
 #### 6.8.12-rc1, 6.9.3-rc1,

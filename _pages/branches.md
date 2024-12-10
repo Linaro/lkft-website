@@ -15,7 +15,6 @@ jumbotron:
 
 The following longterm stable (LTS) branches are tested:
 
-- 4.19
 - 5.4
 - 5.10
 - 5.15

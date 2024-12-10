@@ -1,8 +1,5 @@
 tests:
   branches:
-    - name: "4.19"
-      project_url: "https://qa-reports.linaro.org/api/projects/135/"
-      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-4.19.y/
     - name: "5.4"
       project_url: "https://qa-reports.linaro.org/api/projects/232/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-5.4.y/

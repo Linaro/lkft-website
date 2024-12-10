@@ -15,6 +15,9 @@ tests:
     - name: "6.6"
       project_url: "https://qa-reports.linaro.org/api/projects/1971/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-6.6.y/
+    - name: "6.12"
+      project_url: "https://qa-reports.linaro.org/api/projects/2174/"
+      squad_url: https://qa-reports.linaro.org/lkft/linux-stable-rc-linux-6.12.y/
     - name: "mainline"
       project_url: "https://qa-reports.linaro.org/api/projects/22/"
       squad_url: https://qa-reports.linaro.org/lkft/linux-mainline-master/

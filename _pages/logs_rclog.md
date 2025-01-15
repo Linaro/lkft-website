@@ -17,26 +17,13 @@ jumbotron:
     How to use this file
 
     Each RC's results are reported and aggregated here. As our goal is to
-    deliver results in less than 48 hours, we add a specifically formatted
-    comment to each block which is then parsed by ./getsla.py to aggregate SLA
-    counts.
+    deliver results in less than 48 hours.
 
     The 4 supported SLA values are:
       - >48h (missed sla)
       - <48h (less than 48h, but more than 24)
       - <24h (less than 24h, but more than 8)
       - <8h
-
-    The second value is the number of releases that met the given SLA.
-
-    Then, to get current SLA metrics, run ./getsla.py from the same directory
-    as index.md.
-
-    Likewise, stable regressions are counted using "regressions 3",
-    where "3" is the number of regressions reported. We count one regression
-    per branch - so if a regression from a single patch is found to break 5
-    branches, that would count as 5 regressions.
-
 -->
 
 ## 2025

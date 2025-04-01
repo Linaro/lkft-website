@@ -20,3 +20,5 @@ pages:
     options:
       - text: Release Candidate Log
         url: /logs/rclog/
+      - text: Release Candidate Log - old (<202405)
+        url: /logs/rclog-old/

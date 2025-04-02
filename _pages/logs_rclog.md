@@ -107,7 +107,7 @@ jumbotron:
 - [6.6.80-rc1](https://lore.kernel.org/stable/CA+G9fYuwFrrUUggcKPjuTWwON=-JSv8itmsngSdHZARgoCYfyA@mail.gmail.com)
 
 ### 2025-02-20
-#### Reported no regressions (>48h)
+#### Reported no regressions (<48h)
 - [6.1.129-rc2](https://lore.kernel.org/stable/CA+G9fYuoYfGft-2D88dCVQeB5mTvyf6ADkWau172BZs2SD99VQ@mail.gmail.com), [6.12.16-rc2](https://lore.kernel.org/stable/CA+G9fYuokw31OLwLC11ipPZ153PT7+mEddA3vF=KmPMF=ajvvw@mail.gmail.com), [6.13.4-rc2](https://lore.kernel.org/stable/CA+G9fYuGk8vO3-OHRe3AHzgDWhNYWpZnuhT3p49zytXgeCN1Gg@mail.gmail.com)
 
 ### 2025-02-19

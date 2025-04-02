@@ -28,71 +28,78 @@ jumbotron:
 
 ## 2025
 ### 2025-03-28
-#### Reported no regressions (<8h)
-- [6.1.132-rc3](https://lore.kernel.org/stable/CA+G9fYsydn0Y=UMSdDagnnT4Xsb-MP0vfStYaqK8uxDUACsUUg@mail.gmail.com), [6.6.85-rc3](https://lore.kernel.org/stable/CA+G9fYuSxke1pLM2yPkijXuXQbyY-B3nQKa8rxdWxSL7nZ3YfA@mail.gmail.com)
+#### Reported no regressions (<48h)
+- [6.6.85-rc3](https://lore.kernel.org/stable/CA+G9fYuSxke1pLM2yPkijXuXQbyY-B3nQKa8rxdWxSL7nZ3YfA@mail.gmail.com)
+
+#### Reported no regressions (<24h)
+- [6.1.132-rc3](https://lore.kernel.org/stable/CA+G9fYsydn0Y=UMSdDagnnT4Xsb-MP0vfStYaqK8uxDUACsUUg@mail.gmail.com)
 
 ### 2025-03-26
 #### Reported regressions (<8h)
-- 6.1.132-rc2, [Build arm arm64 mips powerpc xfs_alloc.c 'mp' undeclared](https://lore.kernel.org/stable/CA+G9fYsRQub2qq0ePDs6aBAc+0qHRGwH_WPsTfhcwkviD1eH1w@mail.gmail.com)
-
 - 6.6.85-rc2, [Test arm64 arm cpuhotplug kernel NULL pointer dereference](https://lore.kernel.org/stable/CA+G9fYuY7iX+3=Yn77JjgiDiZAZNcpe0cW-y_M3sazhFN7dGLw@mail.gmail.com)
+
+#### Reported regressions (<48h)
+- 6.1.132-rc2, [Build arm arm64 mips powerpc xfs_alloc.c 'mp' undeclared](https://lore.kernel.org/stable/CA+G9fYsRQub2qq0ePDs6aBAc+0qHRGwH_WPsTfhcwkviD1eH1w@mail.gmail.com)
 
 #### Reported no regressions (<8h)
 - [6.12.21-rc2](https://lore.kernel.org/stable/CA+G9fYvqdsfwnPNaP1rGoDV=KayU0ivo9=3ixPao01FSr-YGjQ@mail.gmail.com)
 
 ### 2025-03-25
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.1.132-rc1, [Build arm64 dtb rockchip non-existent node or label "vcca_0v9"](https://lore.kernel.org/stable/CA+G9fYss7RcH=ocag66EM4z26O-6o-gaq+Jo+GOUr2W773vQOw@mail.gmail.com)
 
 - 6.12.21-rc1, [Build arm64 dtb rockchip non-existent node or label "vcca_0v9"](https://lore.kernel.org/stable/CA+G9fYvaziw0a60idsSbDdSQLL2L+W7VnVv9VJHc-2M5p5qRfQ@mail.gmail.com)
 
 - 6.6.85-rc1, [Build arm64 dtb rockchip non-existent node or label "vcca_0v9"](https://lore.kernel.org/stable/CA+G9fYvWau1nC8wmpWkxG8gWPaRMP9pbkh2eNsAZoUMeRPgzqA@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [6.13.9-rc1](https://lore.kernel.org/stable/CA+G9fYvOjHPg14GCU4kLQF+PukgjsXUAY2sLCB=dwYMTa3iRmg@mail.gmail.com)
 
 ### 2025-03-20
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [6.6.84-rc2](https://lore.kernel.org/stable/CA+G9fYs5n0NVPKok7bNwwySMEpY0EKrdDYF03yxHONTuS3vDuA@mail.gmail.com)
 
 ### 2025-03-19
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.6.84-rc1, [Build mips implicit declaration of function 'vunmap'](https://lore.kernel.org/stable/CA+G9fYvM_riojtryOUb3UrYbtw6yUZTTnbP+_X96nJLCcWYwBA@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [6.13.8-rc1](https://lore.kernel.org/stable/CA+G9fYsFM=9F39+bM+PHpuHXaEvQRw8JzjhxhM7v8HJTb06CbA@mail.gmail.com), [6.12.20-rc1](https://lore.kernel.org/stable/CA+G9fYvsOJVK=7FD3JwuEVm0oVgLWNCWBc57X9RjwFBhj54U4g@mail.gmail.com)
 
 ### 2025-03-11
 #### Reported no regressions (<8h)
-- [5.15.179-rc2](https://lore.kernel.org/stable/CA+G9fYvZ024_ujvUe=0YJ6xDD-sNHAgjMzX0EJpOGd98RtP-ZA@mail.gmail.com), [6.6.83-rc2](https://lore.kernel.org/stable/CA+G9fYs0W=2xDtFzNhwg8pipi_iXiEZFNvD4tz8stZL=1fKWAg@mail.gmail.com), [6.13.7-rc2](https://lore.kernel.org/stable/CA+G9fYuK2dHLg5AGVyN98eRKwZQ-aMByvhBLyasHuJRVLNkpHg@mail.gmail.com), [5.10.235-rc1](https://lore.kernel.org/stable/CA+G9fYuBvqPiiuXfd3yZaK489KCwoLt9Sk=tR0jMjSp70YxUJQ@mail.gmail.com), [5.4.291-rc1](https://lore.kernel.org/stable/CA+G9fYtG9K8ywO4w2ys=UEuD_r1LgOuZhG4cg62YKAX0qK35cg@mail.gmail.com)
+- [5.10.235-rc1](https://lore.kernel.org/stable/CA+G9fYuBvqPiiuXfd3yZaK489KCwoLt9Sk=tR0jMjSp70YxUJQ@mail.gmail.com), [5.4.291-rc1](https://lore.kernel.org/stable/CA+G9fYtG9K8ywO4w2ys=UEuD_r1LgOuZhG4cg62YKAX0qK35cg@mail.gmail.com)
+
+#### Reported no regressions (<48h)
+- [5.15.179-rc2](https://lore.kernel.org/stable/CA+G9fYvZ024_ujvUe=0YJ6xDD-sNHAgjMzX0EJpOGd98RtP-ZA@mail.gmail.com), [6.6.83-rc2](https://lore.kernel.org/stable/CA+G9fYs0W=2xDtFzNhwg8pipi_iXiEZFNvD4tz8stZL=1fKWAg@mail.gmail.com), [6.13.7-rc2](https://lore.kernel.org/stable/CA+G9fYuK2dHLg5AGVyN98eRKwZQ-aMByvhBLyasHuJRVLNkpHg@mail.gmail.com)
 
 ### 2025-03-10
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.6.83-rc1, [Build riscv 'RISCV_ISA_EXT_XLINUXENVCFG' undeclared](https://lore.kernel.org/stable/CA+G9fYsooQUTWh7RJ_Z7FauV0Oxr0TOqj6NRFKqrsRwRxZh_mw@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [5.15.179-rc1](https://lore.kernel.org/stable/CA+G9fYsm6xnNuPsCSt7zB+-z6xhKrdLkwnHLkFT9XBCPCBf76Q@mail.gmail.com), [6.12.19-rc1](https://lore.kernel.org/stable/CA+G9fYsKDYoKUWp2BPOLmRL-cpcao=y-vJSU479E+cn_vFAK2Q@mail.gmail.com), [6.13.7-rc1](https://lore.kernel.org/stable/CA+G9fYtzO4bv8ij+x7yV5YDbSr+wsHRQCzfzjXUA29oQmvTsvg@mail.gmail.com), [6.1.131-rc1](https://lore.kernel.org/stable/CA+G9fYtqPxzb==RHUbxfDuiABnJxC5pBRzGR0JKQF1voxRpqKA@mail.gmail.com)
 
 ### 2025-03-06
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.6.81-rc2, [Build i386 microcode core.c use of undeclared identifier](https://lore.kernel.org/stable/CA+G9fYtfmMThUC+erk6jVk8BN0jWJCw=FnKh68ypwhgv65OZ+w@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [6.1.130-rc2](https://lore.kernel.org/stable/CA+G9fYsOasubSbr1G3p=zu7vVGSCacEK-fJteJFSK_3NXUddkA@mail.gmail.com), [6.12.18-rc2](https://lore.kernel.org/stable/CA+G9fYtDNr+w0cd7uiwyTWGvdVGWn9W1UdmRjbzA2JA_-x69yQ@mail.gmail.com), [6.13.6-rc2](https://lore.kernel.org/stable/CA+G9fYu5pu8-VdefnTHsyBwCdJ34TWb_3U2snGTm2c5pm8ftLA@mail.gmail.com)
 
 ### 2025-03-05
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.6.81-rc1, [Build x86_64 i386  microcode amd.c 'equiv_id' is used uninitialized](https://lore.kernel.org/stable/CA+G9fYufChZpBjB_WG6Qy-L8Gmj-zBbs+PyydaADcsrB42ec0Q@mail.gmail.com)
 
 - 6.12.18-rc1, [Build arm64 hugetlbpage.c undeclared identifier 'sz'](https://lore.kernel.org/stable/CA+G9fYvwoYVG8wgz6Lu68EO1z3m4mbBWroGEXL2w5D7P_4SG-g@mail.gmail.com)
 
 - 6.13.6-rc1, [Build arm64 hugetlbpage.c undeclared identifier 'sz'](https://lore.kernel.org/stable/CA+G9fYv9CcsWEywck9qivOVtThrmr9UUiu-RdPnrjVs9k5JxTA@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [6.1.130-rc1](https://lore.kernel.org/stable/CA+G9fYucgzxXxrTBUJcgRyJwXk=14S6tL9G-jd4Wm6fM4VaMkw@mail.gmail.com)
 
 ### 2025-02-25
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [6.12.17-rc2](https://lore.kernel.org/stable/CA+G9fYt8kOe_wkQe_iVAwc5qPKUiZWb1=COO88Dj3c8oVWkNMw@mail.gmail.com), [6.13.5-rc2](https://lore.kernel.org/stable/CA+G9fYvH8nowEkm9td-HZi0C67i=uChzHC7BDt6AhQFNGGDJbw@mail.gmail.com)
 
 ### 2025-02-24
@@ -100,21 +107,15 @@ jumbotron:
 - [6.6.80-rc1](https://lore.kernel.org/stable/CA+G9fYuwFrrUUggcKPjuTWwON=-JSv8itmsngSdHZARgoCYfyA@mail.gmail.com)
 
 ### 2025-02-20
-#### Reported no regressions (<48h)
+#### Reported no regressions (>48h)
 - [6.1.129-rc2](https://lore.kernel.org/stable/CA+G9fYuoYfGft-2D88dCVQeB5mTvyf6ADkWau172BZs2SD99VQ@mail.gmail.com), [6.12.16-rc2](https://lore.kernel.org/stable/CA+G9fYuokw31OLwLC11ipPZ153PT7+mEddA3vF=KmPMF=ajvvw@mail.gmail.com), [6.13.4-rc2](https://lore.kernel.org/stable/CA+G9fYuGk8vO3-OHRe3AHzgDWhNYWpZnuhT3p49zytXgeCN1Gg@mail.gmail.com)
 
 ### 2025-02-19
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [6.1.129-rc1](https://lore.kernel.org/stable/CA+G9fYtxS_kC06uE9koOUjJQYOeoMtBHkkGdVC6oHGgW4pzCKQ@mail.gmail.com), [6.13.4-rc1](https://lore.kernel.org/stable/CA+G9fYuBdefC8Fmi7GZUGhj=fMEucoKJBi1E1NmHDCL_zFQj-w@mail.gmail.com), [6.12.16-rc1](https://lore.kernel.org/stable/CA+G9fYv+omVvudRAbqMpAv2zDQKUOkz8pxs2dPv8c8fmiXcJFg@mail.gmail.com), [6.6.79-rc1](https://lore.kernel.org/stable/CA+G9fYv7WoDA1OC9VtQ6qAqwoaJA5+mpWMahE+7j+vwp1dTS6g@mail.gmail.com)
 
-### 2025-02-15
-#### Reported regressions (<8h)
-- 6.12.14-rc3, [Test arm64, arm, x86 selftests: memfd: run_fuse_test.sh](https://lore.kernel.org/stable/CA+G9fYsBu8DOLEDQoGrdZmjwZKvz72tMmrVPnQSJLNMbefYymw@mail.gmail.com)
-
-- 6.13.3-rc3, [Test arm64, arm, x86 selftests: memfd: run_fuse_test.sh](https://lore.kernel.org/stable/CA+G9fYv8VcR6Zj1PmqJ-zxUuCvJthO08BWuZo4uWdUbVvcT30Q@mail.gmail.com)
-
 ### 2025-02-13
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.12.14-rc1, [Build arm, powerpc, fs/xfs/xfs_trans.c too few arguments](https://lore.kernel.org/stable/CA+G9fYuVj+rhFPLshE_RKfBMyMvKiHaDzPttZ1FeqqeJHOnSbQ@mail.gmail.com)
 
 #### Reported no regressions (<8h)
@@ -124,55 +125,59 @@ jumbotron:
 #### Reported regressions (<8h)
 - 6.6.76-rc2, [Test WARNING-arch-arm64-mm-copypage-copy_highpage, Boot WARNING-crypto-testmgr-alg_test, Boot WARNING-fs-buffer-mark_buffer_dirty](https://lore.kernel.org/stable/CA+G9fYvKzV=jo9AmKH2tJeLr0W8xyjxuVO-P+ZEBdou6C=mKUw@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [6.12.13-rc2](https://lore.kernel.org/stable/CA+G9fYvs9GUK25mx-v+Fh-E55v2F=he8v=pSbPa_r4Zw51CNuQ@mail.gmail.com), [6.13.2-rc2](https://lore.kernel.org/stable/CA+G9fYtytLbzC=2BQunZgpv8CKHKN3bdFOB1eFhizfz6iRd62A@mail.gmail.com)
 
 ### 2025-02-05
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.13.2-rc1, [Build arm64, gcc-8 phy-fsl-samsung-hdmi.c __compiletime_assert_537](https://lore.kernel.org/stable/20250206113721.2428767-1-theodore.grey@linaro.org)
 
 - 6.12.13-rc1, [Build arm64, gcc-8 phy-fsl-samsung-hdmi.c __compiletime_assert_537](https://lore.kernel.org/stable/CA+G9fYsREyVPJYFeVYK1yu1NxUdcLrLNcNtiP2Drjaczr4LgMg@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [6.6.76-rc1](https://lore.kernel.org/stable/CA+G9fYtCam8wR6Z-Agx6vaQOtXcomc_PaM+TX6QFY9BOFzk0oQ@mail.gmail.com)
 
 ### 2025-01-31
-#### Reported regressions (<8h)
+#### Reported regressions (<24h)
 - 5.4.290-rc2, [Build riscv kernel traps.c error: use of undeclared](https://lore.kernel.org/stable/CA+G9fYtT36DGS=6+2u35Ki1nyo0UR2A1ee3ifUfqga6D+K2egg@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [5.10.234-rc2](https://lore.kernel.org/stable/CA+G9fYtW7_LA+ZZ4=bw0m7V-UiSyQaztCw0YY4X45Efcjq5f1g@mail.gmail.com)
 
 ### 2025-01-30
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 5.10.234-rc1, [Build arc, arm, mips, parisc, powerpc,](https://lore.kernel.org/stable/CA+G9fYsDgsJSj=WfH+5pMFJe6pLmBMAp1PiYyCbVn4Nh1Lt3pQ@mail.gmail.com)
 
 - 5.4.290-rc1, [Build arc, arm, mips, parisc, powerpc,](https://lore.kernel.org/stable/CA+G9fYsiw4GSjL7Sf51OaGM_-uWAQYaLCb14L_RC81nwoZJJzA@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<24h)
 - [6.13.1-rc1](https://lore.kernel.org/stable/CA+G9fYtJjEoVvJtg=DMXZGOaAXhiwYzGRu0JFkWpDpBSZhDmjA@mail.gmail.com), [6.6.75-rc1](https://lore.kernel.org/stable/CA+G9fYtfp=LANXpkohb0m=EDTG+N442Mrr8ZvmvKiDyPbvDrug@mail.gmail.com), [6.1.128-rc1](https://lore.kernel.org/stable/CA+G9fYtVGFBb0tZzOYSuF_V7xmij7GUZi5Sk6L_h0nOh4G7MNg@mail.gmail.com), [5.15.178-rc1](https://lore.kernel.org/stable/CA+G9fYsi1EFDWOM-7Si5PV2HOi7ShcPtyM218jiWFkL64uZyJg@mail.gmail.com), [6.12.12-rc2](https://lore.kernel.org/stable/CA+G9fYuWfSwyKLugpo3WsU2gvgaBKD99i8JR1YM8oUZ8EAdm6Q@mail.gmail.com)
 
 ### 2025-01-22
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 5.15.177-rc2, [Build arc, arm, mips, parisc, powerpc,](https://lore.kernel.org/stable/CA+G9fYvacKD7aFkMCW6nwjZ4t-cpH0deLiPY-cFvGkRn5hgK3w@mail.gmail.com)
 
-#### Reported no regressions (<8h)
-- [6.1.127-rc2](https://lore.kernel.org/stable/CA+G9fYvEVxCS6nb61E2ABxvAzvULuZTD7xvdut=g=5tfbg17VA@mail.gmail.com), [6.12.11-rc2](https://lore.kernel.org/stable/CA+G9fYuev+wW8U2-d7QZ6tx+TxqLmPAshw63UgdsDs+_Q4zvcw@mail.gmail.com)
+#### Reported no regressions (<48h)
+- [6.12.11-rc2](https://lore.kernel.org/stable/CA+G9fYuev+wW8U2-d7QZ6tx+TxqLmPAshw63UgdsDs+_Q4zvcw@mail.gmail.com)
+
+#### Reported no regressions (<24h)
+- [6.1.127-rc2](https://lore.kernel.org/stable/CA+G9fYvEVxCS6nb61E2ABxvAzvULuZTD7xvdut=g=5tfbg17VA@mail.gmail.com)
 
 ### 2025-01-21
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.12.11-rc1, [Boot exception-warning-cpu-pid-at-kernelschedfair-place_entity](https://lore.kernel.org/stable/CA+G9fYtv3NNpxuipt8Dxa_=0DhieWWc07kDgCDBM+o0gKRi4Dw@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [6.6.74-rc1](https://lore.kernel.org/stable/CA+G9fYsDRXLsE9KnxDZ4tNKfoBdqozOZfEkVo5b2CZaeDD606w@mail.gmail.com)
 
 ### 2025-01-15
-#### Reported regressions (<8h)
+#### Reported regressions (<48h)
 - 6.12.10-rc1, [https://lore.kernel.org/stable/CA+G9fYv-AgeUpP1yPDmy48T869Ms80jgUdjnwtBNoJmCKQvZDQ@mail.gmail.com](https://lore.kernel.org/stable/CA+G9fYv-AgeUpP1yPDmy48T869Ms80jgUdjnwtBNoJmCKQvZDQ@mail.gmail.com)
 
+#### Reported regressions (<24h)
 - 6.1.125-rc1, [Build regression:](https://lore.kernel.org/stable/CA+G9fYs6cKNmVBqeo_weTAPmJmBH_A_ai1WYvLwtnXcf3TDoiA@mail.gmail.com)
 
-#### Reported no regressions (<8h)
+#### Reported no regressions (<48h)
 - [6.6.72-rc1](https://lore.kernel.org/stable/CA+G9fYvubfVfMAONWi3Pqt3RoJJ2hZT247yQs_d9qqenr7e+og@mail.gmail.com)
 
 ### 2025-01-06
